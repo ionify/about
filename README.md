@@ -1,20 +1,19 @@
 # ionify
 
 [**ionify**](http://ionify.org) is a [team](https://github.com/orgs/ionify/people)
-**i**nventing **o**ptimized **n**atural **i**nterfaces **f**or **y**ou.
-We [**aspire**](http://tfd.com/aspire) to create
-[**a**ccessible](http://tfd.com/accessible),
-[**s**imple](http://tfd.com/simple), [**p**ersonal](http://tfd.com/personal), [**i**nspiring](http://tfd.com/inspiring),
-and [**r**eliable](http://tfd.com/reliable)
-[**e**xperiences](https://cdn.rawgit.com/jsonXD/jems/master/animated.logo/)
-for everyone. We're working on these right now:
+inventing optimized natural interfaces for you. we **aspire** to create accessible,
+[simple](https://cdn.rawgit.com/ionify/jems/master/animated.logo/),
+performant, inspiring and reliable experiences for everyone; we're working on
+these right now:
 
 + [**ion**](https://github.com/ionify/jems/blob/master/about/jems.md),
-  **i**mplicit **o**bject **n**otation, a data-agency
-  [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern).
+  **i**mplicit **o**bject **n**otation:
+  + a minimal set of symbols, ```-~+/[{"''"}]/```, that enable
+  [decoupled](http://tfd.com/decoupled) observation and definition of anonymous, self-contained
+    data and logic
 
-+ [**ajile**](https://github.com/ionify/ajile),
-  **a** [**j**udiciously](http://tfd.com/judiciously) **i**onic
-  [**l**inguistic](http://tfd.com/linguistic)
-  [**e**ngine](https://en.wikipedia.org/wiki/Software_engine)
-  that interprets and enables creating vocabularies and grammars.
++ [**ionify**](https://github.com/ionify/ionify), **i**mplicit **o**bject
+  **n**otification **i**nvented **f**or **y**ou:
+  + a set of [ions](https://github.com/ionify/jems/blob/master/about/jems.md)
+    that enable creating and using new vocabulary and laguage within
+    [javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
