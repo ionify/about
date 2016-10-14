@@ -18,8 +18,8 @@ and less obvious, object reference ions, or **orion**:
 
 ```javascript
     ~obj      +obj      -obj
-             ++obj     --obj      // prefix
-               obj++     obj--    // postfix
+             ++obj,    --obj      // prefix
+               obj++,    obj--    // postfix
 ```
 
 ### usage
