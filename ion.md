@@ -22,7 +22,7 @@ and less obvious, object reference ions, or **orion**:
                obj++,    obj--    // postfix
 ```
 
-### usage
+### Usage
 
 In [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments, both **lions** and **orion** are automatically evaluated as
@@ -51,7 +51,7 @@ on its object operand. That implicit object conversion is essential
 to [what makes **ions** observable](eon.md), despite being anonymous,
 and represents the **implicit object** portion of **implicit object notation**.
 
-#### compatibility
+### Compatibility
 
 **ions** can be used everywhere JavaScript exists, that means in all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views, and
