@@ -11,8 +11,8 @@ most obvious, literal ions, or **lions**:
     ~{ }      +{ }      -{ }      //  oli:  object literal ion
     ~[ ]      +[ ]      -[ ]      //  ali:  array  literal ion
     ~/ /      +/ /      -/ /      // reli: "really"
-                                         :  regular-expression literal
-                                            ion
+                                  //     :  regular-expression literal
+                                  //        ion
 ```
 and less obvious, object reference ions, or **orion**:
 
