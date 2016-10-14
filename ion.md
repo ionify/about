@@ -45,8 +45,9 @@ operand. **orion** also use
 [postfix decrement](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-decrement-operator) operators.
 
 
-During JavaScript evaluation, each unary operator activates implicit numeric
-conversion on its object operand. That implicit object conversion is essential
+During JavaScript evaluation, each unary operator activates
+[implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
+on its object operand. That implicit object conversion is essential
 to [what makes **ions** observable](eon.md), despite being anonymous,
 and represents the **implicit object** portion of **implicit object notation**.
 
