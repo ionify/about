@@ -6,12 +6,10 @@ inventing optimized natural interfaces for you. We create accessible,
 performant, inspiring + reliable experiences for everyone + are working on
 these right now:
 
-+ [**ion:**](https://github.com/ionify/jems/blob/master/about/jems.md)
-  **implicit object notation**
++ **ion: [implicit object notation](ion.md)**
   + a way of writing data + code as observable, self-contained, anonymous objects.
 
 
-+ [**ionify:**](https://github.com/ionify/ionify) **implicit object
-  notification invented for you**
++ **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**
   + a set of [**ions**](https://github.com/ionify/jems/blob/master/about/jems.md)
   that enable creating + using new languages + language constructs.
