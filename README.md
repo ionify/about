@@ -3,7 +3,8 @@
 Is a [team](https://github.com/orgs/ionify/people)
 inventing optimized natural interfaces for you. We create accessible,
 [simple](https://cdn.rawgit.com/ionify/jems/master/animated.logo/),
-performant, inspiring + reliable experiences + are working on these right now:
+performant, inspiring + reliable experiences for everyone + are working on
+these right now:
 
 + [**ion:**](https://github.com/ionify/jems/blob/master/about/jems.md)
   **implicit object notation**
