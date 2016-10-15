@@ -7,7 +7,7 @@ performant, inspiring + reliable experiences for everyone + are working on
 these right now:
 
 + **ion: [implicit object notation](ion.md)**
-  + A way of writing data + code as observable, self-contained, anonymous objects.
+  + A syntax for writing code + data as independent + observable objects.
 
 
 + **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**
