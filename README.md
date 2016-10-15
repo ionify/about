@@ -14,4 +14,4 @@ these right now:
   + A set of [**ions**](ion.md) that enable creating + using new languages + language constructs
 
 + **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/)**
-  + A Japanese Language Skills game
+  + A Japanese Language Skills game created with [**ionify**](https://github.com/ionify/ionify)
