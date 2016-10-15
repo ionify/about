@@ -7,8 +7,11 @@ performant, inspiring + reliable experiences for everyone + are working on
 these right now:
 
 + **ion: [implicit object notation](ion.md)**
-  + A syntax for writing code + data as independent + observable objects.
+  + A syntax for writing code + data as independent + observable objects
 
 
 + **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**
-  + A set of [**ions**](ion.md) that enable creating + using new languages + language constructs.
+  + A set of [**ions**](ion.md) that enable creating + using new languages + language constructs
+
++ **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/)**
+  + A Japanese Language Skills game
