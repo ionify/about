@@ -7,8 +7,8 @@ performant, inspiring + reliable experiences for everyone + are working on
 these right now:
 
 + **ion: [implicit object notation](ion.md):**
-  a syntax syntax that enables writing javascript code and data as independent
-  and observable objects called ions.
+  a syntax that enables writing javascript code and data as independent +
+  observable objects called ions.
 
 
 + **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify):**
