@@ -6,12 +6,15 @@ inventing optimized natural interfaces for you. We create accessible,
 performant, inspiring + reliable experiences for everyone + are working on
 these right now:
 
-+ **ion: [implicit object notation](ion.md)**
-  + A syntax for writing code + data as independent + observable objects
++ **ion: [implicit object notation](ion.md):**
+  a syntax syntax that enables writing javascript code and data as independent
+  and observable objects called ions.
 
 
-+ **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**
-  + A set of [**ions**](ion.md) that enable creating + using new languages + language constructs
++ **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify):**
+  a set of [**ions**](ion.md) that enable creating + using new language
+  constructs + languages.
 
-+ **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/)**
-  + A Japanese Language Skills game created with [**ionify**](https://github.com/ionify/ionify)
+
++ **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/):**
+  a Japanese Language Skills game created with [**ionify**](https://github.com/ionify/ionify).
