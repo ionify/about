@@ -1,15 +1,15 @@
 # ion
 
-[**implicit**](http://tfd.com/implict)
+**ion:** [**implicit**](http://tfd.com/implict)
 [**object**](https://en.wikipedia.org/wiki/Object_%28computer_science%29)
-[**notation**](https://en.wikipedia.org/wiki/Notation#Computing)
+[**notation**](https://en.wikipedia.org/wiki/Notation#Computing),
 is a syntax that enables writing
 [javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 code and data as independent + observable objects called **ions**.
 
 ### compatibility
 
-**ions** can be used in all javascript environments. That means all
+**ion** is compatible with all javascript environments, specifically, all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views +
 javascript [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine)
 implementing the
@@ -36,32 +36,32 @@ and **orion**, object reference ion:
 
 ### behavior
 
-**lion** and **orion** both evaluate as
+**lion** and **orion** are both valid javascript expressions, specifically,
 [unary expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-operators)
-with a
+when created with a
 [unary ~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator),
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator), or
-[- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator),
-and an
+[- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator), and an
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
-[reference](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type),
-or literal
+[reference](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type), or
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer), or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
-operand.
+literal operand.
 
-**orion** can also evaluate as unary expressions with a
+**orion** also create unary expressions when made with a
 [unary ++](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-increment-operator) or
-[-- prefix operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-decrement-operator), or as
-[postfix expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-expressions) with a
+[-- prefix operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-decrement-operator),
+and create
+[postfix expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-expressions)
+when made with a
 [postfix ++](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-increment-operator) or
 [-- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-decrement-operator).
 
 
-All **ion** operators cause the
+When evaluated, both **lion** and **orion** expressions activate the
 [implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
-of their object operand. That implicit conversion is the **implicit object**
-portion of **implicit object notation** and is the behavior at the heart of
-**eon: [evaluated-object notification](eon.md)**, the behavior that enables
+of their object operands. That implicit object conversion is the **implicit object**
+part of **implicit object notation** and is the behavior at the heart of
+**eon: [evaluated-object notification](eon.md)**, the action that enables
 **ion** observation.
