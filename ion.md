@@ -7,16 +7,6 @@ is a syntax that enables writing
 [javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 code and data as independent + observable objects called **ions**.
 
-### compatibility
-
-**ion** is compatible with all javascript environments, specifically, all
-[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views +
-javascript [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine)
-implementing the
-[current ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm) or
-[any of its previous editions](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
-since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
-
 ### style
 
 **ions** can be written in two styles, **lion**, literal ion:
@@ -36,7 +26,7 @@ and **orion**, object reference ion:
 
 ### behavior
 
-**lion** and **orion** create valid javascript expressions, specifically,
+**lion** and **orion** create
 [unary expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-operators)
 when made with a
 [unary ~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator),
@@ -59,9 +49,20 @@ when made with a
 [-- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-decrement-operator).
 
 
-When evaluated, **lion** and **orion** expressions activate the
+When evaluated, **lion** and **orion** activate the
 [implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
 of their object operands. That implicit object conversion is the **implicit object**
 part of **implicit object notation** and is the behavior at the heart of
 **eon: [evaluated-object notification](eon.md)**, the action that enables
-**ion** observation.
+object observation + notification.
+
+### compatibility
+
+**orion** are compatible with all javascript environments, specifically, all
+[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views and
+javascript [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine)
+implementing [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
+
+**lion** are compatible with all javascript environments implementing
+[any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
+since its [3rd in 1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
