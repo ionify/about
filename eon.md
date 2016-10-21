@@ -36,9 +36,9 @@ and **hip hop**, a combination of both.
 **hip**, **hop** + **hip hop eons** enable object observation by implementing
 the **```valueOf()```** method that javascript calls during an object's
 [type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-With **hip** eons that method is **held** __in-place__ within an
-object. With **hop** eons it's **held** __on__ an object's **```prototype```**.
-And with **hip hop eons** both styles are used by alternating between them.
+With **hip eons** that method is **held** __in-place__ within an
+object. With **hop eons** it's **held** __on__ an object's **```prototype```**.
+And with **hip hop eons** it alternates between both.
 
 At runtime, the difference between **hip** + **hop eons** is that **hip eons**
 observe a single object's conversion, while **hop eons** observe all object
