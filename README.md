@@ -12,9 +12,8 @@ these right now:
 
 
 + **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**,
-  is an [eponymous](http://tfd.com/eponymous) set of [**ions**](ion.md) that
-  create an environment for simplified object observation, notification +
-  interaction.
+  is a set of [**ions**](ion.md) that create an environment for simplified
+  object observation, notification + interaction.
 
 
 + **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/)**,

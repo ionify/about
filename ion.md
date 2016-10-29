@@ -28,10 +28,10 @@ and **orion**, object reference ion:
 
 **lion** and **orion** create
 [unary expressions](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-operators)
-when made with a
+by combining a
 [unary ~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator),
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator), or
-[- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator), and an
+[- operator](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator), with an
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
 [reference](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type), or
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
