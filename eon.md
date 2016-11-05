@@ -47,7 +47,7 @@ via techniques like [**ion: implicit object notation**](ion.md).
 
 **hip**, **hop** + **hip hop eons** are simple, reliable + compatible ways to
 observe + interact with objects. They can be created manually or with
-[**ionify: implict object notification invented for you**](http://github.com/ionify/ionify),
+[**ionify: implicit object notification invented for you**](http://github.com/ionify/ionify),
 a set of [**ions**](ion.md) that create an environment for simplified object
 observation, notification + interaction.
 

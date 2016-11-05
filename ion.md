@@ -1,6 +1,6 @@
 # ion
 
-**ion:** [**implicit**](http://tfd.com/implict)
+**ion:** [**implicit**](http://tfd.com/implicit)
 [**object**](https://en.wikipedia.org/wiki/Object_%28computer_science%29)
 [**notation**](https://en.wikipedia.org/wiki/Notation#Computing),
 is a syntax that enables writing
@@ -58,11 +58,11 @@ object observation + notification.
 
 ### compatibility
 
-**orion** are compatible with all javascript environments, specifically, all
+**orion** are compatible with all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views and
 javascript [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine)
 implementing [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
 
-**lion** are compatible with all javascript environments implementing
+**lion** are compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
-since its [3rd in 1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
