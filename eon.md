@@ -7,23 +7,23 @@ observation of its conversion to a
 ### style
 
 In [javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm),
-**eons** have three styles, **hip:** held-in-place
+**eons** have three styles, **hip**, held-in-place:
 
 ```javascript
   ;
   + { valueOf:
-        function eon ()
+        function hip ()
           { console.log ("hip: held-in-place eon")
           }
     }
   ;
 ```
 
-**hop:** held-on-prototype
+**hop**, held-on-prototype:
 
 ```javascript
   ; Object.prototype.valueOf =
-      function eon ()
+      function hop ()
         { console.log ("hop: held-on-prototype eon")
         }
   ;
