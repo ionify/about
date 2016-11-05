@@ -7,7 +7,7 @@ observation of its conversion to a
 ### style
 
 In [javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm),
-**eons** have three styles, **hip, held-in-place:**
+**eons** have three styles, **hip:** held-in-place
 
 ```javascript
   ;
@@ -19,7 +19,7 @@ In [javascript](http://www.ecma-international.org/publications/standards/Ecma-26
   ;
 ```
 
-**hop, held-on-prototype:**
+**hop:** held-on-prototype
 
 ```javascript
   ; Object.prototype.valueOf =
@@ -38,12 +38,12 @@ the **```valueOf()```** method that javascript calls during an object's
 [type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 With **hip eons** that method is **held** __in-place__ within an
 object. With **hop eons** it's **held** __on__ an object's **```prototype```**.
-And with **hip hop eons** it alternates between both.
+And with **hip hop eons** it's held using both styles alternated at runtime.
 
-At runtime, the difference between **hip** + **hop eons** is that **hip eons**
-observe a single object's conversion, while **hop eons** observe all object
-conversions for a specific type. All **eons** rely on object type conversion
-via techniques like [**ion: implicit object notation**](ion.md).
+The difference between **hip** + **hop eons** is that **hip eons** observe a
+single object's conversion, while **hop eons** observe conversions for all
+objects of a specific type. Both rely on object type conversion via techniques
+like [**ion: implicit object notation**](ion.md).
 
 **hip**, **hop** + **hip hop eons** are simple, reliable + compatible ways to
 observe + interact with objects. They can be created manually or with
