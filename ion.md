@@ -53,7 +53,7 @@ When evaluated, **lion** and **orion** activate the
 [implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
 of their object operands. That implicit object conversion is the **implicit object**
 part of **implicit object notation** and is the behavior at the heart of
-**eon: [evaluated-object notification](eon.md)**, the action that enables
+[**eon: evaluated-object notification**](eon.md), the action that enables
 object observation + notification.
 
 ### compatibility
