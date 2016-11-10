@@ -24,3 +24,12 @@ these right now:
 + **jeni: [json-embedded natural interaction](https://rawgit.com/jsonXD/jems/master/jeni/)**,
   is an **ion** that explores interacting with software using [json](http://json.org/)-based
   [natural language constructs](https://github.com/ionify/jems/blob/master/jeni/jeni.play.js).
+
+
+**copyright + license**
+
+* **ionify's** [about](./) documentation is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
+  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+* **ions** + other code are independently and individually licensed.
