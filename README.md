@@ -1,4 +1,4 @@
-# [ionify](http://ionify.org)
+# [ionify + ['• ؈ •']](http://ionify.org)
 
 **ionify** is a [team](https://github.com/orgs/ionify/people)
 inventing optimized natural interfaces for you. We create accessible,
