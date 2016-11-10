@@ -28,7 +28,7 @@ these right now:
 
 **copyright + license**
 
-* **ionify's** [about](./) documentation is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
+* **ionify's** [about](https://github.com/ionify/about) documentation is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
   [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
