@@ -5,8 +5,6 @@
 ```javascript
   ;
   + {as: "html",   body : "Hi!"}
-```
-```css
   + {as: "css" , "#body": {color: "#212CD9"} }
   ;
 ```
