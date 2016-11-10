@@ -22,7 +22,8 @@ these right now:
 
 
 + **jeni: [json-embedded natural interaction](https://rawgit.com/jsonXD/jems/master/jeni/)**,
-  is an **ion** that explores interacting with software using [json](http://json.org/)-based
+  is a set of **ions** that explore interacting with software using
+  [json-based](http://json.org/)
   [natural language constructs](https://github.com/ionify/jems/blob/master/jeni/jeni.play.js).
 
 
