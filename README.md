@@ -1,4 +1,4 @@
-# [ionify + ['• ؈ •']](http://ionify.org)
+# [ionify](http://ionify.org)
 
 **ionify** is a [team](https://github.com/orgs/ionify/people)
 inventing optimized natural interfaces for you. We create accessible,
@@ -33,4 +33,4 @@ these right now:
   [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-* **ionify, ions** + other code are independently and individually licensed.
+* **ionify, ions** + other code are individually licensed + copyrighted.
