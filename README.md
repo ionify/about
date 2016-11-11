@@ -1,10 +1,9 @@
 # [ionify](http://ionify.org)
 
 **ionify** is a [team](https://github.com/orgs/ionify/people)
-inventing optimized natural interfaces for you. We create accessible,
-[simple](https://cdn.rawgit.com/ionify/jems/master/animated.logo/),
-performant, inspiring + reliable experiences for everyone + are working on
-these right now:
+inventing optimized natural interfaces for you. We create accessible, simple,
+performant, inspiring + reliable [experiences](https://github.com/ionify/jems/)
+for everyone + are working on these right now:
 
 + **ion: [implicit object notation](ion.md)**,
   is a syntax that enables writing javascript code and data as independent +
