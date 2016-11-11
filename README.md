@@ -15,15 +15,15 @@ for everyone + are working on these right now:
   object observation, notification + interaction.
 
 
-+ **wakatta: [わかった](https://rawgit.com/ionify/jems/master/kana.game/)**,
++ **wakatta: [わかった](https://rawgit.com/ionify/jems/public/kana.game/)**,
   is a japanese language skills game created with [**ions**](ion.md) +
   [**ionify**](https://github.com/ionify/ionify).
 
 
-+ **jeni: [json-embedded natural interaction](https://rawgit.com/jsonXD/jems/master/jeni/)**,
++ **jeni: [json-embedded natural interaction](https://rawgit.com/jsonXD/jems/public/jeni/)**,
   is a set of **ions** that explore interacting with software using
   [json-based](http://json.org/)
-  [natural language constructs](https://github.com/ionify/jems/blob/master/jeni/jeni.play.js).
+  [natural language constructs](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js).
 
 
 **copyright + license**
