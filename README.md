@@ -10,20 +10,20 @@ for everyone + are working on these right now:
   observable objects called **ions**.
 
 
-+ **ionify: [implicit object notification invented for you](https://github.com/ionify/ionify)**,
-  is a set of [**ions**](ion.md) that simplify
-  object interaction, observation + notification.
++ **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
+  is a set of [**ions**](ion.md) that simplify using ions for object
+  interaction, observation + notification.
 
 
 + **wakatta: [わかった](https://rawgit.com/ionify/jems/public/kana.game/)**,
-  is a japanese language skills game created with [**ions**](ion.md) +
-  [**ionify**](https://github.com/ionify/ionify).
+  is a japanese language-skills game created with [**ions**](ion.md) to
+  exercise + guide [**ionify's**](https://github.com/ionify/ionify) api.
 
 
-+ **jeni: [json-embedded natural interaction](https://rawgit.com/jsonXD/jems/public/jeni/)**,
-  is a set of **ions** that explore interacting with software using
-  [json-based](http://json.org/)
-  [natural language constructs](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js).
++ **jeni: [jeni enables natural interaction](https://rawgit.com/ionify/jems/public/jeni/)**,
+  is [a set](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js)
+  of [**ions**](ion.md) that explore using ions for
+  [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming).
 
 
 **copyright + license**
