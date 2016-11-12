@@ -1,18 +1,21 @@
 # [ionify](http://ionify.org)
 
 **ionify** is a [team](https://github.com/orgs/ionify/people)
-inventing optimized natural interfaces for you. We create accessible, simple,
-performant, inspiring + reliable [experiences](https://github.com/ionify/jems/)
+inventing optimized natural interfaces for you. We **aspire** to create
+accessible,
+[simple](https://cdn.rawgit.com/ionify/jems/public/animated.logo/), performant,
+[inspiring](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js) +
+reliable [experiences](https://github.com/ionify/jems?files=1)
 for everyone + are working on these right now:
 
 + **ion: [implicit object notation](ion.md)**,
-  is a syntax that enables writing javascript code and data as independent +
+  is a syntax that enables writing javascript code + data as independent +
   observable objects called **ions**.
 
 
 + **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
-  is a set of [**ions**](ion.md) that simplify using ions for object
-  interaction, observation + notification.
+  is a set of [**ions**](ion.md) that simplify ion interaction, observation
+  + notification.
 
 
 + **wakatta: [わかった](https://rawgit.com/ionify/jems/public/kana.game/)**,
@@ -21,8 +24,9 @@ for everyone + are working on these right now:
 
 
 + **jeni: [jeni enables natural interaction](https://rawgit.com/ionify/jems/public/jeni/)**,
-  is [a set](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js)
-  of [**ions**](ion.md) that explore using ions for
+  is [a set](https://github.com/ionify/jems/tree/public/jeni)
+  of [**ions**](ion.md) that
+  [explore](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming).
 
 
