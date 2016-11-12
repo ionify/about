@@ -1,3 +1,5 @@
 # webi
 
-**webi** is any **[ion](ion.md)** built for the **web**.
+**webi: web ion**, describes any **[ion](ion.md)** or set of ions created
+for the [web](https://en.wikipedia.org/wiki/World_Wide_Web). All
+[jewels: json-embedded web expression languages](jewels.md), for example, are **webi**. 

@@ -1,7 +1,9 @@
 # eon
 
-**eon: evaluated-object notification** enables object notification via
-observation of its conversion to a
+**eon: evaluated-object notification** is a
+[software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+that enables object notification via observation of the object's conversion
+to a
 [foundational data type](https://en.wikipedia.org/wiki/Primitive_data_type).
 
 ### style
@@ -42,14 +44,14 @@ And with **hip hop eons** it's held using both styles alternated at runtime.
 
 The difference between **hip** + **hop eons** is that **hip eons** observe a
 single object's conversion, while **hop eons** observe conversions for all
-objects of a specific type. Both rely on object type conversion via techniques
+objects of a specific type. Both rely on object type conversion via patterns
 like [**ion: implicit object notation**](ion.md).
 
-**hip**, **hop** + **hip hop eons** are simple, reliable + compatible ways to
-observe + interact with objects. They can be created manually or with
-[**ionify: implicit object notification invented for you**](http://github.com/ionify/ionify),
-a set of [**ions**](ion.md) that simplify object interaction, observation +
-notification.
+**hip**, **hop** + **hip hop eons** are simple, reliable + compatible
+patterns for observing + interacting with objects. They can be created
+manually or via
+[**ionify: implicit object notation invented for you**](http://github.com/ionify/ionify),
+a set of [**ions**](ion.md) that enable + simplify object interaction, observation + notification.
 
 ### compatibility
 
