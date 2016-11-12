@@ -2,8 +2,7 @@
 
 **eon: evaluated-object notification** is a
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables object notification via observation of the object's conversion
-to a
+that enables object notification by observing the object's conversion to a
 [foundational data type](https://en.wikipedia.org/wiki/Primitive_data_type).
 
 ### style

@@ -13,9 +13,15 @@ for everyone + are working on these right now:
   observable objects called **ions**.
 
 
++ **eon: [evaluated-object notification](eon.md)**,
+  is a [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+  that enables object notification by observing the object's conversion to a
+  [foundational data type](https://en.wikipedia.org/wiki/Primitive_data_type).
+
+
 + **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
   is a set of [**ions**](ion.md) that enable + simplify object interaction,
-  observation + notification.
+  observation + notification by implementing [**eon**](eon.md).
 
 
 + **wakatta: [わかった](https://rawgit.com/ionify/jems/public/kana.game/)**,
