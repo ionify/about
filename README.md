@@ -24,22 +24,19 @@ for everyone + are working on these right now:
   observation + notification by implementing [**eon**](eon.md).
 
 
-+ **wakatta: [わかった](https://rawgit.com/ionify/jems/public/kana.game/)**,
++ **wakatta: [わかった](https://rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
   is a japanese language-skills game created with [**ions**](ion.md) to
   exercise + guide [**ionify's**](https://github.com/ionify/ionify) api.
 
 
-+ **jeni: [jeni enables natural interaction](https://rawgit.com/ionify/jems/public/jeni/)**,
-  is [a set](https://github.com/ionify/jems/tree/public/jeni)
++ **jeni: [jeni enables natural interaction](https://rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
+  is [a set](https://github.com/ionified/jeni-ions.iskitz.net)
   of [**ions**](ion.md) that
-  [explore](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js)
+  [explore](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming).
 
 
-**copyright + license**
+**ionify's** [documentation](https://github.com/ionify/about) is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-* **ionify's** [documentation](https://github.com/ionify/about) is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
-  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-
-* **ionify, ions** + other code are individually licensed + copyrighted.
+**ionify, ions** + other code are individually licensed + copyrighted.
