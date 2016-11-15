@@ -1,7 +1,7 @@
 # stories
 
-**stories** are **sentence template or regular [[ion]](ion.md) expressions**:
+**stories** are **sentence templates or regular [[ion]](ion.md) expressions**:
 
 ```javascript
-  +/ ['• . •']  <  Hi! /;
+  +/ ('• . •')  <  Hi! /;
 ```
