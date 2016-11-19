@@ -20,8 +20,10 @@ for everyone + are working on these right now:
 
 
 + **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
-  is a set of [**ions**](ion.md) that enable + simplify object interaction,
-  observation + notification by implementing [**eon**](eon.md).
+  is a set of [**ions**](https://github.com/ionify/about/ion.md) that create
+  an [api](https://en.wikipedia.org/wiki/Application_programming_interface)
+  for simplified object interaction, observation + notification via
+  [**eon**](eon.md).
 
 
 + **wakatta: [わかった](https://rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
