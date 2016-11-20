@@ -73,9 +73,9 @@ can be
 
 ### behavior
 
-**ion** expressions activate the
+When evaluated, **ion** expressions activate the
 [implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
-of their object operands when evaluated. That implicit object conversion is the **implicit object**
+of their object operands. That implicit object conversion is the **implicit object**
 portion of **implicit object notation** and is the behavior at the heart of
 **eon: evaluated-object notification**, the action that enables
 object observation + notification.
@@ -144,5 +144,5 @@ since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/E
 [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views and
-[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing the
+[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing an
 [ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
