@@ -1,6 +1,6 @@
 # stories
 
-**stories** are **sentence templates or regular [[ion]](ion.md) expressions**:
+**stories** are **sentence templates or regular [[ion]](../ion%2Beon.md#ion) expressions**:
 
 ```javascript
   +/ ('• . •')  <  Hi! /;

@@ -8,32 +8,32 @@ accessible,
 reliable [experiences](https://github.com/ionify/jems?files=1)
 for everyone + are working on these right now:
 
-+ **ion: [implicit object notation](ion.md)**,
++ **ion: [implicit object notation](ion%2Beon.md#ion)**,
   is a syntax that enables writing javascript code + data as independent +
   observable objects called **ions**.
 
 
-+ **eon: [evaluated-object notification](eon.md)**,
++ **eon: [evaluated-object notification](ion%2Beon.md#eon)**,
   is a [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
   that enables object notification by observing the object's conversion to a
   [foundational data type](https://en.wikipedia.org/wiki/Primitive_data_type).
 
 
 + **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
-  is a set of [**ions**](https://github.com/ionify/about/ion.md) that create
+  is a set of [**ions**](ion%2Beon.md#ion) that create
   an [api](https://en.wikipedia.org/wiki/Application_programming_interface)
   for simplified object interaction, observation + notification via
-  [**eon**](eon.md).
+  [**eon**](ion%2Beon.md#eon).
 
 
 + **wakatta: [わかった](https://rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
-  is a japanese language-skills game created with [**ions**](ion.md) to
+  is a japanese language-skills game created with [**ions**](ion%2Beon.md#ion) to
   exercise + guide [**ionify's**](https://github.com/ionify/ionify) api.
 
 
 + **jeni: [jeni enables natural interaction](https://rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
   is [a set](https://github.com/ionified/jeni-ions.iskitz.net)
-  of [**ions**](ion.md) that
+  of [**ions**](ion%2Beon.md#ion) that
   [explore](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming).
 
