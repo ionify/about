@@ -190,7 +190,7 @@ that simplifies **ion** interaction and observation.
 
 ## kind
 
-### [aeons](ions/aeons.md)
+### [aeons](aeons.md)
 
 **array-expressed object notations**:
 
@@ -198,7 +198,7 @@ that simplifies **ion** interaction and observation.
 ~ [ {say:"Hi!"} ] ;
 ```
 
-### [aesop](ions/aesop.md)
+### [aesop](aesop.md)
 
 **array-expressed [storie](stories.md) or phrase**:
 
@@ -208,7 +208,7 @@ that simplifies **ion** interaction and observation.
 ;
 ```
 
-### [jems](ions/jems.md)
+### [jems](jems.md)
 
 **json-expressed modules**:
 
@@ -240,7 +240,7 @@ that simplifies **ion** interaction and observation.
 ;
 ```
 
-### [jess](ions/jess.md)
+### [jess](jess.md)
 
 **json-expressed statements**.
 
@@ -248,7 +248,7 @@ that simplifies **ion** interaction and observation.
 ~ {"say":"Hi!"} ;
 ```
 
-### [jewels](ions/jewels.md)
+### [jewels](jewels.md)
 
 **json-expressed, web-enabled languages**:
 
@@ -258,7 +258,7 @@ that simplifies **ion** interaction and observation.
 ;
 ```
 
-### [stories](ions/stories.md)
+### [stories](stories.md)
 
 **sentence templates or regular ion expressions**:
 
@@ -268,7 +268,7 @@ that simplifies **ion** interaction and observation.
 ;
 ```
 
-### [webi](ions/webi.md)
+### [webi](webi.md)
 
 **web ion**, describes any **ion** or set of ions created for the
 [web](https://en.wikipedia.org/wiki/World_Wide_Web). For example, all
