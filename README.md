@@ -1,44 +1,56 @@
 # [ionify](http://ionify.org)
 
-**ionify** is a [team](https://github.com/orgs/ionify/people)
-inventing optimized natural interfaces for you. We **aspire** to create
-accessible,
-[simple](https://cdn.rawgit.com/ionify/jems/public/animated.logo/), performant,
-[inspiring](https://github.com/ionify/jems/blob/public/jeni/jeni.play.js) +
-reliable [experiences](https://github.com/ionify/jems?files=1)
-for everyone + are working on these right now:
+## team
 
-+ **ion: [implicit object notation](ion%2Beon.md#ion)**,
-  is a syntax that enables writing javascript code + data as independent +
-  observable objects called **ions**.
+**[team ionify](https://github.com/orgs/ionify/people)**
+has developed and distributed **ions** & **ionify** since their initial
+[discovery, definition & development](story.md)
+by [Michael Lee](https://github.com/iskitz) in 2007.
+
+We invent optimized, natural, interfaces, for you, and
+**aspire** to create accessible,
+[simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
+performant,
+[intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
+& reliable
+[experiences](http://ionified.net) for all.
 
 
-+ **eon: [evaluated-object notification](ion%2Beon.md#eon)**,
+## api
+
+**ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
+  is an [api](https://en.wikipedia.org/wiki/Application_programming_interface)
+  that simplifies object interaction, observation & notification via
+  [**ions**](ions/ion.md).
+
+
+## ions
+
+**ion: [implicit object notation](ions/ion.md)**,
   is a [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-  that enables object notification by observing the object's conversion to a
-  [foundational data type](https://en.wikipedia.org/wiki/Primitive_data_type).
+  and software language capability that enables
+  simple object interaction, observation & notification via interactive type conversion.
 
 
-+ **ionify: [implicit object notation invented for you](https://github.com/ionify/ionify)**,
-  is a set of [**ions**](ion%2Beon.md#ion) that create
-  an [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-  for simplified object interaction, observation + notification via
-  [**eon**](ion%2Beon.md#eon).
+### examples
+
+**anemojii: [animated emoji ions](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/)**,
+  is an exploration of emoji & literate programming via **ions** & **ionify**.
 
 
-+ **wakatta: [わかった](https://rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
-  is a japanese language-skills game created with [**ions**](ion%2Beon.md#ion) to
-  exercise + guide [**ionify's**](https://github.com/ionify/ionify) api.
+**wakatta: [わかった](https://cdn.rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
+  is a japanese language-skills game created with [**ions**](ions/ion.md) to
+  exercise & guide [**ionify's**](https://github.com/ionify/ionify) api.
 
 
-+ **jeni: [jeni enables natural interaction](https://rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
+**jeni: [jeni enables natural interaction](https://cdn.rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
   is [a set](https://github.com/ionified/jeni-ions.iskitz.net)
-  of [**ions**](ion%2Beon.md#ion) that
+  of [**ions**](ions/ion.md) that
   [explore](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming).
 
 
-**ionify's** [documentation](https://github.com/ionify/about) is (c) 2007-2016 [Michael Lee](http://iskitz.com) + is licensed under a
+**ionify's** [documentation](https://github.com/ionify/about) is (c) 2007-2018 [Michael Lee](https://github.com/iskitz/) and is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.jems](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**ionify, ions** + other code are individually licensed + copyrighted.
+**ionify, ions**, and all other code are individually licensed and copyrighted.
