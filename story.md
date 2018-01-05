@@ -108,7 +108,7 @@ Over the next eight years he continued to experiment with, prototype, refine and
 
 ## delivery
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)**, and **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis of the [many kinds](https://github.com/ionify/ionify/tree/public/info/ions) of **ions** now freely available to learn from, apply, and extend.
+Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)**, and **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis of the [many kinds](ions/ion.md#kind) of **ions** now freely available to learn from, apply, and extend.
 
 🖤
 [Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)
