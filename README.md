@@ -1,5 +1,7 @@
 # [ionify](http://ionify.org)
 
+**ionify** is a team and an api.
+
 ## team
 
 **[team ionify](https://github.com/orgs/ionify/people)**
@@ -24,7 +26,7 @@ performant,
   [**ions**](ions/ion.md).
 
 
-## ions
+### ions
 
 **ion: [implicit object notation](ions/ion.md)**,
   is a [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
@@ -34,16 +36,16 @@ performant,
 
 ### examples
 
-**anemojii: [animated emoji ions](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/)**,
++ **anemojii: [animated emoji ions](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/)**,
   is an exploration of emoji & literate programming via **ions** & **ionify**.
 
 
-**wakatta: [わかった](https://cdn.rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
++ **wakatta: [わかった](https://cdn.rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
   is a japanese language-skills game created with [**ions**](ions/ion.md) to
   exercise & guide [**ionify's**](https://github.com/ionify/ionify) api.
 
 
-**jeni: [jeni enables natural interaction](https://cdn.rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
++ **jeni: [jeni enables natural interaction](https://cdn.rawgit.com/ionified/jeni-ions.iskitz.net/public/)**,
   is [a set](https://github.com/ionified/jeni-ions.iskitz.net)
   of [**ions**](ions/ion.md) that
   [explore](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
