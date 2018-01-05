@@ -1,7 +1,9 @@
 # aesop
 
-**aesop** is any **array-embedded sentence or phrase**.
+**aesop** is any **array-expressed [storie](stories.md) or phrase**.
 
 ```javascript
-  +['Hi!'];
+  ~ ['Hi!']  <=  /an aesop phrase/
+  & [/Hi!/]  <=  /an aesop storie/
+  ;
 ```
