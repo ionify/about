@@ -2,9 +2,9 @@
 ~
 { re:
     { id: "todo@ionify"
-    , is: "ionify's list of things To Do"
+    , is: "ionify's list of things to do"
     , by:["mike.lee@iskitz", "team@ionify"]
-    , at: "2018.01.04-08...2007.09-04"
+    , at: "2018.01.07-08...2007.09-04"
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -39,15 +39,6 @@
 , todo
 :   [ { "2018.__.__-08"
       :   { 
-          }
-
-      , "2018.01.04-08"
-      :   { tidy
-          :   `Move /info/ & its contents to the ionify/about repo.
-                 /ionify/about/api/[todo,launch,layout].js
-                 /ionify/about/ions/[ion,ions].md
-                 /ionify/about/team/[README,CONDUCT].md & [mike.lee,team].js
-              `
           }
 
       , "2017.12.08-08"
@@ -329,7 +320,14 @@
 , DONE
 :   { "year[.month.day.hour.minute.second][+-]timezoneHours[.minutesOffset]":
         [
-        ],
+        ]
+
+    , "2018.01.04-08"
+    :   `Move /info/ & its contents to the ionify/about repo.
+            /ionify/about/api/[todo,launch,layout].js
+            /ionify/about/ions/[ion,ions].md
+            /ionify/about/team/[README,CONDUCT].md & [mike.lee,team].js
+        `
 
       "2017.11.11-08":
         [ `on: id: ion@domain
