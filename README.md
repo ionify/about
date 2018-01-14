@@ -5,15 +5,17 @@
 ## team
 
 [**team ionify**](https://github.com/orgs/ionify/people)
-has developed and distributed **ions** & the **ionify** api since their initial
-[discovery, definition & development](story.md)
-by [Michael Lee](https://github.com/iskitz) in 2007. We invent optimized, natural, interfaces, for you, and aspire to create accessible,
+invents optimized, natural, interfaces, for you, and aspires to create accessible,
 [simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
 [experiences](http://ionified.net)
 for all.
+
+We've developed and distributed **ions** & the **ionify** api since their initial
+[discovery, definition & development](story.md)
+by [Michael Lee](https://github.com/iskitz) in 2007.
 
 
 ## api
