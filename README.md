@@ -10,10 +10,9 @@ invents optimized, natural, interfaces, for you, and aspires to create accessibl
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[experiences](http://ionified.net)
-for all.
+[experiences](http://ionified.net).
 
-We've developed and distributed **ions** & the **ionify** api since their initial
+We've developed and distributed [**ion**](#ion) & the [**ionify api**](#api) since their initial
 [discovery, definition & development](story.md)
 by [Michael Lee](https://github.com/iskitz) in 2007.
 
