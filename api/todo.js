@@ -4,12 +4,12 @@
     { id: "todo@ionify"
     , is: "ionify's list of things to do"
     , by:["mike.lee@iskitz", "team@ionify"]
-    , at: "2018.01.07-08...2007.09-04"
+    , at: "2018.04.20-07...2007.09-04"
 
     , im:
         [`Exploring improving ionify's launch flow
         & Exploring implementing ~on+do
-        
+
         . I was previously...
 
           trying to figure what to do next. I want to continue modularizing
@@ -38,7 +38,7 @@
 
 , todo
 :   [ { "2018.__.__-08"
-      :   { 
+      :   {
           }
 
       , "2017.12.08-08"
@@ -101,7 +101,7 @@
             || [ "re: method@ion@domain"
                + "...details..."
                ]
-               
+
             || [`re: method@ion@domain
                  ... details
                 `
@@ -118,8 +118,8 @@
 
           +      {random:10} <= 7
 
-          +   ` ionify doesn't currently do this in its +{} sensor because it     
-                senses & activates as many of all known actions as found within   
+          +   ` ionify doesn't currently do this in its +{} sensor because it
+                senses & activates as many of all known actions as found within
                 each which means multiple possible return values but ions evaluate
                 as single-value numeric expressions.
 
@@ -131,13 +131,14 @@
                   , got: {"get then":"yes", "use as in": {no:"no known ion with wrong.id"}}
                   }
           }
-          
+
         , 20170711
         : { aesop
-          :   "as api docs use functionName.re =  /documentation.../"
-          ,   "as comment, can use as          <- /commented inline/  ['~ . ~']"
+          :   [ "as api docs use functionName.re =  /documentation.../"
+              , "as comment, can use as          <- /commented inline/  ['~ . ~']"
+              ]
           }
-          
+
         , 20170710
         : { logic
           :   /logic statements can be confusing when mapping to english, e.g./
@@ -329,8 +330,8 @@
             /ionify/about/team/[README,CONDUCT].md & [mike.lee,team].js
         `
 
-      "2017.11.11-08":
-        [ `on: id: ion@domain
+    , "2017.11.11-08"
+    :   [ `on: id: ion@domain
           `
           +/ ~on: enables sensing ions by their ids. It can currently/
               +
