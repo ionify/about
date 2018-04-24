@@ -22,7 +22,7 @@ discovered a capability within JavaScript that he named
 **[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
 implicit object notation** &
 **[ionify](https://github.com/ionify/ionify/):
-ions implemented for you** 🎉
+ion implemented for you** 🎉
 
 
 ## details
@@ -127,9 +127,9 @@ describe this discovery, 👨🏾‍💻 defining and announcing the concept of
 **json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
 and
 [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
-**implicit object notations** &
+**implicit object notation** &
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
-**ions implemented for you** in 2016 and 2017.
+**ion implemented for you** in 2016 and 2017.
 
 ## delivery
 
