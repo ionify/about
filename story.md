@@ -10,7 +10,19 @@ This is the story of **ionify**, one such capability's journey through time.
 
 One to discover, another to embrace.
 
-In **1997**, [JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html) first language specification was [published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf) 👏🏾 In **2007**, [Michael Lee](https://github.com/iskitz), discovered a capability within JavaScript that he named [**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange): **json cross-domain** 👨🏾‍💻 In **2017**, Michael named & shared **jsonXD's** core concepts as **[ion](https://github.com/ionify/about/blob/public/ions/ion.md): implicit object notation** & **[ionify](https://github.com/ionify/ionify/): ions invented for you** 🎉
+In **1997**,
+[JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)
+first language specification was
+[published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
+👏🏾 In **2007**,
+[Michael Lee](https://github.com/iskitz),
+discovered a capability within JavaScript that he named
+[**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
+**json cross-domain** 👨🏾‍💻 In **2017**, Michael named & shared **jsonXD's** core concepts as
+**[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
+implicit object notation** &
+**[ionify](https://github.com/ionify/ionify/):
+ions implemented for you** 🎉
 
 
 ## details
@@ -102,9 +114,22 @@ Object.prototype.valueOf           // 1: interface
 
 ## development
 
-After an additional two years of experimentation and implementation, Michael publicly introduced this cross-domain JSON-fetching solution as [**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange): json cross-domain in 2009 at [The Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee) web developer conference 🎉
+After an additional two years of experimentation and implementation, Michael
+publicly introduced this cross-domain JSON-fetching solution as
+[**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
+json cross-domain in 2009 at
+[The Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
+web developer conference 🎉
 
-Over the next eight years he continued to experiment with, prototype, refine and describe this discovery, 👨🏾‍💻 defining and announcing the concept of [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md): **json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md), and [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md): **implicit object notations** & [**ionify**](https://github.com/ionify/ionify/blob/public/README.md): **ions invented for you** in 2016 and 2017.
+Over the next eight years he continued to experiment with, prototype, refine and
+describe this discovery, 👨🏾‍💻 defining and announcing the concept of
+[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md):
+**json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
+and
+[**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
+**implicit object notations** &
+[**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
+**ions implemented for you** in 2016 and 2017.
 
 ## delivery
 

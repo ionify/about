@@ -183,7 +183,7 @@ of a specific object type.
 **hip**, **hop**, and **hip hop** ions are simple, reliable and compatible
 patterns for observing and interacting with objects. They can be implemented
 manually, as shown, or via
-[**ionify: implicit object notations invented for you**](http://github.com/ionify/ionify/),
+[**ionify: implicit object notations implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that simplifies **ion** interaction and observation.
 

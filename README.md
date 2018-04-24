@@ -19,9 +19,11 @@ by [Michael Lee](https://github.com/iskitz) in 2007 and continue to build on and
 
 ## api
 
-**[ionify](https://github.com/ionify/ionify): implicit object notations invented for you**, is a flexible, unobtrusive & novel
+**[ionify](https://github.com/ionify/ionify):
+implicit object notations implemented for you**, is a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that simplifies object interaction, observation & notification via **ion: implicit object notation**.
+that simplifies object interaction, observation & notification via
+**ion: implicit object notation**.
 
 
 ### ion
