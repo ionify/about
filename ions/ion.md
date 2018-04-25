@@ -1,21 +1,25 @@
 # ions
 
-**implicit object notations**, are
+**interactive object notations** are
 [expressions](https://en.wikipedia.org/wiki/Expression_(computer_science))
-that activate [objects](https://en.wikipedia.org/wiki/Object_(computer_science))
-via implicit [type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-which enables writing [data](https://en.wikipedia.org/wiki/Data_(computing)) &
+that enable writing
+[data](https://en.wikipedia.org/wiki/Data_(computing))
+&
 [code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable objects. They are a
-[software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-& language capability [discovered](../story.md)
-by [Michael Lee](https://github.com/iskitz) in 2007.
+as independently observable & notifiable
+[objects](https://en.wikipedia.org/wiki/Object_(computer_science)).
+**ions** are enabled by
+[**interactive type conversion**](#itc),
+a software design pattern and language capability simultaneously
+[discovered](../story.md)
+by
+[Michael Lee](https://github.com/iskitz)
+in 2007.
 
 
+## lion & orion
 
-## form
-
-**ions** are expressions that combine the
+**ions** combine the
 [~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator)
 bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
@@ -95,38 +99,80 @@ operators, relational punctuation can be any of the
 [&gt;, &gt;=, <, or <=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-relational-operators-runtime-semantics-evaluation)
 operators, and equality punctuation can be the
 [== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
-equality operators but only when pairing **ions** with
+equality operators, but only when pairing **ions** with
 [primitive](https://en.m.wikipedia.org/wiki/Primitive_value)
 values.
 
 
-## function
+## itc
 
-**ions** activate the
-[implicit numeric conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-tonumber)
-of their object operands. That implicit object conversion is the **implicit
-object** portion of **implicit object notation** and the key to activating and
-interacting with **ions**.
+**interactive type conversion** is a
+[software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+and language capability that enables **ions** by supporting interacting with an object's type conversion flow.
+
+
+### hip hop
 
 [JavaScript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
-runtimes interpret and evaluate **ions** as expressions. During evaluation, an **ion's** operator
+supports two **itc** styles, **hip**, held-in-place:
+
+```javascript
+~
+{ valueOf
+:   function hip ()
+      { console.log ("hip: held-in-place itc")
+      }
+}
+;
+```
+
+and **hop**, held-on-prototype:
+
+```javascript
+Object.prototype.valueOf
+= function hop ()
+    { console.log ("hop: held-on-prototype itc")
+    }
+;
+```
+
+Both styles enable object interaction, observation, and notification by implementing the `valueOf()`
+method that javascript calls during an object's
+[type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
+
+With **hip itc** that method is **held** __in-place__ within an object and observes that
+single object's type conversion. With
+**hop itc** it's **held** __on__ an object's `prototype` and observes all type conversions
+of that specific object type. An **ion** can implement either, or alternate between both.
+
+**hip hop itc** are simple, reliable and compatible
+patterns & capabilities for observing & interacting with objects. They can be implemented
+manually, as shown, or via
+[**ionify: interactive object notation implemented for you**](http://github.com/ionify/ionify/),
+an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+that simplifies **ion** interaction, observation & notification.
+
+
+### flow
+
+During **itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-During that conversion, an attempt is made to call the object's `valueOf()`
+During that conversion, an attempt is made to call its object's `valueOf()`
 method. If an **ion** doesn't define that method, JavaScript searches for
 it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
-For **lions** that search begins and ends at the object's
+For **lions** that search begins and ends at its
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`.
-This can differ for **orion** if they inherit from other objects.
+This can differ for **orion** that inherit from other objects.
 
 By default, `Object`, `Array` and `RegExp` all define `prototype.valueOf()`, so
 for each **ion** of those types, its operator calls the relevant
 `prototype.valueOf()` to obtain a primitive value that's then converted to a number.
 
 Defining custom `Object`, `Array`, and
-`RegExp` `prototype.valueOf()` methods enables using JavaScript's
-[implicit type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-behavior to interact with all **lions** without requiring direct access to any of them 🤓
+`RegExp` `prototype.valueOf()` methods enables interfacing with JavaScript objects'
+[type conversion](https://en.wikipedia.org/wiki/Type_conversion)
+flow which enables interacting with all **ions** without requiring direct access to any of them 🤓
 
 ```javascript
 Object.prototype.valueOf
@@ -141,51 +187,6 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ;
 ```
-
-### interact
-
-In JavaScript, **ion** interaction has three styles, **hip**, held-in-place:
-
-```javascript
-~
-{ valueOf
-:   function hip ()
-      { console.log ("hip: held-in-place ion")
-      }
-}
-;
-```
-
-**hop**, held-on-prototype:
-
-```javascript
-Object.prototype.valueOf
-= function hop ()
-    { console.log ("hop: held-on-prototype ion")
-    }
-;
-```
-
-and **hip hop**, **ions** that alternate between the two.
-
-
-All three styles enable object observation by implementing the `valueOf()`
-method that javascript calls during an object's
-[type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-With **hip ions** that method is **held** __in-place__ within an object. With
-**hop ions** it's **held** __on__ an object's `prototype`. And with
-**hip hop ions**, it's held both ways, alternated at runtime.
-
-The difference between **hip** & **hop ions** is that **hip ions** observe a
-single object's conversion, while **hop ions** observe all object conversions
-of a specific object type.
-
-**hip**, **hop**, and **hip hop** ions are simple, reliable and compatible
-patterns for observing and interacting with objects. They can be implemented
-manually, as shown, or via
-[**ionify: implicit object notation implemented for you**](http://github.com/ionify/ionify/),
-an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that simplifies **ion** interaction and observation.
 
 
 ## kind
@@ -224,16 +225,16 @@ that simplifies **ion** interaction and observation.
             , "forest-hills.new-york.usa.earth"
             ]
       }
-
+        
 , "do":
       [ "an aesop action"
       , /a storie action/
       , {"if":"do.times", "<":7, "do":"do"}
       ]
-
+    
 , "an aesop action"
 :     "log Hi! #do.times@"
-
+  
 , "a storie action"
 :     /log Hi! #do.times@/
 }
@@ -275,9 +276,9 @@ that simplifies **ion** interaction and observation.
 [jewels: json-expressed, web-enabled languages](jewels.md), are **webi**.
 
 
-## compatibility
+# compatibility
 
-**orion**, **hip, hop**, and **hip hop** ions are compatible with all JavaScript
+**orion** and **hip hop itc** are compatible with all JavaScript
 environments. **lions** are compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
@@ -285,5 +286,5 @@ since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/E
 [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views and
-[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing an
+[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
 [ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).

@@ -14,21 +14,21 @@ performant,
 
 We've developed and distributed [**ion**](#ion) & the [**ionify api**](#api) since their initial
 [discovery, definition & development](story.md)
-by [Michael Lee](https://github.com/iskitz) in 2007 and continue to build on and advance that work today.
+by [Michael Lee](https://github.com/iskitz) in 2007 and continue to advance that work today.
 
 
 ## api
 
 **[ionify](https://github.com/ionify/ionify):
-implicit object notation implemented for you**, is a flexible, unobtrusive & novel
+interactive object notation implemented for you**, is a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
 that simplifies object interaction, observation & notification via
-**ion: implicit object notation**.
+**ion: interactive object notation**.
 
 
 ### ion
 
-**[ion](ions/ion.md): implicit object notation**, is a software
+**[ion](ions/ion.md): interactive object notation**, is a software
 [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 and language capability that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))

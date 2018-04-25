@@ -20,7 +20,7 @@ discovered a capability within JavaScript that he named
 [**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
 **json cross-domain** 👨🏾‍💻 In **2017**, Michael named & shared **jsonXD's** core concepts as
 **[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
-implicit object notation** &
+interactive object notation** &
 **[ionify](https://github.com/ionify/ionify/):
 ion implemented for you** 🎉
 
@@ -127,7 +127,7 @@ describe this discovery, 👨🏾‍💻 defining and announcing the concept of
 **json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
 and
 [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
-**implicit object notation** &
+**interactive object notation** &
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
 **ion implemented for you** in 2016 and 2017.
 
