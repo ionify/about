@@ -88,8 +88,29 @@
       ,
 
       {syntax:
-        {20170720:
-          ["Documentation"
+        { 20180426
+        : ["JSON Data Interchange Format:"
+
+          +   "RFC-8259: IETF Spec: https://tools.ietf.org/html/rfc8259"
+          +     "Section9: A JSON parser MAY accept non-JSON forms or extensions."
+          +     "?..so json-expressed ions: jems, jess & jewels are valid JSON"
+
+          +   "ECMA-404: ECMA Spec: http://www.ecma-international.org/publications/standards/Ecma-404.htm"
+
+          +   "JSON Schema : http://json-schema.org/specification.html"
+          +     "Validation: http://json-schema.org/latest/json-schema-validation.html"
+          +     "!..could|should use this as ionifys vocab for terms like ~on"
+
+          +   "JSON Pointer: https://tools.ietf.org/html/rfc6901"
+          +     "!..could|should use JS Proxies for deep referencing ion values"
+          +       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+          +       "https://youtu.be/sClk6aB_CPk?t=9m26s"
+          +       "https://www.ecma-international.org/ecma-262/6.0/#sec-proxy-objects"
+          +       "https://tc39.github.io/ecma262/#sec-proxy-objects"
+          ]
+
+        , 20170720
+        : ["Documentation"
 
             +    /re: method@ion@domain/
             +    /...details.../
