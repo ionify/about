@@ -4,7 +4,7 @@
 
 ## team
 
-[**team ionify**](https://github.com/orgs/ionify/people)
+The [**ionify team**](https://github.com/orgs/ionify/people)
 invents optimized natural interfaces for you, and aspires to create accessible,
 [simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
 performant,
@@ -14,27 +14,29 @@ performant,
 
 We've developed and distributed [**ion**](#ion) & the [**ionify api**](#api) since their initial
 [discovery, definition & development](story.md)
-by [Michael Lee](https://github.com/iskitz) in 2007 and continue to advance that work today.
+by [Michael Lee](https://github.com/iskitz)
+in 2007 and continue to actively advance their implementation and documentation.
+
+
+## ion
+
+**[ion](ions/ion.md): interactive object notation**, is a
+[language-independent](https://en.wikipedia.org/wiki/Programming_language)
+[syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+that enables writing
+[data](https://en.wikipedia.org/wiki/Data_(computing))
+and
+[code](https://en.wikipedia.org/wiki/Source_code)
+as independently observable & notifiable objects.
 
 
 ## api
 
 **[ionify](https://github.com/ionify/ionify):
-interactive object notation implemented for you**, is a flexible, unobtrusive & novel
+ion implemented for you**, is a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that simplifies object interaction, observation & notification via
-**ion: interactive object notation**.
-
-
-### ion
-
-**[ion](ions/ion.md): interactive object notation**, is a software
-[design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-and language capability that enables writing
-[data](https://en.wikipedia.org/wiki/Data_(computing))
-and
-[code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable objects.
+that implements **ion** and provides simple vocabulary to apply and extend its
+capabilities.
 
 
 ### examples
