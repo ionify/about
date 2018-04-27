@@ -20,9 +20,9 @@ discovered a capability within JavaScript that he named
 [**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
 **json cross-domain** 👨🏾‍💻 In **2017**, Michael named & shared **jsonXD's** core concepts as
 **[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
-interactive object notation** &
+invoked object notation** &
 **[ionify](https://github.com/ionify/ionify/):
-ion implemented for you** 🎉
+ions interpreted for you** 🎉
 
 
 ## details
@@ -48,7 +48,7 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was becoming a popular web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching and interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a key limitation of the popular, but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy), [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) API available at the time.
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching and interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a key limitation of the popular, but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy), [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API available at the time.
 
 Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
 
@@ -57,27 +57,27 @@ Load ("http://some.static.remo.te/json.data.js");
 
 // JSON response
 
-  { "remote"      : "request"
-  , "responds"    : "with this"
-  , "inaccessible": "JSON which"
-  , "generates"   : "a Syntax Error"
-  , "when loaded" : "as JavaScript"
+  {       "remote" : "request"
+  ,     "responds" : "with this"
+  , "inaccessible" : "JSON which"
+  ,    "generates" : "a Syntax Error"
+  ,  "when loaded" : "as JavaScript"
   }
 ```
 
 ### jsonp
 
-[JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping JSON in a `function` call or padding it as a variable assignment. Close, but still too removed from valid JSON syntax 🤔
+[JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping JSON in a `function` call or padding it with a variable assignment. Close, but still too removed from valid JSON syntax 🤔
 
 ```javascript
 Load ("http://some.dynamic.remo.te/json?call=on");
 
 // wrapped-function JSONP response
 
-   on ({ "remote"        : "request"
-       , "responds"      : "with this"
-       , "evaluated"     : "JSON"
-       , "passed as a"   : "JavaScript Object"
+   on ({        "remote" : "request"
+       ,      "responds" : "with this"
+       ,     "evaluated" : "JSON"
+       ,   "passed as a" : "JavaScript Object"
        , "to a possibly" : "missing on() function"
       });
 
@@ -86,26 +86,26 @@ Load ("http://some.static.remo.te/jsonp");
 // variable-assignment-padded JSONP response
 
    var jsonp
-     =  { "remote"     : "request"
-        , "responds"   : "with this"
-        , "evaluated"  : "JSON"
-        , "passed as a": "JavaScript Object"
-        , "stored in a": "server-defined variable"
+     =  {      "remote" : "request"
+        ,    "responds" : "with this"
+        ,   "evaluated" : "JSON"
+        , "passed as a" : "JavaScript Object"
+        , "stored as a" : "server-defined variable"
         };
 ```
 
 ## discovery
 
-The breakthrough came in 2007 when Michael discovered, via diligent experimentation 👨🏾‍💻, that it was possible to interface with anonymous objects, like JSON, by interacting with and implicitly activating their automatic type conversion! **Impossible is Nothing** 🙌🏾
+The breakthrough came in 2007 when Michael discovered, through diligent experimentation 👨🏾‍💻, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly activating their automatic type conversion! **Impossible is Nothing** 🙌🏾
 
 ```javascript
 Object.prototype.valueOf           // 1: interface
 = function onObject ()            // 3: interact
-    { this.id == "anonymous"       // true!
-    ; this.is == "data"            // true!
+    { this.is   == "anonymous"     // true!
+    ; this.json == "data"          // true!
     }
 
-~ {"id":"anonymous", "is":"data"}  // 2: activate
+~ {"is":"anonymous","json":"data"} // 2: activate
 ;
 ```
 
@@ -116,8 +116,8 @@ Object.prototype.valueOf           // 1: interface
 
 After an additional two years of experimentation and implementation, Michael
 publicly introduced this cross-domain JSON-fetching solution as
-[**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
-json cross-domain in 2009 at
+**[jsonXD](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
+json cross-domain** in 2009 at
 [The Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference 🎉
 
@@ -127,13 +127,13 @@ describe this discovery, 👨🏾‍💻 defining and announcing the concept of
 **json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
 and
 [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
-**interactive object notation** &
+**invoked object notation** &
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
-**ion implemented for you** in 2016 and 2017.
+**ions interpreted for you** in 2016 and 2017.
 
 ## delivery
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)**, and **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis of the [many kinds](ions/ion.md#kind) of **ions** now freely available to learn from, apply, and extend.
+Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis of the [many kinds](ions/ion.md#kind) of **ions** now available to freely learn from, apply, and extend.
 
 🖤
 [Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)

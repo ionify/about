@@ -1,18 +1,16 @@
 # ion
 
-**interactive object notation**, is a
-[language-independent](https://en.wikipedia.org/wiki/Programming_language)
+**invoked object notation**, is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))
 and
 [code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable
-[objects](https://en.wikipedia.org/wiki/Object_(computer_science)).
+as independently observable & notifiable objects.
 **ion** is enabled by and activates
 [**interactive type conversion**](#interactive-type-conversion),
-a programming language capability and software design pattern
-[discovered](../story.md)
+a programming language capability & software design pattern
+[discovered & named](../story.md)
 alongside **ion** by
 [Michael Lee](https://github.com/iskitz)
 in 2007.
@@ -107,9 +105,12 @@ values.
 
 ## interactive type conversion
 
-**itc** is a programming language capability and
+**itc** is a
+[programming language](https://en.wikipedia.org/wiki/Programming_language)
+capability and
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables interacting with objects via their type conversion flow. **ion** is enabled by and activates **itc**.
+that enables interacting with objects during their type conversion flow. **ion**
+is enabled by and activates **itc**.
 
 
 ### hip hop
@@ -185,7 +186,7 @@ Object.prototype.valueOf
 **hip hop itc** provides simple, reliable and compatible
 patterns & capabilities for interacting, observing & notifying objects. They can be implemented
 manually, as shown, or via
-[**ionify: interactive object notation implemented for you**](http://github.com/ionify/ionify/),
+[**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides simple vocabulary for **ion** interaction, observation & notification.
 
@@ -226,16 +227,16 @@ that implements **ion** and provides simple vocabulary for **ion** interaction, 
             , "forest-hills.new-york.usa.earth"
             ]
       }
-        
+
 , "do":
       [ "an aesop action"
       , /a storie action/
       , {"if":"do.times", "<":7, "do":"do"}
       ]
-    
+
 , "an aesop action"
 :     "log Hi! #do.times@"
-  
+
 , "a storie action"
 :     /log Hi! #do.times@/
 }

@@ -1,10 +1,10 @@
 ;
 ~
 { re:
-    { id: "todo@ionify"
+    { id: 'todo@ionify'
     , is: "ionify's list of things to do"
-    , by:["mike.lee@iskitz", "team@ionify"]
-    , at: "2018.04.20-07...2007.09-04"
+    , by:['mike.lee@iskitz', 'team@ionify"']
+    , at: '2018.04.27-07...2007.09-04'
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -37,8 +37,22 @@
     ]
 
 , todo
-:   [ { "2018.__.__-08"
+:   [ { "2018.__.__-0_"
       :   {
+          }
+
+      , "2018.04.27-07"
+      :   { ionify
+          :   { i : /    invoked, interpreted,  introspected, interfaced       /
+                  + /   implicit, intercepted, intermediated, informed         /
+                  + /interactive                                               /
+              , o : /     object/
+              , n : /   notation/
+              , i : /.................^^/
+              , f : /        for/
+              , y : /        you/
+              , is: '    invoked  object  notation  interpreted  for  you'
+              }
           }
 
       , "2017.12.08-08"
