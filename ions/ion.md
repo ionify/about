@@ -1,18 +1,19 @@
-# ions
+# ion
 
-**interactive object notations** are
-[expressions](https://en.wikipedia.org/wiki/Expression_(computer_science))
-that enable writing
+**interactive object notation**, is a
+[language-independent](https://en.wikipedia.org/wiki/Programming_language)
+[syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))
-&
+and
 [code](https://en.wikipedia.org/wiki/Source_code)
 as independently observable & notifiable
 [objects](https://en.wikipedia.org/wiki/Object_(computer_science)).
-**ions** are enabled by
-[**interactive type conversion**](#itc),
-a software design pattern and language capability simultaneously
+**ion** is enabled by and activates
+[**interactive type conversion**](#interactive-type-conversion),
+a programming language capability and software design pattern
 [discovered](../story.md)
-by
+alongside **ion** by
 [Michael Lee](https://github.com/iskitz)
 in 2007.
 
@@ -104,11 +105,11 @@ equality operators, but only when pairing **ions** with
 values.
 
 
-## itc
+## interactive type conversion
 
-**interactive type conversion** is a
+**itc** is a programming language capability and
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-and language capability that enables **ions** by supporting interacting with an object's type conversion flow.
+that enables interacting with objects via their type conversion flow. **ion** is enabled by and activates **itc**.
 
 
 ### hip hop
@@ -142,15 +143,8 @@ method that javascript calls during an object's
 
 With **hip itc** that method is **held** __in-place__ within an object and observes that
 single object's type conversion. With
-**hop itc** it's **held** __on__ an object's `prototype` and observes all type conversions
-of that specific object type. An **ion** can implement either, or alternate between both.
-
-**hip hop itc** are simple, reliable and compatible
-patterns & capabilities for observing & interacting with objects. They can be implemented
-manually, as shown, or via
-[**ionify: interactive object notation implemented for you**](http://github.com/ionify/ionify/),
-an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that simplifies **ion** interaction, observation & notification.
+**hop itc** it's **held** __on__ an object's `prototype` and observes type conversions
+of all instances of that specific object type. An **ion** can implement either, or alternate between both.
 
 
 ### flow
@@ -161,7 +155,7 @@ During that conversion, an attempt is made to call its object's `valueOf()`
 method. If an **ion** doesn't define that method, JavaScript searches for
 it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
-For **lions** that search begins and ends at its
+For **lions** that search begins and ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`.
 This can differ for **orion** that inherit from other objects.
 
@@ -187,6 +181,13 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ;
 ```
+
+**hip hop itc** provides simple, reliable and compatible
+patterns & capabilities for interacting, observing & notifying objects. They can be implemented
+manually, as shown, or via
+[**ionify: interactive object notation implemented for you**](http://github.com/ionify/ionify/),
+an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+that implements **ion** and provides simple vocabulary for **ion** interaction, observation & notification.
 
 
 ## kind
