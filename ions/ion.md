@@ -148,7 +148,7 @@ single object's type conversion. With
 of all instances of that specific object type. An **ion** can implement either, or alternate between both.
 
 
-### flow
+#### flow
 
 During **itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
@@ -189,6 +189,32 @@ manually, as shown, or via
 [**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides simple vocabulary for **ion** interaction, observation & notification.
+
+### hot
+
+**held-on-type itc** is supported in
+[java](https://en.wikipedia.org/wiki/Java_(programming_language))
+by implementing an object type's `toString()` method. See this this
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java).
+
+**hot itc** is supported in
+[python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
+via
+[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
+
+...
+
+### foo
+
+**functional-operator-overloading itc** is
+[supported](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
+in
+[many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+by
+[overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+arithmetic, bitwise, relational & equality operators via standalone functions.
+
+...
 
 
 ## kind
