@@ -9,7 +9,7 @@ and
 as independently observable & notifiable objects. **ion** is enabled by and
 activates
 [**interactive type computation**](#interactive-type-computation),
-software design pattern & programming language capability
+a software design pattern
 [discovered & named](../story.md)
 alongside **ion** by
 [Michael Lee](https://github.com/iskitz)
@@ -194,10 +194,10 @@ Object.prototype.valueOf
 
 **held-on-type itc** is supported in
 [Java](https://en.wikipedia.org/wiki/Java_(programming_language))
-by implementing an object is
+by implementing an object's
 [**`toString()`**](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--)
-method which Java calls whenever an object's converted to a
-[string](https://en.wikipedia.org/wiki/String_(computer_science)).
+method which Java calls whenever objects are converted to
+[strings](https://en.wikipedia.org/wiki/String_(computer_science)).
 See this
 [proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
 implementation.
