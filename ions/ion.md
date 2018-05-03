@@ -6,10 +6,10 @@ that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))
 and
 [code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable objects.
-**ion** is enabled by and activates
-[**interactive type conversion**](#interactive-type-conversion),
-a programming language capability & software design pattern
+as independently observable & notifiable objects. **ion** is enabled by and
+activates
+[**interactive type computation**](#interactive-type-computation),
+software design pattern & programming language capability
 [discovered & named](../story.md)
 alongside **ion** by
 [Michael Lee](https://github.com/iskitz)
@@ -69,7 +69,8 @@ and
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 punctuation.
 
-This example combines fifteen **lions** with the seventeen **ion**-compatible bitwise, arithmetic, relational, and equality punctuation operators:
+This example combines fifteen **lions** with the seventeen **ion**-compatible
+bitwise, arithmetic, relational, and equality punctuation operators:
 
 ```javascript
 ~  /example/  -  /punctuation/
@@ -103,14 +104,17 @@ equality operators, but only when pairing **ions** with
 values.
 
 
-## interactive type conversion
+## interactive type computation
 
 **itc** is a
-[programming language](https://en.wikipedia.org/wiki/Programming_language)
-capability and
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables interacting with objects during their type conversion flow. **ion**
-is enabled by and activates **itc**.
+that applies various
+[programming language](https://en.wikipedia.org/wiki/Programming_language)
+capabilities to enable interacting with objects during their type's
+[conversion](https://en.wikipedia.org/wiki/Type_conversion)
+and
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+computations. **ion** is enabled by and activates **itc**.
 
 
 ### hip hop
@@ -138,19 +142,21 @@ Object.prototype.valueOf
 ;
 ```
 
-Both styles enable object interaction, observation, and notification by implementing the `valueOf()`
-method that javascript calls during an object's
-[type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
+Both styles enable object interaction, observation, and notification by
+implementing the **`valueOf()`** method that javascript
+[calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+during an object's
+[type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip itc** that method is **held** __in-place__ within an object and observes that
-single object's type conversion. With
-**hop itc** it's **held** __on__ an object's `prototype` and observes type conversions
-of all instances of that specific object type. An **ion** can implement either, or alternate between both.
+With **hip itc** that method is **held** __in-place__ within an object and
+observes that single object's type conversion. With **hop itc** it's **held**
+__on__ an object's `prototype` and observes type conversions of all objects of
+that type. An **ion** can implement either, or alternate between both.
 
 
 #### flow
 
-During **itc**, an **ion's** operator
+During **hip hop itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 During that conversion, an attempt is made to call its object's `valueOf()`
 method. If an **ion** doesn't define that method, JavaScript searches for
@@ -162,12 +168,13 @@ This can differ for **orion** that inherit from other objects.
 
 By default, `Object`, `Array` and `RegExp` all define `prototype.valueOf()`, so
 for each **ion** of those types, its operator calls the relevant
-`prototype.valueOf()` to obtain a primitive value that's then converted to a number.
+`prototype.valueOf()` to obtain a primitive value that's then converted to a
+number.
 
-Defining custom `Object`, `Array`, and
-`RegExp` `prototype.valueOf()` methods enables interfacing with JavaScript objects'
-[type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-flow which enables interacting with all **ions** without requiring direct access to any of them 🤓
+Defining custom `Object`, `Array`, and `RegExp` **`prototype.valueOf()`**
+methods enables interfacing with JavaScript objects' type conversion flow, which
+enables interacting with all **ions** without requiring direct access to any of
+them 🤓
 
 ```javascript
 Object.prototype.valueOf
@@ -183,38 +190,45 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip hop itc** provides simple, reliable and compatible
-patterns & capabilities for interacting, observing & notifying objects. They can be implemented
-manually, as shown, or via
-[**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
-an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides simple vocabulary for **ion** interaction, observation & notification.
-
 ### hot
 
 **held-on-type itc** is supported in
-[java](https://en.wikipedia.org/wiki/Java_(programming_language))
-by implementing an object type's `toString()` method. See this this
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java).
+[Java](https://en.wikipedia.org/wiki/Java_(programming_language))
+by implementing an object is
+[**`toString()`**](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--)
+method which Java calls whenever an object's converted to a
+[string](https://en.wikipedia.org/wiki/String_(computer_science)).
+See this
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
+implementation.
 
 **hot itc** is supported in
 [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
-...
+[more to come...]
 
 ### foo
 
 **functional-operator-overloading itc** is
 [supported](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 in
-[many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+[many languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 by
 [overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 arithmetic, bitwise, relational & equality operators via standalone functions.
 
-...
+[more to come...]
+
+### ionify
+**hip hop, hot & foo itc** provide simple, reliable, and compatible patterns &
+capabilities for interacting, observing & notifying objects. They can be
+implemented manually, as shown, or via
+[**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
+an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+that implements **ion** and provides simple vocabulary for interacting,
+observing & notifying objects.
 
 
 ## kind

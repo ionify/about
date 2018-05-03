@@ -2,10 +2,10 @@
 
 **ionify** is a [team](#team) and an [api](#api).
 
-## team
+## [team](https://github.com/orgs/ionify/people)
 
-[**team ionify**](https://github.com/orgs/ionify/people)
-invents optimized natural interfaces for you, and aspires to create accessible,
+**team ionify** invents optimized natural interfaces for you, and aspires to
+create accessible,
 [simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
@@ -18,9 +18,9 @@ by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
 
-## ion
+## [ion](ions/ion.md)
 
-**[ion](ions/ion.md): invoked object notation**, is a language-independent
+**invoked object notation**, is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))
@@ -29,25 +29,28 @@ and
 as independently observable & notifiable objects.
 
 
-## itc
+## [itc](ions/ion.md#interactive-type-computation)
 
-[**interactive type conversion**](ions/ion.md#interactive-type-conversion) is a
-[programming language](https://en.wikipedia.org/wiki/Programming_language)
-capability and
+**interactive type computation** is a
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables interacting with objects during their type conversion flow. **ion**
-is enabled by and activates **itc**.
+that applies various
+[programming language](https://en.wikipedia.org/wiki/Programming_language)
+capabilities to enable interacting with objects during their type's
+[conversion](https://en.wikipedia.org/wiki/Type_conversion)
+and
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+computations. **ion** is enabled by and activates **itc**.
 
 
-## api
+## [api](https://github.com/ionify/ionify)
 
-**[ionify](https://github.com/ionify/ionify):
-ions interpreted for you**, is a flexible, unobtrusive, natural-language
+**ionify: ions interpreted for you**, is a flexible, unobtrusive,
+natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-for expressing ideas via **invoked object notations**.
+for expressing ideas via **ions: invoked object notations**.
 
 
-### apps
+## [apps](http://ionified.net/)
 
 + **[anemojii](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/): animated emoji ions**,
   explores emoji animation & literate programming via **ions** & **ionify**
