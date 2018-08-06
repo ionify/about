@@ -32,9 +32,9 @@ In 2003, Michael created **[ajile](http://ajile.net): [a]synchronous javascript 
 ```javascript
 ;
 Namespace ("my.space")
-Import    ("some.needed.Thing")
-ImportAs  ("some.useful.Thing", "Thing2")
-Load      ("http://some.remo.te/script.js")
+Import    ("needed.Thing")
+ImportAs  ("useful.Thing", "Thing2")
+Load      ("http://remo.te/script.js")
 
 my.space.Module
 = function Module ()
@@ -53,7 +53,7 @@ In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a 
 Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
 
 ```javascript
-Load ("http://some.static.remo.te/json.data.js");
+Load ("http://static.remo.te/json.data.js");
 
 // JSON response
 
@@ -70,7 +70,7 @@ Load ("http://some.static.remo.te/json.data.js");
 [JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping JSON in a `function` call or padding it with a variable assignment. Close, but still too removed from valid JSON syntax 🤔
 
 ```javascript
-Load ("http://some.dynamic.remo.te/json?call=on");
+Load ("http://dynamic.remo.te/json?call=on");
 
 // wrapped-function JSONP response
 
@@ -81,7 +81,7 @@ Load ("http://some.dynamic.remo.te/json?call=on");
        , "to a possibly" : "missing on() function"
       });
 
-Load ("http://some.static.remo.te/jsonp");
+Load ("http://static.remo.te/jsonp");
 
 // variable-assignment-padded JSONP response
 
