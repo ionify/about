@@ -8,7 +8,7 @@ that enables writing independently observable & notifiable
 [code](https://en.wikipedia.org/wiki/Source_code)
 
 ```javascript
-~ {"json" :  "data" } <= /ion-enabled JSON.../
+~ {"json" : "data"  } <= /ion-enabled JSON.../
 + {  log  : "Hi!👋🏾"} <= /ion-enabled logging/
 ```
 
@@ -143,10 +143,10 @@ implementing the **`valueOf()`** method that javascript
 during an object's
 [type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip itc** that method is **handled** __in-place__ within an object and
+With **hip itc** that method is **handled** __in-place__, within an object, and
 observes that single object's type conversion. With **hop itc** it's **handled**
-__on__ an object's `prototype` and observes type conversions of all objects of
-that type. An **ion** can implement either, or alternate between both.
+__on__ an object's `prototype` and observes type conversions for all objects of
+that type. An **ion** can implement either style or alternate between them.
 
 
 **flow**
@@ -186,7 +186,7 @@ Object.prototype.valueOf
 ```
 
 **hip hop itc** is a simple & reliable capability for independently observing & notifying objects. It can be implemented
-manually, as shown, or via
+manually, as shown, or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides simple vocabulary for **ion** observation & notification.
@@ -204,7 +204,7 @@ class AnION
 
     public AnION
       (String ion)
-        { this.ion = ion
+        { this.ion = ion;
         }
 
     public String
@@ -216,7 +216,7 @@ class AnION
         }
   }
 
-class ActION
+class ActIONs
   { public static void
       main (String [] args)
         { AnION activate = new AnION ("some data"),
