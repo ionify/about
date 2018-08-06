@@ -99,8 +99,8 @@ operators, relational punctuation can be any of the
 [&gt;, &gt;=, <, or <=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-relational-operators-runtime-semantics-evaluation)
 operators, and equality punctuation can be the
 [== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
-equality operators, but only when pairing **ions** with
-[primitive](https://en.m.wikipedia.org/wiki/Primitive_value)
+equality operators, but only when comparing **ions** with
+[basic](https://en.m.wikipedia.org/wiki/Primitive_value)
 values.
 
 
@@ -110,7 +110,7 @@ values.
 
 ### itc
 
-**interactive type conversion** is a programming language capability that enables interacting with objects during their [type conversion](https://en.wikipedia.org/wiki/Type_conversion) flow.
+**interactive type conversion** is a programming language capability that enables interacting with objects via their [type conversion](https://en.wikipedia.org/wiki/Type_conversion) flow.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
@@ -146,7 +146,7 @@ during an object's
 With **hip itc** that method is **handled** __in-place__, within an object, and
 observes that single object's type conversion. With **hop itc** it's **handled**
 __on__ an object's `prototype` and observes type conversions for all objects of
-that type. An **ion** can implement either style or alternate between them.
+that type. An **ion** can implement either style or alternate between both.
 
 
 **flow**
@@ -157,16 +157,16 @@ During that conversion, an attempt is made to call its object's `valueOf()`
 method. If an **ion** doesn't define that method, JavaScript searches for
 it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
-For **lions** that search begins and ends at their
+For **lions** that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`.
 This can differ for **orion** that inherit from other objects.
 
-By default, `Object`, `Array` and `RegExp` all define `prototype.valueOf()`, so
+By default, `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so
 for each **ion** of those types, its operator calls the relevant
-`prototype.valueOf()` to obtain a primitive value that's then converted to a
+`prototype.valueOf()` to obtain a basic value that's then converted to a
 number.
 
-Defining custom `Object`, `Array`, and `RegExp` **`prototype.valueOf()`**
+Defining custom `Object`, `Array` & `RegExp` **`prototype.valueOf()`**
 methods enables interfacing with JavaScript objects' type conversion flow, which
 enables interacting with all **ions** without requiring direct access to any of
 them 🤓
@@ -189,7 +189,7 @@ Object.prototype.valueOf
 manually, as shown, or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides simple vocabulary for **ion** observation & notification.
+that implements **ion** and provides simple vocabulary for its observation & notification.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
