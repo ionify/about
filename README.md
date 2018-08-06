@@ -31,20 +31,20 @@ for expressing ideas via **ion: invoked object notation**.
 
 ## ion
 
-**[ion](ions/ion.md): invoked object notation**, is a language-independent
+**invoked object notation**, is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 that enables writing independently observable & notifiable
 [data](https://en.wikipedia.org/wiki/Data_(computing))
-and
+&
 [code](https://en.wikipedia.org/wiki/Source_code).
 
 
 ### itc
 
-[**interactive type conversion**](ions/ion.md#interactive-type-conversion) is a
-[programming language](https://en.wikipedia.org/wiki/Programming_language)
-capability that enables interacting with objects via their type conversion flow.
-**ion** is enabled by **itc** and operator overloading.
+[**interactive type conversion**](ions/ion.md#itc)
+is a programming language capability that enables interacting with objects via their
+type conversion flow. **ion** is enabled by **itc** and
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 
 ## apps

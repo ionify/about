@@ -135,7 +135,7 @@ describe this discovery, 👨🏾‍💻 defining & announcing the concept of
 
 ## delivery
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.md#kinds) of **ions** now available to learn from, apply & extend.
+Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.kinds.md) of **ions** now available to learn from, apply & extend.
 
 🖤
 [Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)

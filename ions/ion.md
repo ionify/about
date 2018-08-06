@@ -2,24 +2,23 @@
 
 **invoked object notation** is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-that enables writing
+that enables writing independently observable & notifiable
 [data](https://en.wikipedia.org/wiki/Data_(computing))
 &
 [code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable objects:
 
 ```javascript
-  ~ {"json" :  "data" }  <=  /...JSON data via ion/
-  + {  log  : "Hi!👋🏾"}  <=  /Logging code via ion/
+~ {"json" :  "data" } <= /ion-enabled JSON.../
++ {  log  : "Hi!👋🏾"} <= /ion-enabled logging/
 ```
 
-**ion** was [discovered](../story.md)
+**ion** was [discovered & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
 ## form
 
-**ions** combine the
+**ion** combines the
 [~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator)
 bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
@@ -33,14 +32,14 @@ or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
 literals.
 
-They can be written as **lion**, literal ions:
+It can be written as **lion**, literal ion:
 
 ```javascript
     ~{ }      +{ }      -{ }     // 3 object lions
     ~[ ]      +[ ]      -[ ]     // 3 array  lions
     ~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
-and **orion**, object reference ions:
+and **orion**, object reference ion:
 
 ```javascript
     ~obj      +obj      -obj     // 3 prefixed orion
@@ -65,12 +64,13 @@ and
 **ions** can be combined to form larger expressions using
 [arithmetic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
 [bitwise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
-[relational](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators),
-and
+[relational](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators)
+&
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 punctuation.
 
-This example combines fifteen **lions** with the seventeen **ion**-compatible bitwise, arithmetic, relational, and equality punctuation operators:
+This example combines fifteen **lions** with the seventeen **ion**-compatible
+bitwise, arithmetic, relational & equality punctuation operators:
 
 ```javascript
 ~  /example/  -  /punctuation/
@@ -104,56 +104,54 @@ equality operators, but only when pairing **ions** with
 values.
 
 
-## behavior
+## function
 
 **ion** is enabled by interactive type conversion and operator overloading.
 
 ### itc
 
-**interactive type conversion** is a
-[programming language](https://en.wikipedia.org/wiki/Programming_language)
-capability and
-[software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables interacting with objects during their type conversion flow.
+**interactive type conversion** is a programming language capability that enables interacting with objects during their [type conversion](https://en.wikipedia.org/wiki/Type_conversion) flow.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports two **itc** styles, **hip**, held-in-place:
+Supports two **itc** styles, **hip**, handled-in-place:
 
 ```javascript
 ~
 { valueOf
 :   function hip ()
-      { console.log ("hip: held-in-place itc")
+      { console.log ("hip: handled-in-place itc")
       }
 }
 ;
 ```
 
-and **hop**, held-on-prototype:
+and **hop**, handled-on-prototype:
 
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ("hop: held-on-prototype itc")
+    { console.log ("hop: handled-on-prototype itc")
     }
 ;
 ```
 
-Both styles enable object interaction, observation, and notification by implementing the `valueOf()`
-method that javascript calls during an object's
-[type conversion](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
+Both styles enable object interaction, observation & notification by
+implementing the **`valueOf()`** method that javascript
+[calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+during an object's
+[type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip itc** that method is **held** __in-place__ within an object and observes that
-single object's type conversion. With
-**hop itc** it's **held** __on__ an object's `prototype` and observes type conversions
-of all instances of that specific object type. An **ion** can implement either, or alternate between both.
+With **hip itc** that method is **handled** __in-place__ within an object and
+observes that single object's type conversion. With **hop itc** it's **handled**
+__on__ an object's `prototype` and observes type conversions of all objects of
+that type. An **ion** can implement either, or alternate between both.
 
 
 **flow**
 
-During **itc**, an **ion's** operator
+During **hip hop itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 During that conversion, an attempt is made to call its object's `valueOf()`
 method. If an **ion** doesn't define that method, JavaScript searches for
@@ -165,12 +163,13 @@ This can differ for **orion** that inherit from other objects.
 
 By default, `Object`, `Array` and `RegExp` all define `prototype.valueOf()`, so
 for each **ion** of those types, its operator calls the relevant
-`prototype.valueOf()` to obtain a primitive value that's then converted to a number.
+`prototype.valueOf()` to obtain a primitive value that's then converted to a
+number.
 
-Defining custom `Object`, `Array`, and
-`RegExp` `prototype.valueOf()` methods enables interfacing with JavaScript objects'
-[type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-flow which enables interacting with all **ions** without requiring direct access to any of them 🤓
+Defining custom `Object`, `Array`, and `RegExp` **`prototype.valueOf()`**
+methods enables interfacing with JavaScript objects' type conversion flow, which
+enables interacting with all **ions** without requiring direct access to any of
+them 🤓
 
 ```javascript
 Object.prototype.valueOf
@@ -186,16 +185,16 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip hop itc** provides simple, reliable & compatible
-patterns & capabilities for independently observing & notifying objects. It can be implemented
+**hip hop itc** is a simple & reliable capability for independently observing & notifying objects. It can be implemented
 manually, as shown, or via
-[**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
+[**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides simple vocabulary for **ion** observation & notification.
 
+
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Supports **hot: held-on-type itc** by implementing an object type's `toString()` method.
+Supports **hot: handled-on-type itc** by implementing an object type's `toString()` method.
 
 ```java
 class AnION
@@ -233,32 +232,29 @@ class ActION
 See this in-depth
 [proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java) for more.
 
-### operator overloading
 
-[python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
-supports **ion** via
-[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
+### [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 
-[Many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
-[support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-**ion** via
-[overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-arithmetic, bitwise, relational & equality operators as standalone functions.
+#### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-## kinds
+Supports **ion** via
+[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types), a form of operator overloading.
 
-See [this detailed list](./ion.kinds.md) of **ion** kinds.
+#### [many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+
+[Support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
+**ion** via arithmetic, bitwise, relational & equality operator overloading.
 
 
 ## compatibility
 
-**orion** and **hip hop itc** are compatible with all JavaScript
-environments. **lions** are compatible with all environments implementing
+**hip hop itc** & **orion** are compatible with all JavaScript
+environments. **lion** is compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
 
 [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments include all
-[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views and
+[web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
 [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
 [ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
