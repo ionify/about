@@ -1,22 +1,23 @@
 # ion
 
-**invoked object notation**, is a language-independent
+**invoked object notation** is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 that enables writing
 [data](https://en.wikipedia.org/wiki/Data_(computing))
-and
+&
 [code](https://en.wikipedia.org/wiki/Source_code)
-as independently observable & notifiable objects.
-**ion** is enabled by and activates
-[**interactive type conversion**](#interactive-type-conversion),
-a programming language capability & software design pattern
-[discovered & named](../story.md)
-alongside **ion** by
-[Michael Lee](https://github.com/iskitz)
+as independently observable & notifiable objects:
+
+```javascript
+  ~ {"json" :  "data" }  <=  /...JSON data via ion/
+  + {  log  : "Hi!👋🏾"}  <=  /Logging code via ion/
+```
+
+**ion** was [discovered](../story.md)
+by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
-
-## lion & orion
+## form
 
 **ions** combine the
 [~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator)
@@ -103,20 +104,22 @@ equality operators, but only when pairing **ions** with
 values.
 
 
-## interactive type conversion
+## behavior
 
-**itc** is a
+**ion** is enabled by interactive type conversion and operator overloading.
+
+### itc
+
+**interactive type conversion** is a
 [programming language](https://en.wikipedia.org/wiki/Programming_language)
 capability and
 [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-that enables interacting with objects during their type conversion flow. **ion**
-is enabled by and activates **itc**.
+that enables interacting with objects during their type conversion flow.
 
 
-### hip hop
+#### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-[JavaScript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
-supports two **itc** styles, **hip**, held-in-place:
+Supports two **itc** styles, **hip**, held-in-place:
 
 ```javascript
 ~
@@ -148,7 +151,7 @@ single object's type conversion. With
 of all instances of that specific object type. An **ion** can implement either, or alternate between both.
 
 
-#### flow
+**flow**
 
 During **itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
@@ -183,128 +186,71 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip hop itc** provides simple, reliable and compatible
-patterns & capabilities for interacting, observing & notifying objects. They can be implemented
+**hip hop itc** provides simple, reliable & compatible
+patterns & capabilities for independently observing & notifying objects. It can be implemented
 manually, as shown, or via
 [**ionify: invoked object notations interpreted for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides simple vocabulary for **ion** interaction, observation & notification.
+that implements **ion** and provides simple vocabulary for **ion** observation & notification.
 
-### hot
+#### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-**held-on-type itc** is supported in
-[java](https://en.wikipedia.org/wiki/Java_(programming_language))
-by implementing an object type's `toString()` method. See this this
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java).
+Supports **hot: held-on-type itc** by implementing an object type's `toString()` method.
 
-**hot itc** is supported in
+```java
+class AnION
+  { public String
+      ion = null,
+      any = null;
+
+    public AnION
+      (String ion)
+        { this.ion = ion
+        }
+
+    public String
+      toString ()
+        { ion == "some data";  // true on activate ion!
+          ion == "more data";  // true on these    ion!
+          any == "data kind";  // true on ions     ion!
+          return ion || any ;
+        }
+  }
+
+class ActION
+  { public static void
+      main (String [] args)
+        { AnION activate = new AnION ("some data"),
+                these    = new AnION ("more data"),
+                ions     = new AnION (           ),
+                now      = new AnION (           );
+                ions.any =            "data kind" ;
+          "Let's" + activate + these + ions + now ;
+        }
+  }
+```
+
+See this in-depth
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java) for more.
+
+### operator overloading
+
 [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
-via
+supports **ion** via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
-...
-
-### foo
-
-**functional-operator-overloading itc** is
-[supported](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-in
-[many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
-by
+[Many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+[support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
+**ion** via
 [overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-arithmetic, bitwise, relational & equality operators via standalone functions.
+arithmetic, bitwise, relational & equality operators as standalone functions.
 
-...
+## kinds
 
-
-## kind
-
-### [aeons](aeons.md)
-
-**array-expressed object notations**:
-
-```javascript
-~ [ {say:"Hi!"} ] ;
-```
-
-### [aesop](aesop.md)
-
-**array-expressed [storie](stories.md) or phrase**:
-
-```javascript
-~ ['Hi!']  <=  /an aesop phrase/
-& [/Hi!/]  <=  /an aesop storie/
-;
-```
-
-### [jems](jems.md)
-
-**json-expressed modules**:
-
-```javascript
-~
-{ "re":
-      { "id": "jem@doma.in"
-      , "is": "a json-expressed module"
-      , "by": "mike.lee@iskitz"
-      , "at": "2017.11.13-08...2007.09-04"
-      , "in":
-            [   "san-jose.california.usa.earth"
-            , "forest-hills.new-york.usa.earth"
-            ]
-      }
-
-, "do":
-      [ "an aesop action"
-      , /a storie action/
-      , {"if":"do.times", "<":7, "do":"do"}
-      ]
-
-, "an aesop action"
-:     "log Hi! #do.times@"
-
-, "a storie action"
-:     /log Hi! #do.times@/
-}
-;
-```
-
-### [jess](jess.md)
-
-**json-expressed statements**.
-
-```javascript
-~ {"say":"Hi!"} ;
-```
-
-### [jewels](jewels.md)
-
-**json-expressed, web-enabled languages**:
-
-```javascript
-~ {"as":"html",  "body": "Hi!"}
-& {"as":"css" , "#body": {"color":"#212CD9"}}
-;
-```
-
-### [stories](stories.md)
-
-**sentence templates or regular ion expressions**:
-
-```javascript
-~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
-| / (sentence) template! /  <= /match sentences/
-;
-```
-
-### [webi](webi.md)
-
-**web ion**, describes any **ion** or set of ions created for the
-[web](https://en.wikipedia.org/wiki/World_Wide_Web). For example, all
-[jewels: json-expressed, web-enabled languages](jewels.md), are **webi**.
+See [this detailed list](./ion.kinds.md) of **ion** kinds.
 
 
-# compatibility
+## compatibility
 
 **orion** and **hip hop itc** are compatible with all JavaScript
 environments. **lions** are compatible with all environments implementing

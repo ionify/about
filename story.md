@@ -22,7 +22,7 @@ discovered a capability within JavaScript that he named
 **[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
 invoked object notation** &
 **[ionify](https://github.com/ionify/ionify/):
-ions interpreted for you** 🎉
+ion implemented for you** 🎉
 
 
 ## details
@@ -48,7 +48,7 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching and interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a key limitation of the popular, but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy), [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API available at the time.
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching & interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a feature that was unavailable at the time via the popular but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API.
 
 Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
 
@@ -114,26 +114,28 @@ Object.prototype.valueOf           // 1: interface
 
 ## development
 
-After an additional two years of experimentation and implementation, Michael
+After an additional two years of experimentation & implementation, Michael
 publicly introduced this cross-domain JSON-fetching solution as
 **[jsonXD](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
-json cross-domain** in 2009 at
-[The Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
+json cross-domain**, at the 2009
+[Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference 🎉
 
-Over the next eight years he continued to experiment with, prototype, refine and
-describe this discovery, 👨🏾‍💻 defining and announcing the concept of
+Over the next eight years he continued to experiment with, prototype, refine &
+describe this discovery, 👨🏾‍💻 defining & announcing the concept of
 [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md):
-**json-expressed modules** in [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
-and
+**json-expressed modules**,
 [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
 **invoked object notation** &
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
-**ions interpreted for you** in 2016 and 2017.
+**ion implemented for you** in
+[2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
+2016 & 2017.
+
 
 ## delivery
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis of the [many kinds](ions/ion.md#kind) of **ions** now available to freely learn from, apply, and extend.
+Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.md#kinds) of **ions** now available to learn from, apply & extend.
 
 🖤
 [Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)
