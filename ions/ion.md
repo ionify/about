@@ -8,8 +8,8 @@ that enables writing independently observable & notifiable
 [code](https://en.wikipedia.org/wiki/Source_code)
 
 ```javascript
-~ {"json" : "data"  } <= /ion-enabled JSON.../
-+ {  log  : "Hi!👋🏾"} <= /ion-enabled logging/
+~ {"json" : "data" }  <= /json data as ion/
++ {  log  : "👋🏾🤓"}  <= /logging code ion/
 ```
 
 **ion** was [discovered & developed](../story.md)
@@ -240,7 +240,7 @@ See this in-depth
 Supports **ion** via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types), a form of operator overloading.
 
-#### [many other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+#### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 **ion** via arithmetic, bitwise, relational & equality operator overloading.
