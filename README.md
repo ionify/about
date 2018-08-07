@@ -31,7 +31,7 @@ for expressing ideas via **ion: invoked object notation**.
 
 ## ion
 
-**invoked object notation**, is a language-independent
+[**invoked object notation**](./ions/ion.md), is a language-independent
 [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 that enables writing independently observable & notifiable
 [data](https://en.wikipedia.org/wiki/Data_(computing))
