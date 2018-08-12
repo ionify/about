@@ -11,7 +11,7 @@ by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
 ```javascript
-~ {"json" : "data" }  <= /json   data   ion/
+~ {"json" : "data" }  <= /json   data ion/
 + {  log  : "👋🏾🤓"}  <= /logging code ion/
 ```
 
