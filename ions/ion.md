@@ -5,16 +5,15 @@
 that enables writing independently observable & notifiable
 [data](https://en.wikipedia.org/wiki/Data_(computing))
 &
-[code](https://en.wikipedia.org/wiki/Source_code)
-
-```javascript
-~ {"json" : "data" }  <= /json data as ion/
-+ {  log  : "👋🏾🤓"}  <= /logging code ion/
-```
-
-**ion** was [discovered & developed](../story.md)
+[code](https://en.wikipedia.org/wiki/Source_code).
+It was [discovered & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
+
+```javascript
+~ {"json" : "data" }  <= /json   data   ion/
++ {  log  : "👋🏾🤓"}  <= /logging code ion/
+```
 
 ## form
 
