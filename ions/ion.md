@@ -5,16 +5,15 @@
 that enables writing independently observable & notifiable
 [data](https://en.wikipedia.org/wiki/Data_(computing))
 &
-[code](https://en.wikipedia.org/wiki/Source_code)
-
-```javascript
-~ {"json" : "data" }  <= /json data as ion/
-+ {  log  : "👋🏾🤓"}  <= /logging code ion/
-```
-
-**ion** was [discovered & developed](../story.md)
+[code](https://en.wikipedia.org/wiki/Source_code).
+It was [discovered & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
+
+```javascript
+~ {"json" : "data" }  <= /json   data ion/
++ {  log  : "👋🏾🤓"}  <= /logging code ion/
+```
 
 ## form
 
@@ -165,10 +164,9 @@ for each **ion** of those types, its operator calls the relevant
 `prototype.valueOf()` to obtain a basic value that's then converted to a
 number.
 
-Defining custom `Object`, `Array` & `RegExp` **`prototype.valueOf()`**
-methods enables interfacing with JavaScript objects' type conversion flow, which
-enables interacting with all **ions** without requiring direct access to any of
-them 🤓
+Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
+enables interfacing with JavaScript objects' type conversion flow, which enables
+interacting with all **ions** without requiring direct access to any of them 🤓
 
 ```javascript
 Object.prototype.valueOf
@@ -188,12 +186,14 @@ JavaScript's **hip-hop itc** is a simple & reliable capability for independently
 manually, as shown, or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides simple vocabulary for its observation & notification.
+that implements **ion** and provides simple vocabulary for its observation &
+notification.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Supports **hot: handled-on-type itc** by implementing an object type's `toString()` method.
+Supports **hot: handled-on-type itc** by implementing an object type's
+`toString()` method.
 
 ```java
 class AnION
@@ -229,7 +229,8 @@ class ActIONs
 ```
 
 See this in-depth
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java) for more.
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
+for more.
 
 
 ### [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
@@ -237,7 +238,8 @@ See this in-depth
 #### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
 Supports **ion** via
-[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types), a form of operator overloading.
+[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types),
+a form of operator overloading.
 
 #### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
