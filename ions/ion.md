@@ -115,7 +115,7 @@ values.
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports two **itc** styles, **hip**, handled-in-place:
+Supports **hip-hop itc**, where **hip** is handled-in-place:
 
 ```javascript
 ~
@@ -127,7 +127,7 @@ Supports two **itc** styles, **hip**, handled-in-place:
 ;
 ```
 
-and **hop**, handled-on-prototype:
+and **hop** is handled-on-prototype:
 
 ```javascript
 Object.prototype.valueOf
@@ -143,23 +143,22 @@ implementing the **`valueOf()`** method that javascript
 during an object's
 [type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip itc** that method is **handled** __in-place__, within an object, and
-observes that single object's type conversion. With **hop itc** it's **handled**
+With **hip itc**, that method is **handled** __in-place__, within an object, and
+observes that single object's type conversion. With **hop itc**, it's **handled**
 __on__ an object's `prototype` and observes type conversions for all objects of
-that type. An **ion** can implement either style or alternate between both.
+that type. An **ion** can implement either style or alternate (hip-hop) between both.
 
 
 **flow**
 
-During **hip hop itc**, an **ion's** operator
+During **hip-hop itc**, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-During that conversion, an attempt is made to call its object's `valueOf()`
-method. If an **ion** doesn't define that method, JavaScript searches for
+During that conversion, an attempt is made to call the object operand's `valueOf()`
+method. If the **ion** doesn't define that method, JavaScript searches for
 it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
 For **lions** that search begins & ends at their
-`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`.
-This can differ for **orion** that inherit from other objects.
+`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype` but this can differ for [**orion**](#form) that inherit from other objects.
 
 By default, `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so
 for each **ion** of those types, its operator calls the relevant
@@ -185,7 +184,7 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip hop itc** is a simple & reliable capability for independently observing & notifying objects. It can be implemented
+JavaScript's **hip-hop itc** is a simple & reliable capability for independently observing & notifying objects. It can be implemented
 manually, as shown, or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
