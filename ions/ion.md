@@ -249,7 +249,7 @@ a form of operator overloading.
 
 ## compatibility
 
-**hip hop itc** & **orion** are compatible with all JavaScript
+**hip-hop itc** & **orion** are compatible with all JavaScript
 environments. **lion** is compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
