@@ -36,8 +36,9 @@ ideas via **ion: invoked object notation**:
 
 [**invoked object notation**](./ions/ion.md)
 is a representation of object interaction, observation & notification that
-exists, and can be implemented, within languages that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
+exists, and can be implemented, within languages that support
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+with objects:
 
 ```javascript
 ~ {"json":"data"} <= /observable json & comment/
@@ -47,7 +48,7 @@ exists, and can be implemented, within languages that support object
 ## ionified
 
 [**ions indexed for internet-enabled discovery**](http://ionified.net/)
-is a repository of **ions** that can be programmatically discovered & validated via the internet. Here're a few:
+is a repository of **ions** that can be programmatically discovered & validated via the internet. Here are a few:
 
 + **[anemojii](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
