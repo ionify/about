@@ -4,16 +4,16 @@
 
 ## team
 
-[**team ionify**](https://github.com/orgs/ionify/people)
-invents optimized natural interfaces for you, and aspires to create accessible,
+[We](https://github.com/orgs/ionify/people)
+invent optimized natural interfaces for you, with accessible,
 [simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[experiences](http://ionified.net) for all.
+[experiences](http://ionified.net).
 
 We've developed, published & maintained
-[**ion**](#ion), [**itc**](#itc) & [**ionify**](#api)
+[**ion**](#ion) & [**ionify**](#api)
 since their initial
 [discovery, definition & development](story.md)
 by
@@ -24,27 +24,16 @@ in 2007.
 ## api
 
 **[ionify](https://github.com/ionify/ionify):
-ion implemented for you**, is a flexible, unobtrusive & novel
-[api](https://en.wikipedia.org/wiki/Application_programming_interface)
-for expressing ideas via **ion: invoked object notation**.
+ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
+ideas via **ion: invoked object notation**.
 
 
 ## ion
 
-[**invoked object notation**](./ions/ion.md), is a language-independent
-[syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-that enables writing independently observable & notifiable
-[data](https://en.wikipedia.org/wiki/Data_(computing))
-&
-[code](https://en.wikipedia.org/wiki/Source_code).
-
-
-### itc
-
-[**interactive type conversion**](ions/ion.md#itc)
-is a programming language capability that enables interacting with objects via their
-type conversion flow. **ion** is enabled by **itc** and
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+[**invoked object notation**](./ions/ion.md)
+is a representation of object interaction, observation & notification. It
+exists, and can be activated, within languages that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 
 ## apps
