@@ -32,7 +32,7 @@ ideas via **ion: invoked object notation**.
 
 [**invoked object notation**](./ions/ion.md)
 is a representation of object interaction, observation & notification. It
-exists, and can be activated, within languages that support object
+exists, and can be implemented, within languages that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 
