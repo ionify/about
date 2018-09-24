@@ -13,7 +13,7 @@ performant,
 [experiences](http://ionified.net) for all.
 
 We've developed, published, and maintained
-[**ion**](#ion) & [**ionify**](#api)
+[**ion**](#ion), [**ionify**](#api) & [**ionified**](http://ionified.net/)
 since their initial
 [discovery, definition & development](story.md)
 by
@@ -44,7 +44,10 @@ exists, and can be implemented, within languages that support object
 ```
 
 
-## apps
+## ionified
+
+[**ions indexed for internet-enabled discovery**](http://ionified.net/)
+is a repository of **ions** that can be programmatically discovered & validated via the internet. Here're a few:
 
 + **[anemojii](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
