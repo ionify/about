@@ -35,8 +35,8 @@ ideas via **ion: invoked object notation**:
 ## ion
 
 [**invoked object notation**](./ions/ion.md)
-is a representation of object interaction, observation & notification that
-exists, and can be implemented, within languages that support
+is a representation of object interaction, observation & notification.
+It exists, and can be implemented, within languages that support
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 with objects:
 
@@ -48,7 +48,7 @@ with objects:
 ## ionified
 
 [**ions indexed for internet-enabled discovery**](http://ionified.net/)
-is a repository of **ions** that can be programmatically discovered & validated via the internet. Here are a few:
+is a repository of **ions** that can be programmatically discovered & verified via the internet. Here are a few:
 
 + **[anemojii](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
@@ -74,4 +74,8 @@ is a repository of **ions** that can be programmatically discovered & validated 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **ionify's** [api](https://github.com/ionify/ionify)
-and all other code are individually licensed & copyrighted.
+and all other code within the **ionify**
+[org](https://github.com/ionify/)
+& at
+[ionified.net](http://ionified.net/),
+are individually licensed & copyrighted.
