@@ -96,7 +96,7 @@ Load ("http://static.remo.te/jsonp");
 
 ## discovery
 
-The breakthrough came in 2007 when Michael discovered, through diligent experimentation 👨🏾‍💻, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly activating their automatic type conversion! **Impossible is Nothing** 🙌🏾
+The breakthrough came in 2007 when Michael discovered, through diligent experimentation 👨🏾‍💻, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
 
 ```javascript
 Object.prototype.valueOf           // 1: interface
