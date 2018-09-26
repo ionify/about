@@ -4,7 +4,7 @@
     { id: 'todo@ionify'
     , is: "ionify's list of things to do"
     , by:['mike.lee@iskitz', 'team@ionify"']
-    , at: '2018.09.23-07...2007.09-04'
+    , at: '2018.09.25-07...2007.09-04'
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -41,6 +41,14 @@
       :   {
           }
 
+      , "2018.09.25-07"
+      :   { organization
+          :   [ "rename github.com/ionify/ionify to github.com/ionify/ionify.js"
+              , "create github.com/ionify/ionify.py   for ionify's python implementation"
+              , "create github.com/ionify/ionify.java for ionify's java   implementation"
+              ]
+          }
+
       , "2018.09.22-07"
       :   { terminology
           :   / ion: invoked object notation, represents intrinsic observation & /
@@ -51,21 +59,7 @@
           +   / potentially many other languages, support ion via operator       /
           +   / overloading.                                                     /
           }
-
-      , "2018.04.27-07"
-      :   { ionify
-          :   { i : /    invoked, interpreted,  introspected, interfaced       /
-                  + /   implicit, intercepted, intermediated, informed         /
-                  + /interactive                                               /
-              , o : /     object/
-              , n : /   notation/
-              , i : /.................^^/
-              , f : /        for/
-              , y : /        you/
-              , is: '    invoked  object  notation  interpreted  for  you'
-              }
-          }
-
+  
       , "2017.12.08-08"
       :   { launch
           :   `host-->ion+host-->ions-->preferred`
@@ -251,7 +245,7 @@
                 + "Missing info will be set based on the ion's "
                 +   "script's | hosts' info [location, timestamp, etc.]"
                 ,
-            do: [ "1orMoreActions", oneOrMoreReferences]
+            do: [ "1orMoreActions" || oneOrMoreReferences]
                 + "ions that do things must have a do: that lists all actions"
                 + "do will have a .ion = ion property to maintain scope. All "
                 +   "ion actions that're objects will have this property."
@@ -284,7 +278,7 @@
                   ,
                 ion: null         //td: auto create + set by ionify
                   ,
-                isAesop:          // use object with numeric members as easier to understand array
+                isAesop:          // use object with numeric members as easier to understand array.
                                   // objects can hold 2^26 more numeric indices than arrays per ES6's spec
                                   // add a ".last" member that maps to its length - 1: getObject().last > getObject() [getObject().length - 1]
                   {1: "in +then's phrase"
@@ -368,6 +362,19 @@
 :   { "year[.month.day.hour.minute.second][+-]timezoneHours[.minutesOffset]":
         [
         ]
+
+      , "2018.04.27-07"
+      :   { ionify
+          :   { i : /      invoked,    implicit,  interactive/
+              , o : /       object/
+              , n : /     notation/
+              , i : /  implemented, interpreted, introspected, intercepted, interfaced, /
+                  + /intermediated/
+              , f : /          for/
+              , y : /          you/
+              , is: '      invoked  object  notation  implemented  for  you'
+              }
+          }
 
     , "2018.01.04-08"
     :   `Move /info/ & its contents to the ionify/about repo.
