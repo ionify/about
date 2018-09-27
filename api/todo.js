@@ -4,7 +4,7 @@
     { id: 'todo@ionify'
     , is: "ionify's list of things to do"
     , by:['mike.lee@iskitz', 'team@ionify"']
-    , at: '2018.09.25-07...2007.09-04'
+    , at: '2018.09.27-07...2007.09-04'
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -43,9 +43,11 @@
 
       , "2018.09.25-07"
       :   { organization
-          :   [ "rename github.com/ionify/ionify to github.com/ionify/ionify.js"
+          :   [ "create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify"
               , "create github.com/ionify/ionify.py   for ionify's python implementation"
               , "create github.com/ionify/ionify.java for ionify's java   implementation"
+              , "create github.com/ionify/ionify.[language]/re/ion.md for language-specific ion form & function"
+              , "reduce github.com/ionify/about/ions/ion.md to cross-language commonalities like ~+- reference & link to lang-specific ones"
               ]
           }
 
