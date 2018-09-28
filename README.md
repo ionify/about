@@ -10,7 +10,7 @@ invent optimized natural interfaces for you, with accessible,
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[experiences](http://ionified.net) for all.
+[experiences](http://ionified.net).
 
 We've developed, published, and maintained
 [**ion**](#ion), [**ionify**](#api) & [**ionified**](http://ionified.net/)
@@ -35,10 +35,9 @@ ideas via **ion: invoked object notation**:
 ## ion
 
 [**invoked object notation**](./ions/ion.md)
-is a representation of object interaction, observation & notification.
-It exists, and can be implemented, within languages that support
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-with objects:
+is a mathematical expression of object interaction, observation & notification.
+It exists and can be implemented within languages that support objects'
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
 
 ```javascript
 ~ {"json":"data"} <= /observable json & comment/
