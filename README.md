@@ -13,7 +13,7 @@ performant,
 [experiences](http://ionified.net).
 
 We've developed, published, and maintained
-[**ion**](#ion), [**ionify**](#api) & [**ionified**](http://ionified.net/)
+[**ion**](#ion), [**ionify**](#api) & [**ionified**](#ionified)
 since their initial
 [discovery, definition & development](story.md)
 by
@@ -28,19 +28,20 @@ ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
 ideas via **ion: invoked object notation**:
 
 ```javascript
-~ {on:'hi', log:'👋🏾🤓'} <= /listen & reply/
+~{on:'hi', log:'👋🏾🤓'} <- /listen & reply/
 ```
 
 
 ## ion
 
 [**invoked object notation**](./ions/ion.md)
-is a mathematical expression of object interaction, observation & notification.
-It exists and can be implemented within languages that support objects'
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
+is the mathematical expression of object interaction, observation & notification.
+It exists and can be implemented within languages that support
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+of objects:
 
 ```javascript
-~ {"json":"data"} <= /observable json & comment/
+~{"json":"data"} <- /observable json & comment/
 ```
 
 
