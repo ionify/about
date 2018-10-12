@@ -28,7 +28,7 @@ ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
 ideas via **ion: invoked object notation**:
 
 ```javascript
-~{on:'hi', log:'👋🏾🤓'} <- /listen & reply/
+~{on:'hi', log:'👋🏾🤓'} <= /listen & reply/
 ```
 
 
@@ -41,7 +41,7 @@ It exists and can be implemented within languages that support
 of objects:
 
 ```javascript
-~{"json":"data"} <- /observable json & comment/
+~{"json":"data"} <= /observable json & comment/
 ```
 
 
