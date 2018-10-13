@@ -102,22 +102,18 @@ values.
 
 ## function
 
-**ion** is enabled by interactive type conversion and operator overloading.
-
-### itc
-
-**interactive type conversion** is a programming language capability that enables interacting with objects via their [type conversion](https://en.wikipedia.org/wiki/Type_conversion) flow.
+**ion** is enabled by operator & operation overloading.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports **hip-hop itc**, where **hip** is handled-in-place:
+Supports **hip-hop** operation overloading, where **hip** is handled-in-place:
 
 ```javascript
 ~
 { valueOf
 :   function hip ()
-      { console.log ("hip: handled-in-place itc")
+      { console.log ("hip: handled-in-place")
       }
 }
 ;
@@ -128,7 +124,7 @@ and **hop** is handled-on-prototype:
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ("hop: handled-on-prototype itc")
+    { console.log ("hop: handled-on-prototype")
     }
 ;
 ```
@@ -139,15 +135,15 @@ implementing the **`valueOf()`** method that javascript
 during an object's
 [type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip itc**, that method is **handled** __in-place__, within an object, and
-observes that single object's type conversion. With **hop itc**, it's **handled**
+With **hip**, that method is **handled** __in-place__, within an object, and
+observes that single object's type conversion. With **hop**, it's **handled**
 __on__ an object's `prototype` and observes type conversions for all objects of
 that type. An **ion** can implement either style or alternate (hip-hop) between both.
 
 
 **flow**
 
-During **hip-hop itc**, an **ion's** operator
+During **hip-hop** operation overloading, an **ion's** operator
 [attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 During that conversion, an attempt is made to call the object operand's `valueOf()`
 method. If the **ion** doesn't define that method, JavaScript searches for
@@ -179,8 +175,8 @@ Object.prototype.valueOf
 ;
 ```
 
-JavaScript's **hip-hop itc** is a simple & reliable capability for independently observing & notifying objects. It can be implemented
-manually, as shown, or leveraged via
+JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for independently observing & notifying objects. As shown, it can be implemented
+manually or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides simple vocabulary for its observation &
@@ -189,7 +185,7 @@ notification.
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Supports **hot: handled-on-type itc** by implementing an object type's
+Supports **hot: handled-on-type** operation overloading by implementing an object type's
 `toString()` method.
 
 ```java
