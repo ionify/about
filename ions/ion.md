@@ -1,6 +1,6 @@
 # ion
 
-**invoked object notation** is the mathematical expression of object interaction, observation & notification. It exists and can be implemented in languages that support
+**invoked object notation** is a mathematical expression of object interaction, observation & notification. It exists and can be implemented in languages that support
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 on objects. It was
 [discovered, defined & developed](../story.md)
