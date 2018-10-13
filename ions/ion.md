@@ -102,7 +102,7 @@ values.
 
 ## function
 
-**ion** is enabled by operator & operation overloading.
+**ion** is enabled by [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
@@ -226,15 +226,13 @@ See this in-depth
 for more.
 
 
-### [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 
-#### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
+### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Supports **ion** via
-[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types),
-a form of operator overloading.
+Supports **hot: handled-on-type** operator overloading via
+[numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
-#### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
+### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 **ion** via arithmetic, bitwise, relational & equality operator overloading.
