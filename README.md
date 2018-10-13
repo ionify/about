@@ -35,10 +35,10 @@ ideas via **ion: invoked object notation**:
 ## ion
 
 [**invoked object notation**](./ions/ion.md)
-is the mathematical expression of object interaction, observation & notification.
-It exists and can be implemented within languages that support
+is a mathematical expression of object interaction, observation & notification.
+It exists and can be implemented in languages that support
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-of objects:
+on objects:
 
 ```javascript
 ~{"json":"data"} <= /observable json & comment/

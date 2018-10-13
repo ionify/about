@@ -1,18 +1,15 @@
 # ion
 
-**invoked object notation** is a language-independent
-[syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-that enables writing independently observable & notifiable
-[data](https://en.wikipedia.org/wiki/Data_(computing))
-&
-[code](https://en.wikipedia.org/wiki/Source_code).
-It was [discovered & developed](../story.md)
+**invoked object notation** is the mathematical expression of object interaction, observation & notification. It exists and can be implemented in languages that support
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+on objects. It was
+[discovered, defined & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
 ```javascript
-~ {"json" : "data" }  <= /json   data ion/
-+ {  log  : "👋🏾🤓"}  <= /logging code ion/
+~{"json" : "data" }  <= /observable json/
++{  log  : '👋🏾🤓'}  <= /message logging/
 ```
 
 ## form
