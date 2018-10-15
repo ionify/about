@@ -4,7 +4,7 @@
     { id: 'todo@ionify'
     , is: "ionify's list of things to do"
     , by:['mike.lee@iskitz', 'team@ionify"']
-    , at: '2018.09.27-07...2007.09-04'
+    , at: '2018.10.16+09...2007.09-04'
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -39,6 +39,11 @@
 , todo
 :   [ { "2018.__.__-0_"
       :   {
+          }
+
+      , "2018.10.16+09"
+      :   { action
+          ;   "for ~functions like [].pop do pop.ion = [] & [].call ([].ion)"
           }
 
       , "2018.09.25-07"
