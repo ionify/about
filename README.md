@@ -50,11 +50,11 @@ on objects:
 [**ions indexed for internet-enabled discovery**](http://ionified.net/)
 is a repository of **ions** that can be programmatically discovered & verified via the internet. Here are a few:
 
-+ **[anemojii](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/): animated emoji ions**,
++ **[anemojii](https://anemojii.glitch.me/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
 
-+ **[wakatta: わかった](https://cdn.rawgit.com/ionified/wakatta-ions.iskitz.net/public/)**,
++ **[wakatta: わかった](https://wakatta.glitch.me/)**,
   is a japanese language-skills game created via **ion** to
   exercise & guide **ionify's** api development
 
@@ -63,7 +63,7 @@ is a repository of **ions** that can be programmatically discovered & verified v
   jeni enables natural interaction**, is an **ion**
   [api](https://github.com/ionified/jeni-ions.iskitz.net)
   that
-  [explores](https://cdn.rawgit.com/ionified/jeni-ions.iskitz.net/public/)
+  [explores](https://jeni.glitch.me/)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
 
