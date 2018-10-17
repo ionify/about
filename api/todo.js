@@ -4,7 +4,7 @@
     { id: 'todo@ionify'
     , is: "ionify's list of things to do"
     , by:['mike.lee@iskitz', 'team@ionify"']
-    , at: '2018.10.16+09...2007.09-04'
+    , at: '2018.10.17+09...2007.09-04'
 
     , im:
         [`Exploring improving ionify's launch flow
@@ -30,8 +30,11 @@
     }
 
 , bugs
-:   [ "getId: future: Generates 1st ids in middle of nextid@'s sequence."
+:   [ "~log always logs, even when ions.js has log:false || debug:false."
+
+    , "getId: future: Generates 1st ids in middle of nextid@'s sequence."
     + "       Will lead to those ids being reused twice sooner than necessary."
+    
     , "link : Relinks ions. Update to track linked ions"
     , "   do: Find's itself doing +window.do..."
     ]
