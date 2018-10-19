@@ -6,11 +6,11 @@
 
 [We](https://github.com/orgs/ionify/people)
 invent optimized natural interfaces for you, with accessible,
-[simple](https://cdn.rawgit.com/ionified/anemojii-ions.iskitz.net/public/),
+[simple](https://anemojii.glitch.me/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[experiences](http://ionified.net).
+[experiences](http://ionified.net/).
 
 We've developed, published, and maintained
 [**ion**](#ion), [**ionify**](#api) & [**ionified**](#ionified)
