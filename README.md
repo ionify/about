@@ -47,7 +47,7 @@ on objects:
 
 ## ionified
 
-[**ions indexed for internet-enabled discovery**](http://ionified.net/)
+[**ions implemented for internet-enabled discovery**](http://ionified.net/)
 is a repository of **ions** that can be programmatically discovered & verified via the internet. Here are a few:
 
 + **[anemojii](https://anemojii.glitch.me/): animated emoji ions**,
