@@ -1,9 +1,9 @@
-# ionify's tale
+# ion's tale
 
 
 Finding beautiful capabilities hidden in plain sight is thrilling 🎉 Realizing they've existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
-This is the story of **ionify**, one such capability's journey through time.
+This is the story of [**ion**: invoked object notation](./ions/ion.md), one such capability's journey through time.
 
 
 ## decades
@@ -96,7 +96,7 @@ Load ("http://static.remo.te/jsonp");
 
 ## discovery
 
-The breakthrough came in 2007 when Michael discovered, through diligent experimentation 👨🏾‍💻, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
+The breakthrough came in 2007 when Michael👨🏾‍💻 discovered, through diligent experimentation👨🏽‍🔬, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
 
 ```javascript
 Object.prototype.valueOf           // 1: interface
@@ -109,7 +109,8 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON as he could hope to get 👌🏾
+**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON as he could hope to get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md)!**
+🤓
 
 
 ## development
@@ -130,7 +131,10 @@ describe this discovery, 👨🏾‍💻 defining & announcing the concept of
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
 **ion implemented for you** in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
-2016 & 2017.
+2016 & [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
+at the
+[/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/)
+software engineering conference.
 
 
 ## delivery
