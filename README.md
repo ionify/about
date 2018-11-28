@@ -13,7 +13,7 @@ performant,
 [experiences](http://ionified.net/).
 
 We've developed, published, and maintained
-[**ion**](#ion), [**ionify**](#api) & [**ionified**](#ionified)
+**ion**, [**ionify**](#api) & [**ionified**](#ionified)
 since their initial
 [discovery, definition & development](story.md)
 by
@@ -25,24 +25,35 @@ in 2007.
 
 **[ionify](https://github.com/ionify/ionify):
 ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
-ideas via **ion: invoked object notation**:
-
-```javascript
-~{on:'hi', log:'👋🏾🤓'} <= /listen & reply/
-```
-
-
-## ion
-
-[**invoked object notation**](./ions/ion.md)
-is a mathematical expression of object interaction, observation & notification.
-It exists and can be implemented in languages that support
+ideas via **ion: invoked object notation**, an expression of object interaction, observation
+& notification that exists & can be implemented within languages that support
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-on objects:
+of objects:
 
 ```javascript
-~{"json":"data"} <= /observable json & comment/
+~{ on:'json'
+     , json (ion) { ~{log:ion.json} }
+ }
+~{"json":"data"} <= /observable json/
 ```
+
+**ion & ionify** enable exploring & experimenting with
+
++ [domain-specific languages](https://github.com/ionify/ionify/README.md#domain-specific-languages)
+
++ [literate](https://github.com/ionify/ionify/README.md#literate-programming),
+  [modular](https://github.com/ionify/ionify/README.md#modular-programming),
+  [event-driven](https://github.com/ionify/ionify/README.md#event-driven-programming)
+  &
+  [name-collision-free](https://github.com/ionify/ionify/README.md#name-collision-freedom)
+  programming
+
++ fetching, [observing](https://github.com/ionify/ionify/README.md#decoupled-observation)
+  & interacting with highly
+  [decoupled](https://github.com/ionify/ionify/README.md#decoupled-observation)
+  data & code
+
++ and [more](https://github.com/ionify/ideas/).
 
 
 ## ionified
