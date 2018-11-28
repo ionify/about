@@ -1,7 +1,7 @@
 # ion's tale
 
 
-Finding beautiful capabilities hidden in plain sight is thrilling 🎉 Realizing they've existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
+Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
 This is the story of [**ion**: invoked object notation](./ions/ion.md), one such capability's journey through time.
 
@@ -119,28 +119,34 @@ Object.prototype.valueOf           // 1: interface
 After an additional two years of experimentation & implementation, Michael
 publicly introduced this cross-domain JSON-fetching solution as
 **[jsonXD](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
-json cross-domain**, at the 2009
+json cross-domain** at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference 🎉
 
 Over the next eight years he continued to experiment with, prototype, refine &
-describe this discovery, 👨🏾‍💻 defining & announcing the concept of
-[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md):
-**json-expressed modules**,
-[**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
+describe this discovery, defining & announcing
+
++ [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md):
+**json-expressed modules**
++ [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
 **invoked object notation** &
-[**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
-**ion implemented for you** in
++ [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
+**ion implemented for you**
+
+in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
-2016 & [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
+2016 &
+[2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
 at the
 [/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/)
-software engineering conference.
+software engineering conference 👨🏾‍💻
 
 
-## delivery
+## distribution
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.kinds.md) of **ions** now available to learn from, apply & extend.
+Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.kinds.md) of **ions** now available to
+[discover](http://ionified.net/)
+learn from, apply & extend.
 
 🖤
 [Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)
