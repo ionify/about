@@ -1,15 +1,15 @@
 # ion
 
-**invoked object notation** is a mathematical expression of object interaction, observation & notification. It exists and can be implemented in languages that support
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-on objects. It was
+**invoked object notation** is an expression of object interaction, observation & notification that exists and can be implemented within languages that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+It was
 [discovered, defined & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
 ```javascript
 ~{"json" : "data" }  <= /observable json/
-+{  log  : '👋🏾🤓'}  <= /message logging/
++{  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
 ```
 
 ## form

@@ -13,7 +13,7 @@ performant,
 [experiences](http://ionified.net/).
 
 We've developed, published, and maintained
-**ion**, [**ionify**](#api) & [**ionified**](#ionified)
+[**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
 since **ion's**
 [discovery, definition & development](story.md)
 by
