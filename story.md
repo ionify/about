@@ -48,7 +48,7 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching & interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a feature that was unavailable at the time via the popular but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API.
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching & interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a feature that, at the time, was unavailable via the popular but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API.
 
 Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
 
@@ -78,7 +78,7 @@ Load ("http://dynamic.remo.te/json?call=on");
        ,      "responds" : "with this"
        ,     "evaluated" : "JSON"
        ,   "passed as a" : "JavaScript Object"
-       , "to a possibly" : "missing on() function"
+       , "to a possibly" : "invalid on() function"
       });
 
 Load ("http://static.remo.te/jsonp");
@@ -96,7 +96,8 @@ Load ("http://static.remo.te/jsonp");
 
 ## discovery
 
-The breakthrough came in 2007 when Michael👨🏾‍💻 discovered, through diligent experimentation👨🏽‍🔬, that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
+The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
+👨🏾‍🏫 and experimentation 👨🏽‍🔬 that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
 
 ```javascript
 Object.prototype.valueOf           // 1: interface
@@ -109,8 +110,8 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON as he could hope to get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md)!**
-🤓
+**A single-character prefix of `~`, `+`, or `-` was key** and the closest to JSON-as-JavaScript one could hope to get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md) !**
+🎉
 
 
 ## development
