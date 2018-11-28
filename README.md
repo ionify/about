@@ -5,7 +5,7 @@
 ## team
 
 [We](https://github.com/orgs/ionify/people)
-invent optimized natural interfaces for you, with accessible,
+invent optimized natural interfaces for you via accessible,
 [simple](https://anemojii.glitch.me/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
@@ -14,7 +14,7 @@ performant,
 
 We've developed, published, and maintained
 **ion**, [**ionify**](#api) & [**ionified**](#ionified)
-since their initial
+since **ion's**
 [discovery, definition & development](story.md)
 by
 [Michael Lee](https://github.com/iskitz)
@@ -26,34 +26,30 @@ in 2007.
 **[ionify](https://github.com/ionify/ionify):
 ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
 ideas via **ion: invoked object notation**, an expression of object interaction, observation
-& notification that exists & can be implemented within languages that support
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-of objects:
+& notification that exists & can be implemented within languages that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
 
 ```javascript
-~{ on:'json'
-     , json (ion) { ~{log:ion.json} }
- }
-~{"json":"data"} <= /observable json/
+~ /senses json ions and logs their content/
++ {on:'json', json (ion) { ~{log: ion.json} }}
+~ {"json":"data"} <= /a sensible json  ion/
 ```
 
-**ion & ionify** enable exploring & experimenting with
+### why
 
-+ [domain-specific languages](https://github.com/ionify/ionify/README.md#domain-specific-languages)
-
-+ [literate](https://github.com/ionify/ionify/README.md#literate-programming),
-  [modular](https://github.com/ionify/ionify/README.md#modular-programming),
-  [event-driven](https://github.com/ionify/ionify/README.md#event-driven-programming)
-  &
-  [name-collision-free](https://github.com/ionify/ionify/README.md#name-collision-freedom)
-  programming
-
-+ fetching, [observing](https://github.com/ionify/ionify/README.md#decoupled-observation)
-  & interacting with highly
-  [decoupled](https://github.com/ionify/ionify/README.md#decoupled-observation)
-  data & code
-
-+ and [more](https://github.com/ionify/ideas/).
+**ionify** enables exploring & experimenting with
+[domain-specific languages](https://github.com/ionify/ionify/README.md#domain-specific-languages),
+[literate](https://github.com/ionify/ionify/blob/public/README.md#literate-programming),
+[modular](https://github.com/ionify/ionify/blob/public/README.md#modular-programming),
+[event-driven](https://github.com/ionify/ionify/blob/public/README.md#event-driven-programming)
+&
+[name-collision-free](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
+programming, fetching,
+[observing](https://github.com/ionify/ionify/blob/public/README.md#decoupled-observation)
+& interacting with highly
+[decoupled](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
+data & code, and
+[more](https://github.com/ionify/ideas/).
 
 
 ## ionified
