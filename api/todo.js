@@ -1,16 +1,18 @@
 ;
 ~
 { re:
-    { id: 'todo@ionify'
-    , is: "ionify's list of things to do"
-    , by:['mike.lee@iskitz', 'team@ionify"']
-    , at: '2018.10.17+09...2007.09-04'
-
-    , im:
-        [`Exploring improving ionify's launch flow
+    { id:  'todo'
+    , by: ['mike.lee', 'team']
+    , at:  'ionify.net'
+    , on:  -4.200709
+    , to:  -8.20181204
+    , is:  -0.1
+    , it:  "lists ionify's things to do"
+    , we:
+        [`were exploring improving ionify's launch flow
         & Exploring implementing ~on+do
 
-        . I was previously...
+        . were previously...
 
           trying to figure what to do next. I want to continue modularizing
           ionify so that it's easier to create new parts. Currently it's still
@@ -26,30 +28,34 @@
           on that but also don't want to create a solution that can't be easily
           extended with that protection.
           `
-         ]
+        ]
     }
 
 , bugs
 :   [ "~log always logs, even when ions.js has log:false || debug:false."
 
-    , "getId: future: Generates 1st ids in middle of nextid@'s sequence."
+    , "~id: future: Generates 1st ids from middle of ~next.id's range."
     + "       Will lead to those ids being reused twice sooner than necessary."
-    
-    , "link : Relinks ions. Update to track linked ions"
+
     , "   do: Find's itself doing +window.do..."
     ]
 
 , todo
-:   [ { "2018.__.__-0_"
+:   [ { '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
+      :   { topic
+          :   / ... /
+          }
+
+      , '-8.2018____'
       :   {
           }
 
-      , "2018.10.16+09"
+      , '+9.20181016'
       :   { action
-          ;   "for ~functions like [].pop do pop.ion = [] & [].call ([].ion)"
+          :   "for ~functions like [].pop do pop.ion = [] & [].call ([].ion)"
           }
 
-      , "2018.09.25-07"
+      , '-7.20180925'
       :   { organization
           :   [ "create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify"
               , "create github.com/ionify/ionify.py   for ionify's python implementation"
@@ -59,7 +65,7 @@
               ]
           }
 
-      , "2018.09.22-07"
+      , '-7.20180922'
       :   { terminology
           :   / ion: invoked object notation, represents intrinsic observation & /
           +   / notification of objects. It exists within programming languages  /
@@ -69,7 +75,12 @@
           +   / potentially many other languages, support ion via operator       /
           +   / overloading.                                                     /
           }
-  
+
+      , '-8.20180429'
+      :   { documentation
+          :   / on ~ion do ~re = re.toString if api.docs config is set true. /
+          }
+
       , "2017.12.08-08"
       :   { launch
           :   `host-->ion+host-->ions-->preferred`
@@ -369,22 +380,32 @@
 
 
 , DONE
-:   { "year[.month.day.hour.minute.second][+-]timezoneHours[.minutesOffset]":
-        [
+:   { 'year[.month.day.hour.minute.second][+-]timezoneHours[.minutesOffset]'
+    :   [/ ... /
         ]
 
-      , "2018.04.27-07"
-      :   { ionify
-          :   { i : /      invoked,    implicit,  interactive/
-              , o : /       object/
-              , n : /     notation/
-              , i : /  implemented, interpreted, introspected, intercepted, interfaced, /
-                  + /intermediated/
-              , f : /          for/
-              , y : /          you/
-              , is: '      invoked  object  notation  implemented  for  you'
-              }
-          }
+    , '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
+    :   { topic
+        :   / ... /
+        }
+
+    , '-8.20181118'
+    :   { bugs
+        :   "~link no longer relinks ions. Updated to track linked ions."
+        }
+
+    , '-7.20180427'
+    :   { ionify
+        :   { i : /      invoked,    implicit,  interactive/
+            , o : /       object/
+            , n : /     notation/
+            , i : /  implemented, interpreted, introspected, intercepted, interfaced, /
+                + /intermediated/
+            , f : /          for/
+            , y : /          you/
+            , is: '      invoked  object  notation  implemented  for  you'
+            }
+        }
 
     , "2018.01.04-08"
     :   `Move /info/ & its contents to the ionify/about repo.
