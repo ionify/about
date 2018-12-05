@@ -1,12 +1,13 @@
 ;
 ~
 { re:
-    { id: 'mike.lee@ionify'
-    , is: "Mike Lee's identification"
-    , by: 'mike.lee@ionify'
-    , on: '2018.03.27-07'
-    , to: '2018.10.19+09'
-    , at: 1.04
+    { id: 'mike.lee'
+    , by: 'mike.lee'
+    , at: 'ionify.net'
+    , on: -7.20180327
+    , to: -8.20181205
+    , is: +1.05
+    , it: "identifies Mike Lee"
     }
     ,
   is:
