@@ -15,12 +15,10 @@
     }
 
 , bugs
-:   [ "~log always logs, even when ions.js has log:false || debug:false."
-
-    , "~id: future: Generates 1st ids from middle of ~next.id's range."
-    + "       Will lead to those ids being reused twice sooner than necessary."
-
-    , "   do: Find's itself doing +window.do..."
+:   [" ~log always logs, even when ions.js has log:false || debug:false.      "
+    ," ~id: Generates 1st id set from the middle of ~next.id's range. This'll "
+    +"      lead to those ids being reused twice sooner than necessary.       "
+    ," ~do: At some point unintentionally does ~window.do ..."
     ]
 
 , todo
@@ -38,7 +36,19 @@
           }
 
       , actions
-      :   { '+9.20181016'
+      :   { '-8.20181211'
+          :   [/ ~on shorthand for action terms with optional parts, e.g. /
+              +   {on:'get [in] [then [after]]'}
+              +/ would define sensors for these actions /
+              +   {get:[], in:'order', then:'action', after:'all'|'any'|'each'}
+              +   {get:[],             then:'action', after:'all'|'any'|'each'}
+              +   {get:[], in:'order', then:'action'}
+              +   {get:[],             then:'action'}
+              +   {get:[], in:'order'}
+              +   {get:[]}
+              ]
+
+          , '+9.20181016'
           :   [" for ~functions like [].pop do pop.ion = [] & [].call ([].ion) "
               ]
 
