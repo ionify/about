@@ -5,29 +5,12 @@
     , by: ['mike.lee', 'team']
     , at:  'ionify.net'
     , on:  -4.200709
-    , to:  -8.20181204
+    , to:  -8.20181211
     , is:  -0.1
     , it:  "lists ionify's things to do"
     , we:
-        [`were exploring improving ionify's launch flow
-        & Exploring implementing ~on+do
-
-        . were previously...
-
-          trying to figure what to do next. I want to continue modularizing
-          ionify so that it's easier to create new parts. Currently it's still
-          more complicated than I'd like to share functionality between sensors
-          like on.ion, on.aeon, and on.aesop. Maybe by figuring out how to
-          make each it's own module I'll solve this sharing problem. My current
-          focus is solving the ionify.sense & ionified dependency shared by
-          on.ion, on.sensor, on.aeon & on.aesop.
-
-          Maybe my past idea of creating a shared namespace for ions with the
-          same @domain is what I need here but I want to protect against ions
-          that falsely claim @domain membership. I don't want to focus too much
-          on that but also don't want to create a solution that can't be easily
-          extended with that protection.
-          `
+        [" were exploring optimizing ionify's launch flow via modularization "
+        ," were exploring implementing ~on.do "
         ]
     }
 
@@ -41,32 +24,87 @@
     ]
 
 , todo
-:   [ { '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
-      :   { topic
+:   [ { topic
+      :   { '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
           :   / ... /
+          ||  " ... "
+          ||  [     ]
           }
 
-      , '-8.2018____'
-      :   {
-          }
-
-      , '+9.20181016'
-      :   { action
-          :   "for ~functions like [].pop do pop.ion = [] & [].call ([].ion)"
-          }
-
-      , '-7.20180925'
-      :   { organization
-          :   [ "create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify"
-              , "create github.com/ionify/ionify.py   for ionify's python implementation"
-              , "create github.com/ionify/ionify.java for ionify's java   implementation"
-              , "create github.com/ionify/ionify.[language]/re/ion.md for language-specific ion form & function"
-              , "reduce github.com/ionify/about/ions/ion.md to cross-language commonalities like ~+- reference & link to lang-specific ones"
+      , topic
+      :   { '-8.2018____'
+          :   [
               ]
           }
 
-      , '-7.20180922'
-      :   { terminology
+      , actions
+      :   { '+9.20181016'
+          :   [" for ~functions like [].pop do pop.ion = [] & [].call ([].ion) "
+              ]
+
+          , '-8.20180429'
+          :   [/ on ~ion do ~re = re.toString if api.docs config is set true. /
+              ]
+
+          , '-8.20171204'
+          :   / ~get,in /
+              +     { get: 'ion'    || [  'ion', 'script', 'other', 'resource'  ]
+                    ,  in: 'order'  ||    'parallel' || 'synonyms'
+                    }
+              +/ Each host, e.g. web, node, implements ~get sensor optionally	/
+              +/ supporting .in modifier for concurrent or consecutive fetch	/
+
+          , '-8.20171113'
+          :   / ~on.do... /
+              +   { on    : "" | [] |  Function | Object
+                  , do    : "" | [] |  Function | Object | / /
+                  , all   : Boolean || "all even with errors?"
+                  , any   : Boolean || "as many as or 1st success?"
+                  , "#"   : Number  || "times or array index?"
+                  , prior	: Boolean || "earlier occurrence"
+                  }
+          }
+
+      , hosts
+      :   { '-8.20171130'
+          :   [ / vert.x: implement as another host/
+              , /nashorn: implement as another host/
+              , / jxcore: implement as another host/
+              ]
+          }
+
+      , modularity
+      :   { '-8.20171208'
+          :   `launch flow: host-->ion+host-->ions-->preferred`
+
+          , '-8.20171113'
+          :   [/ Try to always define ions as independent with clear input &    /
+              +/ output actions. This enables loading them all at once because  /
+              +/ they or another ion can use those actions to coordinate their  /
+              +/ behavior. This may need ajile's act-on-past-actions capability	/
+              +/ As an example, ionify's flow could be:                         /
+              +/   host...ions...object.sensor + rest                           /
+              +/ where object.sensor & rest are loaded @ the same time with     /
+              +/ object.sensor explicitly first to enable ion observation.      /
+              ]
+          }
+
+      , organization
+      :   { '-8.20181211'
+          :   [" move ions/*.test to tools/tests/*.test.js "
+              ]
+
+          , '-7.20180925'
+          :   [" create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify  "
+              ," create github.com/ionify/ionify.py   for ionify's python implementation    "
+              ," create github.com/ionify/ionify.java for ionify's java   implementation    "
+              ," create github.com/ionify/ionify.[language]/re/ion.md for language-specific ion form & function"
+              ," reduce github.com/ionify/about/ions/ion.md to cross-language commonalities like ~+- reference & link to lang-specific ones"
+              ]
+          }
+
+      , terminology
+      :   { '-7.20180922'
           :   / ion: invoked object notation, represents intrinsic observation & /
           +   / notification of objects. It exists within programming languages  /
           +   / that support operator & operation overloading with objects.      /
@@ -75,61 +113,11 @@
           +   / potentially many other languages, support ion via operator       /
           +   / overloading.                                                     /
           }
-
-      , '-8.20180429'
-      :   { documentation
-          :   / on ~ion do ~re = re.toString if api.docs config is set true. /
-          }
-
-      , "2017.12.08-08"
-      :   { launch
-          :   `host-->ion+host-->ions-->preferred`
-          }
-
-      , "2017.12.04-08"
-      :   {"~get,in"
-          :      { get: "ion"  || ["ion","script","other","resource"]
-                 ,  in: "order"||  "parallel" || "synonyms"
-                 }
-          +  /Each host, e.g. web, node, implements +get sensor optionally/
-          +  / supporting .in modifier for concurrent or consecutive fetch/
-          }
-
-      , "2017.11.30-08"
-      :   { hosts
-          :   [ / vert.x: implement as another host/
-              , /nashorn: implement as another host/
-              , / jxcore: implement as another host/
-              ]
-          }
-
-      , "2017.11.13-08"
-      :   [ /Load Performance & Modularity/
-          +   / Try to always define ions as independent with clear input &   /
-          +   / output actions. This enables loading them all at once because /
-          +   / they or another ion can use those actions to coordinate their /
-          +   / behavior. This may need ajile's act-on-past-actions capability/
-          +   / As an example, ionify's flow could be:                        /
-          +   /   host...ions...object.sensor + rest                          /
-          +   / where object.sensor & rest are loaded @ the same time with    /
-          +   / object.sensor explicitly first to enable ion observation.     /
-
-          , /~on.do.../
-              +
-              { on : "" | [] | Function | Object
-              , do : "" | [] | Function | Object | / /
-              , all: Boolean ||"all even with errors?"
-              , any: Boolean ||"as many as or 1st success?"
-              , "#": Number  ||"times or array index?"
-              , prior: Boolean ||"earlier occurrence"
-              }
-          ]
       }
-      ,
 
-      {syntax:
+  ,   {syntax:
         { 20180426
-        : ["JSON Data Interchange Format:"
+        : ["syntax: JSON Data Interchange Format:"
 
           +   "RFC-8259: IETF Spec: https://tools.ietf.org/html/rfc8259"
           +     "Section9: A JSON parser MAY accept non-JSON forms or extensions."
@@ -392,6 +380,26 @@
     , '-8.20181118'
     :   { bugs
         :   "~link no longer relinks ions. Updated to track linked ions."
+        }
+
+    , '-7.2018'
+    :   { modularity
+        :   `
+            Achieved via ~share.as.to.
+            Was trying to figure what to do next. I want to continue modularizing
+            ionify so that it's easier to create new parts. Currently it's still
+            more complicated than I'd like to share functionality between sensors
+            like on.ion, on.aeon, and on.aesop. Maybe by figuring out how to
+            make each it's own module I'll solve this sharing problem. My current
+            focus is solving the ionify.sense & ionified dependency shared by
+            on.ion, on.sensor, on.aeon & on.aesop.
+
+            Maybe my past idea of creating a shared namespace for ions with the
+            same @domain is what I need here but I want to protect against ions
+            that falsely claim @domain membership. I don't want to focus too much
+            on that but also don't want to create a solution that can't be easily
+            extended with that protection.
+            `
         }
 
     , '-7.20180427'
