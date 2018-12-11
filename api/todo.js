@@ -19,6 +19,8 @@
     ," ~id: Generates 1st id set from the middle of ~next.id's range. This'll "
     +"      lead to those ids being reused twice sooner than necessary.       "
     ," ~do: At some point unintentionally does ~window.do ..."
+    ," browser developer tools: on breakpoint typing in console causes global "
+    +"      functions like alert, confirm, prompt & print to be invoked.      "
     ]
 
 , todo
