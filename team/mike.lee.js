@@ -5,17 +5,21 @@
     , by: 'mike.lee'
     , at: 'ionify.net'
     , on: -7.20180327
-    , to: -8.20181205
-    , is: +1.05
+    , to: -8.2090103
+    , is: +1.06
     , it: "identifies Mike Lee"
     }
     ,
   is:
-    [ 'Michael Lee'    , 'Mike Lee'
-    , 'mike.lee@iskitz', 'mikeleepro@linkedin'
-    , 'iskitz@trello'  , 'iskitz@github'      , 'iskitz@twitter'
-    , 'iskitz@mdn'     , 'iskitz@sourceforge' , 'iskitz@yahoo'
-    , 'iskitzdev@yahoo', 'mikeizworkin@yahoo'
+    [ 'Michael Lee'        , 'Mike Lee'
+    , 'mike.lee@iskitz'    , 'mike.lee@ionify'
+    , 'mike.lee@ionified'  , 'mikeleepro@linkedin'
+    , 'iskitz@github'      , 'iskitz@glitch'
+    , 'iskitz@sourceforge' , 'iskitz@mdn'
+    , 'iskitz@trello'      , 'iskitz@twitter'
+    , 'iskitz@yahoo'       , 'iskitz@repl.it'
+    , 'iskitzdev@yahoo'    , 'mike-lee@jsperf'
+    , 'mikeizworkin@yahoo' , 'mikeizworkin@github'
     , 'mike.iskitz.net'
     ]
     ,
