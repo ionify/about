@@ -179,8 +179,7 @@ JavaScript's **hip-hop** operation overloading is a simple & reliable pattern fo
 manually or leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides simple vocabulary for its observation &
-notification.
+that implements **ion** and provides vocabulary for  observation & notification.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))

@@ -110,7 +110,7 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and the closest to JSON-as-JavaScript one could hope to get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md) !**
+**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON-as-JavaScript one could get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md) !**
 🎉
 
 
