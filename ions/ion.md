@@ -139,7 +139,7 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip-hop** operation overloading enables object interaction, observation & notification by
+**hip-hop** operation overloading enables ion observation & notification by
 implementing the **`valueOf()`** method that javascript
 [calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
 during an object's
@@ -159,13 +159,14 @@ During that conversion, an attempt is made to call the object operand's `valueOf
 method. If the **ion** doesn't define that method, JavaScript searches for
 it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
-For **lions** that search begins & ends at their
-`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype` but this can differ for [**orion**](#form) that inherit from other objects.
+For [**lions**](#form) that search begins & ends at their
+`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
+[**orion**](#form) the search may end in the same way but begin with its inherited object.
 
-By default, `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so
-for each **ion** of those types, its operator calls the relevant
-`prototype.valueOf()` to obtain a basic value that's then converted to a
-number.
+`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those 
+types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
+a [basic](https://en.m.wikipedia.org/wiki/Primitive_value)
+value that's then converted to a number.
 
 Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with JavaScript objects' type conversion flow, which enables
@@ -185,17 +186,18 @@ Object.prototype.valueOf
 ;
 ```
 
-JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for independently observing & notifying objects. As shown, it can be implemented
-manually or leveraged via
+JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for
+**ion** observation & notification. As shown, it can be manually implemented or
+leveraged via
 [**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides vocabulary for  observation & notification.
+that implements **ion** and provides vocabulary for **ion** observation & notification.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 Supports **hot: handled-on-type** operation overloading by implementing an object type's
-`toString()` method which enables overloading the `+` operation with objects:
+`toString()` method, which enables overloading objects' `+` operation:
 
 ```java
 class AnION
