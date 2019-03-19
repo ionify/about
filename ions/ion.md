@@ -28,7 +28,7 @@ or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
 literals.
 
-They can be written as [**lion**](ion.kinds.md), literal ion:
+They can be written as [**lion**](lions.md), literal ion:
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions

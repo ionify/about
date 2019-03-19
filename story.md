@@ -144,8 +144,11 @@ software engineering conference 👨🏾‍💻
 
 ## distribution
 
-Today, **[ion](https://github.com/ionify/about/blob/public/ions/ion.md)**, **[ionify](https://github.com/ionify/ionify/blob/public/README.md)** & **[jems](https://github.com/ionify/jems/blob/public/about/jems.md)** are **jsonXD's** direct descendants and the basis for the [many kinds](ions/ion.kinds.md) of **ions** now available to
-[discover](http://ionified.net/)
+Today, [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md),
+[**ionify**](https://github.com/ionify/ionify/blob/public/README.md) &
+[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md)
+are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md)
+of **ions** now available to [discover](http://ionified.net/)
 learn from, apply & extend.
 
 🖤
