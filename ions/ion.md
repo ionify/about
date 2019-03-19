@@ -65,7 +65,7 @@ and
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 punctuation.
 
-This example combines fifteen **lions** with the seventeen **ion**-compatible
+This example combines fifteen **lions** with the seventeen available **ion**-compatible
 bitwise, arithmetic, relational & equality punctuation operators:
 
 ```javascript
@@ -78,22 +78,30 @@ bitwise, arithmetic, relational & equality punctuation operators:
 ;
 ```
 
-As shown, arithmetic punctuation can be any of the
+As shown
+
++ arithmetic punctuation can be any of the
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-addition-operator-plus),
 [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-subtraction-operator-minus),
 [*](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-mul-operator),
 [/](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-div-operator), or
 [%](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-mod-operator)
-operators, bitwise punctuation can be any of the
+operators,
+
++ bitwise punctuation can be any of the
 [&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND),
 [~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator),
 [|](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR),
 [^](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR),
 [<<](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-left-shift-operator), or
 [\>>](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-signed-right-shift-operator)
-operators, relational punctuation can be any of the
+operators,
+
++ relational punctuation can be any of the
 [&gt;, &gt;=, <, or <=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-relational-operators-runtime-semantics-evaluation)
-operators, and equality punctuation can be the
+operators,
+
++ and equality punctuation can be the
 [== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
 equality operators, but only when comparing **ions** with
 [basic](https://en.m.wikipedia.org/wiki/Primitive_value)
