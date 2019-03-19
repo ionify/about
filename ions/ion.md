@@ -1,9 +1,9 @@
 # ion
 
-**invoked object notation** is an expression of object interaction, observation & notification that exists and can be implemented within languages that support object
+**invoked object notation** is an expression of object interaction, observation & notification
+that exists & can be implemented within languages that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
-It was
-[discovered, defined & developed](../story.md)
+It was [discovered, defined & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007.
 
@@ -28,17 +28,17 @@ or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
 literals.
 
-It can be written as **lion**, literal ion:
+They can be written as [**lion**](ion.kinds.md), literal ion:
 
 ```javascript
-    ~{ }      +{ }      -{ }     // 3 object lions
-    ~[ ]      +[ ]      -[ ]     // 3 array  lions
-    ~/ /      +/ /      -/ /     // 3 regular-expression lions
+~{ }      +{ }      -{ }     // 3 object lions
+~[ ]      +[ ]      -[ ]     // 3 array  lions
+~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
 and **orion**, object reference ion:
 
 ```javascript
-    ~obj      +obj      -obj     // 3 prefixed orion
+~obj      +obj      -obj     // 3 prefixed orion
 ```
 
 **orion** can also be written using the
@@ -51,8 +51,8 @@ and
 [-- postfix operators](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-decrement-operator):
 
 ```javascript
-             ++obj,    --obj     // 2 prefixed  orion
-               obj++,    obj--   // 2 postfixed orion
+         ++obj,    --obj     // 2 prefixed  orion
+           obj++,    obj--   // 2 postfixed orion
 ```
 
 ### punctuation

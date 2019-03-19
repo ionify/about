@@ -1,4 +1,17 @@
-# ion kinds
+# lions
+
+**literal ions** can be expressed as expansions of the
+[array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
+[object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer)
+&
+[regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
+[ion](ion.md) forms:
+
+```javascript
+~{ }      +{ }      -{ }     // 3 object lions
+~[ ]      +[ ]      -[ ]     // 3 array  lions
+~/ /      +/ /      -/ /     // 3 regular-expression lions
+```
 
 ## [aeons](aeons.md)
 
@@ -6,6 +19,16 @@
 
 ```javascript
 ~ [ {say:"Hi!"} ] ;
+```
+
+## [stories](stories.md)
+
+**sentence template or regular ion expressions**:
+
+```javascript
+~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
+| / (sentence) template! /  <= /match sentences/
+;
 ```
 
 ## [aesop](aesop.md)
@@ -57,7 +80,7 @@
 
 ## [jewels](jewels.md)
 
-**json-expressed, web-enabled languages**:
+**json-expressed web-enabled languages**:
 
 ```javascript
 ~ {"as":"html",  "body": "Hi!"}
@@ -65,20 +88,10 @@
 ;
 ```
 
-## [stories](stories.md)
-
-**sentence templates or regular ion expressions**:
-
-```javascript
-~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
-| / (sentence) template! /  <= /match sentences/
-;
-```
-
 ## [webi](webi.md)
 
-**web ion**, describes any **ion** or set of ions created for the
-[web](https://en.wikipedia.org/wiki/World_Wide_Web). For example, all
-[jewels: json-expressed, web-enabled languages](jewels.md), are **webi**.
+**web ion** is any **ion** or set of ions created for the
+[web](https://en.wikipedia.org/wiki/World_Wide_Web).
+All [jewels](jewels.md), for example, are **webi**.
 
 
