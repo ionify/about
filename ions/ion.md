@@ -140,15 +140,15 @@ Object.prototype.valueOf
 ```
 
 **hip-hop** operation overloading enables ion observation & notification by
-implementing the **`valueOf()`** method that javascript
+implementing the `valueOf()` method that javascript
 [calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
-during an object's
+when an operation causes an object's
 [type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-With **hip**, that method is **handled** __in-place__, within an object, and
-observes that single object's type conversion. With **hop**, it's **handled**
-__on__ an object's `prototype` and observes type conversions for all objects of
-that type. An **ion** can implement either style or alternate (hip-hop) between both.
+With **hip**, the `valueOf()` method's **handled** __in-place__ within an object and observes
+that single object's type conversion. With **hop**, it's **handled** __on__ an object's
+`prototype` and observes type conversions for all objects of that type. An **ion** can
+implement either style or alternate (hip-hop) between both.
 
 
 **flow**
@@ -161,7 +161,7 @@ it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
 For [**lions**](#form) that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
-[**orion**](#form) the search may end in the same way but begin with its inherited object.
+[**orion**](#form) the search may end the same way but begin with the **ion's** inherited object.
 
 `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those 
 types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
