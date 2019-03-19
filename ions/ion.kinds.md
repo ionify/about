@@ -28,24 +28,21 @@
       { "id": "jem@doma.in"
       , "is": "a json-expressed module"
       , "by": "mike.lee@iskitz"
-      , "at": "2017.11.13-08...2007.09-04"
+      , "on": "2007.09-04"
+      , "to": "2019.03.19-07"
       , "in":
-            [   "san-jose.california.usa.earth"
-            , "forest-hills.new-york.usa.earth"
+            [ "forest-hills.new-york.usa.earth"
+            ,   "san-jose.california.usa.earth"
             ]
       }
 
 , "do":
       [ "an aesop action"
-      , /a storie action/
       , {"if":"do.times", "<":7, "do":"do"}
       ]
 
 , "an aesop action"
 :     "log Hi! #do.times@"
-
-, "a storie action"
-:     /log Hi! #do.times@/
 }
 ;
 ```
