@@ -27,7 +27,7 @@
 
 ```javascript
 ~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
-| / (sentence) template! /  <= /match sentences/
+& / (sentence) template! /  <= /match sentences/
 ;
 ```
 
@@ -65,7 +65,7 @@
       ]
 
 , "an aesop action"
-:     "log Hi! #do.times@"
+:     "log Hi! #do.times"
 }
 ;
 ```

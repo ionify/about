@@ -22,7 +22,7 @@
       ]
 
 , "an aesop action"
-:     "log Hi! #do.times@"
+:     "log Hi! #do.times"
 }
 ;
 ```
