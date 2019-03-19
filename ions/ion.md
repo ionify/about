@@ -65,8 +65,8 @@ and
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 punctuation.
 
-This example combines fifteen **lions** with the seventeen available **ion**-compatible
-bitwise, arithmetic, relational & equality punctuation operators:
+This example combines fifteen **lions** with the seventeen **ion**-compatible bitwise,
+arithmetic, relational & equality punctuation operators available:
 
 ```javascript
 ~  /example/  -  /punctuation/
@@ -110,12 +110,14 @@ values.
 
 ## function
 
-**ion** is enabled by [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+**ion** is enabled by [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+in multiple languages.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports **hip-hop** operation overloading, where **hip** is handled-in-place:
+Supports arithmetic, bitwise, relational & equality operation overloading via **hip-hop**
+where **hip** is handled-in-place:
 
 ```javascript
 ~
@@ -137,7 +139,7 @@ Object.prototype.valueOf
 ;
 ```
 
-Both styles enable object interaction, observation & notification by
+**hip-hop** operation overloading enables object interaction, observation & notification by
 implementing the **`valueOf()`** method that javascript
 [calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
 during an object's
@@ -193,7 +195,7 @@ that implements **ion** and provides vocabulary for  observation & notification.
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 Supports **hot: handled-on-type** operation overloading by implementing an object type's
-`toString()` method.
+`toString()` method which enables overloading the `+` operation with objects:
 
 ```java
 class AnION
