@@ -23,16 +23,17 @@ in 2007.
 
 ## api
 
-**[ionify](https://github.com/ionify/ionify):
-ion implemented for you**, is a flexible, unobtrusive & novel api for expressing
-ideas via **ion: invoked object notation**, an expression of object interaction, observation
-& notification that exists & can be implemented within languages that support object
+[**ionify: ion implemented for you**](https://github.com/ionify/ionify),
+is a flexible, unobtrusive & novel api for expressing
+ideas via [**ion: invoked object notation**](./ions/ion.md),
+an expression of object interaction, observation & notification that exists & can be
+implemented within languages that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
 
 ```javascript
-~ /senses json ions and logs their content/
+~ / senses json ions and logs their content. /
 + {on:'json', json (ion) { ~{log: ion.json} }}
-~ {"json":"data"} <= /a sensible json  ion/
+~ {"json":"data"}  <=  / a sensible json ion /
 ```
 
 ### why

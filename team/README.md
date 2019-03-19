@@ -10,7 +10,7 @@ performant,
 [experiences](http://ionified.net/).
 
 We've developed, published, and maintained
-[**ion**](../README.md#ion), [**ionify**](../README.md#api) & [**ionified**](../README.md#ionified)
+[**ion**](../ions/ion.md), [**ionify**](../README.md#api) & [**ionified**](../README.md#ionified)
 since their initial
 [discovery, definition & development](../story.md)
 by
