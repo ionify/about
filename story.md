@@ -10,24 +10,31 @@ This is the story of [**ion**: invoked object notation](./ions/ion.md), one such
 
 One to discover, another to embrace.
 
-In **1997**,
+**1997**
+
 [JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)
-first language specification was
+first language specification is
 [published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
-👏🏾 In **2007**,
+👏🏾
+
+**2007**
+
 [Michael Lee](https://github.com/iskitz),
-discovered a capability within JavaScript that he named
-[**jsonXD**](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
-**json cross-domain** 👨🏾‍💻 In **2017**, Michael named & shared **jsonXD's** core concepts as
-**[ion](https://github.com/ionify/about/blob/public/ions/ion.md):
-invoked object notation** &
-**[ionify](https://github.com/ionify/ionify/):
-ion implemented for you** 🎉
+discovers a capability within JavaScript that he names
+[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
+👨🏾‍💻
+
+**2017**
+
+Michael names & shared **jsonXD's** core concepts as
+[**ion**: invoked object notation](https://github.com/ionify/about/blob/public/ions/ion.md)
+&
+[**ionify**: ion implemented for you](https://github.com/ionify/ionify/) 🎉
 
 
 ## details
 
-In 2003, Michael created **[ajile](http://ajile.net): [a]synchronous javascript importing & loading extension**; a Java-like module system for the web that enabled fetching scripts across domains 🤓
+In 2003, Michael created [**ajile**: [a]synchronous javascript importing & loading extension](http://ajile.net); a Java-like module system for the web that enabled fetching scripts across domains 🤓
 
 ```javascript
 ;
@@ -118,20 +125,18 @@ Object.prototype.valueOf           // 1: interface
 
 After an additional two years of experimentation & implementation, Michael
 publicly introduced this cross-domain JSON-fetching solution as
-**[jsonXD](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange):
-json cross-domain** at the 2009
+[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
+at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference 🎉
 
 Over the next eight years he continued to experiment with, prototype, refine &
 describe this discovery, defining & announcing
 
-+ [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md):
-**json-expressed modules**
-+ [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md):
-**invoked object notation** &
-+ [**ionify**](https://github.com/ionify/ionify/blob/public/README.md):
-**ion implemented for you**
++ [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md)
++ [**ion**: invoked object notation](https://github.com/ionify/about/blob/public/ions/ion.md)
+&
++ [**ionify**: ion implemented for you](https://github.com/ionify/ionify/blob/public/README.md)
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
@@ -152,4 +157,4 @@ of **ions** now available to [discover](http://ionified.net/)
 learn from, apply & extend.
 
 🖤
-[Michael {aka:"🇬🇾Mike"} Lee](https://github.com/iskitz)
+[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)

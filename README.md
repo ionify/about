@@ -10,9 +10,9 @@ invent optimized natural interfaces for you via accessible,
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[expressions](http://ionified.net/).
+[experiences](http://ionified.net/).
 
-We've developed, published, and maintained
+We've developed, published & maintained
 [**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
 since **ion's**
 [discovery, definition & development](story.md)
