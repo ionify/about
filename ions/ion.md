@@ -121,7 +121,7 @@ Supports **ion** via **hip-hop** overloading of the `valueOf()` method that's
 whenever arithmetic, bitwise, relational, or equality operations activate an object's
 [type conversion](https://en.wikipedia.org/wiki/Type_conversion).
 
-**hip** is **handled** __in-place__ overloading of the `valueOf()` method within an object. It
+**hip** is **handled-in-place** overloading of the `valueOf()` method within an object. It
 enables observing that single object's type conversion:
 
 ```javascript
@@ -134,7 +134,7 @@ enables observing that single object's type conversion:
 ;
 ```
 
-**hop** is **handled on `prototype`** overloading of the `valueOf()` method. It enables
+**hop** is **handled-on-`prototype`** overloading of the `valueOf()` method. It enables
 observing type conversions for all objects sharing that prototype:
 
 ```javascript
