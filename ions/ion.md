@@ -193,7 +193,7 @@ that implements **ion** and provides vocabulary for **ion** observation & notifi
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Supports **hot: handled-on-type** operation overloading by implementing an object type's
+Supports **ion** via **hot: handled-on-type** operation overloading by implementing an object type's
 `toString()` method, which enables overloading objects' `+` operation:
 
 ```java
@@ -212,7 +212,7 @@ class AnION
         { ion == "some data";  // true on activate ion!
           ion == "more data";  // true on these    ion!
           any == "data kind";  // true on ions     ion!
-          return ion || any ;
+          return ion || any ;  // or do something else!
         }
   }
 
@@ -237,13 +237,13 @@ for more.
 
 ### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Supports **hot: handled-on-type** operator overloading via
+Supports **ion** via **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-**ion** via arithmetic, bitwise, relational & equality operator overloading.
+**ion** via **foo: functional operator overloading** of arithmetic, bitwise, relational & equality operators.
 
 
 ## compatibility
