@@ -116,8 +116,13 @@ in multiple languages.
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports arithmetic, bitwise, relational & equality operation overloading via **hip-hop**
-where **hip** is handled-in-place:
+Supports **ion** via **hip-hop** overloading of the `valueOf()` method that's
+[called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+whenever arithmetic, bitwise, relational, or equality operations activate an object's
+[type conversion](https://en.wikipedia.org/wiki/Type_conversion).
+
+**hip** is **handled** __in-place__ overloading of the `valueOf()` method within an object. It
+enables observing that single object's type conversion:
 
 ```javascript
 ~
@@ -129,7 +134,8 @@ where **hip** is handled-in-place:
 ;
 ```
 
-and **hop** is handled-on-prototype:
+**hop** is **handled on `prototype`** overloading of the `valueOf()` method. It enables
+observing type conversions for all objects sharing that prototype:
 
 ```javascript
 Object.prototype.valueOf
@@ -139,29 +145,20 @@ Object.prototype.valueOf
 ;
 ```
 
-**hip-hop** operation overloading enables ion observation & notification by
-implementing the `valueOf()` method that javascript
-[calls](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
-when an operation causes an object's
-[type conversion](https://en.wikipedia.org/wiki/Type_conversion).
-
-With **hip**, the `valueOf()` method's **handled** __in-place__ within an object and observes
-that single object's type conversion. With **hop**, it's **handled** __on__ an object's
-`prototype` and observes type conversions for all objects of that type. An **ion** can
-implement either style or alternate (hip-hop) between both.
+**ion** can be implemented via **hip** or **hop** operation overloading or via **hip-hop**,
+alternating between both.
 
 
 **flow**
 
-During **hip-hop** operation overloading, an **ion's** operator
-[attempts to convert its object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-During that conversion, an attempt is made to call the object operand's `valueOf()`
-method. If the **ion** doesn't define that method, JavaScript searches for
-it in the **ion's**
+During **hip-hop** operation overloading, an attempt is made to
+[convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
+That conversion attempts to call the object operand's `valueOf()` method. If the **ion**
+doesn't define that method, JavaScript searches for it in the **ion's**
 [prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
 For [**lions**](#form) that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
-[**orion**](#form) the search may end the same way but begin with the **ion's** inherited object.
+[**orion**](#form) the search may end similarly but begin with the **ion's** inherited object.
 
 `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those 
 types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
@@ -169,7 +166,7 @@ a [basic](https://en.m.wikipedia.org/wiki/Primitive_value)
 value that's then converted to a number.
 
 Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
-enables interfacing with JavaScript objects' type conversion flow, which enables
+enables interfacing with JavaScript objects' type conversion flow. That then enables
 interacting with all **ions** without requiring direct access to any of them 🤓
 
 ```javascript
@@ -189,7 +186,7 @@ Object.prototype.valueOf
 JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for
 **ion** observation & notification. As shown, it can be manually implemented or
 leveraged via
-[**ionify: invoked object notation implemented for you**](http://github.com/ionify/ionify/),
+[**ionify**: invoked object notation implemented for you](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements **ion** and provides vocabulary for **ion** observation & notification.
 
