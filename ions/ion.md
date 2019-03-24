@@ -219,7 +219,7 @@ Object.prototype.valueOf
 ```
 
 JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for
-**ion** observation & notification. As shown, it can be manually implemented or
+enabling **ion** observation & notification. As shown, it can be manually implemented or
 leveraged via
 [**ionify**: invoked object notation implemented for you](http://github.com/ionify/ionify/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
