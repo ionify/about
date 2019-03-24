@@ -122,7 +122,7 @@ during an object's [conversion](https://en.wikipedia.org/wiki/Type_conversion)
 to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
 **hip: handled-in-place** operation overloading implements the `valueOf()` method within an
-object which enables observing that single object's type conversion:
+object, which enables observing that single object's type conversion:
 
 ```javascript
 ~
@@ -135,7 +135,7 @@ object which enables observing that single object's type conversion:
 ```
 
 **hop: handled-on-prototype** operation overloading implements the `valueOf()` method on a
-`prototype` object which enables observing the type conversions of all objects sharing that
+`prototype` object, which enables observing the type conversions of all objects sharing that
 prototype:
 
 ```javascript
@@ -148,7 +148,7 @@ Object.prototype.valueOf
 
 `valueOf()` **hip-hop** operation overloading enables expressing &
 [punctuating](#punctuation)
-**ions** with arithmetic, bitwise, relational & equality operators.
+**ions** with arithmetic, bitwise, relational & equality operators:
 
 ```javascript
 ~  /example/  -  /punctuation/
