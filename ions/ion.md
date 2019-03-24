@@ -146,9 +146,9 @@ Object.prototype.valueOf
 ;
 ```
 
-`valueOf()` **hip-hop** operation overloading enables expressing &
+**hip-hop** operation overloading of `valueOf()` enables expressing &
 [punctuating](#punctuation)
-**ions** with arithmetic, bitwise, relational & equality operators:
+**ions** with these arithmetic, bitwise, relational & equality operators:
 
 ```javascript
 ~  /example/  -  /punctuation/
@@ -160,9 +160,9 @@ Object.prototype.valueOf
 ;
 ```
 
-`toString()` **hip-hop** operation overloading enables expressing **ions** as phrases &
+**hip-hop** operation overloading of `toString()` enables expressing **ions** as phrases &
 sentences concatenated with the `+` operator, but since the `valueOf()` method also enables
-this and `toString()` is more likely to be unexpectedly called by others, it's not
+this, and `toString()` is more likely to be unexpectedly called by others, it's not
 recommended:
 
 ```javascript
