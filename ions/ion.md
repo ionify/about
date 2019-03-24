@@ -104,25 +104,25 @@ operators,
 + and equality punctuation can be the
 [== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
 equality operators, but only when comparing **ions** with
-[basic](https://en.m.wikipedia.org/wiki/Primitive_value)
-values.
+[basic values](https://en.m.wikipedia.org/wiki/Primitive_value).
 
 
 ## function
 
-**ion** is enabled by [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+**ion** is enabled by
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 in multiple languages.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Supports **ion** via **hip-hop** overloading of the `valueOf()` method that's
-[called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
-whenever arithmetic, bitwise, relational, or equality operations activate an object's
-[type conversion](https://en.wikipedia.org/wiki/Type_conversion).
+Enables **ion** via **hip-hop** operation overloading of the `valueOf()` & `toString()`
+methods [called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+during an object's [conversion](https://en.wikipedia.org/wiki/Type_conversion)
+to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
-**hip** is **handled-in-place** overloading of the `valueOf()` method within an object. It
-enables observing that single object's type conversion:
+**hip: handled-in-place** operation overloading implements the `valueOf()` method within an
+object which enables observing that single object's type conversion:
 
 ```javascript
 ~
@@ -134,8 +134,9 @@ enables observing that single object's type conversion:
 ;
 ```
 
-**hop** is **handled-on-`prototype`** overloading of the `valueOf()` method. It enables
-observing type conversions for all objects sharing that prototype:
+**hop: handled-on-prototype** operation overloading implements the `valueOf()` method on a
+`prototype` object which enables observing the type conversions of all objects sharing that
+prototype:
 
 ```javascript
 Object.prototype.valueOf
@@ -145,9 +146,43 @@ Object.prototype.valueOf
 ;
 ```
 
-**ion** can be implemented via **hip** or **hop** operation overloading or via **hip-hop**,
-alternating between both.
+`valueOf()` **hip-hop** operation overloading enables expressing &
+[punctuating](#punctuation)
+**ions** with arithmetic, bitwise, relational & equality operators.
 
+```javascript
+~  /example/  -  /punctuation/
+^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
+*  ["these"]  +  /expressions/  <<  {are:"too" }
+/  ["write"]  %  /them as you/  |   {see:"fit" }
+>  ["using"]  >= /  any of   /  <=  [  "these" ]
+<     17      == / compatible/  !=  "operators!"
+;
+```
+
+`toString()` **hip-hop** operation overloading enables expressing **ions** as phrases &
+sentences concatenated with the `+` operator, but since the `valueOf()` method also enables
+this and `toString()` is more likely to be unexpectedly called by others, it's not
+recommended:
+
+```javascript
+Object.prototype.valueOf // vs .toString
+= function hop ()
+    { console.log (this.say)        /*
+      or do something more profound!*/
+    }
+
+var you   = {say:'do you see all the things'}
+,   can   = {say:'we can do'   }
+, write   = {say:'if we write' }
+, code    = {say:'our code'    }
+, as      = {say:'as groups of'}
+, phrases = {say:'phrases & sentences?! 🤓'}
+
+; 'Thanks to orion'
++  you + can + write + code + as + phrases + '!'
+;
+```
 
 **flow**
 
@@ -162,8 +197,8 @@ For [**lions**](#form) that search begins & ends at their
 
 `Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those 
 types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
-a [basic](https://en.m.wikipedia.org/wiki/Primitive_value)
-value that's then converted to a number.
+a [basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
+that's then converted to a number.
 
 Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with JavaScript objects' type conversion flow. That then enables
@@ -193,8 +228,8 @@ that implements **ion** and provides vocabulary for **ion** observation & notifi
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Supports **ion** via **hot: handled-on-type** operation overloading by implementing an object type's
-`toString()` method, which enables overloading objects' `+` operation:
+Enables **ion** via **hot: handled-on-type** operation overloading by implementing an object type's
+`toString()` method, which enables overloading the `+` operation for objects of that type:
 
 ```java
 class AnION
@@ -237,12 +272,12 @@ for more.
 
 ### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Supports **ion** via **hot: handled-on-type** operator overloading via
+Enables **ion** via **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
-[Support](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
+[Enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 **ion** via **foo: functional operator overloading** of arithmetic, bitwise, relational & equality operators.
 
 
