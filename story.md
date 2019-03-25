@@ -12,22 +12,22 @@ One to discover, another to embrace.
 
 **1997**
 
-[JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)
+>[JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)
 first language specification is
 [published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
 👏🏾
 
 **2007**
 
-[Michael Lee](https://github.com/iskitz),
-discovers a capability within JavaScript that he names
+>[Michael Lee](https://github.com/iskitz),
+discovers a capability within JavaScript he names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
 
 **2017**
 
-Michael names & shared **jsonXD's** core concepts as
-[**ion**: invoked object notation](https://github.com/ionify/about/blob/public/ions/ion.md)
+>Michael names & shared **jsonXD's** core concepts as
+[**ion**: invoked object notation](ions/ion.md)
 &
 [**ionify**: ion implemented for you](https://github.com/ionify/ionify/) 🎉
 
@@ -37,7 +37,6 @@ Michael names & shared **jsonXD's** core concepts as
 In 2003, Michael created [**ajile**: [a]synchronous javascript importing & loading extension](http://ajile.net); a Java-like module system for the web that enabled fetching scripts across domains 🤓
 
 ```javascript
-;
 Namespace ("my.space")
 Import    ("needed.Thing")
 ImportAs  ("useful.Thing", "Thing2")
@@ -46,9 +45,8 @@ Load      ("http://remo.te/script.js")
 my.space.Module
 = function Module ()
     { var thing1 = new Thing ()
-        , thing2 = new Thing2()
-        ;
-    //my module's remaining code goes here
+        , thing2 = new Thing2()            /*
+    | my module's remaining code goes here  */
     }
 ;
 ```
@@ -60,10 +58,9 @@ In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a 
 Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
 
 ```javascript
-Load ("http://static.remo.te/json.data.js");
+Load ('http://static.remo.te/json.data.js')
 
-// JSON response
-
+  //         JSON response
   {       "remote" : "request"
   ,     "responds" : "with this"
   , "inaccessible" : "JSON which"
@@ -77,28 +74,26 @@ Load ("http://static.remo.te/json.data.js");
 [JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping JSON in a `function` call or padding it with a variable assignment. Close, but still too removed from valid JSON syntax 🤔
 
 ```javascript
-Load ("http://dynamic.remo.te/json?call=on");
+Load ('http://dynamic.remo.te/json?call=on')
 
-// wrapped-function JSONP response
-
+   // wrapped-function JSONP response
    on ({        "remote" : "request"
        ,      "responds" : "with this"
        ,     "evaluated" : "JSON"
        ,   "passed as a" : "JavaScript Object"
        , "to a possibly" : "invalid on() function"
-      });
+      })
 
-Load ("http://static.remo.te/jsonp");
+Load ("http://static.remo.te/jsonp")
 
-// variable-assignment-padded JSONP response
-
+   // variable-assignment-padded JSONP response
    var jsonp
      =  {      "remote" : "request"
         ,    "responds" : "with this"
         ,   "evaluated" : "JSON"
         , "passed as a" : "JavaScript Object"
         , "stored as a" : "server-defined variable"
-        };
+        }
 ```
 
 ## discovery
@@ -117,7 +112,7 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON-as-JavaScript one could get 👌🏾 **Hello [ion](https://github.com/ionify/about/blob/public/ions/ion.md) !**
+**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON-as-JavaScript one could get 👌🏾 **Hello [ion](ions/ion.md) !**
 🎉
 
 
@@ -149,7 +144,7 @@ software engineering conference 👨🏾‍💻
 
 ## distribution
 
-Today, [**ion**](https://github.com/ionify/about/blob/public/ions/ion.md),
+Today, [**ion**](ions/ion.md),
 [**ionify**](https://github.com/ionify/ionify/blob/public/README.md) &
 [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md)
 are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md)
