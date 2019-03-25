@@ -136,12 +136,14 @@ object, which enables observing that single object's type conversion:
 
 **hop: handled-on-prototype** operation overloading implements the `valueOf()` method on a
 `prototype` object, which enables observing the type conversions of all objects sharing that
-prototype:
+`prototype`:
 
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ("hop: handled-on-prototype")
+    { console.log ('hop: handled-on-prototype')    /*
+    | Enables observing all invoked objects except  |
+    | Booleans, Dates, Numbers, Strings & Symbols.  */
     }
 ;
 ```
@@ -162,26 +164,25 @@ Object.prototype.valueOf
 
 **hip-hop** operation overloading of `toString()` enables expressing **ions** as phrases &
 sentences concatenated with the `+` operator, but since the `valueOf()` method also enables
-this, and `toString()` is more likely to be unexpectedly called by others, it's not
-recommended:
+this, and `toString()` is more likely to be unexpectedly called by others, overloading
+`toString()` is not recommended:
 
 ```javascript
 Object.prototype.valueOf // vs .toString
 = function hop ()
-    { console.log (this.say)        /*
-      or do something more profound!*/
+    { console.log (this.say)         /*
+    | or do something more profound!  */
     }
 
-var you   = {say:'do you see all the things'}
-,   can   = {say:'we can do'   }
-, write   = {say:'if we write' }
-, code    = {say:'our code'    }
-, as      = {say:'as groups of'}
-, phrases = {say:'phrases & sentences?! 🤓'}
+var you     = {say:'do you see all the things'}
+  , can     = {say:'we can do'   }
+  , write   = {say:'if we write' }
+  , code    = {say:'our code'    }
+  , as      = {say:'as groups of'}
+  , phrases = {say:'phrases & sentences?! 🤓'}
 
-; 'Thanks to orion'
-+  you + can + write + code + as + phrases + '!'
-;
+'With orion' + you + can + write + code + as +
+ phrases;
 ```
 
 **flow**
