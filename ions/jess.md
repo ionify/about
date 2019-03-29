@@ -1,7 +1,7 @@
 # jess
 
-**jess** are **json-expressed statements**.
+**jess** are **json-expressed stylesheets**.
 
 ```javascript
-  ~ {"say":"Hi!"} ;
+~ {"as":"css", "#body":{"color":"#212CD9"}} ;
 ```

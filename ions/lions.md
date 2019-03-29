@@ -41,6 +41,15 @@
 ;
 ```
 
+## oj
+
+**observable json**
+
+```javascript
+~ {"json":"data"} ;
+```
+
+
 ## [jems](jems.md)
 
 **json-expressed modules**:
@@ -72,10 +81,10 @@
 
 ## [jess](jess.md)
 
-**json-expressed statements**:
+**json-expressed stylesheets**:
 
 ```javascript
-~ {"say":"Hi!"} ;
+~ {"as":"css", "#body": {"color":"#212CD9"}} ;
 ```
 
 ## [jewels](jewels.md)
