@@ -1,9 +1,11 @@
 # ion's tale
 
 
-Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
+Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've
+existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
-This is the story of [**ion**: invoked object notation](./ions/ion.md), one such capability's journey through time.
+This is the story of [**ion**: invoked object notation](./ions/ion.md), one such capability's
+journey through time.
 
 
 ## decades
@@ -26,7 +28,7 @@ discovers a capability within JavaScript he names
 
 **2017**
 
->Michael names & shared **jsonXD's** core concepts as
+>Michael names & shares **jsonXD's** core concepts as
 [**ion**: invoked object notation](ions/ion.md)
 &
 [**ionify**: ion implemented for you](https://github.com/ionify/ionify/) 🎉
@@ -34,7 +36,9 @@ discovers a capability within JavaScript he names
 
 ## details
 
-In 2003, Michael created [**ajile**: [a]synchronous javascript importing & loading extension](http://ajile.net); a Java-like module system for the web that enabled fetching scripts across domains 🤓
+In 2003, Michael created
+[**ajile**: [a]synchronous javascript importing & loading extension](http://ajile.net);
+a Java-like module system for the web that enabled fetching scripts across domains 🤓
 
 ```javascript
 Namespace ("my.space")
@@ -53,9 +57,16 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based data interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized this and 💡 was determined to enable fetching & interacting with JSON via **ajile** to benefit from **ajile's** cross-domain fetching capability, a feature that, at the time, was unavailable via the popular but [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) resource-fetching API.
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based
+data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized
+this 💡 and was determined to enable fetching & interacting with JSON via **ajile** to
+benefit from **ajile's** cross-domain fetching capability, a feature that, at the time, was
+unavailable via the popular but
+[same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
+resource-fetching API.
 
-Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object literal form generated syntax errors 😞
+Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object
+literal form generated syntax errors 😞
 
 ```javascript
 Load ('http://static.remo.te/json.data.js')
@@ -71,7 +82,9 @@ Load ('http://static.remo.te/json.data.js')
 
 ### jsonp
 
-[JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping JSON in a `function` call or padding it with a variable assignment. Close, but still too removed from valid JSON syntax 🤔
+[JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping
+JSON in a `function` call or padding it with a variable assignment. Close, but still too
+removed from valid JSON syntax 🤔
 
 ```javascript
 Load ('http://dynamic.remo.te/json?call=on')
@@ -98,8 +111,13 @@ Load ("http://static.remo.te/jsonp")
 
 ## discovery
 
-The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and experimentation 👨🏽‍🔬 that it was possible to interact with anonymous objects, like JSON, by interfacing with and implicitly invoking their automatic type conversion! **Impossible is Nothing** 🙌🏾
+The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent 👨🏾‍🏫
+[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
+and object literal syntax & behavior experimentation 👨🏽‍🔬, that it was possible to observe &
+interact with anonymous objects, like JSON, by interfacing with & implicitly invoking their
+automatic type conversion!
+
+**be magical: impossible is nothing** 🙌🏾
 
 ```javascript
 Object.prototype.valueOf           // 1: interface
@@ -108,12 +126,12 @@ Object.prototype.valueOf           // 1: interface
     ; this.json == "data"          // true!
     }
 
-~ {"is":"anonymous","json":"data"} // 2: activate
+~ {"is":"anonymous","json":"data"} // 2: invoke
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to JSON-as-JavaScript one could get 👌🏾 **Hello [ion](ions/ion.md) !**
-🎉
+**A single-character prefix of `~`, `+`, or `-` was key** and as close to observable JSON one
+could get 👌🏾 🎉
 
 
 ## development
@@ -123,13 +141,13 @@ publicly introduced this cross-domain JSON-fetching solution as
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference 🎉
+web developer conference 🙋🏾‍♂️
 
 Over the next eight years he continued to experiment with, prototype, refine &
 describe this discovery, defining & announcing
 
 + [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md)
-+ [**ion**: invoked object notation](https://github.com/ionify/about/blob/public/ions/ion.md)
++ [**ion**: invoked object notation](ions/ion.md)
 &
 + [**ionify**: ion implemented for you](https://github.com/ionify/ionify/blob/public/README.md)
 

@@ -1,11 +1,12 @@
 # ion
 
 **invoked object notation** is an expression of object interaction, observation & notification
-that exists & can be implemented within languages that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
-It was [discovered, defined & developed](../story.md)
+that combines mathematical operators with object literals & references.
+
+**ion** was [discovered, defined & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
-in 2007.
+in 2007, and exists & can be implemented within languages that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
 
 ```javascript
 ~{"json" : "data" }  <= /observable json/
@@ -63,7 +64,7 @@ and
 [relational](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators)
 &
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
-punctuation.
+operator punctuation.
 
 This example combines fifteen **lions** with the seventeen **ion**-compatible bitwise,
 arithmetic, relational & equality punctuation operators available:
@@ -275,6 +276,12 @@ for more.
 
 Enables **ion** via **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
+
+See this
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
+for more.
+
+
 
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
