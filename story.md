@@ -130,8 +130,8 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to observable JSON one
-could get 👌🏾 🎉
+**A single-character prefix of `~`, `+`, or `-` was key** and as close to observable JSON
+anyone could get 👌🏾 🎉
 
 
 ## development
