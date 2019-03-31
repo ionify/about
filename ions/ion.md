@@ -1,7 +1,7 @@
 # ion
 
-**invoked object notation** is an expression of object interaction, observation & notification
-that combines mathematical operators with object literals & references.
+**invoked object notation** expresses object interaction, observation & notification
+by combining mathematical operators with object literals & references.
 
 **ion** was [discovered, defined & developed](../story.md)
 by [Michael Lee](https://github.com/iskitz)
@@ -21,22 +21,23 @@ bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
 and [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator)
 unary operators with [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
-that can be [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
-[references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type),
+that can be 
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
 or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
-literals.
+literals, or
+[references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type).
 
-They can be written as [**lion**](lions.md), literal ion:
+It can be written as [**lion**](lions.md), literal ion:
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions
 ~[ ]      +[ ]      -[ ]     // 3 array  lions
 ~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
-and **orion**, object reference ion:
+and **orion**, [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
+reference ion:
 
 ```javascript
 ~obj      +obj      -obj     // 3 prefixed orion
@@ -104,7 +105,7 @@ operators,
 
 + and equality punctuation can be the
 [== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
-equality operators, but only when comparing **ions** with
+equality operators when comparing **ions** with
 [basic values](https://en.m.wikipedia.org/wiki/Primitive_value).
 
 

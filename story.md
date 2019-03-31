@@ -107,12 +107,13 @@ Load ("http://static.remo.te/jsonp")
         , "passed as a" : "JavaScript Object"
         , "stored as a" : "server-defined variable"
         }
+        ;
 ```
 
 ## discovery
 
 The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent 👨🏾‍🏫
-[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
+[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
 and object literal syntax & behavior experimentation 👨🏽‍🔬, that it was possible to observe &
 interact with anonymous objects, like JSON, by interfacing with & implicitly invoking their
 automatic type conversion!
@@ -130,8 +131,8 @@ Object.prototype.valueOf           // 1: interface
 ;
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** and as close to observable JSON
-anyone could get 👌🏾 🎉
+**A single-character prefix of `~`, `+`, or `-` was key**, and as close to observable JSON
+as anyone could get 👌🏾 🎉
 
 
 ## development

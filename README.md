@@ -1,6 +1,6 @@
 # [ionify](http://ionify.net)
 
-**ionify** is a [team](#team) & an [api](#api).
+Is a [team](#team) & an [api](#api).
 
 ## team
 
@@ -25,15 +25,17 @@ in 2007.
 
 [**ionify: ion implemented for you**](https://github.com/ionify/ionify),
 is a flexible, unobtrusive & novel api for expressing ideas via
-[**ion: invoked object notation**](./ions/ion.md),
-an expression of object interaction, observation & notification that combines mathematical
-operators with object literals & references within languages that support object
+[**ion: invoked object notation**](./ions/ion.md).
+
+**ion** expresses object invocation, observation & notification by combining mathematical
+operators with object literals & references. It exists & can be implemented within languages
+that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
 
 ```javascript
-~ /.sense all json ions & log their contents./
+~ /...observe all json & log their content.../
 + {on:'json', json (ion) { ~{log: ion.json} }}
-~ {"json":"data"}  <=  /.a sensible json ion./
+~ {"json":"data"}  <=  /...observable json.../
 ```
 
 ### why
