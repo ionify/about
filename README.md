@@ -5,7 +5,7 @@ Is a [team](#team) & an [api](#api).
 ## team
 
 [We](https://github.com/orgs/ionify/people)
-invent optimized natural interfaces for you via accessible,
+invent optimized natural interfaces for you, to access
 [simple](https://anemojii.glitch.me/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
@@ -15,7 +15,7 @@ performant,
 We've developed, published & maintained
 [**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
 since **ion's**
-[discovery, definition & development](story.md)
+[discovery, definition & development](origin.md)
 by
 [Michael Lee](https://github.com/iskitz)
 in 2007.
@@ -58,7 +58,8 @@ data & code, and
 ## ionified
 
 [**ions implemented for internet-enabled discovery**](http://ionified.net/)
-is a repository of **ions** that can be programmatically discovered & verified via the internet. Here are a few:
+is a repository of **ions** that can be programmatically discovered & verified via the
+internet. Here're a few:
 
 + **[anemojii](https://anemojii.glitch.me/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
@@ -80,7 +81,8 @@ is a repository of **ions** that can be programmatically discovered & verified v
 + more @ [ionified.net](http://ionified.net/)
 
 
-**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2018 [Michael Lee](https://github.com/iskitz/) and is licensed under a
+**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2019
+[Michael Lee](https://github.com/iskitz/) and is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **ionify's** [api](https://github.com/ionify/ionify)

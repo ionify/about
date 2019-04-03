@@ -1,17 +1,17 @@
 # ion
 
-**invoked object notation** expresses object interaction, observation & notification
-by combining mathematical operators with object literals & references.
-
-**ion** was [discovered, defined & developed](../story.md)
-by [Michael Lee](https://github.com/iskitz)
-in 2007, and exists & can be implemented within languages that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
+**invoked object notation** expresses object invocation, observation & notification
+by combining mathematical operators with object literals & references:
 
 ```javascript
 ~{"json" : "data" }  <= /observable json/
 +{  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
 ```
+
+**ion** was [discovered, defined & developed](../origin.md)
+by [Michael Lee](https://github.com/iskitz)
+in 2007, and exists & can be implemented within languages that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ## form
 
@@ -247,7 +247,7 @@ class AnION
 
     public String
       toString ()
-        { ion == "some data";  // true on activate ion!
+        { ion == "some data";  // true on invoke   ion!
           ion == "more data";  // true on these    ion!
           any == "data kind";  // true on ions     ion!
           return ion || any ;  // or do something else!
@@ -257,12 +257,12 @@ class AnION
 class ActIONs
   { public static void
       main (String [] args)
-        { AnION activate = new AnION ("some data"),
+        { AnION invoke   = new AnION ("some data"),
                 these    = new AnION ("more data"),
                 ions     = new AnION (           ),
                 now      = new AnION (           );
                 ions.any =            "data kind" ;
-          "Let's" + activate + these + ions + now ;
+          "Let's" + invoke + these + ions + now ;
         }
   }
 ```
