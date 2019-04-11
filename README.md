@@ -23,7 +23,7 @@ in 2007.
 
 ## api
 
-[**ionify: ion implemented for you**](https://github.com/ionify/ionify),
+[**ionify: ion implemented for you**](http://api.ionify.net),
 is a flexible, unobtrusive & novel api for expressing ideas via
 [**ion: invoked object notation**](./ions/ion.md).
 
@@ -34,7 +34,9 @@ that support object
 
 ```javascript
 ~ /...observe all json & log their content.../
+
 + {on:'json', json (ion) { ~{log: ion.json} }}
+
 ~ {"json":"data"}  <=  /...observable json.../
 ```
 

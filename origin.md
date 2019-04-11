@@ -31,7 +31,7 @@ discovers a capability within JavaScript he names
 >Michael names & shares **jsonXD's** core concepts as
 [**ion**: invoked object notation](ions/ion.md)
 &
-[**ionify**: ion implemented for you](https://github.com/ionify/ionify/) 🎉
+[**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
 
 
 ## details
@@ -150,7 +150,7 @@ describe this discovery, defining & announcing
 + [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md)
 + [**ion**: invoked object notation](ions/ion.md)
 &
-+ [**ionify**: ion implemented for you](https://github.com/ionify/ionify/blob/public/README.md)
++ [**ionify**: ion implemented for you](http://api.ionify.net)
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
@@ -164,7 +164,7 @@ software engineering conference 👨🏾‍💻
 ## distribution
 
 Today, [**ion**](ions/ion.md),
-[**ionify**](https://github.com/ionify/ionify/blob/public/README.md) &
+[**ionify**](http://api.ionify.net) &
 [**jems**](https://github.com/ionify/jems/blob/public/about/jems.md)
 are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md)
 of **ions** now available to [discover](http://ionified.net/)
