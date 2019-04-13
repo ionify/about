@@ -5,7 +5,7 @@ Is a [team](#team) & an [api](#api).
 ## team
 
 [We](https://github.com/orgs/ionify/people)
-invent optimized natural interfaces for you, to access
+implement optimized natural interfaces for you, to introduce novel,
 [simple](https://anemojii.glitch.me/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
@@ -14,31 +14,29 @@ performant,
 
 We've developed, published & maintained
 [**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
-since **ion's**
+since their initial
 [discovery, definition & development](origin.md)
 by
-[Michael Lee](https://github.com/iskitz)
-in 2007.
+[Michael Lee](https://github.com/iskitz).
 
 
 ## api
 
 [**ionify: ion implemented for you**](http://api.ionify.net),
 is a flexible, unobtrusive & novel api for expressing ideas via
-[**ion: invoked object notation**](./ions/ion.md).
-
-**ion** expresses object invocation, observation & notification by combining mathematical
-operators with object literals & references. It exists & can be implemented within languages
-that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading):
+[**ion: invoked object notation**](./ions/ion.md):
 
 ```javascript
-~ /...observe all json & log their content.../
-
-+ {on:'json', json (ion) { ~{log: ion.json} }}
-
-~ {"json":"data"}  <=  /...observable json.../
+~ {"json" : "data" }  <= /observable json/
++ {  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
 ```
+
+**ion** expresses object invocation, observation & notification by combining mathematical
+operators with object literals & references.
+
+**ion** exists & can be implemented, within languages
+that support object
+[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ### why
 

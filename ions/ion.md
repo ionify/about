@@ -4,8 +4,8 @@
 by combining mathematical operators with object literals & references:
 
 ```javascript
-~{"json" : "data" }  <= /observable json/
-+{  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
+~ {"json" : "data" }  <= /observable json/
++ {  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
