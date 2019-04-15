@@ -4,12 +4,13 @@
     { id:  'todo@ionify'
     , by: ['mike.lee', 'team'  ]
     , on: { 200709   : -4      }
-    , to: { 20190415 : -7.0141 }
+    , to: { 20190415 : -7.0302 }
     , at:  -0.1
     , is: "ionify's list of things to do"
     , we:
-        [" will support now:ECMAScript3+, next:ES6+, past:ES-3"
-        ," were exploring implementing ~on.do "
+        [" Will support now:ECMAScript+5.1, wow:ES+Next, old:ES+3 & all:ES-3 where "
+        +"   +vers.ion = vers.ion & newer -vers.ion = vers.ion & older             "
+        ," Were exploring implementing ~on.do "
         ]
     }
 
@@ -38,7 +39,8 @@
                  }
                  
               , versions
-              :  [" Have ions@doma.in version section that articulates policy "
+              :  [" ? +vers.ion = vers.ion & newer, and -vers.ion = vers.ion & older ? "
+                 ," Have ions@doma.in version section that articulates policy "
                  ," Policy sets the minimum moments or major version changes needed to "
                  +" enable returning to a +vers.ion since the -vers.ion that caused a  "
                  +" backwards-compatibility breaking change.                           "
