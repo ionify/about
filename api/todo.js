@@ -1,27 +1,17 @@
 ;
 ~
 { re:
-    { id:  'todo'
-    , by: ['mike.lee', 'team']
-    , at:  'ionify.net'
-    , on:  -4.200709
-    , to:  -8.20190105
-    , is:  -0.1
-    , it:  "lists ionify's things to do"
+    { id:  'todo@ionify'
+    , by: ['mike.lee', 'team'  ]
+    , on: { 200709   : -4      }
+    , to: { 20190415 : -7.0141 }
+    , at:  -0.1
+    , is: "ionify's list of things to do"
     , we:
-        [" were exploring optimizing ionify's launch flow via modularization           "
-        ," will ensure test parity before publishing optimally modularized launch flow "
+        [" will support now:ECMAScript3+, next:ES6+, past:ES-3"
         ," were exploring implementing ~on.do "
         ]
     }
-
-, bugs
-:   [" ~id: Generates 1st id set from the middle of ~next.id's range. This'll "
-    +"      lead to those ids being reused twice sooner than necessary.       "
-    ," ~do: At some point unintentionally does ~window.do ..."
-    ," browser developer tools: on breakpoint typing in console causes global "
-    +"      functions like alert, confirm, prompt & print to be invoked.      "
-    ]
 
 , todo
 :   [ { topic
@@ -32,9 +22,28 @@
           }
 
       , topic
-      :   { '-8.2018____'
+      :   { '-7.2019____'
           :   [
               ]
+          }
+
+      , concepts
+      :   { '-7.20190415'
+      
+          :   { moments
+              :  {   YYYYMMDD : '[+|-]timezoneHour[minuteOffset][.hour[minute[second]]]' }
+                 |'  YYYYMMDD    [.HH[MM[SS]]]'
+                 |'  [+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
+                 |'  YYYY[.MM[.DD[.HH[.SS[.MS]]]]][+|-timezoneHour[minuteOffset]]'
+                 }
+                 
+              , versions
+              :  [" Have ions@doma.in version section that articulates policy "
+                 ," Policy sets the minimum moments or major version changes needed to "
+                 +" enable returning to a +vers.ion since the -vers.ion that caused a  "
+                 +" backwards-compatibility breaking change.                           "
+                 ]
+              }
           }
 
       , actions
@@ -393,6 +402,9 @@
     :   { topic
         :   / ... /
         }
+
+    , '-7.20190415'
+    :   / bugs moved to bugs.js /
 
     , '-8.20181118'
     :   { bugs
