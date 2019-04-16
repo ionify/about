@@ -2,7 +2,7 @@
 
 [**ionify**](http://ionify.org) is a
 [team](https://github.com/orgs/ionify/people)
-implementing optimized natural interfaces for you, to introduce novel,
+inventing optimized natural interfaces for you to implement novel,
 [simple](https://anemojii.glitch.me/),
 performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
