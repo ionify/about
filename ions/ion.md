@@ -1,11 +1,12 @@
 # ion
 
-**invoked object notation** expresses object invocation, observation & notification
-by combining mathematical operators with object literals & references:
+**invoked object notation** combines objects with mathematical operators that invoke their
+observation & behavior:
 
 ```javascript
-~ {"json" : "data" }  <= /observable json/
-+ {  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
+~ { "json" : "data" }  <= /observable json/
++ {   log  : '👋🏾👨🏾‍💻'}  <= /message logging/
+& ["observable text"]  <= /observable text/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
@@ -36,8 +37,7 @@ It can be written as [**lion**](lions.md), literal ion:
 ~[ ]      +[ ]      -[ ]     // 3 array  lions
 ~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
-and **orion**, [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
-reference ion:
+and **orion**, object reference ion:
 
 ```javascript
 ~obj      +obj      -obj     // 3 prefixed orion
@@ -77,7 +77,6 @@ arithmetic, relational & equality punctuation operators available:
 /  ["write"]  %  /them as you/  |   {see:"fit" }
 >  ["using"]  >= /  any of   /  <=  [  "these" ]
 <     17      == / compatible/  !=  "operators!"
-;
 ```
 
 As shown
@@ -120,7 +119,9 @@ in multiple languages.
 
 Enables **ion** via **hip-hop** operation overloading of the `valueOf()` & `toString()`
 methods [called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
-during an object's [conversion](https://en.wikipedia.org/wiki/Type_conversion)
+during an
+[object's](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
+[conversion](https://en.wikipedia.org/wiki/Type_conversion)
 to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
 **hip: handled-in-place** operation overloading implements the `valueOf()` method within an
@@ -133,7 +134,6 @@ object, which enables observing that single object's type conversion:
       { console.log ("hip: handled-in-place")
       }
 }
-;
 ```
 
 **hop: handled-on-prototype** operation overloading implements the `valueOf()` method on a
@@ -147,7 +147,6 @@ Object.prototype.valueOf
     | Enables observing all invoked objects except  |
     | Booleans, Dates, Numbers, Strings & Symbols.  */
     }
-;
 ```
 
 **hip-hop** operation overloading of `valueOf()` enables expressing &
@@ -161,7 +160,6 @@ Object.prototype.valueOf
 /  ["write"]  %  /them as you/  |   {see:"fit" }
 >  ["using"]  >= /  any of   /  <=  [  "these" ]
 <     17      == / compatible/  !=  "operators!"
-;
 ```
 
 **hip-hop** operation overloading of `toString()` enables expressing **ions** as phrases &
@@ -218,7 +216,6 @@ Object.prototype.valueOf
 ~ {ion:"some data"}  // 1st ion
 + {ion:"more data"}  // 2nd ion
 - {any:"data kind"}  // 3rd ion
-;
 ```
 
 JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for

@@ -5,9 +5,9 @@ Is a [team](#team) & an [api](#api).
 ## team
 
 [We](https://github.com/orgs/ionify/people)
-invent optimized natural interfaces for you to implement novel,
-[simple](https://anemojii.glitch.me/),
-performant,
+invent optimized natural interfaces for you, to implement
+[novel](https://anemojii.glitch.me/),
+simple, performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
 [experiences](http://ionified.net/).
@@ -22,20 +22,20 @@ by
 
 ## api
 
-[**ionify: ion implemented for you**](http://api.ionify.net),
-is a flexible, unobtrusive & novel api for expressing ideas via
-[**ion: invoked object notation**](./ions/ion.md):
+[**ionify:** ion implemented for you](http://api.ionify.net),
+is a flexible, unobtrusive & novel api for expressing information & behavior with intuitive
+vocabulary &
+[**ion:** invoked object notation](./ions/ion.md):
+
 
 ```javascript
-~ {"json" : "data" }  <= /observable json/
-+ {  log  : '👋🏾👨🏾‍💻'}  <= /message logging/
+~ { "json" : "data" }  <= /observable json/
++ {   log  : '👋🏾👨🏾‍💻'}  <= /message logging/
+& ["observable text"]  <= /observable text/
 ```
 
-**ion** expresses object invocation, observation & notification by combining mathematical
-operators with object literals & references.
-
-**ion** exists & can be implemented, within languages
-that support object
+**ion** combines objects with mathematical operators that invoke their observation & behavior.
+It exists, and can be implemented, within languages that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ### why
