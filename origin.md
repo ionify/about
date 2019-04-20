@@ -4,7 +4,7 @@
 Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've
 existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
-This is the story of [**ion**: invoked object notation](./ions/ion.md), one such capability's
+This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such capability's
 journey through time.
 
 
@@ -29,7 +29,7 @@ discovers a capability within JavaScript he names
 **2017**
 
 >Michael names & shares **jsonXD's** core concepts as
-[**ion**: invoked object notation](ions/ion.md)
+[**ion**: invoked object notation](ions/ion.md#ion)
 &
 [**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
 
@@ -147,13 +147,13 @@ web developer conference 🙋🏾‍♂️
 Over the next eight years he continued to experiment with, prototype, refine &
 describe this discovery, defining & announcing
 
-+ [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md)
-+ [**ion**: invoked object notation](ions/ion.md)
++ [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md#jems)
++ [**ion**: invoked object notation](ions/ion.md#ion)
 &
 + [**ionify**: ion implemented for you](http://api.ionify.net)
 
 in
-[2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md),
+[2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
 2016 &
 [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
 at the
@@ -163,10 +163,10 @@ software engineering conference 👨🏾‍💻
 
 ## distribution
 
-Today, [**ion**](ions/ion.md),
+Today, [**ion**](ions/ion.md#ion),
 [**ionify**](http://api.ionify.net) &
-[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md)
-are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md)
+[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md#jems)
+are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available to [discover](http://ionified.net/)
 learn from, apply & extend.
 
