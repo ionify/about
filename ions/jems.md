@@ -1,4 +1,4 @@
-# jems
+# [jems](http://jems.ionify.net/)
 
 **jems** are **json-expressed modules**:
 

@@ -37,7 +37,7 @@ discovers a capability within JavaScript he names
 ## details
 
 In 2003, Michael created
-[**ajile**: [a]synchronous javascript importing & loading extension](http://ajile.net);
+[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
 a Java-like module system for the web that enabled fetching scripts across domains 🤓
 
 ```javascript
@@ -57,16 +57,13 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON) was gaining popularity as a web-based
-data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML). Michael recognized
-this 💡 and was determined to enable fetching & interacting with JSON via **ajile** to
-benefit from **ajile's** cross-domain fetching capability, a feature that, at the time, was
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based data-interchange
+alternative to [XML](https://en.wikipedia.org/wiki/XML) was increasing. Michael recognized
+this and 💡 was determined to enable fetching & interacting with JSON via [**ajile**](http://ajile.net)
+to benefit from **ajile's** cross-domain fetching capability. At the time, that capability was
 unavailable via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
-resource-fetching API.
-
-Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object
-literal form generated syntax errors 😞
+resource-fetching web API.
 
 ```javascript
 Load ('http://static.remo.te/json.data.js')
@@ -80,16 +77,18 @@ Load ('http://static.remo.te/json.data.js')
   }
 ```
 
+Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object
+literal form generated syntax errors 😞
+
 ### jsonp
 
 [JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping
-JSON in a `function` call or padding it with a variable assignment. Close, but still too
-removed from valid JSON syntax 🤔
+JSON in a `function` call or padding it with a variable assignment.
 
 ```javascript
 Load ('http://dynamic.remo.te/json?call=on')
 
-   // wrapped-function JSONP response
+   // function-wrapped JSONP response
    on ({        "remote" : "request"
        ,      "responds" : "with this"
        ,     "evaluated" : "JSON"
@@ -109,28 +108,34 @@ Load ("http://static.remo.te/jsonp")
         }
         ;
 ```
+Close, but still too removed from valid JSON syntax 🤔
 
 ## discovery
 
 The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent 👨🏾‍🏫
 [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
-and object literal syntax & behavior experimentation 👨🏽‍🔬, that it was possible to observe &
-interact with anonymous objects, like JSON, by interfacing with & implicitly invoking their
-automatic type conversion! 👌🏾
+and object literal syntax & behavior experimentation 👨🏽‍🔬, that it was possible to interact
+with anonymous objects, like JSON, by invoking & observing their type conversion notification! 👌🏾
 
 ```javascript
-Object.prototype.valueOf           // 1: interface
-= function onObject ()            // 3: interact
-    { this.is   == "anonymous"     // true!
-    ; this.json == "data"          // true!
+Object.prototype.valueOf            // 1: observe
+= function onObject ()              // 3: interact
+    { this.is   == "anonymous"      //    true!
+      this.json == "data"           //    true!
     }
 
-~ {"is":"anonymous","json":"data"} // 2: invoke
-;
+Load ("http://remo.te/json")
+// responds with this invoked & observed  JSON...
+~ {"is":"anonymous","json":"data"}  // 2: notify
+
+Load ('http://dynamic.remo.te/json?call=~')
+// responds with this ~"function-wrapped" JSON...
+~({"is":"anonymous","json":"data"}) // 2: notify
 ```
 
 **A single-character prefix of `~`, `+`, or `-` was key**, and as close to observable JSON
-as anyone could get 🎉
+as anyone could get 🎉 Passing `~` to dynamic jsonp endpoints also created valid callbacks
+with no additional work 🤓
 **be magical: impossible is nothing** 🙌🏾
 
 
@@ -147,7 +152,7 @@ web developer conference 🙋🏾‍♂️
 Over the next eight years he continued to experiment with, prototype, refine &
 describe this discovery, defining & announcing
 
-+ [**jems**: json-expressed modules](https://github.com/ionify/jems/blob/public/about/jems.md#jems)
++ [**jems**: json-expressed modules](http://jems.ionify.net/)
 + [**ion**: invoked object notation](ions/ion.md#ion)
 &
 + [**ionify**: ion implemented for you](http://api.ionify.net)
@@ -165,7 +170,7 @@ software engineering conference 👨🏾‍💻
 
 Today, [**ion**](ions/ion.md#ion),
 [**ionify**](http://api.ionify.net) &
-[**jems**](https://github.com/ionify/jems/blob/public/about/jems.md#jems)
+[**jems**](http://jems.ionify.net/)
 are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available to [discover](http://ionified.net/)
 learn from, apply & extend.
