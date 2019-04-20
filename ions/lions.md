@@ -89,7 +89,7 @@
 
 ## [jewels](jewels.md)
 
-**json-expressed web-enabled languages**:
+**json-expressed web languages**:
 
 ```javascript
 ~ {"as":"html",  "body": "Hi!"}

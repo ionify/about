@@ -1,6 +1,6 @@
 # jewels
 
-**jewels** are **json-expressed web-enabled languages**:
+**jewels** are **json-expressed web languages**:
 
 ```javascript
   ~ {"as":"html",  "body": "Hi!"}
