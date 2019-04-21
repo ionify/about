@@ -5,8 +5,8 @@ Is a [team](#team) & an [api](#api).
 ## team
 
 [We](https://github.com/orgs/ionify/people)
-invent optimized natural interfaces for you, to implement
-[novel](https://anemojii.glitch.me/),
+invent optimized natural interfaces, for you to implement
+[novel](https://glitch.com/~anemojii),
 simple, performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
