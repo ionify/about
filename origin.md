@@ -4,8 +4,8 @@
 Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've
 existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
-This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such capability's
-journey through time.
+This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such
+capability's journey through time.
 
 
 ## decades
@@ -52,21 +52,20 @@ my.space.Module
         , thing2 = new Thing2()            /*
     | my module's remaining code goes here  */
     }
-;
 ```
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based data-interchange
-alternative to [XML](https://en.wikipedia.org/wiki/XML) was increasing. Michael recognized
-this and 💡 was determined to enable fetching & interacting with JSON via [**ajile**](http://ajile.net)
-to benefit from **ajile's** cross-domain fetching capability. At the time, that capability was
-unavailable via the popular but
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
+data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
+recognized this and 💡 was determined to enable fetching & interacting with JSON via
+[**ajile**](http://ajile.net) to benefit from **ajile's** cross-domain fetching capability. At
+the time, that capability was unavailable via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API.
 
 ```javascript
-Load ('http://static.remo.te/json.data.js')
+Load ('http://remo.te/some.json')
 
   //         JSON response
   {       "remote" : "request"
@@ -86,7 +85,7 @@ literal form generated syntax errors 😞
 JSON in a `function` call or padding it with a variable assignment.
 
 ```javascript
-Load ('http://dynamic.remo.te/json?call=on')
+Load ('http://remo.te/some.jsonp?call=on')
 
    // function-wrapped JSONP response
    on ({        "remote" : "request"
@@ -96,7 +95,7 @@ Load ('http://dynamic.remo.te/json?call=on')
        , "to a possibly" : "invalid on() function"
       })
 
-Load ("http://static.remo.te/jsonp")
+Load ("http://remo.te/some.jsonp")
 
    // variable-assignment-padded JSONP response
    var jsonp
@@ -106,38 +105,31 @@ Load ("http://static.remo.te/jsonp")
         , "passed as a" : "JavaScript Object"
         , "stored as a" : "server-defined variable"
         }
-        ;
 ```
 Close, but still too removed from valid JSON syntax 🤔
 
 ## discovery
 
-The breakthrough came in 2007 when Michael 👨🏾‍💻 discovered, through diligent 👨🏾‍🏫
-[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
-and object literal syntax & behavior experimentation 👨🏽‍🔬, that it was possible to interact
-with anonymous objects, like JSON, by invoking & observing their type conversion notification! 👌🏾
+Success came in 2007 when Michael discovered 👨🏾‍💻, through diligent
+[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
+👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, that it was possible to interact with
+anonymous objects, like JSON, by invoking & observing notified object type-conversions! 👌🏾
 
 ```javascript
-Object.prototype.valueOf            // 1: observe
-= function onObject ()              // 3: interact
-    { this.is   == "anonymous"      //    true!
-      this.json == "data"           //    true!
+Object.prototype.valueOf   // 1: observe
+= function onObject ()
+    { this.json == "data"  // 3: interact
     }
 
-Load ("http://remo.te/json")
-// responds with this invoked & observed  JSON...
-~ {"is":"anonymous","json":"data"}  // 2: notify
-
-Load ('http://dynamic.remo.te/json?call=~')
-// responds with this ~"function-wrapped" JSON...
-~({"is":"anonymous","json":"data"}) // 2: notify
+~  {"json":"data"}         // 2: invoke
+~ ({"json":"data"})        // 2: invoke via jsonp
 ```
 
 **A single-character prefix of `~`, `+`, or `-` was key**, and as close to observable JSON
-as anyone could get 🎉 Passing `~` to dynamic jsonp endpoints also created valid callbacks
-with no additional work 🤓
-**be magical: impossible is nothing** 🙌🏾
+as anyone could get 🎉
 
+Adding to this beautiful discovery, **`~`**, passed to some dynamic JSONP endpoints, created
+observable JSON because those endpoints apply `~` as JSONP's wrapped-function's identifier! 🤓
 
 
 ## development
@@ -175,5 +167,7 @@ are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lion
 of **ions** now available to [discover](http://ionified.net/)
 learn from, apply & extend.
 
+## be magical: impossible is nothing
+
 🖤
-[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
+[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz) 🙌🏾

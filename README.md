@@ -23,8 +23,7 @@ by
 ## api
 
 [**ionify:** ion implemented for you](http://api.ionify.net),
-is a flexible, unobtrusive & novel api for expressing information & behavior with intuitive
-vocabulary &
+is a flexible, unobtrusive & novel api for expressing information & behavior via 
 [**ion:** invoked object notation](./ions/ion.md):
 
 
