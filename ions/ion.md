@@ -1,7 +1,7 @@
 # ion
 
-**invoked object notation** combines objects with mathematical operators that invoke their
-observation and-or behavior:
+**invoked object notation** combines objects with mathematical operators that invoke the
+object's behavior and-or observation:
 
 ```javascript
 ~ { "json" : "data" }  <= /observable json/
@@ -223,7 +223,8 @@ enabling **ion** observation & notification. As shown, it can be manually implem
 leveraged via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides vocabulary for **ion** observation & notification.
+that implements **ion** and provides vocabulary for **ion** observation, notification &
+more.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
