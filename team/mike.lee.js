@@ -5,8 +5,8 @@
     , by: 'mike.lee'
     , at: 'ionify.net'
     , on: -7.20180327
-    , to: -8.2090103
-    , is: +1.06
+    , to: -8.20190421
+    , is: +1.07
     , it: "identifies Mike Lee"
     }
     ,
@@ -24,9 +24,9 @@
     ]
     ,
   creator:
-    [       'ionified', 'ionify',  'ion',      'jsonxd',   'ajile'
-    ,        'wakatta',   'jeni',             'anemoji'
-    , 'webOS 3.x Calendar Fixes',  'webOS 3.x Calendar', 'DataHub'
+    [       'ionified',  'ionify',  'ion',     'jsonxd',   'ajile'
+    ,        'ask.say', 'wakatta', 'jeni',   'anemojii'
+    ,  'webOS 3.x Calendar Fixes', 'webOS 3.x Calendar', 'DataHub'
     ,  'hollyhouk.com', 'MEAP Remote Management System'
     , 'iDesign@iskitz'
     ]
@@ -39,7 +39,7 @@
     [ 'netflix', 'devcolor', 'khanacademy'
     , 'mozilla',   'amazon', 'hp',  'palm'
     ,   'canon',   'sybase', 'nsbe', 'wpi'
-    , 'inroads',    'emsep'
+    , 'inroads',    'emsep', 'strive'
     , 'brooklyn technical high school'
     , 'philippa schuyler', 'foster-laurie'
     , 'st. agnes'
