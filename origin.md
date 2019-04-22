@@ -164,7 +164,7 @@ Today, [**ion**](ions/ion.md#ion),
 [**ionify**](http://api.ionify.net) &
 [**jems**](http://jems.ionify.net/)
 are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md#lions)
-of **ions** now available to [discover](http://ionified.net/)
+of **ions** now available to [discover](http://ionified.net/),
 learn from, apply & extend.
 
 ## be magical: impossible is nothing
