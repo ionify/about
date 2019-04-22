@@ -23,8 +23,8 @@ by
 ## api
 
 [**ionify:** ion implemented for you](http://api.ionify.net),
-is a flexible, unobtrusive & novel api for expressing information & behavior via 
-[**ion:** invoked object notation](./ions/ion.md):
+is a flexible, unobtrusive & novel api for expressing actionable information & behavior
+via [**ion:** invoked object notation](./ions/ion.md):
 
 
 ```javascript
@@ -33,8 +33,8 @@ is a flexible, unobtrusive & novel api for expressing information & behavior via
 & ["observable text"]  <= /observable text/
 ```
 
-**ion** combines objects with mathematical operators that invoke their observation & behavior.
-It exists, and can be implemented, within languages that support object
+**ion** combines objects with mathematical operators that invoke their observation
+and-or behavior. It exists, and can be implemented, within languages that support object
 [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ### why
@@ -85,7 +85,7 @@ internet. Here're a few:
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **ionify's** [api](https://github.com/ionify/ionify)
-and all other code within the **ionify**
+& all other code within the **ionify**
 [org](https://github.com/ionify/)
 & at
 [ionified.net](http://ionified.net/),

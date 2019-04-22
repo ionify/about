@@ -5,7 +5,7 @@
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer)
 &
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
-[ion](ion.md) forms:
+[ions](ion.md#ion):
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions

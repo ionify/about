@@ -129,8 +129,8 @@ object, which enables observing that single object's type conversion:
 
 ```javascript
 ~
-{ valueOf
-:   function hip ()
+{ valueOf:
+    function hip ()
       { console.log ("hip: handled-in-place")
       }
 }
@@ -174,11 +174,11 @@ Object.prototype.valueOf // vs .toString
     | or do something more profound!  */
     }
 
-var you     = {say:'do you see all the things'}
-  , can     = {say:'we can do'   }
-  , write   = {say:'if we write' }
-  , code    = {say:'our code'    }
-  , as      = {say:'as groups of'}
+var     you = {say:'do you see all the things'}
+  ,     can = {say:'we can do'   }
+  ,   write = {say:'if we write' }
+  ,    code = {say:'our code'    }
+  ,      as = {say:'as groups of'}
   , phrases = {say:'phrases & sentences?! 🤓'}
 
 'With orion' + you + can + write + code + as +
