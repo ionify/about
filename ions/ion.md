@@ -1,7 +1,7 @@
 # ion
 
-**invoked object notation** combines objects with mathematical operators that invoke the
-object's behavior and-or observation:
+**invoked object notation** combines objects with mathematical operators that invoke
+their object's behavior and-or observation:
 
 ```javascript
 ~ { "json" : "data" }  <= /observable json/

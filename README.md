@@ -33,7 +33,7 @@ via [**ion:** invoked object notation](./ions/ion.md):
 & ["observable text"]  <= /observable text/
 ```
 
-**ion** combines objects with mathematical operators that invoke the object's behavior
+**ion** combines objects with mathematical operators that invoke their object's behavior
 and-or observation. It exists, and can be implemented, within languages that support
 object [operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
