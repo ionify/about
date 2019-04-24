@@ -56,12 +56,17 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
+In 2007, <abbr title="JavaScript Object Notation">JSON</abbr>'s popularity as a web-based
 data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
-recognized this and 💡 was determined to enable fetching & interacting with JSON via
-[**ajile**](http://ajile.net) to benefit from **ajile's** cross-domain fetching capability. At
-the time, that capability was unavailable via the popular but
-[same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy) [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
+recognized this💡and was determined to enable fetching & interacting with
+[JSON](https://en.wikipedia.org/wiki/JSON)
+via
+**<abbr title="asynchronous javascript importing & loading extension">ajile</abbr>** to benefit from
+[**ajile**](http://ajile.net)'s
+cross-domain fetching capability. At the time, that capability was unavailable via the
+popular but
+[same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
+[`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API.
 
 ```javascript
@@ -110,10 +115,12 @@ Close, but still too removed from valid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007 when Michael discovered 👨🏾‍💻, through diligent
+Success came in 2007 when, through diligent
 [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, that it was possible to interact with
-anonymous objects, like JSON, by invoking & observing notified object type-conversions! 👌🏾
+👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered that it was
+possible to interact with anonymous objects, like JSON, by
+[invoking & observing notified object type conversions](ions/ion.md#function)!
+👨🏾‍💻👌🏾
 
 ```javascript
 Object.prototype.valueOf   // 1: observe
@@ -121,15 +128,19 @@ Object.prototype.valueOf   // 1: observe
     { this.json == "data"  // 3: interact
     }
 
-~  {"json":"data"}         // 2: invoke
-~ ({"json":"data"})        // 2: invoke via jsonp
+~  {"json":"data"}         // 2: invoke & notify
+~ ({"json":"data"})        // 2: invoke & notify via jsonp
 ```
 
 **A single-character prefix of `~`, `+`, or `-` was key**, and as close to observable JSON
-as anyone could get 🎉
+as anyone could get 🎉👏🏾
 
-Adding to this beautiful discovery, **`~`**, passed to some dynamic JSONP endpoints, created
-observable JSON because those endpoints apply `~` as JSONP's wrapped-function's identifier! 🤓
+This achieved Michael's original goal of loading & observing JSON as Javascript
+while also being:
+
++ compatible with all JavaScript environments,
++ a replacement for JSONP, and
++ a complement to JSONP by enabling **`~`** to be the only callback needed.
 
 
 ## development
@@ -146,8 +157,8 @@ describe this discovery, defining & announcing
 
 + [**jems**: json-expressed modules](http://jems.ionify.net/)
 + [**ion**: invoked object notation](ions/ion.md#ion)
-&
-+ [**ionify**: ion implemented for you](http://api.ionify.net)
++ [**ionify**: ion implemented for you](http://api.ionify.net) &
++ [**ionified**: ions indexed for internet-enabled discovery](http://ionified.net)
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -167,7 +178,7 @@ are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lion
 of **ions** now available to [discover](http://ionified.net/),
 learn from, apply & extend.
 
-## be magical: impossible is nothing
+## be magical: impossible is nothing!
 
 🖤
 [Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz) 🙌🏾
