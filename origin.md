@@ -1,7 +1,7 @@
 # ion's tale
 
 
-Finding beautiful capabilities hidden in plain sight is thrilling 🥳 Realizing they've
+Finding beautiful capabilities hidden in plain sight is thrilling 🚀 Realizing they've
 existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
 
 This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such
@@ -56,18 +56,14 @@ my.space.Module
 
 ### json
 
-In 2007, <abbr title="JavaScript Object Notation">JSON</abbr>'s popularity as a web-based
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
 data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
-recognized this💡and was determined to enable fetching & interacting with
-[JSON](https://en.wikipedia.org/wiki/JSON)
-via
-**<abbr title="asynchronous javascript importing & loading extension">ajile</abbr>** to benefit from
-[**ajile**](http://ajile.net)'s
-cross-domain fetching capability. At the time, that capability was unavailable via the
-popular but
+recognized this💡and was determined to enable fetching & interacting with JSON via
+[**ajile**](http://ajile.net) to benefit from **ajile**'s cross-domain fetching capability.
+At the time, that capability was unavailable via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
-resource-fetching web API.
+resource-fetching web API:
 
 ```javascript
 Load ('http://remo.te/some.json')
@@ -87,7 +83,7 @@ literal form generated syntax errors 😞
 ### jsonp
 
 [JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping
-JSON in a `function` call or padding it with a variable assignment.
+JSON in a `function` call or padding it with a variable assignment:
 
 ```javascript
 Load ('http://remo.te/some.jsonp?call=on')
@@ -111,14 +107,14 @@ Load ("http://remo.te/some.jsonp")
         , "stored as a" : "server-defined variable"
         }
 ```
-Close, but still too removed from valid JSON syntax 🤔
+This was close, but still too removed from valid JSON syntax 🤔
 
 ## discovery
 
 Success came in 2007 when, through diligent
 [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered that it was
-possible to interact with anonymous objects, like JSON, by
+👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered that it was possible
+to interact with anonymous objects, like JSON, by
 [invoking & observing notified object type conversions](ions/ion.md#function)!
 👨🏾‍💻👌🏾
 
@@ -132,15 +128,14 @@ Object.prototype.valueOf   // 1: observe
 ~ ({"json":"data"})        // 2: invoke & notify via jsonp
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key**, and as close to observable JSON
-as anyone could get 🎉👏🏾
+**A single-character prefix of `~`, `+`, or `-` was key** 🎉 and as close to observable JSON
+as anyone could get 👏🏾 and . . .
 
-This achieved Michael's original goal of loading & observing JSON as Javascript
-while also being:
-
-+ compatible with all JavaScript environments,
-+ a replacement for JSONP, and
-+ a complement to JSONP by enabling **`~`** to be the only callback needed.
++ was compatible with all JavaScript environments,
++ was a replacement for JSONP,
++ was a complement to JSONP, offering **`~`** as a uniquely reliable, compatible & unobtrusive
+  callback, and
++ introduced a [universe](http://api.ionify.net/) of applications beyond the originating goal.
 
 
 ## development
