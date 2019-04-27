@@ -66,7 +66,7 @@ At the time, that capability was unavailable via the popular but
 resource-fetching web API:
 
 ```javascript
-Load ('http://remo.te/some.json')
+Load ('http://remo.te/data.json')
 
   //         JSON response
   {       "remote" : "request"
@@ -83,10 +83,10 @@ literal form generated syntax errors 😞
 ### jsonp
 
 [JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping
-JSON in a `function` call or padding it with a variable assignment:
+JSON in a `function` call or padding it with a variable or property assignment:
 
 ```javascript
-Load ('http://remo.te/some.jsonp?call=on')
+Load ('http://remo.te/data.jsonp?callback=on')
 
    // function-wrapped JSONP response
    on ({        "remote" : "request"
@@ -96,7 +96,7 @@ Load ('http://remo.te/some.jsonp?call=on')
        , "to a possibly" : "invalid on() function"
       })
 
-Load ("http://remo.te/some.jsonp")
+Load ("http://remo.te/data.jsonp")
 
    // variable-assignment-padded JSONP response
    var jsonp
@@ -113,8 +113,8 @@ This was close, but still too removed from valid JSON syntax 🤔
 
 Success came in 2007 when, through diligent
 [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered that it was possible
-to interact with anonymous objects, like JSON, by
+👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered it was possible to
+interact with anonymous objects, like JSON, by
 [invoking & observing notified object type conversions](ions/ion.md#function)!
 👨🏾‍💻👌🏾
 
@@ -129,26 +129,26 @@ Object.prototype.valueOf   // 1: observe
 ```
 
 **A single-character prefix of `~`, `+`, or `-` was key** 🎉 and as close to observable JSON
-as anyone could get 👏🏾 and . . .
+as we could get 👏🏾 This pattern
 
-+ was compatible with all JavaScript environments,
-+ was a replacement for JSONP,
-+ was a complement to JSONP, offering **`~`** as a uniquely reliable, compatible & unobtrusive
-  callback, and
-+ introduced a [universe](http://api.ionify.net/) of applications beyond the originating goal.
++ replaced JSONP,
++ complemented JSONP with **`~`** and **`-`** as
+  [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
++ is compatible with all JavaScript environments, and
++ introduced a [universe](http://api.ionify.net/) beyond its original application.
 
 
 ## development
 
-After an additional two years of experimentation & implementation, Michael
-publicly introduced this cross-domain JSON-fetching solution as
-[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
-at the 2009
+After an additional two years of experimentation & implementation, Michael publicly introduced
+this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference 🙋🏾‍♂️
+web developer conference via a cross-domain JSON-fetching solution named
+[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
+🙋🏾‍♂️
 
-Over the next eight years he continued to experiment with, prototype, refine &
-describe this discovery, defining & announcing
+Over the next eight years he continued to develop, experiment, extend, present,
+explain & name
 
 + [**jems**: json-expressed modules](http://jems.ionify.net/)
 + [**ion**: invoked object notation](ions/ion.md#ion)
@@ -157,9 +157,8 @@ describe this discovery, defining & announcing
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
-2016 &
+2016 & at the
 [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
-at the
 [/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/)
 software engineering conference 👨🏾‍💻
 
@@ -167,13 +166,14 @@ software engineering conference 👨🏾‍💻
 ## distribution
 
 Today, [**ion**](ions/ion.md#ion),
+[**jems**](http://jems.ionify.net/),
 [**ionify**](http://api.ionify.net) &
-[**jems**](http://jems.ionify.net/)
-are **jsonXD's** direct descendants and the basis for the [many kinds](ions/lions.md#lions)
+[**ionified**](http://ionified.net)
+are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available to [discover](http://ionified.net/),
 learn from, apply & extend.
 
-## be magical: impossible is nothing!
+## be magical: impossible is nothing 🙌🏾
 
 🖤
-[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz) 🙌🏾
+[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
