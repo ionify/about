@@ -143,7 +143,7 @@ as we could get 👏🏾 This pattern
 After an additional two years of experimentation & implementation, Michael publicly introduced
 this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference via a cross-domain JSON-fetching solution named
+web developer conference via a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 🙋🏾‍♂️
 
