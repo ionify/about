@@ -58,9 +58,9 @@ my.space.Module
 
 In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
 data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
-recognized this💡and was determined to enable fetching & interacting with JSON via
-[**ajile**](http://ajile.net) to benefit from **ajile**'s cross-domain fetching capability.
-At the time, that capability was unavailable via the popular but
+recognized this💡and was determined to enable fetching & interacting with JSON as JavaScript
+via [**ajile**](http://ajile.net) to benefit from **ajile**'s cross-domain fetching
+capability. At the time, cross-domain fetching was unavailable via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API:
@@ -147,7 +147,7 @@ web developer conference via a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 🙋🏾‍♂️
 
-Over the next eight years he continued to develop, experiment, extend, present,
+Over the next eight years he continued to develop, extend, explore, present,
 explain & name
 
 + [**jems**: json-expressed modules](http://jems.ionify.net/)
