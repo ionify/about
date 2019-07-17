@@ -115,7 +115,7 @@ Success came in 2007 when, through diligent
 [study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
 👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
-[invoking & observing notified object type conversions](ions/ion.md#function)!
+[invoking & observing numeric object type conversions](ions/ion.md#function)!
 👨🏾‍💻👌🏾
 
 ```javascript
