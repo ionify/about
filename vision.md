@@ -2,7 +2,7 @@
 # vision
 
 Software creation can be automatic & accessible.
-[**ion**](ions/ion.md#ion) makes that possible.
+[**ion**: invoked object notation](ions/ion.md#ion) makes that possible.
 
 ## automatic
 
@@ -35,32 +35,32 @@ interpret its meaning.
 operators,
 
 ```javascript
-each - of - these - words - mean & _do - something;
+each - of - these - words - means & does - something;
 ```
 
 as regular expression literals,
 
 ```javascript
-~/ each of these words mean & do something /
+~/ each of these words means & does something /
 ```
 
 and as one or more strings within an array
 
 ```javascript
-~[" each of these words mean & do something "]
+~[" each of these words means & does something "]
 ```
 
 ## real
 
 [**ionify**](http://api.ionify.net/) exists to make this vision of automatic & accessible
 software creation real. It enables mapping a word, symbol, or group of words and-or symbols to
-specific behavior. This mapping enables observing & reacting to objects containing those words
-& symbols.
+specific & discoverable behavior. This mapping enables observing & reacting to objects containing those words
+and-or symbols.
 
-To fully realize this vision, **ionify** will
+**ionify** will realize this vision by
 
-+ locate & fetch **ions** via the internet
++ locating & fetching **ions** via the internet
 
-+ enable defining & applying schemas for ion inspection & validation
++ enabling schema definition & application for ion inspection & validation
 
-+ implement & share the ions & words needed to define data & behavior.
++ implementing & sharing the ions, words & symbols needed to define discoverable data & behavior.
