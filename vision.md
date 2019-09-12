@@ -50,9 +50,9 @@ and as one or more strings within an array
 ~[" each of these words means & does something "]
 ```
 
-## real
+## how
 
-[**ionify**](http://api.ionify.net/) exists to make this vision of automatic & accessible
+[**ionify**: ion implemented for you](http://api.ionify.net/) exists to make this vision of automatic & accessible
 software creation real. It enables mapping a word, symbol, or group of words and-or symbols to
 specific & discoverable behavior. This mapping enables observing & reacting to objects containing those words
 and-or symbols.
@@ -64,3 +64,7 @@ and-or symbols.
 + enabling schema definition & application for ion inspection & validation
 
 + implementing & sharing the ions, words & symbols needed to define discoverable data & behavior.
+
+
+## by
+👨🏾‍💻[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
