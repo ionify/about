@@ -4,7 +4,7 @@
     { id:  'todo@ionify'
     , by: ['mike.lee', 'team'  ]
     , on: { 200709   : -4      }
-    , to: { 20190415 : -7.0302 }
+    , to: { 20190929 : -7.0615 }
     , at:  -0.1
     , is: "ionify's list of things to do"
     , we:
@@ -49,7 +49,24 @@
           }
 
       , actions
-      :   { '-8.20181211'
+      :   { '-7.20190930'
+          :   "ali: array-literal ion can be a way to pass input to ion"
+          +   "functions. If we create an ordered list of activated ions we can"
+          +   "recognize or infer when an ali is meant to be input. If ion"
+          +   "functions define if they operate before, after, or between"
+          +   "inputs we can pass ali's to them at the right time! 🤓 I'm so"
+          +   "happy to realize this application and am excited about possibly"
+          +   "realizing how to represent functions as a list of act-ions. I'm"
+          +   "also realizing that any lion: literal ion could be treated as"
+          +   "input and also any ion, it really depends on what input type(s)"
+          +   "an act-ion accepts. dation: data ion?"
+
+          , '-4.20190922'
+          :   "For all ions that do something when activated, expect those"
+          +   "things to be set in a ~do action vs directly on the ion. All"
+          +   "other non-re-about info can be directly on the ion."
+
+          , '-8.20181211'
           :   [/ ~on shorthand for action terms with optional parts, e.g. /
               +   {on:'get [in] [then [after]]'}
               +/ would define sensors for these actions /
