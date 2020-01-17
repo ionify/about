@@ -37,8 +37,8 @@ discovers & shares a capability within JavaScript he names
 ## details
 
 In 2003, Michael created
-[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net),
-a Java-like module system for the web, that enabled fetching scripts across domains 🤓
+[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
+a Java-like module system for the web, that enabled fetching scripts across different domains 🤓
 
 ```javascript
 Namespace ("my.space")
@@ -107,7 +107,7 @@ Load ("http://remo.te/data.jsonp")
         , "stored as a" : "server-defined variable"
         }
 ```
-This was close, but still too unlike valid JSON syntax 🤔
+This was close, but still invalid JSON syntax 🤔
 
 ## discovery
 
@@ -159,7 +159,7 @@ explain & name
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
-2016 & at the
+2016, and at the
 [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
 [/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/)
 software engineering conference 👨🏾‍💻
