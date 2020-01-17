@@ -8,17 +8,17 @@ Software creation can be automatic & accessible.
 
 Software can self-assemble & self-improve if its data & behavior can be programmatically
 discovered, inspected & tested for compatibility & quality. **ion** enables defining data &
-behavior in this way.
+behavior this way.
 
 ```javascript
 ~
 { re:
-    { id: 'thing@somewhe.re'
+    { id: 'thing@some.doma.in'
     , as: 'a.schema.defined.thing'
     , by: 'mike.lee@ionify.net'
-    , on: '2007.09-04'
-    , to: '2019.05.30-07'
-    , is: +2.3
+    , on: -4.200709
+    , to: -8.20200117
+    , is: +2.4
     , it: "defines an internet-discoverable, versioned, "
         + "schema-defined & inspectable thing."
     }
@@ -27,8 +27,8 @@ behavior in this way.
 
 ## accessible
 
-Software can be created without learning programming language vocabulary or constructs. If
-data or behavior can be expressed in code as prose, that should be sufficient for software to
+Software can be created without learning programming language vocabulary & constructs. If
+data & behavior can be expressed in code as prose, that should be sufficient for software to
 interpret its meaning.
 
 **ion** enables expressing code as prose via words joined or separated by mathematical
@@ -67,4 +67,4 @@ and-or symbols.
 
 
 ## by
-👨🏾‍💻[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
+👨🏾‍💻[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)🤎
