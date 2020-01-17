@@ -2,7 +2,7 @@
 
 
 Finding beautiful capabilities hidden in plain sight is thrilling 🚀 Realizing they've
-existed for decades is humbling 🙇🏾 Sharing them is enlightening 🖤
+existed for decades is humbling 🙇🏾 Sharing them is enlightening 🤎
 
 This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such
 capability's journey through time.
@@ -22,7 +22,7 @@ first language specification is
 **2007**
 
 >[Michael Lee](https://github.com/iskitz),
-discovers a capability within JavaScript he names
+discovers & shares a capability within JavaScript he names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
 
@@ -37,8 +37,8 @@ discovers a capability within JavaScript he names
 ## details
 
 In 2003, Michael created
-[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
-a Java-like module system for the web that enabled fetching scripts across domains 🤓
+[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net),
+a Java-like module system for the web, that enabled fetching scripts across domains 🤓
 
 ```javascript
 Namespace ("my.space")
@@ -59,8 +59,8 @@ my.space.Module
 In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
 data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
 recognized this💡and was determined to enable fetching & interacting with JSON as JavaScript
-via [**ajile**](http://ajile.net) to benefit from **ajile**'s cross-domain fetching
-capability. At the time, cross-domain fetching was unavailable via the popular but
+(via [**ajile**](http://ajile.net)) to benefit from **ajile**'s cross-domain fetching
+capability 🚀 At the time, cross-domain fetching was unavailable via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API:
@@ -107,13 +107,13 @@ Load ("http://remo.te/data.jsonp")
         , "stored as a" : "server-defined variable"
         }
 ```
-This was close, but still too removed from valid JSON syntax 🤔
+This was close, but still too unlike valid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007 when, through diligent
-[study](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and object-literal syntax experimentation 👨🏽‍🔬, Michael discovered it was possible to
+Success came in 2007 when, through diligent study of the 
+[JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
+👨🏾‍🏫 and object-literal syntax experimentation 👨🏾‍🔬, Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
 [invoking & observing numeric object type conversions](ions/ion.md#function)!
 👨🏾‍💻👌🏾
@@ -128,14 +128,16 @@ Object.prototype.valueOf   // 1: observe
 ~ ({"json":"data"})        // 2: invoke & notify via jsonp
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key** 🎉 and as close to observable JSON
-as we could get 👏🏾 This pattern
+**A single-character prefix of `~`, `+`, or `-` was key 🎉 and as close to observable & syntactically-correct JSON
+as we could get 👏🏾**
 
-+ replaced JSONP,
-+ complemented JSONP with **`~`** and **`-`** as
+This pattern
+
++ is compatible with all JavaScript environments,
++ replaces JSONP,
++ complements JSONP with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
-+ is compatible with all JavaScript environments, and
-+ introduced a [universe](http://api.ionify.net/) beyond its original application.
++ and introduces a [universe](http://api.ionify.net/) of applications.
 
 
 ## development
@@ -165,15 +167,15 @@ software engineering conference 👨🏾‍💻
 
 ## distribution
 
-Today, [**ion**](ions/ion.md#ion),
-[**jems**](http://jems.ionify.net/),
+Today, [**jems**](http://jems.ionify.net/),
+[**ion**](ions/ion.md#ion),
 [**ionify**](http://api.ionify.net) &
 [**ionified**](http://ionified.net)
 are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
-of **ions** now available to [discover](http://ionified.net/),
-learn from, apply & extend.
+of **ions** now available for inclusion, [discovery](http://ionified.net/),
+extension, application & study.
 
 ## be magical: impossible is nothing 🙌🏾
 
-🖤
+🤎
 [Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
