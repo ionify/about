@@ -114,7 +114,10 @@
           }
 
       , modularity
-      :   { '-8.20171208'
+      :   { '-7.20200408'
+          :   `@ionify/web.js = ion/on.js + web/get.js`
+
+          , '-8.20171208'
           :   `launch flow: host-->ion+host-->ions-->preferred`
 
           , '-8.20171113'
