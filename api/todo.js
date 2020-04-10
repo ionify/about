@@ -4,7 +4,7 @@
     { id:  'todo@ionify'
     , by: ['mike.lee', 'team'  ]
     , on: { 200709   : -4      }
-    , to: { 20190929 : -7.0615 }
+    , to: { 20200410 : -7.0357 }
     , at:  -0.1
     , is: "ionify's list of things to do"
     , we:
@@ -103,6 +103,12 @@
                   , "#"   : Number  || "times or array index?"
                   , prior	: Boolean || "earlier occurrence"
                   }
+
+          , '-7.20170429'
+          :   "~can: to indicate what terms an ion can handle,"
+          +   " it could help with finding ions by capability."
+          +   { can: "add subtract multiply divide square cube" }
+          +   { can:/(add|subtract|multiply|divide|square|cube)/}
           }
 
       , hosts
