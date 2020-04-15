@@ -39,36 +39,36 @@ These terms name & convey **ionify**’s concepts & things.
 
 ## concepts
 
-### itc
+### [itc](ions/ion.md#function)
 
 - **i**nteractive **t**ype **c**onversion
  - interacting with an object during its type-conversion
 
-- ### hip
+- ### [hip](ions/ion.md#javascript)
 
-  - **h**andled-in-place
+  - **h**andled-**i**n-**p**lace
 
-- ### hop
+- ### [hop](ions/ion.md#function)
 
-  - **h**andled-on-prototype
+  - **h**andled-**o**n-**p**rototype
 
-- ### hot
+- ### [hot](ions/ion.md#java)
 
-  - **h**andled-on-type
+  - **h**andled-**o**n-**t**ype
 
 ### itcandoo
 
 - **itc and o**peration **o**verloading
 
-- ### foo
+- ### [foo](ions/ion.md#other-languages)
 
-  - **f**unctional operation overloading
+  - **f**unctional **o**peration **o**verloading
 
-- ### goo
+- ### [goo](ions/ion.md#other-languages)
 
-  - **g**eneric operation overloading
+  - **g**eneric **o**peration **o**verloading
 
-- ### ooo
+- ### [ooo](ions/ion.md#python)
 
   - **o**bjective **o**peration **o**verloading
 
