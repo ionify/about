@@ -1,6 +1,6 @@
 # 🤓 Our Lingo 😅
 
-These terms name & convey **ionify**’s concepts & things.
+Key terms that name & convey **ionify**’s concepts & things.
 
 ## core
 
@@ -32,53 +32,34 @@ These terms name & convey **ionify**’s concepts & things.
     ~obj
     ```
 
-
-### [storie](ions/stories.md)
-
-- **s**entence **t**emplate **o**r **r**egular-[**i**on]-**e**xpression
-
 ## concepts
 
-### [itc](ions/ion.md#function)
+### [operator overloading](ions/ion.md#function)
 
-- **i**nteractive **t**ype **c**onversion
- - interacting with an object during its type-conversion
-
-- ### [hip](ions/ion.md#javascript)
-
-  - **h**andled-**i**n-**p**lace
-
-- ### [hop](ions/ion.md#function)
-
-  - **h**andled-**o**n-**p**rototype
+- [**ion**](#ion) applies [direct](ions/ion.md#python) &
+[indirect](ions/ion.md#javascript)
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) to objects which enables interacting with them during their type-conversion flow.
 
 - ### [hot](ions/ion.md#java)
 
   - **h**andled-**o**n-**t**ype
 
-### itcandoo
+- ### [hip](ions/ion.md#javascript)
 
-- **itc and o**peration **o**verloading
+  - **h**andled-**i**n-**p**lace
 
-- ### [foo](ions/ion.md#other-languages)
+- ### [hop](ions/ion.md#javascript)
 
-  - **f**unctional **o**peration **o**verloading
+  - **h**andled-**o**n-**p**rototype
 
-- ### [goo](ions/ion.md#other-languages)
+- ### [pools](ions/ion.md#other-languages)
 
-  - **g**eneric **o**peration **o**verloading
-
-- ### [ooo](ions/ion.md#python)
-
-  - **o**bjective **o**peration **o**verloading
-
-- ### pool
-
-  - **p**rocedural **o**peration-**o**verloading **l**anguage
+  - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#procedural_languages) **o**perator-**o**verloading **l**anguages
 
 ### sasi
 
 - **s**elf-**a**ssembling, **s**elf-**i**mproving
+- **ion** definition, identification, observation & modification enable highly modular code, data & software that can self-assemble & self-improve.
 
 ## ions
 
@@ -98,32 +79,32 @@ These terms name & convey **ionify**’s concepts & things.
 - ### [aeon](ions/lions.md#aeons)
 
   - **a**rray-**e**xpressed **o**bject **n**otation
- 
+
     ```js
     ~[{ }]
     ```
 
 - ### [aesop](ions/aesop.md)
 
-  - **a**rray-**e**xpressed **s**torie **o**r **p**hrase
+  - **a**rray-**e**xpressed [**s**torie](#storie) **o**r **p**hrase
 
     ```js
     ~[/hi 👋🏾/]  <=  /storie/ ;
     ~[“hi 👋🏾”]  <=  “phrase” ;
     ```
 
-### dion
+### [dion](https://github.com/ionify/ionify/blob/public/README.md#domain-specific-languages)
 
 - **d**sl **ion**
 - **d**omain-specific language **ion**
 
-### emoji
+### [emoji](https://anemojii.glitch.me/)
 
   - **emoj**i **i**on
 
     ```js
+    ~ [‘• . •’] ;
     ~ { 0 : 0 } ;
-    ~ ['• . •'] ;
     ~/d - . - b/;
     ```
 
@@ -135,37 +116,46 @@ These terms name & convey **ionify**’s concepts & things.
   ~ {"json":"data"} ;
   ```
 
+- ### jeli
+
+  - **j**son-**e**xpressed **l**anguage **i**on
+
+  - ### [jeni](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js#L1)
+
+    - **j**son-**e**xpressed **n**atural-language **i**on
+
+  - ### jesi
+
+    - **j**son-**e**xpressed **s**chema **i**on
+
+  - ### jet
+
+    - **j**son-**e**xpressed **t**est
+
+  - ### [jewel](ions/jewels.md)
+
+    - **j**son-**e**xpressed **w**eb-**e**nabled **l**anguage
+
+      ```js
+      ~ {"as":"html", "body":"Hi!"} ;
+      ```
+
+    - ### [jess](ions/jess.md)
+
+      - **j**son-**e**xpressed **s**tyle**s**heet
+
+        ```js
+        ~ {"as":"css", "#body": {"color":"#000"}} ;
+        ```
+
 - ### [jem](ions/jems.md)
 
   - **j**son-**e**xpressed **m**odule
 
-- ### jesi
-
-  - **j**son-**e**xpressed **s**chema **i**on
-
-- ### [jess](ions/jess.md)
-
-  - **j**son-**e**xpressed **s**tyle**s**heet
-
-    ```js
-    ~ {"as":"css", "#body": {"color":"#000"}} ;
-    ```
-
 - ### jest
 
-  - **j**son-**e**xpressed **s**entence **t**emplate
-
-- ### jet
-
-  - **j**son-**e**xpressed **t**est
-
-- ### [jewel](ions/jewels.md)
-
-  - **j**son-**e**xpressed **w**eb-**e**nabled **l**anguage
-
-    ```javascript
-    ~ {"as":"html", "body":"Hi!"} ;
-    ```
+  - **j**son-**e**xpressed [**st**orie](#storie)
+  - **j**son-**e**xpressed **s**entence **t**emplate **o**r **r**egular-**i**on-**e**xpression
 
 - ### oj
 
@@ -179,7 +169,14 @@ These terms name & convey **ionify**’s concepts & things.
 
 - **o**bject-**l**iteral **i**on
 
+### [storie](ions/stories.md)
+
+- **s**entence **t**emplate **o**r **r**egular-**i**on-**e**xpression
+
 ### [webi](ions/webi.md)
 
 - **w**eb **ion**
 
+
+#
+**❤️ [ionify](https://about.ionify.net/)**
