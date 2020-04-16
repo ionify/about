@@ -22,7 +22,7 @@ bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
 and [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator)
 unary operators with [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
-that can be 
+that can be
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
 or
@@ -196,7 +196,7 @@ For [**lions**](#form) that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
 [**orion**](#form) the search may end similarly but begin with the **ion's** inherited object.
 
-`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those 
+`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those
 types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
 a [basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
 that's then converted to a number.
@@ -273,7 +273,7 @@ for more.
 
 ### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Enables **orion** via **hot: handled-on-type** operator overloading via
+Enables **orion** by applying **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 See this
@@ -319,7 +319,7 @@ print (ion)
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-**ion** via **foo: functional operator overloading** of arithmetic, bitwise, relational & equality operators.
+**ion** via functional operator overloading of arithmetic, bitwise, relational & equality operators.
 
 
 ## compatibility
