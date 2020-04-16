@@ -30,14 +30,14 @@
 
       , concepts
       :   { '-7.20190415'
-      
+
           :   { moments
               :  {   YYYYMMDD : '[+|-]timezoneHour[minuteOffset][.hour[minute[second]]]' }
                  |'  YYYYMMDD    [.HH[MM[SS]]]'
                  |'  [+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
                  |'  YYYY[.MM[.DD[.HH[.SS[.MS]]]]][+|-timezoneHour[minuteOffset]]'
                  }
-                 
+
               , versions
               :  [" ? +vers.ion = vers.ion & newer, and -vers.ion = vers.ion & older ? "
                  ," Have ions@doma.in version section that articulates policy "
@@ -158,7 +158,7 @@
           +   / notification of objects. It exists within programming languages  /
           +   / that support operator & operation overloading with objects.      /
 
-          +   / js & java support ion via operation overloading. python, and     /
+          +   / js & java support ion via operator overloading. python, and     /
           +   / potentially many other languages, support ion via operator       /
           +   / overloading.                                                     /
           }

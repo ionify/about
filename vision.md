@@ -40,7 +40,7 @@ Via automated & accessible software creation & interaction:
                      ^
                   :pools:
                 procedural
-           operation-overloading
+           operator-overloading
                  languages
                   :pools:
 ```

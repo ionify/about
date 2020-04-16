@@ -35,7 +35,7 @@ via [**ion:** invoked object notation](./ions/ion.md):
 
 **ion** combines objects with mathematical operators that invoke their behavior and-or
 observation. It exists & can be implemented within languages that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ### why
 

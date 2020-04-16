@@ -12,7 +12,7 @@ their behavior and-or observation:
 **ion** was [discovered, defined & developed](../origin.md)
 by [Michael Lee](https://github.com/iskitz)
 in 2007, and exists & can be implemented within languages that support object
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ## form
 
@@ -111,20 +111,20 @@ equality operators when comparing **ions** with
 ## function
 
 **ion** is enabled by
-[operator & operation overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+[operator & operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 in multiple languages.
 
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Enables **ion** via **hip-hop** operation overloading of the `valueOf()` & `toString()`
+Enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
 methods [called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
 during an
 [object's](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
 [conversion](https://en.wikipedia.org/wiki/Type_conversion)
 to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
-**hip: handled-in-place** operation overloading implements the `valueOf()` method within an
+**hip: handled-in-place** operator overloading implements the `valueOf()` method within an
 object, which enables observing that single object's type conversion:
 
 ```javascript
@@ -136,7 +136,7 @@ object, which enables observing that single object's type conversion:
 }
 ```
 
-**hop: handled-on-prototype** operation overloading implements the `valueOf()` method on a
+**hop: handled-on-prototype** operator overloading implements the `valueOf()` method on a
 `prototype` object, which enables observing the type conversions of all objects sharing that
 `prototype`:
 
@@ -149,7 +149,7 @@ Object.prototype.valueOf
     }
 ```
 
-**hip-hop** operation overloading of `valueOf()` enables expressing &
+**hip-hop** operator overloading of `valueOf()` enables expressing &
 [punctuating](#punctuation)
 **ions** with these arithmetic, bitwise, relational & equality operators:
 
@@ -162,7 +162,7 @@ Object.prototype.valueOf
 <     17      == / compatible/  !=  "operators!"
 ```
 
-**hip-hop** operation overloading of `toString()` enables expressing **ions** as phrases &
+**hip-hop** operator overloading of `toString()` enables expressing **ions** as phrases &
 sentences concatenated with the `+` operator, but since the `valueOf()` method also enables
 this, and `toString()` is more likely to be unexpectedly called by others, overloading
 `toString()` is not recommended:
@@ -187,7 +187,7 @@ var     you = {say:'do you see all the things'}
 
 **flow**
 
-During **hip-hop** operation overloading, an attempt is made to
+During **hip-hop** operator overloading, an attempt is made to
 [convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
 That conversion attempts to call the object operand's `valueOf()` method. If the **ion**
 doesn't define that method, JavaScript searches for it in the **ion's**
@@ -218,7 +218,7 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-JavaScript's **hip-hop** operation overloading is a simple & reliable pattern for
+JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for
 enabling **ion** observation & notification. As shown, it can be manually implemented or
 leveraged via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
@@ -229,7 +229,7 @@ more.
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Enables **orion** via **hot: handled-on-type** operation overloading by implementing an object type's
+Enables **orion** via **hot: handled-on-type** operator overloading by implementing an object type's
 `toString()` method, which enables overloading the `+` operation for objects of that type:
 
 ```java
@@ -286,26 +286,26 @@ class Ion:
         return “python.hipion!”
 
     def __repr__(self):
-        return ‘<hipion>’
+        return ‘<hip_ion>’
 
     def __str__(self):
-        return ‘hipion!’
+        return ‘hip_ion!’
 
     def __add__(self, other):
-        print (‘hipion + something!’)
-        return ‘hipion + something!’
+        print (‘hip_ion + something!’)
+        return ‘hip_ion + something!’
 
     def __neg__(self):
-        print (‘-hipion!’)
-        return ‘-hipion!’
+        print (‘-hip_ion!’)
+        return ‘-hip_ion!’
 
     def __pos__(self):
         print (‘+’ + self.getName())
-        return ‘+hipion!’
+        return ‘+hip_ion!’
 
     def __invert__(self):
-        print (‘~hipion!’)
-        return ‘~hipion!’
+        print (‘~hip_ion!’)
+        return ‘~hip_ion!’
 
 ion = Ion()
 ~ ion
@@ -324,7 +324,7 @@ print (ion)
 
 ## compatibility
 
-**hip-hop** operation overloading & **orion** are compatible with all JavaScript
+**hip-hop** operator overloading & **orion** are compatible with all JavaScript
 environments. **lion** is compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
