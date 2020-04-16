@@ -229,7 +229,7 @@ more.
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Enables **ion** via **hot: handled-on-type** operation overloading by implementing an object type's
+Enables **orion** via **hot: handled-on-type** operation overloading by implementing an object type's
 `toString()` method, which enables overloading the `+` operation for objects of that type:
 
 ```java
@@ -273,7 +273,7 @@ for more.
 
 ### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Enables **ion** via **hot: handled-on-type** operator overloading via
+Enables **orion** via **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 See this
