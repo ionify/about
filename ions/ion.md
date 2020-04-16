@@ -278,9 +278,43 @@ Enables **orion** via **hot: handled-on-type** operator overloading via
 
 See this
 [proof-of-concept](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
-for more.
+for more:
 
+```python
+class Ion:
+    def getName(self):
+        return “python.hipion!”
 
+    def __repr__(self):
+        return ‘<hipion>’
+
+    def __str__(self):
+        return ‘hipion!’
+
+    def __add__(self, other):
+        print (‘hipion + something!’)
+        return ‘hipion + something!’
+
+    def __neg__(self):
+        print (‘-hipion!’)
+        return ‘-hipion!’
+
+    def __pos__(self):
+        print (‘+’ + self.getName())
+        return ‘+hipion!’
+
+    def __invert__(self):
+        print (‘~hipion!’)
+        return ‘~hipion!’
+
+ion = Ion()
+~ ion
++ ion
+- ion
+ion + 777
+repr (ion)
+print (ion)
+```
 
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
