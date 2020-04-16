@@ -14,7 +14,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 ### [ionified](https://ionified.net/)
 
-- **ion**s **i**mplemented **f**or **i**nternet-**e**nabled **d**iscovery
+- **ion**s **i**ndexed **f**or **i**nternet-**e**nabled **d**iscovery
 
 ### [lion](ions/lions.md)
 
