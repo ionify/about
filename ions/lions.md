@@ -1,10 +1,10 @@
 # lions
 
-**literal ions** can be expressed as expansions of the
+**literal ions** can be expressed as expansions of 
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer)
 &
-[regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
+[regular-expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
 [ions](ion.md#ion):
 
 ```javascript
@@ -23,7 +23,7 @@
 
 ## [stories](stories.md)
 
-**sentence template or regular ion expressions**:
+**sentence template or regular-ion-expressions**:
 
 ```javascript
 ~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
@@ -41,13 +41,9 @@
 ;
 ```
 
-## oj
+## jedi
 
-**observable json**
-
-```javascript
-~ {"json":"data"} ;
-```
+**all json-expressed ions, e.g. [jems](#jems), [jess](#jess), [jewels](#jewels) & [oj](#oj)**
 
 
 ## [jems](jems.md)
@@ -97,8 +93,16 @@
 ;
 ```
 
+## oj
+
+**observable json**
+
+```javascript
+~ {“json”:”data”} ;
+```
+
 ## [webi](webi.md)
 
 **web ion** is any **ion** or set of ions created for the
 [web](https://en.wikipedia.org/wiki/World_Wide_Web).
-All [jewels](jewels.md), for example, are **webi**.
+For example, all [jewels](jewels.md) & [jess](#jess) are **webi**.
