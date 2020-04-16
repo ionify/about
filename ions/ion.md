@@ -283,29 +283,29 @@ for more:
 ```python
 class Ion:
     def getName(self):
-        return “python.hipion!”
+        return 'python.hip.ion!'
 
     def __repr__(self):
-        return ‘<hip_ion>’
+        return '<hip.ion>'
 
     def __str__(self):
-        return ‘hip_ion!’
+        return 'hip.ion!'
 
     def __add__(self, other):
-        print (‘hip_ion + something!’)
-        return ‘hip_ion + something!’
+        print ('hip.ion + something!')
+        return 'hip.ion + something!'
 
     def __neg__(self):
-        print (‘-hip_ion!’)
-        return ‘-hip_ion!’
+        print ('-hip.ion!')
+        return '-hip.ion!'
 
     def __pos__(self):
-        print (‘+’ + self.getName())
-        return ‘+hip_ion!’
+        print ('+hip.ion!')
+        return '+hip.ion!'
 
     def __invert__(self):
-        print (‘~hip_ion!’)
-        return ‘~hip_ion!’
+        print ('~' + self.getName())
+        return '~hip.ion!'
 
 ion = Ion()
 ~ ion
