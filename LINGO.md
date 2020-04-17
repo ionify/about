@@ -134,7 +134,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
   - ### [jewel](ions/jewels.md)
 
-    - **j**son-**e**xpressed **w**eb-**e**nabled **l**anguage
+    - **j**son-**e**xpressed **we**b **l**anguage
 
       ```js
       ~ {"as":"html", "body":"Hi!"} ;
@@ -163,7 +163,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 ### obi
 
-- **o**bservable **i**on
+- **ob**servable **i**on
 
 ### oli
 
@@ -175,7 +175,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 ### [webi](ions/webi.md)
 
-- **w**eb **ion**
+- **w**eb **i**on
 
 
 #
