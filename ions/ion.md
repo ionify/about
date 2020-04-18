@@ -11,8 +11,7 @@ their behavior and-or observation:
 
 **ion** was [discovered, defined & developed](../origin.md)
 by [Michael Lee](https://github.com/iskitz)
-in 2007, and exists & can be implemented within languages that support object
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+in 2007, and exists & can be implemented within languages that support [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ## form
 
@@ -219,18 +218,22 @@ Object.prototype.valueOf
 ```
 
 JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for
-enabling **ion** observation & notification. As shown, it can be manually implemented or
-leveraged via
+enabling **ion** observation & notification. As shown, it can be manually implemented, or
+applied via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
-an [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements **ion** and provides vocabulary for **ion** observation, notification &
+a flexible, unobtrusive & novel [api](https://en.wikipedia.org/wiki/Application_programming_interface)
+that implements & provides vocabulary for **ion** observation, notification &
 more.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Enables **orion** via **hot: handled-on-type** operator overloading by implementing an object type's
-`toString()` method, which enables overloading the `+` operation for objects of that type:
+Enables [**orion**](#form) via **hot: handled-on-type** operator overloading by implementing an object type's
+`toString()` method, which enables overloading the `+` operation for objects of that type.
+
+See this in-depth
+[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
+for more:
 
 ```java
 class AnION
@@ -265,15 +268,10 @@ class ActIONs
   }
 ```
 
-See this in-depth
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
-for more.
-
-
 
 ### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
 
-Enables **orion** by applying **hot: handled-on-type** operator overloading via
+Enables [**orion**](#form) by applying **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 See this
@@ -319,13 +317,13 @@ print (ion)
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-**ion** via functional operator overloading of arithmetic, bitwise, relational & equality operators.
+[**orion**](#form) via functional operator overloading of arithmetic, bitwise, relational & equality operators.
 
 
 ## compatibility
 
-**hip-hop** operator overloading & **orion** are compatible with all JavaScript
-environments. **lion** is compatible with all environments implementing
+[**hip-hop**](#function) operator overloading & [**orion**](#form) are compatible with all JavaScript
+environments. [**lion**](#form) is compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
 
