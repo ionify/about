@@ -5,24 +5,25 @@
 ```javascript
 ~
 { "re":
-      { "id": "jem@doma.in"
+      { "id": "jem@ionify.net"
       , "is": "a json-expressed module"
-      , "by": "mike.lee@iskitz"
-      , "on": "2007.09-04"
-      , "to": "2019.03.19-07"
+      , "by": "mike.lee"
+      , "on": -4.200709
+      , "to": -7.20200418
+      , “at”: +2.1
       , "in":
             [ "forest-hills.new-york.usa.earth"
             ,   "san-jose.california.usa.earth"
             ]
-      }
+      },
 
-, "do":
+  "do":
       [ "an aesop action"
       , {"if":"do.times", "<":7, "do":"do"}
-      ]
+      ],
 
-, "an aesop action"
-:     "log Hi! #do.times"
+  "an aesop action":
+      "log Hi! #do.times"
 }
 ;
 ```
