@@ -54,7 +54,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 - ### [pools](ions/ion.md#other-languages)
 
-  - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#procedural_languages) **o**perator-**o**verloading **l**anguages
+  - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) **o**perator-**o**verloading **l**anguages
 
 ### sasi
 
