@@ -58,12 +58,12 @@ behavior:
 ```javascript
 ~
 { re:
-    { id: 'thing@some.doma.in'
+    { id: 'thing@ionified.net'
     , as: 'a.schema.defined.thing'
-    , by: 'mike.lee@ionify.net'
+    , by: 'mike.lee'
     , on: -4.200709
-    , to: -7.20200413
-    , at: +2.5
+    , to: -7.20200418
+    , at: +3.0
     , it: "defines an internet-discoverable, versioned, "
         + "schema-defined & inspectable thing."
     }
