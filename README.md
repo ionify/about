@@ -1,4 +1,4 @@
-# [ionify](http://ionify.net)
+# [ionify](https://ionify.net)
 
 Is a [team](#team) & an [api](#api).
 
@@ -10,7 +10,7 @@ invent optimized natural interfaces for you, to implement
 simple, performant,
 [intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
 & reliable
-[experiences](http://ionified.net/).
+[experiences](https://ionified.net/).
 
 We've developed, published & maintained
 [**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
@@ -22,20 +22,19 @@ by
 
 ## api
 
-[**ionify:** ion implemented for you](http://api.ionify.net),
+[**ionify:** ion implemented for you](https://api.ionify.net),
 is a flexible, unobtrusive & novel api for expressing actionable information & behavior
 via [**ion:** invoked object notation](./ions/ion.md):
 
 
 ```javascript
 ~ { "json" : "data" }  <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}  <= /message logging/
++ {   log  : '👋🏾👨🏾‍💻'}  <= /unobtrusive api/
 & ["observable text"]  <= /observable text/
 ```
 
 **ion** combines objects with mathematical operators that invoke their behavior and-or
-observation. It exists & can be implemented within languages that support object
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+observation. It exists & can be implemented within [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) languages.
 
 ### why
 
@@ -56,7 +55,7 @@ data & code, and
 
 ## ionified
 
-[**ions implemented for internet-enabled discovery**](http://ionified.net/)
+[**ions implemented for internet-enabled discovery**](https://ionified.net/)
 is a repository of **ions** that can be programmatically discovered & verified via the
 internet. Here're a few:
 
@@ -77,7 +76,7 @@ internet. Here're a few:
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
 
-+ more @ [ionified.net](http://ionified.net/)
++ more @ [ionified.net](https://ionified.net/)
 
 
 **ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2019
@@ -88,5 +87,5 @@ internet. Here're a few:
 & all other code within the **ionify**
 [org](https://github.com/ionify/)
 & at
-[ionified.net](http://ionified.net/),
+[ionified.net](https://ionified.net/),
 are individually licensed & copyrighted.
