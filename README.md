@@ -28,9 +28,9 @@ via [**ion:** invoked object notation](./ions/ion.md):
 
 
 ```javascript
-~ { "json" : "data" }  <= /observable json/
+~ { "json" : "data" }    <= /observable json/
 + {   log  : '👋🏾👨🏾‍💻'}  <= /unobtrusive api/
-& ["observable text"]  <= /observable text/
+& ["observable text"]    <= /observable text/
 ```
 
 **ion** combines objects with mathematical operators that invoke their behavior and-or
