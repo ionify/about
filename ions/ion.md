@@ -4,9 +4,9 @@
 their behavior and-or observation:
 
 ```javascript
-~ { "json" : "data" }  <= /observable json/
+~ { "json" : "data" }    <= /observable json/
 + {   log  : '👋🏾👨🏾‍💻'}  <= /message logging/
-& ["observable text"]  <= /observable text/
+& ["observable text"]    <= /observable text/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
