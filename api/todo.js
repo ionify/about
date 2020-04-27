@@ -1,35 +1,65 @@
 ;
 ~
 { re:
-    { id:  'todo@ionify'
-    , by: ['mike.lee', 'team'  ]
-    , on: { 200709   : -4      }
-    , to: { 20200410 : -7.0357 }
-    , at:  -0.1
+    { id:  'todo'
+    , of:  'ionify@ionify.net'
+    , as: ['todo.0', 'im.0', 'ion']
+    , by: ['mike.lee', 'team'     ]
+    , in: ['forest-hills.new-york.us.earth'
+          ,  'san-josé.california.us.earth'
+          ,                'tokyo.jp.earth'
+          ]
+    , on: { 200709   : -4         }
+    , to: { 20200421 : -7.0537    }
+    , at:  -0.01
     , is: "ionify's list of things to do"
     , we:
-        [" Will support now:ECMAScript+5.1, wow:ES+Next, old:ES+3 & all:ES-3 where "
+        [" will support now:ECMAScript+5.1, wow:ES+Next, old:ES+3 & all:ES-3 where "
         +"   +vers.ion = vers.ion & newer -vers.ion = vers.ion & older             "
-        ," Were exploring implementing ~on.do "
+        ," were exploring implementing ~on.do "
+        ," will blog about ion, it's origin, ionify, anemojii & wakatta"
+        ," will try joël's suggestion to find a more interested audience: devops"
         ]
-    }
+    },
 
-, todo
-:   [ { topic
-      :   { '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
-          :   / ... /
-          ||  " ... "
-          ||  [     ]
-          }
+  todo:
+    [ { topic:
+          { '[+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
+            :   / ... /
+            ||  " ... "
+            ||  [     ]
+          },
 
-      , topic
-      :   { '-7.2019____'
-          :   [
+        topic:
+          { '-7.2020____':
+              [
               ]
-          }
+          },
 
-      , concepts
-      :   { '-7.20190415'
+        api:
+          { '-7.20200421':
+              { '~get.from.and':
+                  { from:
+                      [ "doma.in, /path, cache"
+                      , {domain: "internet domain to use for getting ion(s)"
+                        ,  path: "directory or file path for getting ion(s)"
+                        , cache: "boolean: true: indicates need to refetch"
+                        }
+                      ],
+                     and:
+                      [ "authenticate, authorize, assess, replace"
+                      , {authenticate : "boolean: true: authenticate via domain"
+                        ,authorize    : "boolean:false: authorize    via domain"
+                        ,assess       : "boolean: true: assess ion  performance"
+                        ,replace      : "boolean:false: assess & replace ion(s)"
+                        }
+                      ]
+                  }
+              }
+          },
+
+        concepts:
+          { '-7.20190415'
 
           :   { moments
               :  {   YYYYMMDD : '[+|-]timezoneHour[minuteOffset][.hour[minute[second]]]' }
