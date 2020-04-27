@@ -18,17 +18,19 @@ Via automated & accessible software creation & interaction:
 
 ```
             seamless idea sharing
-                     ^
-     cdns: jsdelivr, cdnjs, etc. :cdns
+                     ^cdns: jsdelivr, github, npm, cdnjs, etc. :cdns
                      ^
           visual, audible, tactile
                      ^
                   textual
                      ^
-                 :ionified: 
-              ions indexed for
-         internet-enabled discovery
                  :ionified:
+              ions indexed for
+              internet-enabled
+                 discovery
+                 :ionified:
+                     ^
+opus: orion prose understands sentences :opus
                      ^
    ionify: ion implemented for you :ionify
                      ^
