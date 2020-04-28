@@ -2,34 +2,37 @@
 ~
 { re:
     { id:  'mike.lee'
-    , as: ['person.0', 'ion']
+    , as: ['im.0']
     , by:  'mike.lee@ionify.net'
-    , at: -0.010
+    , at: -0.011
     , on: -7.20180327
-    , to: -7.20200427
-    , is: "Mike Lee's Identifiers"
+    , to: -7.20200428
+    , is: "Mike Lee's Identity Module"
     }
     ,
   is:
     [ 'Michael Lee'         , 'Mike Lee'
     , 'mike.lee@ionify'     , 'mike.lee@ionified'
-    , 'mike.lee@iskitz'     , 'mikeleepro@linkedin'
+    , 'mike.lee@iskitz'     , 'mike-lee@jsperf'
+    , 'mikeleepro@linkedin' , 'mikeleepro@yahoo'
+    , 'mikeizworkin@github' , 'mikeizworkin@yahoo'
     , 'iskitz@dev.to'       , 'iskitz@github'
     , 'iskitz@glitch'       , 'iskitz@mdn'
     , 'iskitz@sourceforge'  , 'iskitz@trello'
     , 'iskitz@twitter'      , 'iskitz@repl.it'
     , 'iskitz@yahoo'        , 'iskitzdev@yahoo'
-    , 'mike-lee@jsperf'     , 'mikeizworkin@github'
-    , 'mikeizworkin@yahoo'  , 'mike.iskitz.net'
+    , 'iskitz.com'          , 'iskitz.net'
+    , 'mike.iskitz.net'
     ]
     ,
   creator:
-    [ 'ionizer', 'ionix', 'ionified', 'ionify', 'jsonxd', 'ajile'
+    [ 'ionizer',   'ionix', 'ionified', 'ionify', 'jsonxd', 'ajile'
     , 'ask.say', 'wakatta', 'anemojii'
-    , 'aeon', 'aesop', 'dion', 'ion', 'jem', 'jeni', 'jet', 'jewel', 'lion'
-    , 'obi', 'oj', 'orion', 'sasi' , 'storie', 'webi'
+    , 'aeon'   ,   'aesop', 'dion'    , 'ion'   , 'im'    , 'jem'
+    , 'jeni'   ,     'jet', 'jewel'   , 'lion'  , 'obi'   , 'oj'
+    , 'orion'  ,    'sasi', 'storie'  , 'webi'
     , 'webOS 3.x Calendar Fixes', 'webOS 3.x Calendar', 'DataHub'
-    , 'hollyhouk.com', 'MEAP Remote Management System'
+    , 'hollyhouk.com'           , 'MEAP Remote Management System'
     , 'iDesign@iskitz'
     ]
     ,
@@ -38,12 +41,12 @@
     ]
     ,
   member:
-    [ 'netflix', '/dev/color', 'khanacademy'
-    , 'mozilla',     'amazon',  'hp', 'palm'
-    ,   'canon',     'sybase', 'bsu', 'nsbe'
-    ,     'wpi',    'inroads', 'emsep', 'strive'
-    , 'brooklyn technical high school'
-    , 'philippa schuyler', 'foster-laurie'
+    [ 'netflix', '/dev/color', 'khanacademy', 'mozilla', 'amazon'
+    , 'hp'     , 'palm'      , 'ionify'     , 'canon'  , 'sybase'
+    , 'bsu'    , 'nsbe'      , 'wpi'        , 'inroads', 'emsep'
+    , 'strive' , 'brooklyn technical high school'
+    , 'philippa schuyler'
+    , 'foster-laurie'
     , 'st. agnes'
     ]
     ,
