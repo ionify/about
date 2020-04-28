@@ -14,47 +14,44 @@ Seamlessly share ideas
 
 ## how
 
-Via automated & accessible software creation & interaction:
+Via well-defined, discoverable, accessible & observable software entities:
 
 ```
             seamless idea sharing
-                     ^cdns: jsdelivr, github, npm, cdnjs, etc. :cdns
-                     ^
-          visual, audible, tactile
-                     ^
-                  textual
-                     ^
-                 :ionified:
-              ions indexed for
-              internet-enabled
-                 discovery
-                 :ionified:
-                     ^
-opus: orion prose understands sentences :opus
-                     ^
-   ionify: ion implemented for you :ionify
-                     ^
- dions: domain-specific language ions :dions
-                     ^
+                      ^
+cdns: github, npm, ..., jsdelivr, cdnjs, :cdns
+                      ^
+           visual, audible, tactile
+                      ^
+                   textual
+                      ^
+                  :ionified:
+               ions indexed for
+               internet-enabled
+                  discovery
+                  :ionified:
+                      ^
+ opus: orion prose understands sentences :opus
+                      ^
+    ionify: ion implemented for you :ionify
+                      ^
+  dions: domain-specific language ions :dions
+                      ^
       ion: invoked object notation :ion
-                     ^
-         javascript, python & java
-                     ^
-                  :pools:
-                procedural
-           operator-overloading
-                 languages
-                  :pools:
+                      ^
+          javascript, python & java
+                      ^
+                   :pools:
+                 procedural
+            operator-overloading
+                  languages
+                   :pools:
 ```
 
-### automation
+### entities
 
-Software can self-assemble & self-improve if its data & behavior can be programmatically
-discovered, inspected & tested for compatibility & quality.
-
-[**ion**](ions/ion.md#ion) & [**ionify**](http://api.ionify.net/)
-enable defining that kind of data &
-behavior:
+[**ion**](ions/ion.md#ion) & [**ionify**](https://api.ionify.net/)
+enable defining discoverable, accessible & observable data & behavior:
 
 
 ```javascript
@@ -64,10 +61,10 @@ behavior:
     , as: 'a.schema.defined.thing'
     , by: 'mike.lee'
     , on: -4.200709
-    , to: -7.20200418
-    , at: +3.0
+    , to: -7.20200428
+    , at: +3.1
     , it: "defines an internet-discoverable, versioned, "
-        + "schema-defined & inspectable thing."
+        + "schema-defined & observable thing."
     }
 }
 ```
@@ -75,33 +72,33 @@ behavior:
 
 #### ionify
 
-Exists to make automatic & accessible
-software creation real. It enables mapping a word, symbol, or group of words and-or symbols to
-specific & discoverable behavior. This mapping enables observing & reacting to objects containing those words
+Enables mapping words and-or symbols to specific & discoverable data & behavior.
+This mapping enables observing & reacting to objects containing those words
 and-or symbols.
 
 **ionify** enables
 
 + locating & fetching **ions** via the internet
 
-+ schema definition & application for ion inspection & validation
++ schema definition & application for ion observation & validation
 
-+ implementing & sharing the ions, words & symbols needed to define discoverable data & behavior.
++ implementing & sharing the ions, words & symbols needed to define
+discoverable data & behavior.
 
 ## accessibility
 
-Software can be created without learning 20th-century programming language vocabulary & constructs. If
-data & behavior can be expressed via code-as-prose, that should enable software
-interpretation of its meaning.
+Software can be created without learning 20th-century programming language
+vocabulary or constructs. If data & behavior can be expressed as prose,
+software should be able to interpret its meaning.
 
-**ion** enables expressing code as prose via words joined or separated by mathematical
-operators:
+**ion** enables expressing code as prose via words joined or separated by
+mathematical operators:
 
 ```javascript
 each - of - these - words - means & does - something;
 ```
 
-as regular-expression literals:
+as invoked regular-expression literals:
 
 ```javascript
 ~/ each of these words means & does something /
