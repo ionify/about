@@ -50,7 +50,7 @@ programming, fetching,
 & interacting with highly
 [decoupled](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
 data & code, and
-[more](https://github.com/ionify/ideas/).
+more.
 
 
 ## ionified

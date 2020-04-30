@@ -232,7 +232,7 @@ Enables [**orion**](#form) via **hot: handled-on-type** operator overloading by 
 `toString()` method, which enables overloading the `+` operation for objects of that type.
 
 See this in-depth
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/java/src/net/ionify/java/Hello.java)
+[proof-of-concept](https://github.com/ionify/about/blob/public/api/java/src/net/ionify/java/Hello.java)
 for more:
 
 ```java
@@ -269,13 +269,13 @@ class ActIONs
 ```
 
 
-### [python](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
+### [python](https://github.com/ionify/about/blob/public/api/python/ion.proof.py)
 
 Enables [**orion**](#form) by applying **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
 See this
-[proof-of-concept](https://github.com/ionify/ideas/blob/public/python/ion.proof.py)
+[proof-of-concept](https://github.com/ionify/about/blob/public/api/python/ion.proof.py)
 for more:
 
 ```python
