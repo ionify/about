@@ -79,7 +79,7 @@ internet. Here're a few:
 + more @ [ionified.net](https://ionified.net/)
 
 
-**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2019
+**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2020
 [Michael Lee](https://github.com/iskitz/) and is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
