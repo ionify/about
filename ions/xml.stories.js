@@ -4,8 +4,8 @@
 , by:  'mike.lee@ionify.net'
 , in:  'san-jose.california.us.earth'
 , on:  -7.202003200700
-, to:  -7.202003210407
-, at:  -0.4
+, to:  -7.202005020704
+, at:  +0.05
 , as: ['xml','stories']
 , is:  `an exploration of xml as
         stories`
@@ -33,14 +33,14 @@
 }
 
 $ </these/>
-$   </look like=xml/>
+$   </look like="xml"/>
 $ </or/>
 $   </xhtml/>
 $ </or/>
-$   </html data-attribute=🤓/>
+$   </html data-attribute="🤓"/>
 $   </tags/>
 $ </but/>
-$ </these are=ions😉 by=👨🏾‍💻/>
+$ </these are="ions😉" by="👨🏾‍💻"/>
 $
 
 ; /these//
