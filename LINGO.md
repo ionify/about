@@ -1,6 +1,6 @@
 # 🤓 Our Lingo 😅
 
-Key terms that name & convey **ionify**’s concepts & things.
+Terms that name & convey **ionify**’s key concepts & things.
 
 ## core
 
@@ -8,37 +8,51 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 - **i**nvoked **o**bject **n**otation
 
+- #### [lion](ions/lions.md)
+
+  - **l**iteral **ion**
+
+    ```js
+    ~ { } + / / & [ ]
+    ```
+
+- ### [orion](ions/ion.md#form)
+
+  - **o**bject **r**eference **ion**
+
+    ```js
+    ~ obj
+    ```
+
 ### [ionify](README.md)
 
 - **ion i**mplemented **f**or **y**ou
+- a flexible, unobtrusive & novel api for ion interaction
+
+  ```js
+  ~ {get:"ionify@ionify.net"}
+  ```
 
 ### [ionified](https://ionified.net/)
 
 - **ion**s **i**ndexed **f**or **i**nternet-**e**nabled **d**iscovery
-
-### [lion](ions/lions.md)
-
-- **l**iteral **ion**
-
-  ```js
-  ~{ } + / / & [ ]
-  ```
-
-### [orion](ions/ion.md#form)
-
-- **o**bject **r**eference **ion**
-
-    ```js
-    ~obj
-    ```
+- a repository of internet-discoverable ions
 
 ## concepts
+
+### [code as prose](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
+
+- code expressed as natural language prose
+
+  ```javascript
+  each - word - means & does - something;
+  ```
 
 ### [operator overloading](ions/ion.md#function)
 
 - [**ion**](#ion) applies [direct](ions/ion.md#python) &
 [indirect](ions/ion.md#javascript)
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) to objects which enables interacting with them during their type-conversion flow.
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) to interact with objects during their type-conversion.
 
 - ### [hot](ions/ion.md#java)
 
@@ -59,21 +73,16 @@ Key terms that name & convey **ionify**’s concepts & things.
 ### sasi
 
 - **s**elf-**a**ssembling, **s**elf-**i**mproving
-- **ion** definition, identification, observation & modification enable highly modular code, data & software that can self-assemble & self-improve.
+- ion definition, identification, observation & modification enables highly modular code, data & software that can self-assemble & self-improve.
 
 ## ions
-
-### ai
-
-- **a**nonymous **i**on
-- an unnamed or unidentified ion
 
 ### ali
 
 - **a**rray-**l**iteral **i**on
 
     ```js
-    ~[ ]
+    ~ [ ]
     ```
 
 - ### [aeon](ions/lions.md#aeons)
@@ -81,7 +90,7 @@ Key terms that name & convey **ionify**’s concepts & things.
   - **a**rray-**e**xpressed **o**bject **n**otation
 
     ```js
-    ~[{ }]
+    ~ [{ }]
     ```
 
 - ### [aesop](ions/aesop.md)
@@ -89,94 +98,81 @@ Key terms that name & convey **ionify**’s concepts & things.
   - **a**rray-**e**xpressed [**s**torie](#storie) **o**r **p**hrase
 
     ```js
-    ~[/hi 👋🏾/]  <=  /storie/ ;
-    ~[“hi 👋🏾”]  <=  “phrase” ;
+    ~ [/👋🏾Hi!/]  <=  /storie/
+    ~ ["👋🏾Hi!"]  <=  "phrase"
     ```
 
-### [dion](https://github.com/ionify/ionify/blob/public/README.md#domain-specific-languages)
+### [emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
 
-- **d**sl **ion**
-- **d**omain-specific language **ion**
-
-### [emoji](https://anemojii.glitch.me/)
-
-  - **emoj**i **i**on
+  - **emoj**i [**i**on](#ion)
+  - emoji created via [literal ions](#lion)
 
     ```js
-    ~ [‘• . •’] ;
-    ~ { 0 : 0 } ;
-    ~/d - . - b/;
+    ~  [‘• . •’]
+    ~  { 0 : 0 }
+    ~ /d - . - b/
     ```
 
-### jedi
+### oj
 
-- **j**son-**e**xpresse**d i**on
+- **o**bservable **j**son
 
   ```js
-  ~ {"json":"data"} ;
+  ~ {"json":"data"}
+  & ["json","data"]
   ```
 
-- ### jeli
+- ### [jewel](ions/jewels.md)
 
-  - **j**son-**e**xpressed **l**anguage **i**on
+  - **j**son-**e**xpressed **we**b **l**anguage
 
-  - ### [jeni](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js#L1)
-
-    - **j**son-**e**xpressed **n**atural-language **i**on
-
-  - ### jesi
-
-    - **j**son-**e**xpressed **s**chema **i**on
-
-  - ### jet
-
-    - **j**son-**e**xpressed **t**est
-
-  - ### [jewel](ions/jewels.md)
-
-    - **j**son-**e**xpressed **we**b **l**anguage
-
-      ```js
-      ~ {"as":"html", "body":"Hi!"} ;
-      ```
-
-    - ### [jess](ions/jess.md)
-
-      - **j**son-**e**xpressed **s**tyle**s**heet
-
-        ```js
-        ~ {"as":"css", "#body": {"color":"#000"}} ;
-        ```
+    ```js
+    ~ {"as":"html", "body":"Hi!"}
+    ~ {"as":"css", "#body": {"color":"#000"}}
+    ```
 
 - ### [jem](ions/jems.md)
 
   - **j**son-**e**xpressed **m**odule
 
+    ```js
+    ~ { "re":
+          { "id": "json.module@ionified.net"
+          , "by": "mike.lee"
+          , "on": -4.200709
+          }
+      }
+      ```
+
 - ### jest
 
   - **j**son-**e**xpressed [**st**orie](#storie)
-  - **j**son-**e**xpressed **s**entence **t**emplate **o**r **r**egular-**i**on-**e**xpression
 
-- ### oj
-
-  - **o**bservable **j**son
-
-### obi
-
-- **ob**servable **i**on
+    ```js
+    ~ {"jest":"/👋🏾Hi!/"}
+    ```
 
 ### oli
 
-- **o**bject-**l**iteral **i**on
+- **o**bject-**l**iteral [**i**on](#ion)
+
+  ```js
+  ~ { }
+  ```
 
 ### [storie](ions/stories.md)
 
 - **s**entence **t**emplate **o**r **r**egular-**i**on-**e**xpression
 
+  ```javascript
+  ~ /👋🏾Hi!/
+  ```
+
 ### [webi](ions/webi.md)
 
 - **w**eb **i**on
-
+- any **[ion](#ion)** or set of ions created
+for the [web](https://en.wikipedia.org/wiki/World_Wide_Web)
 
 #
 **❤️ [ionify](https://about.ionify.net/)**
