@@ -9,7 +9,7 @@
 ## observable text
 
 ```javascript
-; / This shows how prose can be    //
+  / This shows how prose can be    //
   / written as code via stories    //
   / joined by trailing \/'s. It    //
   / shows how javascript's         //
@@ -21,7 +21,6 @@
   / symbols; some of which are     //
   / common when writing spoken     //
   / languages like English.         /
-;
 ```
 
 ## xml
