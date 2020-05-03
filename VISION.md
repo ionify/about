@@ -3,13 +3,13 @@
 
 seamlessly share ideas & information
 
-+ **visually**: via colors, drawings, pictures & video
++ **visually**: colors, drawings, pictures & video
 
-+ **audibly**: via spoken languages, verbal & non-verbal sounds
++ **audibly**: music, speech & other sounds
 
-+ **tactilely**: via touch-sensed textures & patterns
++ **tactilely**: textures, patterns & temperature
 
-+ **textually**: via written words, phrases & prose
++ **textually**: words, phrases, prose & other writings
 
 
 ## how
@@ -18,7 +18,7 @@ via well-defined, discoverable, accessible & observable
 [**ions**](#ions):
 
 ```
-            seamless idea sharing
+      seamless idea & information sharing
                       ^
                   :ionified:
                ions indexed for
@@ -29,13 +29,13 @@ via well-defined, discoverable, accessible & observable
                       ^
                    textual
                       ^
- opus: orion prose understands sentences :opus
+                code as prose
                       ^
     ionify: ion implemented for you :ionify
                       ^
-      ion: invoked object notation :ion
+       ion: invoked object notation :ion
                       ^
-          javascript, python & java
+           javascript, python & java
                       ^
                    :pools:
                  procedural
@@ -46,8 +46,8 @@ via well-defined, discoverable, accessible & observable
 
 ### [ions](ions/ion.md#ion)
 
-enable defining discoverable, accessible & observable data & behavior via
-granular attribute description:
+invoked object notations enable defining discoverable, accessible & observable
+things with detailed attribute descriptions:
 
 ```javascript
 ~
@@ -73,44 +73,54 @@ granular attribute description:
 
 ### [ionify](https://api.ionify.net/)
 
-enables defining, fetching, observing & interacting with discoverable ions
-that describe one or more thing's attributes:
+ion implemented for you, enables defining, fetching, sensing & interacting with
+accessible [ions](#ions):
 
 ```javascript
-~
-{ on:'my',
-  my(ion)
-    { /observe my ion  :3//
-      /log its "data!" :4//
-      {log: ion.my}
-    }
-}
+~ { on:'my' ,
+    my( ion )
+      { /sense my ion,    :2//
+        /log  its data    :3//
+        {log: ion.my}
+      }
+  }
 
-~ {get:'my.data@ionified.net'}
-| /get  this 'my' data ion :1/
-~ {my :"data!"}   <=  /got :2/
+~ {get:'my.ion@ionified.net'}
+~ {my :"data"} <= /got my :1/
 ```
 
-## [opus](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
+### code as prose
 
-**ions** can be used without learning 20th-century programming language
-vocabulary by expressing them as words joined or separated by mathematical operators:
+ [ions](#ions) enable expressing code as prose without 20th-century programming
+language vocabulary:
 
-```javascript
-each - of - these - words - means & does - something;
-```
++ [**opus**: orion prose understands sentences](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
+  enables code as words joined and-or separated by mathematical operators:
 
-as invoked regular-expression literals:
+  ```javascript
+  each - word - means & does - something;
+  ```
 
-```javascript
-~/ each of these words means & does something /
-```
++ [**stories**: sentence template or regular-ion-expressions](LINGO.md#storie),
+  enable code as words within invoked regular-expression literals:
 
-and as one or more strings of words in an array
+  ```javascript
+  ~/ each word means & does something /
+  ```
 
-```javascript
-~[" each of these words means & does something "]
-```
++ [**aesop**: array-expressed sentence or phrase](LINGO.md#aesop),
+  enables code as one or more strings of words within arrays
+
+  ```javascript
+  ~[" each word means & does something "]
+  ```
+
+### [ionified](https://ionified.net/)
+
+[ions](#ions) indexed for internet-enabled discovery, is a repository of
+internet-discoverable ions that [ionify](#ionify) queries, along with
+others, to authenticate ions.
 
 
-## 🤎 [🇬🇾 Mike Lee 👨🏾‍💻](https://github.com/iskitz)
+#
+**❤️ [ionify](https://about.ionify.net/)**
