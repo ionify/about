@@ -77,41 +77,25 @@ Terms that name & convey **ionify**’s key concepts & things.
 
 ## ions
 
-### ali
+### [aesop](ions/aesop.md)
 
-- **a**rray-**l**iteral **i**on
+- **a**rray-**e**xpressed [**s**torie](#storie) **o**r **p**hrase
 
-    ```js
-    ~ [ ]
-    ```
-
-- ### [aeon](ions/lions.md#aeons)
-
-  - **a**rray-**e**xpressed **o**bject **n**otation
-
-    ```js
-    ~ [{ }]
-    ```
-
-- ### [aesop](ions/aesop.md)
-
-  - **a**rray-**e**xpressed [**s**torie](#storie) **o**r **p**hrase
-
-    ```js
-    ~ [/👋🏾Hi!/]  <=  /storie/
-    ~ ["👋🏾Hi!"]  <=  "phrase"
-    ```
+  ```js
+  ~ [/👋🏾Hi!/]  <=  /storie/
+  ~ ["👋🏾Hi!"]  <=  "phrase"
+  ```
 
 ### [emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
 
-  - **emoj**i [**i**on](#ion)
-  - emoji created via [literal ions](#lion)
+- **emoj**i [**i**on](#ion)
+- emoji created via [literal ions](#lion)
 
-    ```js
-    ~  [‘• . •’]
-    ~  { 0 : 0 }
-    ~ /d - . - b/
-    ```
+  ```js
+  ~  ['• . •']
+  ~  { 0 : 0 }
+  ~ /d ~ . ~ b/
+  ```
 
 ### oj
 
@@ -140,25 +124,11 @@ Terms that name & convey **ionify**’s key concepts & things.
           { "id": "json.module@ionified.net"
           , "by": "mike.lee"
           , "on": -4.200709
+          , "to": -7.20200503
+          , "at": +0.02
           }
       }
       ```
-
-- ### jest
-
-  - **j**son-**e**xpressed [**st**orie](#storie)
-
-    ```js
-    ~ {"jest":"/👋🏾Hi!/"}
-    ```
-
-### oli
-
-- **o**bject-**l**iteral [**i**on](#ion)
-
-  ```js
-  ~ { }
-  ```
 
 ### [storie](ions/stories.md)
 
@@ -167,12 +137,6 @@ Terms that name & convey **ionify**’s key concepts & things.
   ```javascript
   ~ /👋🏾Hi!/
   ```
-
-### [webi](ions/webi.md)
-
-- **w**eb **i**on
-- any **[ion](#ion)** or set of ions created
-for the [web](https://en.wikipedia.org/wiki/World_Wide_Web)
 
 #
 **❤️ [ionify](https://about.ionify.net/)**
