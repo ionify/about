@@ -1,12 +1,14 @@
 # 🤓 Our Lingo 😅
 
-Terms that name & convey **ionify**’s key concepts & things.
+Key terms that name & convey **ionify**’s concepts & things.
 
 ## core
 
 ### [ion](ions/ion.md)
 
 - **i**nvoked **o**bject **n**otation
+- is a syntax to define discrete units of data and-or behavior for discovery, composition & interaction 
+- it represents these units as objects, and combines them with mathematical operators that invoke their observation and-or behavior
 
 - #### [lion](ions/lions.md)
 
@@ -27,7 +29,8 @@ Terms that name & convey **ionify**’s key concepts & things.
 ### [ionify](README.md)
 
 - **ion i**mplemented **f**or **y**ou
-- a flexible, unobtrusive & novel api for ion interaction
+- is a flexible, unobtrusive & novel api for ion interaction
+- it provides concise & flexible vocabulary for defining, fetching, sensing, composing & interacting with ions
 
   ```js
   ~ {get:"ionify@ionify.net"}
@@ -36,7 +39,7 @@ Terms that name & convey **ionify**’s key concepts & things.
 ### [ionified](https://ionified.net/)
 
 - **ion**s **i**ndexed **f**or **i**nternet-**e**nabled **d**iscovery
-- a repository of internet-discoverable ions
+- is a repository of internet-discoverable ions
 
 ## concepts
 
@@ -57,23 +60,22 @@ Terms that name & convey **ionify**’s key concepts & things.
 - ### [hot](ions/ion.md#java)
 
   - **h**andled-**o**n-**t**ype
+  - is operator overloading defined on an object’s type
 
 - ### [hip](ions/ion.md#javascript)
 
   - **h**andled-**i**n-**p**lace
+  - is operator overloading defined within an object instance
 
 - ### [hop](ions/ion.md#javascript)
 
   - **h**andled-**o**n-**p**rototype
+  - is operator overloading defined on an object’s prototype
 
 - ### [pools](ions/ion.md#other-languages)
 
   - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) **o**perator-**o**verloading **l**anguages
-
-### sasi
-
-- **s**elf-**a**ssembling, **s**elf-**i**mproving
-- ion definition, identification, observation & modification enables highly modular code, data & software that can self-assemble & self-improve.
+  - is the set of programming languages that support operator overloading via procedures, e.g. subroutines, functions, and-or methods.
 
 ## ions
 
