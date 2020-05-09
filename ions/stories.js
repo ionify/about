@@ -4,14 +4,13 @@
 , by: 'mike.lee@ionify.net'
 , in: 'san-jose.california.us.earth'
 , on: -7.202003210313
-, to: -7.202005020701
-, at: +0.02
+, to: -7.202005081803
+, at: +0.04
 , as: 'storie'
 , is:
     [ `an exploration of prose as
-       stories: sentence template
-       or
-       regular-ion-expressions`
+       stories: sentence text
+       or recognition expressions`
     ]
 , it:
     [ `shows that prose can be

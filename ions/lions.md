@@ -23,7 +23,7 @@
 
 ## [stories](stories.md)
 
-**sentence template or regular-ion-expressions**:
+**sentence text or recognit**i**on **e**xpressions**:
 
 ```javascript
 ~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/

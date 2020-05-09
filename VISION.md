@@ -101,7 +101,7 @@ language vocabulary:
   each - word - means & does - something;
   ```
 
-+ [**stories**: sentence template or regular-ion-expressions](LINGO.md#storie),
++ [**stories**: sentence text or recognition expressions](LINGO.md#storie),
   enable code as words within invoked regular-expression literals:
 
   ```javascript

@@ -134,7 +134,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 ### [storie](ions/stories.md)
 
-- **s**entence **t**emplate **o**r **r**egular-**i**on-**e**xpression
+- **s**entence **t**ext **o**r **r**ecognit**i**on **e**xpression
 
   ```javascript
   ~ /👋🏾Hi!/
