@@ -1,6 +1,6 @@
 # lions
 
-**literal ions** can be expressed as expansions of 
+**literal ions** can be expressed as expansions of
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer)
 &
