@@ -91,8 +91,7 @@ accessible [ions](#ions):
 
 ### code as prose
 
- [ions](#ions) enable expressing code as prose without 20th-century programming
-language vocabulary:
+  code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ions):
 
 + [**opus**: orion prose understands sentences](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
   enables code as words joined and-or separated by mathematical operators:

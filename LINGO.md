@@ -7,7 +7,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 ### [ion](ions/ion.md)
 
 - **i**nvoked **o**bject **n**otation
-- is a syntax to define discrete units of data and-or behavior for discovery, composition & interaction 
+- is a syntax for defining discrete units of data and behavior for discovery, composition & interaction
 - it represents these units as objects, and combines them with mathematical operators that invoke their observation and-or behavior
 
 - #### [lion](ions/lions.md)
@@ -45,7 +45,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 
 ### [code as prose](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
 
-- code expressed as natural language prose
+- code expressed as natural language prose via [object reference ions](#orion)
 
   ```javascript
   each - word - means & does - something;
