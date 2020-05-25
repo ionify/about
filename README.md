@@ -23,14 +23,15 @@ by
 ## api
 
 [**ionify:** ion implemented for you](https://api.ionify.net),
-is a flexible, unobtrusive & novel api for expressing actionable information & behavior
-via [**ion:** invoked object notation](./ions/ion.md):
+is a flexible, unobtrusive & novel api for defining, discovering, composing &
+interacting with discrete units of data & behavior via
+[**ion:** invoked object notation](./ions/ion.md):
 
 
 ```javascript
 ~ { "json" : "data" }    <= /observable json/
 + {   log  : '👋🏾👨🏾‍💻'}  <= /unobtrusive api/
-& ["observable text"]    <= /observable text/
+& [“observable text”]    <= /observable text/
 ```
 
 **ion** combines objects with mathematical operators that invoke their behavior and-or
