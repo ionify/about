@@ -23,7 +23,7 @@ by
 ## api
 
 [**ionify:** ion implemented for you](https://api.ionify.net),
-is a flexible, unobtrusive & novel api for defining, discovering, composing &
+is a flexible, unobtrusive & novel api for defining, discovering &
 interacting with discrete units of data & behavior via
 [**ion:** invoked object notation](./ions/ion.md):
 
@@ -34,7 +34,9 @@ interacting with discrete units of data & behavior via
 & [“observable text”]    <= /observable text/
 ```
 
-**ion** combines objects with mathematical operators that invoke their behavior and-or
+### ion
+
+invoked object notation combines objects with mathematical operators that invoke their behavior and-or
 observation. It exists & can be implemented within [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) languages.
 
 ### why
