@@ -38,13 +38,13 @@ discovers & shares a capability within JavaScript he names
 
 In 2003, Michael created
 [**ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
-a Java-like module system for the web, that enabled fetching scripts across different domains 🤓
+a java-like module system for the web that enabled fetching javascript across different domains 🤓
 
 ```javascript
-Namespace ("my.space")
-Import    ("needed.Thing")
-ImportAs  ("useful.Thing", "Thing2")
-Load      ("http://remo.te/script.js")
+Namespace ('my.space')
+Import    ('needed.Thing')
+ImportAs  ('useful.Thing', 'Thing2')
+Load      ('http://remo.te/script.js')
 
 my.space.Module
 = function Module ()
@@ -57,13 +57,10 @@ my.space.Module
 ### json
 
 In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
-data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael
-recognized this💡and was determined to enable fetching & interacting with JSON as JavaScript
-(via [**ajile**](http://ajile.net)) to benefit from **ajile**'s cross-domain fetching
-capability 🚀 At the time, cross-domain fetching was unavailable via the popular but
-[same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
-[`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
-resource-fetching web API:
+data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael recognized this & was determined to enable cross-domain JSON fetching & interaction via [**ajile**](http://ajile.net) 🚀
+
+Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible & its
+object-literal form generated syntax errors 😓
 
 ```javascript
 Load ('http://remo.te/data.json')
@@ -76,13 +73,15 @@ Load ('http://remo.te/data.json')
   ,  "when loaded" : "as JavaScript"
   }
 ```
-
-Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible and its object
-literal form generated syntax errors 😞
+At the time, cross-domain fetching was also unavailable via
+the popular but
+[same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
+[`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
+resource-fetching web API 😔
 
 ### jsonp
 
-[JSONP](https://en.wikipedia.org/wiki/JSONP) provided an alternative, but required wrapping
+[JSONP](https://en.wikipedia.org/wiki/JSONP) offered an alternative, but required wrapping
 JSON in a `function` call or padding it with a variable or property assignment:
 
 ```javascript
@@ -96,7 +95,7 @@ Load ('http://remo.te/data.jsonp?callback=on')
        , "to a possibly" : "invalid on() function"
       })
 
-Load ("http://remo.te/data.jsonp")
+Load ('http://remo.te/data.jsonp')
 
    // variable-assignment-padded JSONP response
    var jsonp
@@ -111,7 +110,7 @@ This was close, but still invalid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007 when, through diligent study of the 
+Success came in 2007, when through diligent study of the 
 [JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
 👨🏾‍🏫 and object-literal syntax experimentation 👨🏾‍🔬, Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
@@ -135,9 +134,9 @@ This pattern
 
 + is compatible with all JavaScript environments,
 + replaces JSONP,
-+ complements JSONP with **`~`** and **`-`** as
++ complements existing JSONP implementations with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
-+ and introduces a [universe](http://api.ionify.net/) of applications.
++ and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain JSON fetching & interaction.
 
 
 ## development
