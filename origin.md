@@ -28,7 +28,7 @@ discovers & shares a capability within JavaScript he names
 
 **2017**
 
->Michael names & shares **jsonXD's** core concepts as
+>Michael names & shares **jsonXD's** core concept & capability
 [**ion**: invoked object notation](ions/ion.md#ion)
 &
 [**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
@@ -59,7 +59,7 @@ my.space.Module
 In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
 data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael recognized this & was determined to enable cross-domain JSON fetching & interaction via [**ajile**](http://ajile.net) 🚀
 
-Unfortunately, **ajile**-fetched JSON, was programmatically inaccessible & its
+Unfortunately, **ajile**-fetched JSON was programmatically inaccessible, and its
 object-literal form generated syntax errors 😓
 
 ```javascript
@@ -73,8 +73,7 @@ Load ('http://remo.te/data.json')
   ,  "when loaded" : "as JavaScript"
   }
 ```
-At the time, cross-domain fetching was also unavailable via
-the popular but
+At the time, cross-domain fetching was impossible via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API 😔
@@ -111,8 +110,8 @@ This was close, but still invalid JSON syntax 🤔
 ## discovery
 
 Success came in 2007, when through diligent study of the 
-[JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)
-👨🏾‍🏫 and object-literal syntax experimentation 👨🏾‍🔬, Michael discovered it was possible to
+[JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
+👨🏾‍🏫 and object-literal syntax experimentation, 👨🏾‍🔬 Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
 [invoking & observing numeric object type conversions](ions/ion.md#function)!
 👨🏾‍💻👌🏾
@@ -127,8 +126,8 @@ Object.prototype.valueOf   // 1: observe
 ~ ({"json":"data"})        // 2: invoke & notify via jsonp
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key 🎉 and as close to observable & syntactically-correct JSON
-as we could get 👏🏾**
+**A single-character prefix of `~`, `+`, or `-` was key 🎉 and as close to observable &
+syntactically-correct JSON as we could get 👏🏾**
 
 This pattern
 
@@ -136,25 +135,26 @@ This pattern
 + replaces JSONP,
 + complements existing JSONP implementations with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
-+ and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain JSON fetching & interaction.
++ and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
+  JSON fetching & interaction.
 
 
 ## development
 
-After an additional two years of experimentation & implementation, Michael publicly introduced
-this pattern at the 2009
+After an additional two years of experimentation & implementation, Michael publicly
+introduced this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference via a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 🙋🏾‍♂️
 
-Over the next eight years he continued to develop, extend, explore, present,
-explain & name
+Over the next eight years he continued to develop, extend, explore, present, explain &
+name
 
-+ [**jems**: json-expressed modules](http://jems.ionify.net/)
++ [**jems**: json-expressed modules](https://jems.ionify.net/)
 + [**ion**: invoked object notation](ions/ion.md#ion)
-+ [**ionify**: ion implemented for you](http://api.ionify.net) &
-+ [**ionified**: ions indexed for internet-enabled discovery](http://ionified.net)
++ [**ionify**: ion implemented for you](https://api.ionify.net) &
++ [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net)
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -166,13 +166,13 @@ software engineering conference 👨🏾‍💻
 
 ## distribution
 
-Today, [**jems**](http://jems.ionify.net/),
-[**ion**](ions/ion.md#ion),
-[**ionify**](http://api.ionify.net) &
-[**ionified**](http://ionified.net)
+Today, [**ion**](ions/ion.md#ion),
+[**ionify**](https://api.ionify.net/),
+[**ionified**](https://ionified.net/) &
+[**jems**](https://jems.ionify.net/)
 are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
-of **ions** now available for inclusion, [discovery](http://ionified.net/),
-extension, application & study.
+of **ions** now available to include, [discover](http://ionified.net/),
+extend, apply & study.
 
 ## be magical: impossible is nothing 🙌🏾
 
