@@ -57,9 +57,9 @@ my.space.Module
 ### json
 
 In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
-data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael recognized this & was determined to enable cross-domain JSON fetching & interaction via [**ajile**](http://ajile.net) 🚀
+data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael recognized this and was determined to enable cross-domain JSON fetching & interaction via [**ajile**](http://ajile.net) 🚀
 
-Unfortunately, **ajile**-fetched JSON was programmatically inaccessible, and its
+Unfortunately, **ajile**-fetched JSON was programmatically inaccessible and its
 object-literal form generated syntax errors 😓
 
 ```javascript
@@ -73,7 +73,7 @@ Load ('http://remo.te/data.json')
   ,  "when loaded" : "as JavaScript"
   }
 ```
-At the time, cross-domain fetching was impossible via the popular but
+At the time, cross-domain fetching wasn’t possible via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
 resource-fetching web API 😔
@@ -113,7 +113,7 @@ Success came in 2007, when through diligent study of the
 [JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
 👨🏾‍🏫 and object-literal syntax experimentation, 👨🏾‍🔬 Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
-[invoking & observing numeric object type conversions](ions/ion.md#function)!
+[invoking & observing numeric object type conversion](ions/ion.md#function)!
 👨🏾‍💻👌🏾
 
 ```javascript
