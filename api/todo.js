@@ -10,7 +10,7 @@
           ,                'tokyo.jp.earth'
           ]
     , on: { 200709   : -4         }
-    , to: { 20200421 : -7.0537    }
+    , to: { 20200804 : -7.0535    }
     , at:  -0.01
     , is: "ionify's list of things to do"
     , we:
@@ -66,7 +66,6 @@
                  |'  YYYYMMDD    [.HH[MM[SS]]]'
                  |'  [+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
                  |'  YYYY[.MM[.DD[.HH[.SS[.MS]]]]][+|-timezoneHour[minuteOffset]]'
-                 }
 
               , versions
               :  [" ? +vers.ion = vers.ion & newer, and -vers.ion = vers.ion & older ? "
