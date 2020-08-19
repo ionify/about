@@ -5,8 +5,8 @@
     , as: ['team.0']
     , at: -0.02
     , on: -4.200709
-    , to: -7.20200428
-    , is: "a team inventing optimized natural interfaces for you, to introduce"
+    , to: -7.20200819
+    , is: "a team inventing optimized natural interfaces for you, to inspire"
         + " novel, simple, performant, intuitive & reliable experiences."
     },
 
