@@ -29,9 +29,9 @@ interacting with discrete units of data & behavior via
 
 
 ```javascript
-~ { "json" : "data" }  <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}  <= /unobtrusive api/
-& [“observable text”]  <= /observable text/
+~ { "json" : "data" } <= /observable json/
++ {   log  : '👋🏾👨🏾‍💻'}    <= /unobtrusive api/
+& [“observable text”] <= /observable text/
 ```
 
 ### ion

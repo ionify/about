@@ -22,7 +22,8 @@ first language specification is
 **2007**
 
 >[Michael Lee](https://github.com/iskitz),
-discovers & shares a capability within JavaScript he names
+discovers & [shares](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
+a capability within JavaScript he names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
 
@@ -44,7 +45,6 @@ a java-like module system for the web that enabled fetching javascript across di
 Namespace ('my.space')
 Import    ('needed.Thing')
 ImportAs  ('useful.Thing', 'Thing2')
-Load      ('http://remo.te/script.js')
 
 my.space.Module
 = function Module ()
@@ -86,7 +86,7 @@ JSON in a `function` call or padding it with a variable or property assignment:
 ```javascript
 Load ('http://remo.te/data.jsonp?callback=on')
 
-   // function-wrapped JSONP response
+   // JSONP response: function-wrapped
    on ({        "remote" : "request"
        ,      "responds" : "with this"
        ,     "evaluated" : "JSON"
@@ -96,7 +96,7 @@ Load ('http://remo.te/data.jsonp?callback=on')
 
 Load ('http://remo.te/data.jsonp')
 
-   // variable-assignment-padded JSONP response
+   // JSONP response: variable-assignment-padded
    var jsonp
      =  {      "remote" : "request"
         ,    "responds" : "with this"
@@ -109,11 +109,11 @@ This was close, but still invalid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007, when through diligent study of the 
+Success came in 2007, when through diligent study of the
 [JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
 👨🏾‍🏫 and object-literal syntax experimentation, 👨🏾‍🔬 Michael discovered it was possible to
 interact with anonymous objects, like JSON, by
-[invoking & observing numeric object type conversion](ions/ion.md#function)!
+[invoking & observing numeric object-type-conversion](ions/ion.md#function)!
 👨🏾‍💻👌🏾
 
 ```javascript
@@ -126,13 +126,13 @@ Object.prototype.valueOf   // 1: observe
 ~ ({"json":"data"})        // 2: invoke & notify via jsonp
 ```
 
-**A single-character prefix of `~`, `+`, or `-` was key 🎉 and as close to observable &
-syntactically-correct JSON as we could get 👏🏾**
+**A single-character prefix of `~`, `+`, or `-` was key** 🎉 and as close to observable &
+syntactically-correct JSON as we could get 👏🏾
 
 This pattern
 
 + is compatible with all JavaScript environments,
-+ replaces JSONP,
++ obsoletes JSONP,
 + complements existing JSONP implementations with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
 + and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
@@ -144,7 +144,7 @@ This pattern
 After an additional two years of experimentation & implementation, Michael publicly
 introduced this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference via a cross-domain JSON-fetching solution he named
+web developer conference as a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 🙋🏾‍♂️
 
@@ -171,10 +171,10 @@ Today, [**ion**](ions/ion.md#ion),
 [**ionified**](https://ionified.net/) &
 [**jems**](https://jems.ionify.net/)
 are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
-of **ions** now available to include, [discover](http://ionified.net/),
-extend, apply & study.
+of **ions** now available for inclusion, [discovery](http://ionified.net/),
+extension, application & study.
 
-## be magical: impossible is nothing 🙌🏾
+## be * magical * impossible-is-nothing 🙌🏾
 
 🤎
-[Michael {aka:'🇬🇾Mike'} Lee](https://github.com/iskitz)
+[Michael {is:'🇬🇾Mike'} Lee](https://github.com/iskitz)
