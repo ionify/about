@@ -23,7 +23,7 @@
 
 ## [stories](stories.md)
 
-**sentence text or recognit**i**on **e**xpressions**:
+**sentence text or recognition expressions**:
 
 ```javascript
 ~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
@@ -45,7 +45,6 @@
 
 **all json-expressed ions, e.g. [jems](#jems), [jess](#jess), [jewels](#jewels) & [oj](#oj)**
 
-
 ## [jems](jems.md)
 
 **json-expressed modules**:
@@ -56,21 +55,21 @@
       { "id": "jem@doma.in"
       , "is": "a json-expressed module"
       , "by": "mike.lee@iskitz"
-      , "on": "2007.09-04"
-      , "to": "2019.03.19-07"
+      , "on": -4.200709
+      , "to": -8.20201104
       , "in":
             [ "forest-hills.new-york.usa.earth"
             ,   "san-jose.california.usa.earth"
             ]
-      }
+      },
 
-, "do":
+  "do":
       [ "an aesop action"
-      , {"if":"do.times", "<":7, "do":"do"}
-      ]
+      , {"if":"do.it", "<":7, "do":"do"}
+      ],
 
-, "an aesop action"
-:     "log Hi! #do.times"
+  "an aesop action":
+      "log Hi! #do.it"
 }
 ;
 ```
@@ -95,10 +94,10 @@
 
 ## oj
 
-**observable json**
+**observable json**:
 
 ```javascript
-~ {“json”:”data”} ;
+~ {"json":"data"} ;
 ```
 
 ## [webi](webi.md)

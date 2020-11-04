@@ -110,7 +110,7 @@ equality operators when comparing **ions** with
 ## function
 
 **ion** is enabled by
-[operator & operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 in multiple languages.
 
 
