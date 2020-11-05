@@ -148,20 +148,24 @@ web developer conference as a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 🙋🏾‍♂️
 
-Over the next eight years he continued to develop, extend, explore, present, explain &
+Over the next decade he continued to develop, extend, explore, present, explain &
 name
 
 + [**jems**: json-expressed modules](https://jems.ionify.net/)
 + [**ion**: invoked object notation](ions/ion.md#ion)
-+ [**ionify**: ion implemented for you](https://api.ionify.net) &
-+ [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net)
++ [**ionify**: ion implemented for you](https://api.ionify.net)
++ [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net) &
++ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
+
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
-2016, and at the
-[2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
-[/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/)
-software engineering conference 👨🏾‍💻
+2016,
+[2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg) @
+[/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/),
+2019, and
+[2020](https://web.archive.org/web/20201027124310/https://devopsdays.io/#6efbd88d-e888-4b7b-9500-eea31c74c399) @
+[devopsdays medellín](https://web.archive.org/web/20201027124310/https://devopsdays.io/)👨🏾‍💻
 
 
 ## distribution
@@ -174,7 +178,7 @@ are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.
 of **ions** now available for inclusion, [discovery](http://ionified.net/),
 extension, application & study.
 
-## be * magical * impossible-is-nothing 🙌🏾
+## be * magical * impossible -is- nothing 🙌🏾
 
 🤎
 [Michael {is:'🇬🇾Mike'} Lee](https://github.com/iskitz)
