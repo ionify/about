@@ -4,9 +4,9 @@
     { id:  'mike.lee'
     , as: ['im.0']
     , by:  'mike.lee@ionify.net'
-    , at: -0.011
-    , on: -7.20180327
-    , to: -7.20200428
+    , on:  -7.20180327
+    , to:  -8.20201105
+    , at:  -0.012
     , is: "Mike Lee's Identity Module"
     }
     ,
@@ -28,9 +28,9 @@
   creator:
     [ 'ionizer',   'ionix', 'ionified', 'ionify', 'jsonxd', 'ajile'
     , 'ask.say', 'wakatta', 'anemojii'
-    , 'aeon'   ,   'aesop', 'dion'    , 'ion'   , 'im'    , 'jem'
-    , 'jeni'   ,     'jet', 'jewel'   , 'lion'  , 'obi'   , 'oj'
-    , 'orion'  ,    'sasi', 'storie'  , 'webi'
+    , 'aeon'   ,   'aesop', 'caption' ,   'dion', 'ion'   , 'im'
+    , 'jem'    ,    'jeni', 'jet'     ,  'jewel', 'lion'  , 'obi'
+    , 'oj'     ,   'orion', 'sasi'    , 'storie', 'webi'
     , 'webOS 3.x Calendar Fixes', 'webOS 3.x Calendar', 'DataHub'
     , 'hollyhouk.com'           , 'MEAP Remote Management System'
     , 'iDesign@iskitz'
@@ -41,10 +41,11 @@
     ]
     ,
   member:
-    [ 'netflix', '/dev/color', 'khanacademy', 'mozilla', 'amazon'
-    , 'hp'     , 'palm'      , 'ionify'     , 'canon'  , 'sybase'
-    , 'bsu'    , 'nsbe'      , 'wpi'        , 'inroads', 'emsep'
-    , 'strive' , 'brooklyn technical high school'
+    [ 'netflix', '/dev/color', 'khan academy', 'mozilla', 'amazon'
+    , 'hp'     , 'palm'      , 'ionify'      , 'canon'  , 'sybase'
+    , 'bsu'    , 'nsbe'      , 'wpi'         , 'hamilton standard'
+    , 'inroads', 'emsep'     , 'strive'
+    , 'brooklyn technical high school'
     , 'philippa schuyler'
     , 'foster-laurie'
     , 'st. agnes'
