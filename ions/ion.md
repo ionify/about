@@ -1,6 +1,6 @@
 # ion
 
-**invoked object notation** combines objects with mathematical operators that invoke
+**invoked object notation** combines objects with operators that invoke
 their behavior and-or observation:
 
 ```javascript
@@ -29,7 +29,7 @@ or
 literals, or
 [references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type).
 
-It can be written as [**lion**](lions.md), literal ion:
+**ion** can be expressed as [**lion**](lions.md), literal ion:
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions
@@ -117,7 +117,7 @@ in multiple languages.
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
 Enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
-methods [called](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+methods [invoked](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
 during an
 [object's](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
 [conversion](https://en.wikipedia.org/wiki/Type_conversion)
@@ -136,8 +136,8 @@ object, which enables observing that single object's type conversion:
 ```
 
 **hop: handled-on-prototype** operator overloading implements the `valueOf()` method on a
-`prototype` object, which enables observing the type conversions of all objects sharing that
-`prototype`:
+`prototype` object, which enables observing the type conversions of all objects sharing
+that `prototype`:
 
 ```javascript
 Object.prototype.valueOf
@@ -162,8 +162,8 @@ Object.prototype.valueOf
 ```
 
 **hip-hop** operator overloading of `toString()` enables expressing **ions** as phrases &
-sentences concatenated with the `+` operator, but since the `valueOf()` method also enables
-this, and `toString()` is more likely to be unexpectedly called by others, overloading
+sentences joined by the `+` operator, but since the `valueOf()` method also enables
+this, and `toString()` is more likely to be implemented & invoked by others, overloading
 `toString()` is not recommended:
 
 ```javascript
@@ -173,31 +173,32 @@ Object.prototype.valueOf // vs .toString
     | or do something more profound!  */
     }
 
-var     you = {say:'do you see all the things'}
-  ,     can = {say:'we can do'   }
-  ,   write = {say:'if we write' }
-  ,    code = {say:'our code'    }
-  ,      as = {say:'as groups of'}
-  , phrases = {say:'phrases & sentences?! 🤓'}
+var   you = {say:'do you see all the things'}
+  ,   can = {say:'we can do'   }
+  , write = {say:'if we write' }
+  ,  code = {say:'our code'    }
+  ,    as = {say:'as groups of'}
+  , prose = {say:'phrases & sentences?! 🤓'}
 
 'With orion' + you + can + write + code + as +
- phrases;
+ prose;
 ```
 
 **flow**
 
 During **hip-hop** operator overloading, an attempt is made to
 [convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-That conversion attempts to call the object operand's `valueOf()` method. If the **ion**
-doesn't define that method, JavaScript searches for it in the **ion's**
-[prototype chain](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
+That conversion attempts to invoke the object operand's `valueOf()` method. If the **ion**
+doesn't define that method, JavaScript searches for it along the **ion's**
+[prototype path](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
 For [**lions**](#form) that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
 [**orion**](#form) the search may end similarly but begin with the **ion's** inherited object.
 
-`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of those
-types, their operator causes the relevant type's `prototype.valueOf()` to be called to obtain
-a [basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
+`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of
+those types, their operator causes the relevant type's `prototype.valueOf()` to be invoked
+to obtain a
+[basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
 that's then converted to a number.
 
 Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
@@ -217,19 +218,20 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for
-enabling **ion** observation & notification. As shown, it can be manually implemented, or
-applied via
+JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for enabling
+**ion** observation & notification. As shown, it can be implemented manually or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
-a flexible, unobtrusive & novel [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & provides vocabulary for **ion** observation, notification &
-more.
+a flexible, unobtrusive & novel
+[api](https://en.wikipedia.org/wiki/Application_programming_interface)
+that implements & provides vocabulary for **ion** observation, notification & interaction
+for you.
 
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Enables [**orion**](#form) via **hot: handled-on-type** operator overloading by implementing an object type's
-`toString()` method, which enables overloading the `+` operation for objects of that type.
+Enables [**orion**](#form) via **hot: handled-on-type** operator overloading by
+implementing an object type's `toString()` method, which enables overloading the `+`
+operation for objects of that type.
 
 See this in-depth
 [proof-of-concept](https://github.com/ionify/about/blob/public/api/java/src/net/ionify/java/Hello.java)
@@ -317,15 +319,17 @@ print (ion)
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
 [Enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-[**orion**](#form) via functional operator overloading of arithmetic, bitwise, relational & equality operators.
+[**orion**](#form) via procedural operator overloading of arithmetic, bitwise, relational & equality operators.
 
 
 ## compatibility
 
-[**hip-hop**](#function) operator overloading & [**orion**](#form) are compatible with all JavaScript
-environments. [**lion**](#form) is compatible with all environments implementing
+[**orion**](#form) & [**hip-hop**](#function)
+operator overloading are compatible with all JavaScript environments.
+[**lion**](#form) is compatible with all environments implementing
 [any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
-since [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+since
+[1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
 
 [JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments include all

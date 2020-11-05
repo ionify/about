@@ -36,8 +36,11 @@ interacting with discrete units of data & behavior via
 
 ### ion
 
-invoked object notation combines objects with mathematical operators that invoke their behavior and-or
-observation. It exists & can be implemented within [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) languages.
+invoked object notation combines objects with
+[operators](ions/ion.md#punctuation)
+that invoke their behavior and-or observation. It exists & can be implemented within
+[procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+languages.
 
 ### why
 
