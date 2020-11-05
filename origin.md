@@ -22,14 +22,17 @@ first language specification is
 **2007**
 
 >[Michael Lee](https://github.com/iskitz),
-discovers & [shares](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
+discovers &
+[shares](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 a capability within JavaScript he names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
 
 **2017**
 
->Michael names & shares **jsonXD's** core concept & capability
+>Michael names &
+[shares](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
+**jsonXD's** core concept & capability
 [**ion**: invoked object notation](ions/ion.md#ion)
 &
 [**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
@@ -109,12 +112,12 @@ This was close, but still invalid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007, when through diligent study of the
+Success came in 2007, when through diligent study 👨🏾‍🏫 of the
 [JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
-👨🏾‍🏫 and object-literal syntax experimentation, 👨🏾‍🔬 Michael discovered it was possible to
+and 👨🏾‍🔬 object-literal syntax experimentation, Michael 👨🏾‍💻 discovered it was possible to
 interact with anonymous objects, like JSON, by
 [invoking & observing numeric object-type-conversion](ions/ion.md#function)!
-👨🏾‍💻👌🏾
+👌🏾
 
 ```javascript
 Object.prototype.valueOf   // 1: observe
@@ -141,12 +144,11 @@ This pattern
 
 ## development
 
-After an additional two years of experimentation & implementation, Michael publicly
+After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
 introduced this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference as a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
-🙋🏾‍♂️
 
 Over the next decade he continued to develop, extend, explore, present, explain &
 name
@@ -172,8 +174,9 @@ in
 
 Today, [**ion**](ions/ion.md#ion),
 [**ionify**](https://api.ionify.net/),
-[**ionified**](https://ionified.net/) &
-[**jems**](https://jems.ionify.net/)
+[**ionified**](https://ionified.net/),
+[**jems**](https://jems.ionify.net/) &
+[**captions**](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
 are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available for inclusion, [discovery](http://ionified.net/),
 extension, application & study.
