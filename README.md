@@ -62,11 +62,11 @@ more.
 is a repository of **ions** that can be programmatically discovered & verified via the
 internet. Here're a few:
 
-+ **[anemojii](https://anemojii.glitch.me/): animated emoji ions**,
++ **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
 
-+ **[wakatta: わかった](https://wakatta.glitch.me/)**,
++ **[wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
   is a japanese language-skills game created via **ion** to
   exercise & guide **ionify's** api development
 
