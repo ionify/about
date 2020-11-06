@@ -48,7 +48,8 @@ languages.
 [domain-specific languages](https://github.com/ionify/ionify/README.md#domain-specific-languages),
 [literate](https://github.com/ionify/ionify/blob/public/README.md#literate-programming),
 [modular](https://github.com/ionify/ionify/blob/public/README.md#modular-programming),
-[event-driven](https://github.com/ionify/ionify/blob/public/README.md#event-driven-programming)
+[event-driven](https://github.com/ionify/ionify/blob/public/README.md#event-driven-programming),
+[meta](https://en.wikipedia.org/wiki/Metaprogramming)
 &
 [name-collision-free](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
 programming, fetching,
