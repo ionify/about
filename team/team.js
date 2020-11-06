@@ -5,7 +5,7 @@
     , as: ['team.0']
     , by: ['mike.lee','team']
     , on:  -4.200709
-    , to:  -8.20201105
+    , to:  -8.20201106
     , at:  -0.03
     , is: "the team inventing, optimized natural interfaces for you, to inspire"
         + "novel, simple, performant, intuitive & reliable experiences."
@@ -14,14 +14,14 @@
   team:
     [ {creator: 'mike.lee@ionify'
       ,     of:
-              [ 'ionify'  , 'ionify.about'  , 'ionify.vscode'
+              [ 'ionify'  , 'ionify.about'  , 'ionify-vscode'
               , 'ionified', 'ionix'         , 'ionizer'
               , 'aeon'    , 'aesop',    'ai', 'caption' , 'dion'  , 'im'
               , 'ion'     , 'jem'  ,  'jeni', 'jet'     , 'jewel' , 'lion'
               , 'obi'     , 'oj'   , 'orion', 'sasi'    , 'storie', 'webi'
               ]
       ,     on: -4.200709
-      ,     to: -8.20201105
+      ,     to: -8.20201106
       ,     in:
               [        'forest-hills.new-york.usa.earth'
               , 'springfield-gardens.new-york.usa.earth'
