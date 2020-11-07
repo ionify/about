@@ -13,20 +13,18 @@ simple, performant,
 [experiences](https://ionified.net/).
 
 We've developed, published & maintained
-[**ion**](./ions/ion.md), [**ionify**](#api) & [**ionified**](#ionified)
+[**ion**](./ions/ion.md#ion), [**ionify**](#api) & [**ionified**](#ionified)
 since their initial
-[discovery, definition & development](origin.md)
+[discovery, definition & development](origin.md#ions-tale)
 by
 [Michael Lee](https://github.com/iskitz).
-
 
 ## api
 
 [**ionify:** ion implemented for you](https://api.ionify.net),
 is a flexible, unobtrusive & novel api for defining, discovering &
 interacting with discrete units of data & behavior via
-[**ion:** invoked object notation](./ions/ion.md):
-
+[**ion:** invoked object notation](./ions/ion.md#ion):
 
 ```javascript
 ~ { "json" : "data" } <= /observable json/
@@ -39,7 +37,8 @@ interacting with discrete units of data & behavior via
 invoked object notation combines objects with
 [operators](ions/ion.md#punctuation)
 that invoke their behavior and-or observation. It exists & can be implemented within
-[procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+[procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 languages.
 
 ### why
@@ -59,7 +58,6 @@ programming, fetching,
 data & code, and
 more.
 
-
 ## ionified
 
 [**ions implemented for internet-enabled discovery**](https://ionified.net/)
@@ -69,11 +67,9 @@ internet. Here're a few:
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
-
 + **[wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
   is a japanese language-skills game created via **ion** to
   exercise & guide **ionify's** api development
-
 
 + **[jeni](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js):
   jeni enables natural interaction**, is an **ion**
@@ -82,9 +78,7 @@ internet. Here're a few:
   [explores](https://jeni.glitch.me/)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
-
 + more @ [ionified.net](https://ionified.net/)
-
 
 **ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2020
 [Michael Lee](https://github.com/iskitz/) and is licensed under a

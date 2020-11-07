@@ -1,12 +1,10 @@
 # ion's tale
 
-
 Finding beautiful capabilities hidden in plain sight is thrilling 🚀 Realizing they've
 existed for decades is humbling 🙇🏾 Sharing them is enlightening 🤎
 
 This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such
 capability's journey through time.
-
 
 ## decades
 
@@ -36,7 +34,6 @@ a capability within JavaScript he names
 [**ion**: invoked object notation](ions/ion.md#ion)
 &
 [**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
-
 
 ## details
 
@@ -76,6 +73,7 @@ Load ('http://remo.te/data.json')
   ,  "when loaded" : "as JavaScript"
   }
 ```
+
 At the time, cross-domain fetching wasn’t possible via the popular but
 [same-origin-policy-limited](https://en.wikipedia.org/wiki/Same-origin_policy)
 [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest)
@@ -108,6 +106,7 @@ Load ('http://remo.te/data.jsonp')
         , "stored as a" : "server-defined variable"
         }
 ```
+
 This was close, but still invalid JSON syntax 🤔
 
 ## discovery
@@ -141,24 +140,22 @@ This pattern
 + and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
   JSON fetching & interaction.
 
-
 ## development
 
 After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
 introduced this pattern at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference as a cross-domain JSON-fetching solution he named
-[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
+[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
 
 Over the next decade he continued to develop, extend, explore, present, explain &
 name
 
-+ [**jems**: json-expressed modules](https://jems.ionify.net/)
-+ [**ion**: invoked object notation](ions/ion.md#ion)
-+ [**ionify**: ion implemented for you](https://api.ionify.net)
++ [**jems**: json-expressed modules](https://jems.ionify.net/),
++ [**ion**: invoked object notation](ions/ion.md#ion),
++ [**ionify**: ion implemented for you](https://api.ionify.net),
 + [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net) &
 + [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
-
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -166,9 +163,8 @@ in
 [2017](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg) @
 [/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/),
 2019, and
-[2020](https://web.archive.org/web/20201027124310/https://devopsdays.io/#6efbd88d-e888-4b7b-9500-eea31c74c399) @
+[2020](https://web.archive.org/web/20201105010053/https://img1.wsimg.com/isteam/ip/d7a6d14c-7646-43c9-9013-bb6600040f45/Mike%20Lee1.png/:/rs=w:1680,h:975) @
 [devopsdays medellín](https://web.archive.org/web/20201027124310/https://devopsdays.io/)👨🏾‍💻
-
 
 ## distribution
 
