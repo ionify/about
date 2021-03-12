@@ -1,75 +1,32 @@
 # [ionify](https://ionify.net)
 
-Is a [team](#team) & an [api](#api).
+enables expressing information & behavior in ways that humans & software can naturally
+understand
 
-## team
+## how
 
-[We](https://github.com/orgs/ionify/people)
-invent, optimized natural interfaces for you, to inspire
-[novel](https://glitch.com/~anemojii),
-simple, performant,
-[intuitive](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js)
-& reliable
-[experiences](https://ionified.net/).
-
-We've developed, published & maintained
-[**ion**](./ions/ion.md#ion), [**ionify**](#api) & [**ionified**](#ionified)
-since their initial
-[discovery, definition & development](origin.md#ions-tale)
-by
-[Michael Lee](https://github.com/iskitz).
-
-## api
-
-[**ionify:** ion implemented for you](https://api.ionify.net),
-is a flexible, unobtrusive & novel api for defining, discovering &
-interacting with discrete units of data & behavior via
-[**ion:** invoked object notation](./ions/ion.md#ion):
+[**ionify**](https://api.ionify.net/)
+enables creating, discovering & interfacing with observable information & behavior via
+[**ion**: invoked object notation](./ions/ion.md#ion):
 
 ```javascript
-~ { "json" : "data" } <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}   <= /unobtrusive api/
-& ["observable text"] <= /observable text/
+~ { "json" : "data" } <= /information/
++ {   log  : '👋🏾👨🏾‍💻'} <= /behavior/
+& ["observable text"] <= /language/
 ```
 
-### ion
+### discovery
 
-invoked object notation combines objects with
-[operators](ions/ion.md#punctuation)
-that invoke their behavior and-or observation. It exists & can be implemented within
-[procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-languages.
-
-### why
-
-**ionify** enables exploring & experimenting with
-[domain-specific languages](https://github.com/ionify/ionify/README.md#domain-specific-languages),
-[literate](https://github.com/ionify/ionify/blob/public/README.md#literate-programming),
-[modular](https://github.com/ionify/ionify/blob/public/README.md#modular-programming),
-[event-driven](https://github.com/ionify/ionify/blob/public/README.md#event-driven-programming),
-[meta](https://en.wikipedia.org/wiki/Metaprogramming)
-&
-[name-collision-free](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
-programming, fetching,
-[observing](https://github.com/ionify/ionify/blob/public/README.md#decoupled-observation)
-& interacting with highly
-[decoupled](https://github.com/ionify/ionify/blob/public/README.md#name-collision-freedom)
-data & code, and
-more.
-
-## ionified
-
-[**ions implemented for internet-enabled discovery**](https://ionified.net/)
-is a repository of **ions** that can be programmatically discovered & verified via the
-internet. Here're a few:
+[**ionified**: ions implemented for internet-enabled discovery](https://ionified.net/)
+is a repository of **ions** that can be automatically discovered & verified via the
+internet. These are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
 + **[wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
   is a japanese language-skills game created via **ion** to
-  exercise & guide **ionify's** api development
+  exercise & guide **ionify’s** api development
 
 + **[jeni](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js):
   jeni enables natural interaction**, is an **ion**
@@ -78,9 +35,22 @@ internet. Here're a few:
   [explores](https://jeni.glitch.me/)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
-+ more @ [ionified.net](https://ionified.net/)
++ discover more @ [ionified.net](https://ionified.net/)
 
-**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2020
+## who
+
+[We’ve](https://github.com/orgs/ionify/people)
+developed, published & maintained
+[**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
+& [**ionified**](https://ionified.net/)
+since their initial
+[discovery, definition & development](origin.md#ions-tale)
+by
+[Michael Lee](https://github.com/iskitz).
+
+## use
+
+**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2021
 [Michael Lee](https://github.com/iskitz/) and is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
