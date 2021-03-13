@@ -1,25 +1,23 @@
 # [ionify](https://ionify.net)
 
-enables expressing information & behavior in ways that humans & software can naturally
-understand
+expresses information & behavior that humans & software naturally understand
 
 ## how
 
 [**ionify**](https://api.ionify.net/)
-enables creating, discovering & interfacing with observable information & behavior via
+enables creating, discovering & interfacing with observable & self-contained behavior,
+information & text via
 [**ion**: invoked object notation](./ions/ion.md#ion):
 
 ```javascript
-~ { "json" : "data" } <= /information/
-+ {   log  : '👋🏾👨🏾‍💻'} <= /behavior/
-& ["observable text"] <= /language/
+~ { "json" : "data"  } <= /information/
++ {   log  : '👋🏾👨🏾‍💻' } <= /behavior/
+& ["natural language"] <= /text/
 ```
-
-### discovery
 
 [**ionified**: ions implemented for internet-enabled discovery](https://ionified.net/)
 is a repository of **ions** that can be automatically discovered & verified via the
-internet. These are a few:
+internet. these are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
@@ -39,24 +37,24 @@ internet. These are a few:
 
 ## who
 
-[We’ve](https://github.com/orgs/ionify/people)
+[**we’ve**](https://github.com/orgs/ionify/people)
 developed, published & maintained
 [**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
 & [**ionified**](https://ionified.net/)
 since their initial
 [discovery, definition & development](origin.md#ions-tale)
 by
-[Michael Lee](https://github.com/iskitz).
+[**michael lee**](https://github.com/iskitz)
 
 ## use
 
 **ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2021
-[Michael Lee](https://github.com/iskitz/) and is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[**michael lee**](https://github.com/iskitz/) and is licensed under a
+[creative commons attribution-noncommercial-sharealike 4.0 international license](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **ionify's** [api](https://github.com/ionify/ionify)
-& all other code within the **ionify**
-[org](https://github.com/ionify/)
-& at
-[ionified.net](https://ionified.net/),
-are individually licensed & copyrighted.
+& all code within the
+[**ionify**](https://github.com/ionify/)
+&
+[**ionified**](https://github.com/ionified/)
+orgs are individually licensed & copyrighted
