@@ -18,19 +18,17 @@ via well-defined, discoverable, accessible & observable
 [**ions**](#ions):
 
 ```
-      seamless idea & information sharing
+     seamlessly share ideas & information
                       ^
                   :ionified:
                ions indexed for
           internet-enabled discovery
                   :ionified:
                       ^
-           visual, audible, tactile
-                      ^
-                   textual
-                      ^
-                code as prose
-                      ^
+    visual, audible, tactile  &  textual
+               ^                    ^
+               ^              code as prose
+               ^                    ^
     ionify: ion implemented for you :ionify
                       ^
        ion: invoked object notation :ion
@@ -93,8 +91,8 @@ accessible [ions](#ions):
 
   code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ions):
 
-+ [**opus**: orion prose understands sentences](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
-  enables code as words joined and-or separated by mathematical operators:
++ [**caption**: code-as-prose terminology ion](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
+  enables code expressed as words joined and-or separated by mathematical operators:
 
   ```javascript
   each - word - means & does - something;
