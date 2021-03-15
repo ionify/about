@@ -1,11 +1,12 @@
 # [ionify](https://ionify.net)
 
-expresses information & behavior that humans & software naturally understand
+expresses information & behavior that humans & software
+[naturally understand](VISION.md#vision)
 
 ## how
 
 [**ionify**](https://api.ionify.net/)
-enables creating, discovering & interfacing with observable & self-contained behavior,
+enables creating & interfacing with well-defined, discoverable & self-contained behavior,
 information & text via
 [**ion**: invoked object notation](./ions/ion.md#ion):
 
@@ -15,7 +16,7 @@ information & text via
 & ["natural language"] <= /text/
 ```
 
-[**ionified**: ions implemented for internet-enabled discovery](https://ionified.net/)
+[**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/)
 is a repository of **ions** that can be automatically discovered & verified via the
 internet. these are a few:
 
