@@ -39,7 +39,7 @@ Key terms that name & convey **ionify**’s concepts & things.
 ### [ionified](https://ionified.net/)
 
 - **ion**s **i**ndexed **f**or **i**nternet-**e**nabled **d**iscovery
-- is a repository of internet-discoverable ions
+- is a directory of internet-discoverable ions
 
 ## concepts
 
