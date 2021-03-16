@@ -1,37 +1,35 @@
 # [ionify](https://ionify.net)
 
-expresses information & behavior that humans & software
+expresses behavior & information that humans & software both
 [naturally understand](VISION.md#vision)
 
 ## how
 
 [**ionify**](https://api.ionify.net/)
-enables creating & interfacing with well-defined, discoverable & self-contained behavior,
+enables describing & interfacing, with observable & self-contained behavior,
 information & text via
 [**ion**: invoked object notation](./ions/ion.md#ion):
 
 ```javascript
-~ { "json" : "data"  } <= /information/
-+ {   log  : '👋🏾👨🏾‍💻' } <= /behavior/
+~ {   log  : '👋🏾👨🏾‍💻🇬🇾' } <= /behavior/
++ { "json" : "data"  } <= /information/
 & ["natural language"] <= /text/
 ```
 
 [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/)
-is a repository of **ions** that can be automatically discovered & verified via the
+is a directory of **ions** that can be automatically discovered & verified via the
 internet. these are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
 + **[wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
-  is a japanese language-skills game created via **ion** to
-  exercise & guide **ionify’s** api development
+  is a japanese-language-skills game created via **ion** to
+  exercise & guide **ionify’s** api
 
-+ **[jeni](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js):
-  jeni enables natural interaction**, is an **ion**
-  [api](https://github.com/ionified/jeni-ions.iskitz.net)
-  that
-  [explores](https://jeni.glitch.me/)
++ [**jeni**](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js):
+  [**jeni enables natural interaction**](https://github.com/ionified/jeni-ions.iskitz.net),
+  is an **ion** api that [explores](https://jeni.glitch.me/)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
 + discover more @ [ionified.net](https://ionified.net/)
@@ -59,3 +57,7 @@ by
 &
 [**ionified**](https://github.com/ionified/)
 orgs are individually licensed & copyrighted
+
+### 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
+
+**✨ be * magical * impossible -is- nothing ✨**

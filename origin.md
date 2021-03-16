@@ -164,7 +164,7 @@ in
 [/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/),
 2019, and
 [2020](https://web.archive.org/web/20201105010053/https://img1.wsimg.com/isteam/ip/d7a6d14c-7646-43c9-9013-bb6600040f45/Mike%20Lee1.png/:/rs=w:1680,h:975) @
-[devopsdays medellín](https://web.archive.org/web/20201027124310/https://devopsdays.io/)👨🏾‍💻
+[devopsdays medellín](https://web.archive.org/web/20201027124310/https://devopsdays.io/) 👨🏾‍💻
 
 ## distribution
 
@@ -177,7 +177,6 @@ are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.
 of **ions** now available for inclusion, [discovery](http://ionified.net/),
 extension, application & study.
 
-## be * magical * impossible -is- nothing 🙌🏾
+## 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
 
-🤎
-[Michael {is:'🇬🇾Mike'} Lee](https://github.com/iskitz)
+**✨ be * magical * impossible -is- nothing ✨**

@@ -7,7 +7,7 @@ seamlessly share ideas & information
 
 + **audibly**: music, speech & other sounds
 
-+ **tactilely**: textures, patterns & temperature
++ **tactilely**: textures, temperature & physical patterns
 
 + **textually**: words, phrases, prose & other writings
 
@@ -42,9 +42,9 @@ via well-defined, discoverable, accessible & observable
                    :pools:
 ```
 
-### [ions](ions/ion.md#ion)
+### [ion](ions/ion.md#ion)
 
-invoked object notations enable defining discoverable, accessible & observable
+**invoked object notation** enables defining discoverable, accessible & observable
 things with detailed attribute descriptions:
 
 ```javascript
@@ -69,30 +69,30 @@ things with detailed attribute descriptions:
 }
 ```
 
-### [ionify](https://api.ionify.net/)
+### [ionify](https://about.ionify.net/)
 
-ion implemented for you, enables defining, fetching, sensing & interacting with
-accessible [ions](#ions):
+**ion implemented for you**, enables defining, fetching, sensing & interacting with
+[ions](#ions):
 
 ```javascript
 ~ { on:'my' ,
     my( ion )
-      { /sense my ion,    :2//
-        /log  its data    :3//
+      { /sense my ion,    :2nd//
+        /log  its data    :3rd//
         {log: ion.my}
       }
   }
 
 ~ {get:'my.ion@ionified.net'}
-~ {my :"data"} <= /got my :1/
+& {my :"data"} <= /got my :1st/
 ```
 
 ### code as prose
 
   code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ions):
 
-+ [**caption**: code-as-prose terminology ion](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
-  enables code expressed as words joined and-or separated by mathematical operators:
++ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
+  express code as words joined and-or separated by mathematical operators:
 
   ```javascript
   each - word - means & does - something;
@@ -106,7 +106,7 @@ accessible [ions](#ions):
   ```
 
 + [**aesop**: array-expressed sentence or phrase](LINGO.md#aesop),
-  enables code as one or more strings of words within arrays
+  expresses code as one or more strings of words within arrays:
 
   ```javascript
   ~[" each word means & does something "]
@@ -114,10 +114,10 @@ accessible [ions](#ions):
 
 ### [ionified](https://ionified.net/)
 
-[ions](#ions) indexed for internet-enabled discovery, is a repository of
-internet-discoverable ions that [ionify](#ionify) queries, along with
-others, to authenticate ions.
+**[ions](#ions) indexed for internet-enabled discovery**, is a directory of
+internet-discoverable ions that [ionify](#ionify) queries, among others, to
+discover & verify ions.
 
+## 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
 
-#
-**❤️ [ionify](https://about.ionify.net/)**
+**✨ be * magical * impossible -is- nothing ✨**
