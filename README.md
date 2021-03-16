@@ -11,7 +11,7 @@ information & text via
 [**ion**: invoked object notation](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻🇬🇾' } <= /behavior/
+~ {   log  : '👋🏾👨🏾‍💻' } <= /behavior/
 + { "json" : "data"  } <= /information/
 & ["natural language"] <= /text/
 ```
@@ -58,6 +58,6 @@ by
 [**ionified**](https://github.com/ionified/)
 orgs are individually licensed & copyrighted
 
-### 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
+####
 
-**✨ be * magical * impossible -is- nothing ✨**
+**🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ✨ be * magical * impossible -is- nothing ❤**
