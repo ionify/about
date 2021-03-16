@@ -1,14 +1,13 @@
 # [ionify](https://ionify.net)
 
-expresses behavior & information that humans & software both
-[naturally understand](VISION.md#vision)
+enables expressing behavior & information that humans & software both
+[naturally understand](VISION.md#vision).
 
 ## how
 
 [**ionify**](https://api.ionify.net/)
-enables describing & interfacing, with observable & self-contained behavior,
-information & text via
-[**ion**: invoked object notation](./ions/ion.md#ion):
+enables describing & interacting with behavior, information & text as
+observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
 ~ {   log  : '👋🏾👨🏾‍💻' } <= /behavior/
@@ -17,8 +16,8 @@ information & text via
 ```
 
 [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/)
-is a directory of **ions** that can be automatically discovered & verified via the
-internet. these are a few:
+is a directory of **ions** that can be automatically discovered & verified with
+**ionify** & the internet. these are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
@@ -32,18 +31,18 @@ internet. these are a few:
   is an **ion** api that [explores](https://jeni.glitch.me/)
   [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
 
-+ discover more @ [ionified.net](https://ionified.net/)
++ discover more @ [ionified.net](https://ionified.net/).
 
 ## who
 
-[**we’ve**](https://github.com/orgs/ionify/people)
+[**we've**](https://github.com/orgs/ionify/people)
 developed, published & maintained
 [**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
 & [**ionified**](https://ionified.net/)
 since their initial
 [discovery, definition & development](origin.md#ions-tale)
 by
-[**michael lee**](https://github.com/iskitz)
+[**michael lee**](https://github.com/iskitz).
 
 ## use
 
@@ -56,8 +55,9 @@ by
 [**ionify**](https://github.com/ionify/)
 &
 [**ionified**](https://github.com/ionified/)
-orgs are individually licensed & copyrighted
+orgs are individually licensed & copyrighted.
 
 ####
 
-**🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ✨ be * magical * impossible -is- nothing ❤**
+** [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) 🤎 be * magical * impossible -is- nothing ❤**
+
