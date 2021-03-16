@@ -118,6 +118,6 @@ things with detailed attribute descriptions:
 internet-discoverable ions that [ionify](#ionify) queries, among others, to
 discover & verify ions.
 
-## 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
+####
 
-**✨ be * magical * impossible -is- nothing ✨**
+**🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ✨ be * magical * impossible -is- nothing ❤**
