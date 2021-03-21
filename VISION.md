@@ -1,7 +1,7 @@
 
 # vision
 
-seamlessly share ideas & information
+seamlessly share ideas & information as software
 
 + **visually**: colors, drawings, pictures & video
 
@@ -11,11 +11,10 @@ seamlessly share ideas & information
 
 + **textually**: words, phrases, prose & other writings
 
-
 ## how
 
 via well-defined, discoverable, accessible & observable
-[**ions**](#ions):
+[**ions**](#ion):
 
 ```
      seamlessly share ideas & information
@@ -72,7 +71,7 @@ things with detailed attribute descriptions:
 ### [ionify](https://about.ionify.net/)
 
 **ion implemented for you**, enables defining, fetching, sensing & interacting with
-[ions](#ions):
+[ions](#ion):
 
 ```javascript
 ~ { on:'my' ,
@@ -89,7 +88,7 @@ things with detailed attribute descriptions:
 
 ### code as prose
 
-  code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ions):
+  code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ion):
 
 + [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
   express code as words joined and-or separated by mathematical operators:
@@ -114,10 +113,10 @@ things with detailed attribute descriptions:
 
 ### [ionified](https://ionified.net/)
 
-**[ions](#ions) indexed for internet-enabled discovery**, is a directory of
-internet-discoverable ions that [ionify](#ionify) queries, among others, to
-discover & verify ions.
+**ions indexed for internet-enabled discovery**, is a directory of
+internet-discoverable ions that [ionify](#ionify) queries to discover & verify
+[ions](#ion).
 
 ####
 
-**🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ✨ be * magical * impossible -is- nothing ❤**
+**[🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) 🤎 be * magical * impossible -is- nothing ❤**
