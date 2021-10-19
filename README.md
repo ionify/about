@@ -1,4 +1,4 @@
-# [ionify](https://ionify.net)
+# [ionify](https://ionify.net/)
 
 enables expressing behavior & information that humans & software both
 [naturally understand](VISION.md#vision).
@@ -59,5 +59,8 @@ orgs are individually licensed & copyrighted.
 
 ####
 
-** [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) 🤎 be * magical * impossible -is- nothing ❤**
+**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
+
 

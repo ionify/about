@@ -1,6 +1,6 @@
 # 🤓 Our Lingo 😅
 
-Key terms that name & convey **ionify**’s concepts & things.
+Key terms that name & convey **[ionify](#ionify)**’s concepts & things.
 
 ## core
 
@@ -140,5 +140,8 @@ Key terms that name & convey **ionify**’s concepts & things.
   ~ /👋🏾Hi!/
   ```
 
-#
-**❤️ [ionify](https://about.ionify.net/)**
+####
+
+**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**

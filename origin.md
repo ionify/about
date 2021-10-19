@@ -177,6 +177,8 @@ are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.
 of **ions** now available for inclusion, [discovery](http://ionified.net/),
 extension, application & study.
 
-## 🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ❤
+####
 
-**✨ be * magical * impossible -is- nothing ✨**
+**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**

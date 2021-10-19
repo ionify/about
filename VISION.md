@@ -120,4 +120,6 @@ discover & verify ions.
 
 ####
 
-**🤎 [🇬🇾 mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people) ✨ be * magical * impossible -is- nothing ❤**
+**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
