@@ -10,7 +10,7 @@ enables describing & interacting with behavior, information & text as
 observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻' } <= /behavior/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /behavior/
 + { "json" : "data"  } <= /information/
 & ["natural language"] <= /text/
 ```
