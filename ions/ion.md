@@ -148,7 +148,7 @@ Object.prototype.valueOf
     }
 ```
 
-**hip-hop** operator overloading of `valueOf()` enables expressing &
+**hip-hop** operator overloading `valueOf()` enables expressing &
 [punctuating](#punctuation)
 **ions** with these arithmetic, bitwise, relational & equality operators:
 
@@ -161,10 +161,10 @@ Object.prototype.valueOf
 <     17      == / compatible/  !=  "operators!"
 ```
 
-**hip-hop** operator overloading of `toString()` enables expressing **ions** as phrases &
-sentences joined by the `+` operator, but since the `valueOf()` method also enables
-this, and `toString()` is more likely to be implemented & invoked by others, overloading
-`toString()` is not recommended:
+**hip-hop** operator overloading `toString()` enables expressing sentences & phrases with
+**ions** punctuated by the `+` operator, but overloading `valueOf()` enables even more
+[punctuation](#punctuation) and is less likely to be otherwise implemented & invoked, so
+overloading `toString()` is not recommended:
 
 ```javascript
 Object.prototype.valueOf // vs .toString
@@ -223,7 +223,7 @@ JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & provides vocabulary for **ion** observation, notification & interaction
+that implements & provides vocabulary for **ion** observation, notification & interaction,
 for you.
 
 
