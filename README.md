@@ -46,16 +46,16 @@ by
 
 ## use
 
-**ionify's** [documentation](https://github.com/ionify/about) is &copy; 2007-2021
-[**michael lee**](https://github.com/iskitz/) and is licensed under a
-[creative commons attribution-noncommercial-sharealike 4.0 international license](http://creativecommons.org/licenses/by-nc-sa/4.0/) [![about.ionify](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-**ionify's** [api](https://github.com/ionify/ionify)
-& all code within the
-[**ionify**](https://github.com/ionify/)
-&
+**ionify's** [api](https://github.com/ionify/ionify),
+[documentation](https://github.com/ionify/about)
+& all software within the
+[**ionify**](https://github.com/ionify/) &
 [**ionified**](https://github.com/ionified/)
-orgs are individually licensed & copyrighted.
+orgs are
+[licensed](https://github.com/ionify/ionify/blob/public/LICENSE.txt)
+& copyright &copy; 2007-2021
+[**michael lee**](https://github.com/iskitz/)
+unless otherwise stated.
 
 ####
 
