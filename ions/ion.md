@@ -143,12 +143,12 @@ that `prototype`:
 Object.prototype.valueOf
 = function hop ()
     { console.log ('hop: handled-on-prototype')    /*
-    | Enables observing all invoked objects except  |
+    | enables observing all invoked objects except  |
     | Booleans, Dates, Numbers, Strings & Symbols.  */
     }
 ```
 
-**hip-hop** operator overloading `valueOf()` method enables expressing &
+**hip-hop** operator overloading the `valueOf()` method enables expressing &
 [punctuating](#punctuation)
 **ions** with these arithmetic, bitwise, relational & equality operators:
 
@@ -163,8 +163,8 @@ Object.prototype.valueOf
 
 **hip-hop** operator overloading the `toString()` method enables expressing sentences &
 phrases with **ions** punctuated by the `+` operator, but overloading the `valueOf()`
-method enables even more [punctuation](#punctuation) and since it's less likely to be
-otherwise overloaded and-or invoked, overloading the `toString()` method is not
+method enables even more [punctuation](#punctuation), and since it's less likely than
+`toString()` to be otherwise overloaded and-or invoked, overloading `toString()` is **not**
 recommended:
 
 ```javascript
@@ -221,7 +221,7 @@ Object.prototype.valueOf
 ```
 
 javascript's **hip-hop** operator overloading is a simple & reliable pattern for enabling
-**ion** observation & notification. as shown, it can be implemented manually, or via
+**ion** observation & notification. it can be implemented manually, as shown, or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
