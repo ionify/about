@@ -5,12 +5,12 @@ their behavior and-or observation:
 
 ```javascript
 ~ { "json" : "data" } <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}   <= /unobtrusive api/
++ {   log  : '👋🏾👨🏾‍💻'}   <= /invoked behavior/
 & ["observable text"] <= /observable text/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
-by [Michael Lee](https://github.com/iskitz)
+by **[michael lee](https://github.com/iskitz)**
 in 2007, and exists & can be implemented within languages that support [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
 
 ## form
@@ -66,7 +66,7 @@ and
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 operator punctuation.
 
-This example combines fifteen **lions** with the seventeen **ion**-compatible bitwise,
+this example combines fifteen **lions** with the seventeen **ion**-compatible bitwise,
 arithmetic, relational & equality punctuation operators available:
 
 ```javascript
@@ -78,7 +78,7 @@ arithmetic, relational & equality punctuation operators available:
 <     17      == / compatible/  !=  "operators!"
 ```
 
-As shown
+as shown
 
 + arithmetic punctuation can be any of the
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-addition-operator-plus),
@@ -116,7 +116,7 @@ in multiple languages.
 
 #### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
-Enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
+enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
 methods [invoked](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
 during an
 [object's](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
@@ -148,7 +148,7 @@ Object.prototype.valueOf
     }
 ```
 
-**hip-hop** operator overloading `valueOf()` enables expressing &
+**hip-hop** operator overloading `valueOf()` method enables expressing &
 [punctuating](#punctuation)
 **ions** with these arithmetic, bitwise, relational & equality operators:
 
@@ -161,10 +161,11 @@ Object.prototype.valueOf
 <     17      == / compatible/  !=  "operators!"
 ```
 
-**hip-hop** operator overloading `toString()` enables expressing sentences & phrases with
-**ions** punctuated by the `+` operator, but overloading `valueOf()` enables even more
-[punctuation](#punctuation) and is less likely to be otherwise implemented & invoked, so
-overloading `toString()` is not recommended:
+**hip-hop** operator overloading the `toString()` method enables expressing sentences &
+phrases with **ions** punctuated by the `+` operator, but overloading the `valueOf()`
+method enables even more [punctuation](#punctuation) and since it's less likely to be
+otherwise overloaded and-or invoked, overloading the `toString()` method is not
+recommended:
 
 ```javascript
 Object.prototype.valueOf // vs .toString
@@ -180,29 +181,30 @@ var   you = {say:'do you see all the things'}
   ,    as = {say:'as groups of'}
   , prose = {say:'phrases & sentences?! 🤓'}
 
-'with orion' - you - can - write - code - as -
+'with orion' - you - can - write + code - as -
  prose;
 ```
 
 **flow**
 
-During **hip-hop** operator overloading, an attempt is made to
+during **hip-hop** operator overloading, an attempt is made to
 [convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
-That conversion attempts to invoke the object operand's `valueOf()` method. If the **ion**
-doesn't define that method, JavaScript searches for it along the **ion's**
+that conversion attempts to invoke the object operand's `valueOf()` method. if the **ion**
+doesn't define that method, javascript searches for it along the **ion's**
 [prototype path](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
-For [**lions**](#form) that search begins & ends at their
-`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. For
-[**orion**](#form) the search may end similarly but begin with the **ion's** inherited object.
+for [**lions**](#form) that search begins & ends at their
+`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. for
+[**orion**](#form) the search may end similarly but begin with the **ion's** inherited
+object.
 
-`Object`, `Array` & `RegExp` all define `prototype.valueOf()`, so for each **ion** of
-those types, their operator causes the relevant type's `prototype.valueOf()` to be invoked
-to obtain a
+`Object`, `Array` & `RegExp` all define a `prototype.valueOf()` method, so for each **ion**
+of those types, their operator causes the relevant type's `prototype.valueOf()` method to
+be invoked to obtain a
 [basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
 that's then converted to a number.
 
-Defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
-enables interfacing with JavaScript objects' type conversion flow. That then enables
+defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
+enables interfacing with javascript objects' type conversion flow. that then enables
 interacting with all **ions** without requiring direct access to any of them 🤓
 
 ```javascript
@@ -218,8 +220,8 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-JavaScript's **hip-hop** operator overloading is a simple & reliable pattern for enabling
-**ion** observation & notification. As shown, it can be implemented manually or via
+javascript's **hip-hop** operator overloading is a simple & reliable pattern for enabling
+**ion** observation & notification. as shown, it can be implemented manually, or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible, unobtrusive & novel
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
@@ -229,13 +231,12 @@ for you.
 
 #### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
-Enables [**orion**](#form) via **hot: handled-on-type** operator overloading by
+enables [**orion**](#form) via **hot: handled-on-type** operator overloading by
 implementing an object type's `toString()` method, which enables overloading the `+`
 operation for objects of that type.
 
-See this in-depth
-[proof-of-concept](https://github.com/ionify/about/blob/public/api/java/src/net/ionify/java/Hello.java)
-for more:
+here's an in-depth
+[proof-of-concept](https://github.com/ionify/about/blob/public/api/java/src/net/ionify/java/Hello.java):
 
 ```java
 class AnION
@@ -273,12 +274,11 @@ class ActIONs
 
 ### [python](https://github.com/ionify/about/blob/public/api/python/ion.proof.py)
 
-Enables [**orion**](#form) by applying **hot: handled-on-type** operator overloading via
+enables [**orion**](#form) by applying **hot: handled-on-type** operator overloading via
 [numeric type emulation](https://docs.python.org/3.6/reference/datamodel.html#emulating-numeric-types).
 
-See this
-[proof-of-concept](https://github.com/ionify/about/blob/public/api/python/ion.proof.py)
-for more:
+here’s a
+[proof-of-concept](https://github.com/ionify/about/blob/public/api/python/ion.proof.py):
 
 ```python
 class Ion:
@@ -318,24 +318,26 @@ print (ion)
 
 ### [other languages](https://en.wikipedia.org/wiki/Operator_overloading#Catalog)
 
-[Enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
-[**orion**](#form) via procedural operator overloading of arithmetic, bitwise, relational & equality operators.
+[enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
+[**orion**](#form)
+via procedural operator overloading of arithmetic, bitwise, relational & equality
+operators.
 
 
 ## compatibility
 
 [**orion**](#form) & [**hip-hop**](#function)
-operator overloading are compatible with all JavaScript environments.
+operator overloading are compatible with all javascript environments.
 [**lion**](#form) is compatible with all environments implementing
-[any edition of the ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
+[any edition of the ecmascript specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 since
 [1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
 
-[JavaScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+[javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
 [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
-[ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
+[ecmascript specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
 
 ####
 
