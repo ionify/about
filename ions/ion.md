@@ -180,7 +180,7 @@ var   you = {say:'do you see all the things'}
   ,    as = {say:'as groups of'}
   , prose = {say:'phrases & sentences?! 🤓'}
 
-'With orion' + you + can + write + code + as +
+'with orion' - you - can - write - code - as -
  prose;
 ```
 
@@ -336,3 +336,9 @@ environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
 [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
 [ECMAScript Specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
+
+####
+
+**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
