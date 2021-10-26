@@ -52,7 +52,7 @@ by
 [**ionify**](https://github.com/ionify/) &
 [**ionified**](https://github.com/ionified/)
 orgs are
-[licensed](https://github.com/ionify/ionify/blob/public/LICENSE.txt)
+[licensed](LICENSE.txt)
 & copyright &copy; 2007-2021
 [**michael lee**](https://github.com/iskitz/)
 unless otherwise stated.
