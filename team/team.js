@@ -5,8 +5,8 @@
     , as: ['team.0']
     , by: ['mike.lee','team']
     , on:  -4.200709
-    , to:  -8.20201106
-    , at:  -0.03
+    , to:  -7.20211025
+    , at:  -0.04
     , is: "the team inventing, optimized natural interfaces for you, to inspire"
         + "novel, simple, performant, intuitive & reliable experiences."
     },
@@ -28,20 +28,6 @@
               ,          'san-jose.california.usa.earth'
               ,                      'tokyo.japan.earth'
               ]
-      },
-
-      { author: 'mosesmc52@github'
-      ,     of: ['ionizer']
-      ,     on: -7.20200422
-      ,     to: -7.20200509
-      ,     in: 'denver.colorado.usa.earth'
-      },
-
-      { author: 'jebwalton@github'
-      ,     of: ['ionix.server','ionify.about.talks.2020.ionify.pptx']
-      ,     on: -7.20200421
-      ,     to: -8.20201101
-      ,     in: 'hartford.connecticut.usa.earth'
       },
 
       { editor: "next.descending.order.team.member@domain"
