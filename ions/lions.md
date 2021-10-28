@@ -45,7 +45,7 @@
 
 **all json-expressed ions, e.g. [jems](#jems), [jess](#jess), [jewels](#jewels) & [oj](#oj)**
 
-## [jems](jems.md)
+## [jems](http://jems.ionify.net/)
 
 **json-expressed modules**:
 
@@ -105,3 +105,10 @@
 **web ion** is any **ion** or set of ions created for the
 [web](https://en.wikipedia.org/wiki/World_Wide_Web).
 For example, all [jewels](jewels.md) & [jess](#jess) are **webi**.
+
+####
+
+**’🙇🏾‍♂️’- through * God * impossible-is-nothing -‘🤲🏾’**
+
+**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
+
