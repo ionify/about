@@ -111,9 +111,9 @@ This was close, but still invalid JSON syntax 🤔
 
 ## discovery
 
-Success came in 2007, when through diligent study 👨🏾‍🏫 of the
+Success came in 2007, when through diligent 👨🏾‍🏫 study of the
 [JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
-and 👨🏾‍🔬 object-literal syntax experimentation, Michael 👨🏾‍💻 discovered it was possible to
+and object-literal syntax 👨🏾‍🔬 experimentation, Michael 👨🏾‍💻 discovered it was possible to
 interact with anonymous objects, like JSON, by
 [invoking & observing numeric object-type-conversion](ions/ion.md#function)!
 👌🏾
