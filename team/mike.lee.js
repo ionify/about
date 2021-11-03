@@ -5,8 +5,8 @@
     , as: ['im.0']
     , by:  'mike.lee@ionify.net'
     , on:  -7.20180327
-    , to:  -7.20211025
-    , at:  -0.013
+    , to:  -7.20211103
+    , at:  -0.014
     , is: "Mike Lee's Identity Module"
     }
     ,
@@ -26,11 +26,11 @@
     ]
     ,
   author:
-    [ 'ionizer',   'ionix', 'ionified', 'ionify', 'jsonxd', 'ajile'
-    , 'ask.say', 'wakatta', 'anemojii'
-    , 'aeon'   ,   'aesop', 'caption' ,   'dion', 'ion'   , 'im'
-    , 'jem'    ,    'jeni', 'jet'     ,  'jewel', 'lion'  , 'obi'
-    , 'oj'     ,   'orion', 'sasi'    , 'storie', 'webi'
+    [ 'ionified', 'ionify', 'jsonxd'  , 'ajile', 'jspackaging'
+    , 'ask.say' ,'wakatta', 'anemojii'
+    , 'aeon'    ,  'aesop', 'caption' , 'dion' , 'ion'   , 'im'
+    , 'jem'     ,   'jeni', 'jet'     , 'jewel', 'lion'  , 'obi'
+    , 'oj'      ,  'orion', 'storie'  , 'webi'
     , 'webOS 3.x Calendar Fixes'      , 'webOS 3.x Calendar'
     , 'DataHub', 'hollyhouk.com'      , 'Canon Authorized Send'
     , 'MEAP Remote Management System' , 'iDesign@iskitz'
@@ -51,11 +51,10 @@
     ]
     ,
   from:
-    [          'san-jose.california.usa.earth'
-    ,        'forest-hills.new-york.usa.earth'
-    , 'springfield-gardens.new-york.usa.earth'
-    ,            'brooklyn.new-york.usa.earth'
-    ,                'georgetown.guyana.earth'
+    [             'georgetown.guyana.earth'
+    ,         'brooklyn.new-york.usa.earth'
+    ,           'queens.new-york.usa.earth'
+    , 'silicon-valley.california.usa.earth'
     ]
 }
 ;

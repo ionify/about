@@ -5,28 +5,27 @@
     , as: ['team.0']
     , by: ['mike.lee','team']
     , on:  -4.200709
-    , to:  -7.20211025
-    , at:  -0.04
+    , to:  -7.20211103
+    , at:  -0.05
     , is: "the team inventing, optimized natural interfaces for you, to inspire"
         + "novel, simple, performant, intuitive & reliable experiences."
     },
 
   team:
-    [ {creator: 'mike.lee@ionify'
-      ,     of:
-              [ 'ionify'  , 'ionify.about'  , 'ionify-vscode'
-              , 'ionified', 'ionix'         , 'ionizer'
+    [ {creator: 'mike.lee@ionify',
+            of:
+              [ 'ionify'  , 'ionify.about'  , 'ionified'
               , 'aeon'    , 'aesop',    'ai', 'caption' , 'dion'  , 'im'
               , 'ion'     , 'jem'  ,  'jeni', 'jet'     , 'jewel' , 'lion'
-              , 'obi'     , 'oj'   , 'orion', 'sasi'    , 'storie', 'webi'
-              ]
-      ,     on: -4.200709
-      ,     to: -8.20201106
-      ,     in:
-              [        'forest-hills.new-york.usa.earth'
-              , 'springfield-gardens.new-york.usa.earth'
-              ,          'san-jose.california.usa.earth'
-              ,                      'tokyo.japan.earth'
+              , 'obi'     , 'oj'   , 'orion', 'storie'  , 'webi'
+              ],
+            on: -4.200709,
+            to: -8.202111,
+            in:
+              [                'queens.new-york.usa.earth'
+              ,      'silicon-valley.california.usa.earth'
+              ,                        'tokyo.japan.earth'
+              , 'prince-georges-county.maryland.usa.earth'
               ]
       },
 
