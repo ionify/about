@@ -7,8 +7,9 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 ### [ion](ions/ion.md)
 
 - **i**nvoked **o**bject **n**otation
-- is a syntax for defining discrete units of data and behavior for discovery, composition & interaction
-- it represents these units as objects, and combines them with mathematical operators that invoke their observation and-or behavior
+- is a syntax for defining action(s) & information as software modules
+- it represents these modules as objects, combined with mathematical operators, that invoke
+  their composition, observation, and-or interaction
 
 - #### [lion](ions/lions.md)
 
@@ -29,8 +30,9 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 ### [ionify](README.md)
 
 - **ion i**mplemented **f**or **y**ou
-- is a flexible, unobtrusive & novel api for ion interaction
-- it provides concise & flexible vocabulary for defining, fetching, sensing, composing & interacting with ions
+- is a flexible, unobtrusive & novel api for [ion](#ion) interaction
+- it provides concise & flexible vocabulary for defining, fetching, sensing, composing &
+  interacting with ions
 
   ```js
   ~ {get:"ionify@ionify.net"}
@@ -39,7 +41,7 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 ### [ionified](https://ionified.net/)
 
 - **ion**s **i**ndexed **f**or **i**nternet-**e**nabled **d**iscovery
-- is a directory of internet-discoverable ions
+- is a directory of internet-discoverable [ions](#ion)
 
 ## concepts
 
@@ -55,7 +57,8 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 
 - [**ion**](#ion) applies [direct](ions/ion.md#python) &
 [indirect](ions/ion.md#javascript)
-[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading) to interact with objects during their type-conversion.
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+to interact with objects during their type-conversion
 
 - ### [hot](ions/ion.md#java)
 
@@ -74,8 +77,10 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 
 - ### [pools](ions/ion.md#other-languages)
 
-  - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) **o**perator-**o**verloading **l**anguages
-  - is the set of programming languages that support operator overloading via procedures, e.g. subroutines, functions, and-or methods.
+  - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
+    **o**perator-**o**verloading **l**anguages
+  - is the set of programming languages that support operator overloading via procedures,
+    e.g. subroutines, functions, and-or methods.
 
 ## ions
 
@@ -84,8 +89,8 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 - **a**rray-**e**xpressed [**s**torie](#storie) **o**r **p**hrase
 
   ```js
-  ~ [/👋🏾Hi!/]  <=  /storie/
-  ~ ["👋🏾Hi!"]  <=  "phrase"
+  ~ [/👋🏾 hi!/]  <=  /storie/
+  ~ ["👋🏾 hi!"]  <=  "phrase"
   ```
 
 ### [emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
@@ -101,7 +106,7 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 
 ### oj
 
-- **o**bservable **j**son
+- **o**bservable [**j**son](//json.org)
 
   ```js
   ~ {"json":"data"}
@@ -113,7 +118,7 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
   - **j**son-**e**xpressed **we**b **l**anguage
 
     ```js
-    ~ {"as":"html", "body":"Hi!"}
+    ~ {"as":"html", "body":"hi!"}
     ~ {"as":"css", "#body": {"color":"#000"}}
     ```
 
@@ -134,10 +139,10 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 
 ### [storie](ions/stories.md)
 
-- **s**entence **t**ext **o**r **r**ecognit**i**on **e**xpression
+- **s**entence, **t**ext **o**r **r**ecognit**i**on, **e**xpression
 
   ```javascript
-  ~ /👋🏾Hi!/
+  ~ /👋🏾 hi!/
   ```
 
 ####
