@@ -9,9 +9,17 @@ simple, performant,
 & reliable
 [experiences](http://ionified.net/).
 
-We've developed, published & maintained
+we've developed, published & maintained
 [**ion**](../ions/ion.md), [**ionify**](../README.md#api) & [**ionified**](../README.md#ionified)
 since their initial
 [discovery, definition & development](../origin.md)
 by
-[Michael Lee](https://github.com/iskitz).
+[michael lee](https://github.com/iskitz).
+
+####
+
+🙇🏾‍♂️ through * [**God**](../LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

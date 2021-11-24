@@ -3,7 +3,15 @@
 **aesop** is any **array-expressed [storie](stories.md) or phrase**.
 
 ```javascript
-  ~ ['Hi!']  <=  /an aesop phrase/
-  & [/Hi!/]  <=  /an aesop storie/
+  ~ ['hi!']  <=  /an aesop phrase/
+  & [/hi!/]  <=  /an aesop storie/
   ;
 ```
+
+####
+
+🙇🏾‍♂️ through * [**God**](../LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

@@ -9,11 +9,11 @@
       , "is": "a json-expressed module"
       , "by": "mike.lee"
       , "on": -4.200709
-      , "to": -7.20200418
-      , “at”: +2.1
+      , "to": -8.20211123
+      , “at”: +2.2
       , "in":
-            [ "forest-hills.new-york.usa.earth"
-            ,   "san-jose.california.usa.earth"
+            [.   "queens-county.new-york.usa.earth"
+            , "silicon-valley.california.usa.earth"
             ]
       },
 
@@ -23,7 +23,15 @@
       ],
 
   "an aesop action":
-      "log Hi! #do.times"
+      "log hi! #do.times"
 }
 ;
 ```
+
+####
+
+🙇🏾‍♂️ through * [**God**](../LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

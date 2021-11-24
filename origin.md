@@ -30,7 +30,7 @@ a capability within JavaScript he names
 
 >Michael names &
 [shares](https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg)
-**jsonXD's** core concept & capability
+**jsonXD's** core concept & capability,
 [**ion**: invoked object notation](ions/ion.md#ion)
 &
 [**ionify**: ion implemented for you](http://api.ionify.net/) 🎉
@@ -131,9 +131,9 @@ Object.prototype.valueOf   // 1: observe
 **A single-character prefix of `~`, `+`, or `-` was key** 🎉 and as close to observable &
 syntactically-correct JSON as we could get 👏🏾
 
-This pattern
+This capability
 
-+ is compatible with all JavaScript environments,
++ exists within all JavaScript environments,
 + obsoletes JSONP,
 + complements existing JSONP implementations with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
@@ -143,7 +143,7 @@ This pattern
 ## development
 
 After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
-introduced this pattern at the 2009
+introduced this capability at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference as a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
@@ -179,6 +179,8 @@ extension, application & study.
 
 ####
 
-**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
-
-**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
+🙇🏾‍♂️ through * [**God**](LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

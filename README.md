@@ -1,23 +1,23 @@
 # [ionify](https://ionify.net/)
 
-enables expressing behavior & information that humans & software both
+enables expressing actions & information that humans & software both
 [naturally understand](VISION.md#vision).
 
 ## how
 
 [**ionify**](https://api.ionify.net/)
-enables describing & interacting with behavior, information & text as
+enables describing & interacting with software-defined actions & information, as
 observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻'  } <= /behavior/
-+ { "json" : "data"  } <= /information/
-& ["natural language"] <= /text/
+~ {   log  : "👋🏾👨🏾‍💻"  } <= /recording action/
++ { "json" : "data"  } <= /json information/
+& ["natural language"] <= /text information/
 ```
 
 [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/)
-is a directory of **ions** that can be automatically discovered & verified with
-**ionify** & the internet. these are a few:
+is a directory of **ions** that can be automatically discovered & verified via **ionify** &
+the internet. these are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
@@ -59,8 +59,8 @@ unless otherwise stated.
 
 ####
 
-**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
-
-**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
-
-
+🙇🏾‍♂️ through * [**God**](LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

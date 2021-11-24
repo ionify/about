@@ -18,7 +18,7 @@
 **array-expressed object notations**:
 
 ```javascript
-~ [ {say:"Hi!"} ] ;
+~ [ {say:"hi!"} ] ;
 ```
 
 ## [stories](stories.md)
@@ -26,7 +26,7 @@
 **sentence text or recognition expressions**:
 
 ```javascript
-~ / d('~ . ~')b   <  Hi! /  <= /match action(s)/
+~ / d('~ . ~')b   <  hi! /  <= /match action(s)/
 & / (sentence) template! /  <= /match sentences/
 ;
 ```
@@ -36,8 +36,8 @@
 **array-expressed [storie](stories.md) or phrase**:
 
 ```javascript
-~ ['Hi!']  <=  /an aesop phrase/
-& [/Hi!/]  <=  /an aesop storie/
+~ ['hi!']  <=  /an aesop phrase/
+& [/hi!/]  <=  /an aesop storie/
 ;
 ```
 
@@ -56,10 +56,10 @@
       , "is": "a json-expressed module"
       , "by": "mike.lee@iskitz"
       , "on": -4.200709
-      , "to": -8.20201104
+      , "to": -8.20211123
       , "in":
-            [ "forest-hills.new-york.usa.earth"
-            ,   "san-jose.california.usa.earth"
+            [    "queens-county.new-york.usa.earth"
+            , "silicon-valley.california.usa.earth"
             ]
       },
 
@@ -69,7 +69,7 @@
       ],
 
   "an aesop action":
-      "log Hi! #do.it"
+      "log hi! #do.it"
 }
 ;
 ```
@@ -87,7 +87,7 @@
 **json-expressed web languages**:
 
 ```javascript
-~ {"as":"html",  "body": "Hi!"}
+~ {"as":"html",  "body": "hi!"}
 & {"as":"css" , "#body": {"color":"#212CD9"}}
 ;
 ```
@@ -104,11 +104,12 @@
 
 **web ion** is any **ion** or set of ions created for the
 [web](https://en.wikipedia.org/wiki/World_Wide_Web).
-For example, all [jewels](jewels.md) & [jess](#jess) are **webi**.
+for example, all [jewels](jewels.md) & [jess](#jess) are **webi**.
 
 ####
 
-**’🙇🏾‍♂️’- through * God * impossible-is-nothing -‘🤲🏾’**
-
-**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
-
+🙇🏾‍♂️ through * [**God**](../LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

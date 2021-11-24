@@ -97,7 +97,7 @@ things with detailed attribute descriptions:
   each - word - means & does - something;
   ```
 
-+ [**stories**: sentence text or recognition expressions](LINGO.md#storie),
++ [**stories**: sentence, text or recognition, expressions](LINGO.md#storie),
   enable code as words within invoked regular-expression literals:
 
   ```javascript
@@ -119,6 +119,8 @@ internet-discoverable ions that [ionify](#ionify) queries to discover & verify
 
 ####
 
-**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
-
-**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
+🙇🏾‍♂️ through * [**God**](LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎

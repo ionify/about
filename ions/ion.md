@@ -1,12 +1,12 @@
 # ion
 
-**invoked object notation** combines objects with operators that invoke
-their behavior and-or observation:
+**invoked object notation** enables defining actions & information as observable &
+self-contained software objects:
 
 ```javascript
-~ { "json" : "data" } <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}   <= /invoked behavior/
-& ["observable text"] <= /observable text/
+~ {   log  : “👋🏾👨🏾‍💻”  } <= /a logging action/
++ { “json” : “data”  } <= /json information/
+& [“natural language”] <= /text information/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
@@ -15,12 +15,15 @@ in 2007, and exists & can be implemented within languages that support [procedur
 
 ## form
 
+**ion** combines one or more objects with operators that invoke their action(s) and-or
+observation.
+
 **ion** combines the
 [~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator)
 bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
 and [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator)
-unary operators with [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
+unary operators, with stand-alone [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
 that can be
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
@@ -42,7 +45,7 @@ and **orion**, object reference ion:
 ~obj      +obj      -obj     // 3 prefixed orion
 ```
 
-**orion** can also be written using the
+**orion** can also be expressed with the
 [++](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-increment-operator)
 and
 [-- prefix operators](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-decrement-operator),
@@ -58,7 +61,7 @@ and
 
 ### punctuation
 
-**ions** can be combined to form larger expressions using
+**ions** can be combined to form larger expressions via
 [arithmetic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
 [bitwise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
 [relational](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators)
@@ -66,8 +69,8 @@ and
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
 operator punctuation.
 
-this example combines fifteen **lions** with the seventeen **ion**-compatible bitwise,
-arithmetic, relational & equality punctuation operators available:
+this example combines fifteen **lions** with seventeen **ion**-compatible bitwise,
+arithmetic, relational & equality punctuation operators:
 
 ```javascript
 ~  /example/  -  /punctuation/
@@ -144,7 +147,9 @@ Object.prototype.valueOf
 = function hop ()
     { console.log ('hop: handled-on-prototype')    /*
     | enables observing all invoked objects except  |
-    | Booleans, Dates, Numbers, Strings & Symbols.  */
+    | BigInts, Booleans, Dates, Numbers, Strings,   |
+    | Symbols & any others that implement their own |
+    | valueOf() method.                             */
     }
 ```
 
@@ -341,6 +346,8 @@ environments include all
 
 ####
 
-**🙇🏾‍♂️ through * God * impossible -is- nothing 🤎**
-
-**[🇬🇾](https://en.wikipedia.org/wiki/Guyana) [mike 👨🏾‍💻 lee](https://github.com/iskitz) & [team](https://github.com/orgs/ionify/people)**
+🙇🏾‍♂️ through * [**God**](../LICENSE.txt) * impossible -is- nothing ||
+[🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
+[**mike lee**](https://github.com/iskitz) &
+[**team**](https://github.com/orgs/ionify/people)
+🤎
