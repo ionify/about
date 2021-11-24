@@ -7,23 +7,24 @@
 { "re":
       { "id": "jem@ionify.net"
       , "is": "a json-expressed module"
-      , "by": "mike.lee"
+      , "by": "mike.lee@iskitz"
       , "on": -4.200709
-      , "to": -8.20211123
-      , “at”: +2.2
+      , "to": -8.20211124
       , "in":
-            [.   "queens-county.new-york.usa.earth"
+            [    "queens-county.new-york.usa.earth"
             , "silicon-valley.california.usa.earth"
             ]
       },
 
   "do":
-      [ "an aesop action"
-      , {"if":"do.times", "<":7, "do":"do"}
+      [  "an aesop action"
+      , {"+" :"do.it"}
+      , {"if":"do.it", "<":7, "do":"do"}
       ],
 
   "an aesop action":
-      "log hi! #do.times"
+      [ "log 👋🏾 hi! #{do.it}"
+      ]
 }
 ;
 ```
