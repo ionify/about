@@ -203,14 +203,16 @@ for [**lions**](#form) that search begins & ends at their
 object.
 
 `Object`, `Array` & `RegExp` all define a `prototype.valueOf()` method, so for each **ion**
-of those types, their operator causes the relevant type's `prototype.valueOf()` method to
-be invoked to obtain a
+of those types, their operator causes the **ion's** inherited `prototype.valueOf()` method
+to be invoked to obtain a
 [basic value](https://en.m.wikipedia.org/wiki/Primitive_value)
 that's then converted to a number.
 
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with javascript objects' type conversion flow. that then enables
-interacting with all **ions** without requiring direct access to any of them 🤓
+interacting with all **ions** without needing access to any of their
+[identifiers](//en.wikipedia.org/wiki/Identifier_(computer_languages))
+🤓
 
 ```javascript
 Object.prototype.valueOf
