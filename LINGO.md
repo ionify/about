@@ -85,9 +85,9 @@ to interact with objects during their type-conversion
   ```javascript
   ~
   [ "🤩 is it a hoti? 😅 no, it's not that type"
-  + "😎 is it a hipi? ☺️ no, it's inheriting we"
-  + "😍 is it a hopi? 🤗 ya, it's the prototype"
-  + "🧐 where’re all the hot, hip-hop pools? 🤔"
+  , "😎 is it a hipi? ☺️ no, it's inheriting we"
+  , "😍 is it a hopi? 🤗 ya, it's the prototype"
+  , "🧐 where’re all the hot, hip-hop pools? 🤔"
   ]
   ;
   ```
