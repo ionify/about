@@ -4,9 +4,9 @@
 self-contained software objects:
 
 ```javascript
-~ {   log  : “👋🏾👨🏾‍💻”  } <= /a logging action/
-+ { “json” : “data”  } <= /json information/
-& [“natural language”] <= /text information/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /user interaction/
++ { "json" : "data"  } <= /json information/
+& ["natural language"] <= /text information/
 ```
 
 **ion** was [discovered, defined & developed](../origin.md)
@@ -145,11 +145,11 @@ that `prototype`:
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ('hop: handled-on-prototype')    /*
+    { console.log ('hop: handled-on-prototype')    /*\
     | enables observing all invoked objects except  |
     | BigInts, Booleans, Dates, Numbers, Strings,   |
     | Symbols & any others that implement their own |
-    | valueOf() method.                             */
+    | valueOf() method.                            \*/
     }
 ```
 
@@ -175,8 +175,8 @@ recommended:
 ```javascript
 Object.prototype.valueOf // vs .toString
 = function hop ()
-    { console.log (this.say)         /*
-    | or do something more profound!  */
+    { console.log (this.say)         /*\
+    | or do something more profound! \*/
     }
 
 var   you = {say:'do you see all the things'}
@@ -273,7 +273,7 @@ class ActIONs
                 ions     = new AnION (           ),
                 now      = new AnION (           );
                 ions.any =            "data kind" ;
-          "Let's" + invoke + these + ions + now ;
+          "let's" + invoke + these + ions + now ;
         }
   }
 ```

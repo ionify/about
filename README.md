@@ -1,6 +1,6 @@
 # [ionify](https://ionify.net/)
 
-enables expressing actions & information that humans & software both
+enables expressing actions & information that humans & software
 [naturally understand](VISION.md#vision).
 
 ## how
@@ -10,7 +10,7 @@ enables describing & interacting with software-defined actions & information, as
 observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : "👋🏾👨🏾‍💻"  } <= /recording action/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /user interaction/
 + { "json" : "data"  } <= /json information/
 & ["natural language"] <= /text information/
 ```
