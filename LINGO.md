@@ -89,7 +89,6 @@ to interact with objects during their type-conversion
   , "😍 is it a hopi? 🤗 ya, it's the prototype"
   , "🧐 where’re all the hot, hip-hop pools? 🤔"
   ]
-  ;
   ```
 
 ## ions
@@ -149,7 +148,7 @@ to interact with objects during their type-conversion
 
 ### [storie](ions/stories.md)
 
-- **s**entence, **t**ext **o**r **r**ecognit**i**on, **e**xpression
+- **st**atement **o**r **r**ecognit**i**on **e**xpression
 
   ```javascript
   ~ /👋🏾 hi!/

@@ -1,7 +1,7 @@
 
 # vision
 
-seamlessly share ideas & information as software
+seamlessly share actions & information as software
 
 + **visually**: colors, drawings, pictures & video
 
@@ -83,29 +83,30 @@ things with detailed attribute descriptions:
   }
 
 ~ {get:'my.ion@ionified.net'}
-& {my :"data"} <= /got my :1st/
+~ {my :"data"} <= /got my :1st/
 ```
 
 ### code as prose
 
-  code expressed as natural language prose via [object reference](LINGO.md#orion) [ions](#ion):
+  code expressed as natural language prose:
 
 + [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
-  express code as words joined and-or separated by mathematical operators:
+  express code as words joined and-or separated by mathematical operators via
+  [object reference](LINGO.md#orion) [ions](#ion):
 
   ```javascript
   each - word - means & does - something;
   ```
 
-+ [**stories**: sentence, text or recognition, expressions](LINGO.md#storie),
++ [**stories**: statement or recognition expressions](LINGO.md#storie),
   enable code as words within invoked regular-expression literals:
 
   ```javascript
   ~/ each word means & does something /
   ```
 
-+ [**aesop**: array-expressed sentence or phrase](LINGO.md#aesop),
-  expresses code as one or more strings of words within arrays:
++ [**aesop**: array-expressed storie or phrase](LINGO.md#aesop),
+  expresses code as one or more strings of words within invoked arrays:
 
   ```javascript
   ~[" each word means & does something "]
