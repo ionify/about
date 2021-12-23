@@ -11,7 +11,10 @@ self-contained software objects:
 
 **ion** was [discovered, defined & developed](../origin.md)
 by **[michael lee](https://github.com/iskitz)**
-in 2007, and exists & can be implemented within languages that support [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages) [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading).
+in 2007, and exists & can be implemented within
+[procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
+[operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+languages.
 
 ## form
 
@@ -23,7 +26,7 @@ observation.
 bitwise-not,
 [+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
 and [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator)
-unary operators, with stand-alone [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
+unary operators, with [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
 that can be
 [array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
