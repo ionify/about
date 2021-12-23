@@ -5,8 +5,8 @@
     , as: ['team.0']
     , by: ['mike.lee','team']
     , on:  -4.200709
-    , to:  -7.20211103
-    , at:  -0.05
+    , to:  -8.20211222
+    , at:  -0.06
     , is: "the team inventing, optimized natural interfaces for you, to inspire"
         + "novel, simple, performant, intuitive & reliable experiences."
     },
@@ -20,7 +20,7 @@
               , 'obi'     , 'oj'   , 'orion', 'storie'  , 'webi'
               ],
             on: -4.200709,
-            to: -8.202111,
+            to: -8.202112,
             in:
               [                'queens.new-york.usa.earth'
               ,      'silicon-valley.california.usa.earth'
@@ -33,21 +33,21 @@
       ,     of: ['...']
       ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town.][hyphenated-city.][hyphenated-state.][hyphenated-country.]planet'
+      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
       },
 
       { tester: "next.descending.order.team.member@domain"
       ,     of: ['...']
       ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town.][hyphenated-city.][hyphenated-state.][hyphenated-country.]planet'
+      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
       },
 
       {teacher: "next.descending.order.team.member@domain"
       ,     of: ['...']
       ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town.][hyphenated-city.][hyphenated-state.][hyphenated-country.]planet'
+      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
       }
     ]
 }
