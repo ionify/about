@@ -82,15 +82,6 @@ to interact with objects during their type-conversion
   - is the set of programming languages that support operator overloading via procedures,
     e.g. subroutines, functions, and-or methods.
 
-  ```javascript
-  ~
-  [ "🤩 is it a hoti? 😅 no, it's not that type"
-  , "😎 is it a hipi? ☺️ no, it's inheriting we"
-  , "😍 is it a hopi? 🤗 ya, it's the prototype"
-  , "🧐 where’re all the hot, hip-hop pools? 🤔"
-  ]
-  ```
-
 ## ions
 
 ### [aesop](ions/aesop.md)
