@@ -6,13 +6,13 @@
     , by:  'mike.lee@ionify.net'
     , on:  -7.20180327
     , to:  -8.20210220
-    , at:  -0.016
+    , at:  -0.017
     , is: "mike lee's identity module"
     }
     ,
   is:
     [ 'michael lee'         , 'mike lee'
-    , 'mike.👨🏾‍💻.lee'         , '🇬🇾.mike.👨🏾‍💻.lee.🇺🇸'
+    , 'mike.👨🏾‍💻.lee'         , 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
     , 'mike.lee@baramita'
     , 'mike.lee@ionify'     , 'mike.lee@ionified'
     , 'mike.lee@iskitz'     , 'mike-lee@jsperf'
