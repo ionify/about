@@ -5,14 +5,14 @@
     , as: ['im.0']
     , by:  'mike.lee@ionify.net'
     , on:  -7.20180327
-    , to:  -7.20211105
-    , at:  -0.015
-    , is: "Mike Lee's Identity Module"
+    , to:  -8.20210220
+    , at:  -0.016
+    , is: "mike lee's identity module"
     }
     ,
   is:
-    [ 'Michael Lee'         , 'Mike Lee'
-    , '🇬🇾.mike.👨🏾‍💻'           , '🇬🇾.mike.🇺🇸'
+    [ 'michael lee'         , 'mike lee'
+    , 'mike.👨🏾‍💻.lee'         , '🇬🇾.mike.👨🏾‍💻.lee.🇺🇸'
     , 'mike.lee@baramita'
     , 'mike.lee@ionify'     , 'mike.lee@ionified'
     , 'mike.lee@iskitz'     , 'mike-lee@jsperf'
@@ -40,7 +40,7 @@
     ]
     ,
   editor:
-    [ 'enyo', 'webOS'
+    [ 'webOS'
     ]
     ,
   member:
