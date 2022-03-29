@@ -147,7 +147,7 @@ to interact with objects during their type-conversion
 
 ####
 
-🙇🏾‍♂️ through * [**God**](LICENSE.txt) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**God**](LICENSE.txt#L1) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
 [**mike lee**](https://github.com/iskitz) &
 [**team**](https://github.com/orgs/ionify/people)
