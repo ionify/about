@@ -10,7 +10,7 @@ enables describing & interacting with software-defined actions & information, as
 observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻'  } <= /user interaction/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /note interaction/
 + { "json" : "data"  } <= /json information/
 & ["natural language"] <= /text information/
 ```

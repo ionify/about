@@ -4,7 +4,7 @@
 self-contained software objects:
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻'  } <= /user interaction/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /note interaction/
 + { "json" : "data"  } <= /json information/
 & ["natural language"] <= /text information/
 ```
