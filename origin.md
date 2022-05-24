@@ -19,9 +19,9 @@ first language specification is
 
 **2007**
 
->[Michael Lee](https://github.com/iskitz),
-discovers &
-[shares](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
+>[Michael Lee](https://github.com/iskitz), is
+[inspired](LICENSE.txt#L10) to discover &
+[share](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 a capability within JavaScript he names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
@@ -56,8 +56,12 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s popularity as a web-based
-data-interchange alternative to [XML](https://en.wikipedia.org/wiki/XML) was rising. Michael recognized this and was determined to enable cross-domain JSON fetching & interaction via [**ajile**](http://ajile.net) 🚀
+In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s
+popularity as a web-based data-interchange alternative to
+[XML](https://en.wikipedia.org/wiki/XML)
+was rising. Michael recognized this & was [inspired](LICENSE.txt#L10)
+to enable cross-domain JSON fetching & interaction via
+[**ajile**](http://ajile.net) 🚀
 
 Unfortunately, **ajile**-fetched JSON was programmatically inaccessible and its
 object-literal form generated syntax errors 😓
@@ -133,19 +137,19 @@ syntactically-correct JSON as we could get 👏🏾
 
 This capability
 
-+ exists within all JavaScript environments,
 + obsoletes JSONP,
 + complements existing JSONP implementations with **`~`** and **`-`** as
   [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
-+ and introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
-  JSON fetching & interaction.
++ introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
+  JSON fetching & interaction,
++ and exists within all JavaScript environments 🤓
 
 ## development
 
 After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
 introduced this capability at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference as a cross-domain JSON-fetching solution he named
+web developer conference, as a cross-domain JSON-fetching solution that he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
 
 Over the next decade he continued to develop, extend, explore, present, explain &
@@ -155,7 +159,7 @@ name
 + [**ion**: invoked object notation](ions/ion.md#ion),
 + [**ionify**: ion implemented for you](https://api.ionify.net),
 + [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net) &
-+ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
++ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -168,10 +172,11 @@ in
 
 ## distribution
 
-Today, [**ion**](ions/ion.md#ion),
+Today
+[**jems**](https://jems.ionify.net/),
+[**ion**](ions/ion.md#ion),
 [**ionify**](https://api.ionify.net/),
-[**ionified**](https://ionified.net/),
-[**jems**](https://jems.ionify.net/) &
+[**ionified**](https://ionified.net/) &
 [**captions**](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
 are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available for inclusion, [discovery](http://ionified.net/),
@@ -179,8 +184,8 @@ extension, application & study.
 
 ####
 
-🙇🏾‍♂️ through * [**God**](LICENSE.txt#L1) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt#L1) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
 [**mike lee**](https://github.com/iskitz) &
 [**team**](https://github.com/orgs/ionify/people)
-🤎
+🤲🏾
