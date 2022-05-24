@@ -1,7 +1,7 @@
 # ion's tale
 
 Finding beautiful capabilities hidden in plain sight is thrilling 🚀 Realizing they've
-existed for decades is humbling 🙇🏾 Sharing them is enlightening 🤎
+existed for decades is humbling 🙇🏾‍♂️ Sharing them is enlightening 🤲🏾
 
 This is the story of [**ion**: invoked object notation](./ions/ion.md#ion), one such
 capability's journey through time.
@@ -19,7 +19,7 @@ first language specification is
 
 **2007**
 
->[Michael Lee](https://github.com/iskitz), is
+>[Michael Lee](https://github.com/iskitz) is
 [inspired](LICENSE.txt#L10) to discover &
 [share](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 a capability within JavaScript he names
@@ -149,7 +149,7 @@ This capability
 After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
 introduced this capability at the 2009
 [Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
-web developer conference, as a cross-domain JSON-fetching solution that he named
+web developer conference as a cross-domain JSON-fetching solution he named
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
 
 Over the next decade he continued to develop, extend, explore, present, explain &
@@ -178,9 +178,9 @@ Today
 [**ionify**](https://api.ionify.net/),
 [**ionified**](https://ionified.net/) &
 [**captions**](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
-are **jsonXD's** direct descendants & the basis for the [many kinds](ions/lions.md#lions)
-of **ions** now available for inclusion, [discovery](http://ionified.net/),
-extension, application & study.
+are **jsonXD's** descendants & the basis for the [many kinds](ions/lions.md#lions)
+of **ions** now available for implementation, [discovery](http://ionified.net/),
+extension & study.
 
 ####
 
