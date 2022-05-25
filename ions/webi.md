@@ -9,5 +9,5 @@ for the [web](https://en.wikipedia.org/wiki/World_Wide_Web). all
 🙇🏾‍♂️ through * [**יהוה**](../LICENSE.txt#L1) * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
 [**mike lee**](https://github.com/iskitz) &
-[**team**](https://github.com/orgs/ionify/people)
+[**team**](https://team.ionify.net/)
 🤲🏾
