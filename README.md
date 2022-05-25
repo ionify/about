@@ -35,7 +35,7 @@ the internet. these are a few:
 
 ## who
 
-[**we've**](https://github.com/orgs/ionify/people)
+[**we've**](https://team.ionify.net/)
 developed, published & maintained
 [**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
 & [**ionified**](https://ionified.net/)
