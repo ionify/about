@@ -9,7 +9,7 @@ self-contained software objects:
 & ["natural language"] <= /text information/
 ```
 
-**ion** was [discovered, defined & developed](../origin.md)
+**ion** was [discovered, defined & developed](https://origin.ionify.net/)
 by **[michael lee](https://github.com/iskitz)**
 in 2007, and exists & can be implemented within
 [procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)

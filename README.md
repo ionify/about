@@ -40,7 +40,7 @@ developed, published & maintained
 [**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
 & [**ionified**](https://ionified.net/)
 since their initial
-[discovery, definition & development](origin.md#ions-tale)
+[discovery, definition & development](https://origin.ionify.net/)
 by
 [**michael lee**](https://github.com/iskitz).
 

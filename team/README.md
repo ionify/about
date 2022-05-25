@@ -12,7 +12,7 @@ simple, performant,
 we've developed, published & maintained
 [**ion**](../ions/ion.md), [**ionify**](../README.md#api) & [**ionified**](../README.md#ionified)
 since their initial
-[discovery, definition & development](../origin.md)
+[discovery, definition & development](https://origin.ionify.net/)
 by
 [michael lee](https://github.com/iskitz).
 
