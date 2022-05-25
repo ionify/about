@@ -5,8 +5,8 @@
     , as: ['im.0']
     , by:  'mike.lee@ionify.net'
     , on:  -7.20180327
-    , to:  -8.20210220
-    , at:  -0.017
+    , to:  -7.20220525
+    , at:  -0.018
     , is: "mike lee's identity module"
     }
     ,
@@ -31,12 +31,12 @@
     [ 'ionified', 'ionify', 'jsonxd'  , 'ajile' , 'jspackaging'
     , 'ask.say' ,'wakatta', 'anemojii'
     , 'aeon'    ,  'aesop', 'caption' , 'dion'  , 'ion'   , 'im'
-    , 'jem'     ,   'jeni', 'jet'     , 'jewel' , 'lion'  , 'obi'
-    , 'oj'      ,  'orion', 'savi'    , 'storie', 'webi'
+    , 'jedi'    ,    'jem', 'jeni'    , 'jet'   , 'jewel' , 'lion'
+    , 'obi','oj',  'orion', 'savi'    , 'storie', 'webi'
     , 'webOS 3.x Calendar Fixes'      , 'webOS 3.x Calendar'
     , 'DataHub', 'hollyhouk.com'      , 'Canon Authorized Send'
     , 'MEAP Remote Management System' , 'iDesign@iskitz'
-    , 'Sybase Enterpise Portal'
+    , 'Sybase Enterpise Portal Interface'
     ]
     ,
   editor:
