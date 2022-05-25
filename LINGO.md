@@ -45,7 +45,7 @@ key terms that name & convey **[ionify](#ionify)** concepts & things
 
 ## concepts
 
-### [code as prose](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
+### [code as prose](https://captions.ionify.net/)
 
 - code expressed as natural language prose via [object reference ions](#orion)
 

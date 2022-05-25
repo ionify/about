@@ -90,7 +90,7 @@ things with detailed attribute descriptions:
 
   code expressed as natural language prose:
 
-+ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
++ [**captions**: code-as-prose terminology ions](https://captions.ionify.net/),
   express code as words joined and-or separated by mathematical operators via
   [object reference](LINGO.md#orion) [ions](#ion):
 

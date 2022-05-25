@@ -159,7 +159,7 @@ name
 + [**ion**: invoked object notation](ions/ion.md#ion),
 + [**ionify**: ion implemented for you](https://api.ionify.net),
 + [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net) &
-+ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-prose),
++ [**captions**: code-as-prose terminology ions](https://captions.ionify.net/),
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -177,7 +177,7 @@ Today
 [**ion**](ions/ion.md#ion),
 [**ionify**](https://api.ionify.net/),
 [**ionified**](https://ionified.net/) &
-[**captions**](https://github.com/ionify/ionify/blob/public/README.md#code-prose)
+[**captions**](https://captions.ionify.net/)
 are **jsonXD's** descendants & the basis for the [many kinds](ions/lions.md#lions)
 of **ions** now available for implementation, [discovery](http://ionified.net/),
 extension & study.
