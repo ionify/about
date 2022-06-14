@@ -139,7 +139,7 @@ to interact with objects during their type-conversion
 
 ### [storie](ions/stories.md)
 
-- **st**atement **o**r **r**ecognit**i**on **e**xpression
+- **s**tatement, **t**ext, **o**r **r**ecognit**i**on **e**xpression
 
   ```javascript
   ~ /👋🏾 hi!/

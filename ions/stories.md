@@ -1,6 +1,6 @@
 # stories
 
-**stories** are **statement or recognit[ion](ion.md) expressions**:
+**stories** are **statements, text, or recognit[ion](ion.md) expressions**:
 
 ```javascript
 ~/ d('~ . ~')b  <  hi! /;

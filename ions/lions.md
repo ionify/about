@@ -23,7 +23,7 @@ literals:
 
 ## [stories](stories.md)
 
-**sentence, text or recognition, expressions**:
+**statements, text, or recognition, expressions**:
 
 ```javascript
 ~ / 👋🏾   d('~ . ~')b    hi! /

@@ -4,12 +4,12 @@
 , by: 'mike.lee@ionify.net'
 , in: 'san-jose.california.us.earth'
 , on: -7.202003210313
-, to: -7.202005081803
-, at: +0.04
+, to: -7.202206130945
+, at: +0.05
 , as: 'storie'
 , is:
     [ `an exploration of prose as
-       stories: sentence text
+       stories: statements, text,
        or recognition expressions`
     ]
 , it:

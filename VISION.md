@@ -98,7 +98,7 @@ things with detailed attribute descriptions:
   each - word - means & does - something;
   ```
 
-+ [**stories**: statement or recognition expressions](LINGO.md#storie),
++ [**stories**: statements, text, or recognition expressions](LINGO.md#storie),
   enable code as words within invoked regular-expression literals:
 
   ```javascript
