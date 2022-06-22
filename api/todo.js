@@ -2,23 +2,30 @@
 ~
 { re:
     { id:  'todo'
-    , of:  'ionify@ionify.net'
+    , of: ['ionify@ionify.net']
     , as: ['todo.0', 'im.0', 'ion']
-    , by: ['mike.lee', 'team'     ]
-    , in: ['forest-hills.new-york.us.earth'
-          ,  'san-josé.california.us.earth'
-          ,                'tokyo.jp.earth'
+    , by: ['mike.👨🏾‍💻.lee', 'team'  ]
+    , in: [   'queens-county.new-york.us.earth'
+          ,'sillicon-valey.california.us.earth'
           ]
-    , on: { 200709   : -4         }
-    , to: { 20200804 : -7.0535    }
+    , on: { 200709   : -4      }
+    , to: { 20220621 : -7.1808 }
     , at:  -0.01
     , is: "ionify's list of things to do"
-    , we:
-        [" will support now:ECMAScript+5.1, wow:ES+Next, old:ES+3 & all:ES-3 where "
-        +"   +vers.ion = vers.ion & newer -vers.ion = vers.ion & older             "
-        ," were exploring implementing ~on.do "
-        ," will blog about ion, it's origin, ionify, anemojii & wakatta"
-        ," will try joël's suggestion to find a more interested audience: devops"
+    , go:
+        { plan: 'https://github.com/ionify/ionify/projects/1?fullscreen=true'
+        , help: 'https://github.com/ionify/ionify/issues'
+        , code: 'https://github.com/ionify/about/blob/public/api/todo.js'
+        , join: 'https://github.com/ionify/about/tree/public/team'
+        , deal: 'https://deal.ionify.net/'
+        , seek: 'https://api.ionify.net/'
+        },
+      we:
+        [ "will support now:ECMAScript+5.1, wow:ES+Next, old:ES+3 & all:ES-3 where"
+        + "  +vers.ion = vers.ion & newer -vers.ion = vers.ion & older"
+        , "will write about ion, it's origin, ionify, anemojii & wakatta"
+        , "were exploring implementing ~on.do"
+        , "like joël's suggestion to find a more interested audience: e.g. devops"
         ]
     },
 
@@ -31,72 +38,171 @@
           },
 
         topic:
-          { '-7.2020____':
+          { '-7.2022____':
               [
               ]
           },
 
         api:
-          { '-7.20200421':
-              { '~get.from.and':
-                  { from:
-                      [ "doma.in, /path, cache"
-                      , {domain: "internet domain to use for getting ion(s)"
-                        ,  path: "directory or file path for getting ion(s)"
-                        , cache: "boolean: true: indicates need to refetch"
-                        }
-                      ],
-                     and:
-                      [ "authenticate, authorize, assess, replace"
-                      , {authenticate : "boolean: true: authenticate via domain"
-                        ,authorize    : "boolean:false: authorize    via domain"
-                        ,assess       : "boolean: true: assess ion  performance"
-                        ,replace      : "boolean:false: assess & replace ion(s)"
-                        }
-                      ]
-                  }
+          { 're.id.*':
+              { '-7.20220621':
+                  [`like re.id being made into an object with member parts e.g:
+
+                    ~
+                    { re:
+                        { id: 'todo-0.01-7.202206211636@ionify.net' }
+                    }
+
+                    re.id
+                    .name = 'todo'
+                    .at   = -0.01
+                    .to   = -7.202206211636
+                    .of   = '@ionify.net'
+
+                    re.id.to
+                    .timezone = -7
+                    .year     =  2022
+                    .month    =  6
+                    .day      =  21
+                    .hour     =  16
+                    .minute   =  36
+
+                    re.id.at
+                    .major  = -0
+                    .minor  = -0
+                    .change = -1
+
+                    like classes for these types of objects:
+                    valueOf re.id               returns a string
+                    valueOf re.id.to & re.id.at returns a number
+                  `]
               }
+              ,
+            '-7.20220616...21':
+              { '~re.of & ion.of':
+                  { plan:
+                      [ "author lists ion.re.of      spaces as text |references"
+                      , "~link   sets ion.re.of text spaces to their references"
+                      , "~link   sets ion.re.of.own  space  to ion's reference"
+                      , "~link   sets ion.re.of.prototype   to ionify.with.ion"
+                      , "~link   sets ion.members.with.ion  =  ion.re.of"
+                      , "~link   sets ion.members.our = all ion's spaces merged"
+                      , "~on searches ion.re.of spaces to resolve text sensors"
+                      , "ion.of can be how ions define their own & shared data"
+                      +   { of:
+                              { own   : {member:"data available to ion's members"}
+                              , domain: {member:"data available in ion's domain"}
+                              , space : {member:"data available in ion's space"}
+                              }
+                          }
+                      + "of.domain(s) & of.space(s) auto-merge with their re.of"
+                    ]
+                  },
+                '~re.if':
+                  { plan:
+                      [ "indicates its ion's interaction criteria"
+                      , "only ions matching its re.if criteria can observe"
+                      , "only ions matching its re.if criteria can interact"
+                      , "enables only ionify to interact with some ions"
+                      , "disables any ionify observation|interaction overrides"
+                      ]
+                  },
+                '~re.we member categories':
+                  { were: [" ..."]
+                  , must: [" ..."]
+                  , will: [" ..."]
+                  , note: ["category-prefixed re.we text[]'s more easily read"]
+                  , know: [" ..."]
+                  , plan: ["ion-level summary of its multiple methods' re.we's"]
+                  , need: [" ..."]
+                  , want: ["category-prefixed re.we text[] that on.re converts"]
+                  , like: ["category-prefixed re.we type{} code interpretation"]
+                  , care: [" ..."]
+                  , hope: [" ..."]
+                  , dont: [" ..."]
+                  , have: [" ..."]
+                  , wont: [" ..."]
+                  , cant: [" ..."]
+                  }
+              },
+
+            '-7.20220614':
+              { 'logging':
+                  { fail: "note message & cause error"
+                  , note: "show message & display if enabled"
+                  , show: "show message at all times"
+                  , spot: "note message at debugging level"
+                  , warn: "note message at warning   level"
+                  }
+              },
           },
 
         concepts:
-          { '-7.20190415'
-
-          :   { moments
-              :  {   YYYYMMDD : '[+|-]timezoneHour[minuteOffset][.hour[minute[second]]]' }
+          { '-7.20190415':
+              { moments:
+                 {   YYYYMMDD : '[+|-]timezoneHour[minuteOffset][.hour[minute[second]]]' }
                  |'  YYYYMMDD    [.HH[MM[SS]]]'
                  |'  [+-]timezoneHour[minuteOffset].year[month[day[hour[minute[second]]]]]'
                  |'  YYYY[.MM[.DD[.HH[.SS[.MS]]]]][+|-timezoneHour[minuteOffset]]'
+                 ,
 
-              , versions
-              :  [" ? +vers.ion = vers.ion & newer, and -vers.ion = vers.ion & older ? "
+                versions:
+                 [" ? +vers.ion = vers.ion & newer, and -vers.ion = vers.ion & older ? "
                  ," Have ions@doma.in version section that articulates policy "
                  ," Policy sets the minimum moments or major version changes needed to "
                  +" enable returning to a +vers.ion since the -vers.ion that caused a  "
                  +" backwards-compatibility breaking change.                           "
                  ]
               }
-          }
+          },
 
-      , actions
-      :   { '-7.20190930'
-          :   "ali: array-literal ion can be a way to pass input to ion"
-          +   "functions. If we create an ordered list of activated ions we can"
-          +   "recognize or infer when an ali is meant to be input. If ion"
-          +   "functions define if they operate before, after, or between"
-          +   "inputs we can pass ali's to them at the right time! 🤓 I'm so"
-          +   "happy to realize this application and am excited about possibly"
-          +   "realizing how to represent functions as a list of act-ions. I'm"
-          +   "also realizing that any lion: literal ion could be treated as"
-          +   "input and also any ion, it really depends on what input type(s)"
-          +   "an act-ion accepts. dation: data ion?"
+        actions:
+          { '-7.20220617':
+              {'~on & ~get.and:on...':
+                [ `maybe allow specifying actions via id@domain:member.member...
+                   that would simplifying ionfiy's logic for resolving actions
+                   identified only by their names with no referenced instance...
+                  `
+                  ,
+                  `maybe keep a map of all of each ion's object members during
+                   ~linking to enable resolving their name-only references?
+                   this could allow walking back up the object's heirarchy to
+                   resolve those names to referable instances...
+                   ion.do.get.and.on=
+                   {do:[ {get:'', and: {on:'thing', do:'action'}} ]}
+                   on could look for 'action' in
+                    :   in itself
+                    , then get
+                    , then do
+                    , then its ion
+                    ...
+                    maybe a map wouldn't need to be kept if its done justintime.
+                  `
+                ]
+              },
 
-          , '-4.20190922'
-          :   "For all ions that do something when activated, expect those"
-          +   "things to be set in a ~do action vs directly on the ion. All"
-          +   "other non-re-about info can be directly on the ion."
+            '-7.20190930...20220617'
+              : "ali: array-literal ion can be a way to pass input to ion"
+              + "functions. If we create an ordered list of activated ions we can"
+              + "recognize or infer when an ali is meant to be input. If ion"
+              + "functions define if they operate before, after, or between"
+              + "inputs we can pass ali's to them at the right time! 🤓"
 
-          , '-8.20181211'
-          :   [/ ~on shorthand for action terms with optional parts, e.g. /
+              + "🙇🏾‍♂️ יהוה 🤲🏾 THANK YOU!"
+
+              + "I'm so happy to realize this application and am excited about"
+              + "possibly realizing how to represent functions as a list of"
+              + "act-ions. I'm also realizing that any lion: literal ion could be"
+              + "treated as input and also any ion, it really depends on what"
+              + "input type(s) an act-ion accepts. information: information ion?"
+              ,
+            '-4.20190922'
+              : "For all ions that do something when activated, expect those"
+              + "things to be set in a ~do action vs directly on the ion. All"
+              + "other non-re-about info can be directly on the ion."
+              ,
+            '-8.20181211':
+              [/ ~on shorthand for action terms with optional parts, e.g. /
               +   {on:'get [in] [then [after]]'}
               +/ would define sensors for these actions /
               +   {get:[], in:'order', then:'action', after:'all'|'any'|'each'}
@@ -106,25 +212,25 @@
               +   {get:[], in:'order'}
               +   {get:[]}
               ]
-
-          , '+9.20181016'
-          :   [" for ~functions like [].pop do pop.ion = [] & [].call ([].ion) "
+              ,
+            '+9.20181016':
+              [" for ~functions like [].pop do pop.ion = [] & [].call ([].ion) "
               ]
-
-          , '-8.20180429'
-          :   [/ on ~ion do ~re = re.toString if api.docs config is set true. /
+              ,
+            '-8.20180429':
+              [/ on ~ion do ~re = re.toString if api.docs config is set true. /
               ]
-
-          , '-8.20171204'
-          :   / ~get,in /
+              ,
+            '-8.20171204'
+              :/ ~get,in /
               +     { get: 'ion'    || [  'ion', 'script', 'other', 'resource'  ]
                     ,  in: 'order'  ||    'parallel' || 'synonyms'
                     }
               +/ Each host, e.g. web, node, implements ~get sensor optionally	/
               +/ supporting .in modifier for concurrent or consecutive fetch	/
-
-          , '-8.20171113'
-          :   / ~on.do... /
+              ,
+            '-8.20171113'
+              :/ ~on.do... /
               +   { on    : "" | [] |  Function | Object
                   , do    : "" | [] |  Function | Object | / /
                   , all   : Boolean || "all even with errors?"
@@ -132,24 +238,24 @@
                   , "#"   : Number  || "times or array index?"
                   , prior	: Boolean || "earlier occurrence"
                   }
+                  ,
+            '-7.20170429'
+              : "~can: to indicate what terms an ion can handle,"
+              + " it could help with finding ions by capability."
+              +   { can: "add subtract multiply divide square cube" }
+              +   { can:/(add|subtract|multiply|divide|square|cube)/}
+          },
 
-          , '-7.20170429'
-          :   "~can: to indicate what terms an ion can handle,"
-          +   " it could help with finding ions by capability."
-          +   { can: "add subtract multiply divide square cube" }
-          +   { can:/(add|subtract|multiply|divide|square|cube)/}
-          }
-
-      , hosts
-      :   { '-8.20171130'
+        hosts:
+          { '-8.20171130'
           :   [ / vert.x: implement as another host/
               , /nashorn: implement as another host/
               , / jxcore: implement as another host/
               ]
-          }
+          },
 
-      , modularity
-      :   { '-7.20200408'
+        modularity:
+          { '-7.20200408'
           :   `@ionify/web.js = ion/on.js + web/get.js`
 
           , '-8.20171208'
@@ -165,24 +271,28 @@
               +/ where object.sensor & rest are loaded @ the same time with     /
               +/ object.sensor explicitly first to enable ion observation.      /
               ]
-          }
+          },
 
-      , organization
-      :   { '-8.20181211'
-          :   [" move ions/*.test to tools/tests/*.test.js "
-              ]
+        organization:
+          { '-7.20220609...DONE':
+              [ "deal.ionify.net --> יהוה @ ionify.github.io/about/LICENSE.txt"
+              ],
 
-          , '-7.20180925'
-          :   [" create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify  "
+            '-8.20181211':
+              [" move ions/*.test to tools/tests/*.test.js "
+              ],
+
+            '-7.20180925':
+              [" create github.com/ionify/ionify.js   by renaming github.com/ionify/ionify  "
               ," create github.com/ionify/ionify.py   for ionify's python implementation    "
               ," create github.com/ionify/ionify.java for ionify's java   implementation    "
               ," create github.com/ionify/ionify.[language]/re/ion.md for language-specific ion form & function"
               ," reduce github.com/ionify/about/ions/ion.md to cross-language commonalities like ~+- reference & link to lang-specific ones"
               ]
-          }
+          },
 
-      , terminology
-      :   { '-7.20180922'
+        terminology:
+          { '-7.20180922'
           :   / ion: invoked object notation, represents intrinsic observation & /
           +   / notification of objects. It exists within programming languages  /
           +   / that support operator & operation overloading with objects.      /
@@ -191,9 +301,9 @@
           +   / potentially many other languages, support ion via operator       /
           +   / overloading.                                                     /
           }
-      }
+      },
 
-  ,   {syntax:
+      {syntax:
         { 20180426
         : ["syntax: JSON Data Interchange Format:"
 
@@ -205,7 +315,7 @@
 
           +   "JSON Schema : http://json-schema.org/specification.html"
           +     "Validation: http://json-schema.org/latest/json-schema-validation.html"
-          +     "!..could|should use this as ionifys vocab for terms like ~on"
+          +     "!..could|should use this as ionify's vocab for terms like ~on"
 
           +   "JSON Pointer: https://tools.ietf.org/html/rfc6901"
           +     "!..could|should use JS Proxies for deep referencing ion values"
