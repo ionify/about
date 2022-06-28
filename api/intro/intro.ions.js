@@ -1,3 +1,3 @@
-~ { "json" : "data" }  <= /observable json/
-+ {   log  : '👋🏾👨🏾‍💻'}  <= /unobtrusive code/
-& ["observable text"]  <= /observable text/
+~ {   log  : '👋🏾👨🏾‍💻'   } <= /do transcription/
++ { "json" : "data"  } <= /json information/
+& ["natural language"] <= /text information/
