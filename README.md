@@ -26,11 +26,6 @@ the internet. these are a few:
   is a japanese-language-skills game created via **ion** to
   exercise & guide **ionify’s** api
 
-+ [**jeni**](https://github.com/ionified/jeni-ions.iskitz.net/blob/public/jeni.play.js):
-  [**jeni enables natural interaction**](https://github.com/ionified/jeni-ions.iskitz.net),
-  is an **ion** api that [explores](https://jeni.glitch.me/)
-  [natural language programming](https://en.wikipedia.org/wiki/Natural_language_programming)
-
 + discover more @ [ionified.net](https://ionified.net/).
 
 ## who
