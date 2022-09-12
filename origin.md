@@ -56,10 +56,10 @@ my.space.Module
 
 ### json
 
-In 2007, [JSON](https://en.wikipedia.org/wiki/JSON)'s
-popularity as a web-based data-interchange alternative to
+By 2007, [JSON: javascript object notation](https://en.wikipedia.org/wiki/JSON),
+a javascript-compatible data-interchange alternative to
 [XML](https://en.wikipedia.org/wiki/XML)
-was rising. Michael recognized this & was [inspired](LICENSE.txt#L10)
+was rising in popularity. Michael recognized this & was [inspired](LICENSE.txt#L10)
 to enable cross-domain JSON fetching & interaction via
 [**ajile**](http://ajile.net) 🚀
 
@@ -178,9 +178,9 @@ Today
 [**ionify**](https://api.ionify.net/),
 [**ionified**](https://ionified.net/) &
 [**captions**](https://captions.ionify.net/)
-are **jsonXD's** descendants & the basis for the [many kinds](ions/lions.md#lions)
+are **jsonXD's** descendants & the foundation of the [many kinds](ions/lions.md#lions)
 of **ions** now available for implementation, [discovery](http://ionified.net/),
-extension & study.
+extension & [study](LINGO.md).
 
 ####
 
