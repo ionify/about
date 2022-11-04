@@ -1,53 +1,80 @@
 ;
 ~
 { re:
-    { id:  'team@ionify.net'
-    , as: ['team.0']
-    , by: ['mike.lee','team']
-    , on:  -4.200709
-    , to:  -8.20211222
-    , at:  -0.06
-    , is: "the team inventing, optimized natural interfaces for you, to inspire"
-        + "novel, simple, performant, intuitive & reliable experiences."
-    },
+    { id: 'team@ionify.net'
+    , as: {team:0.001 }
+    , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.🇬🇾👨🏾‍💻🇺🇸.lee','team✨ionify']
+    , on: -4.200709
+    , to: -7.20221103
+    , at: -0.07
+    , is:
+        [ "the attribution & identity module for team✨ionify"
+        , "the team inventing, optimized natural interfaces for you"
+        , "to inspire novel, simple, performant, intuitive & reliable"
+        , "experiences."
+        ]
+    }
+    ,
+  is:
+    [ 'team✨ionify'
+    , 'team.ionify'
+    , 'team ionify'
 
-  team:
-    [ {creator: 'mike.lee@ionify',
-            of:
-              [ 'ionify'  , 'ionify.about'  , 'ionified'
-              , 'aeon'    , 'aesop',    'ai', 'caption' , 'dion'  , 'im'
-              , 'ion'     , 'jem'  ,  'jeni', 'jet'     , 'jewel' , 'lion'
-              , 'obi'     , 'oj'   , 'orion', 'storie'  , 'webi'
-              ],
+    , 'team@ionify'  ,    'ionify@github'
+    , 'team@ionified',  'ionified@github'
+
+    , 'ionify@dev.to' ,   'ionify@glitch'
+    , 'ionify@mdn'    , 'ionified@glitch'
+    , 'ionify@repl.it',   'ionify@twitter'
+    ]
+    ,
+  at:
+    [ 'ionified.net', 'ionify.net'
+    , 'ionified.org', 'ionify.org'
+    ]
+    ,
+  creator:
+    [ "lists the ionify products team✨ionify created"
+    ]
+    ,
+  editor:
+    [ 'ionified'    , 'ionify'
+    , 'ask.say'     , 'anemojii'
+    , 'aeon'        ,  'aesop', 'am'  , 'anion'   , 'caption', 'dion'
+    , 'hi'   , 'ion',     'im', 'jedi', 'jem'     , 'jess'   , 'jet'
+    , 'jewel','lion',    'obi', 'oj'  , 'orion'   , 'pion'   , 'savi'
+    , 'sion'        , 'storie', 'webi'
+    ]
+    ,
+  from:
+    [   'georgetown.guyana.earth',         'brooklyn.new-york.usa.earth'
+    , 'queens.new-york.usa.earth', 'silicon-valley.california.usa.earth'
+    , '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
+    ]
+    ,
+  member:
+    [ {creator: '🙇🏾‍♂️יהוה🤲🏾'},
+      {creator: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee@ionify',
             on: -4.200709,
-            to: -8.202112,
-            in:
-              [                'queens.new-york.usa.earth'
-              ,      'silicon-valley.california.usa.earth'
-              ,                        'tokyo.japan.earth'
-              , 'prince-georges-county.maryland.usa.earth'
-              ]
+            to: -7.20221103,
       },
 
       { editor: "next.descending.order.team.member@domain"
       ,     of: ['...']
       ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
-      },
-
-      { tester: "next.descending.order.team.member@domain"
-      ,     of: ['...']
-      ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
       },
 
       {teacher: "next.descending.order.team.member@domain"
       ,     of: ['...']
       ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
-      ,     in: '[hyphenated-town-district-county-or-province.][hyphenated-city.][hyphenated-state.][hyphenated-country.]realm'
+      },
+
+      { tester: "next.descending.order.team.member@domain"
+      ,     of: ['...']
+      ,     on: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
+      ,     to: '+|-TimezoneHour[MinuteOffset].YEAR[.MM[.DD]]' *1
       }
     ]
 }
