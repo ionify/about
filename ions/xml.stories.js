@@ -6,8 +6,8 @@
     , by: 'mike.👨🏾‍💻.lee@ionify.net'
     , in: 'san-jose.california.us.earth'
     , on: -7.202003200700
-    , to: -7.202211040737
-    , at: +0.07
+    , to: -7.202211040752
+    , at: +0.08
     , is:
         [`an exploration of xml via
           tomes: textual, object-markup,
@@ -58,13 +58,21 @@ $ </but/>
 $ </these are="xml😉tomes" by="mike👨🏾‍💻lee"/>
 $
 
-; /these//
+;
+  /these//
      /look somewhat like=xml//
   /or//
      /xhtml//
   /or//
      /html data-attribute=🤓//
-        -["arrayed, textual, observable-markup, expression"]-
+        -
+        [`arrayed
+        , textual
+        , observable
+        - markup
+        , expression`
+        ]
+        -
      /tags//
   /but//
   /these are=xml😉tomes by=mike👨🏾‍💻lee/
