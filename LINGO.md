@@ -129,10 +129,10 @@ to interact with objects during their type-conversion
     ```js
     ~ { "re":
           { "id": "json.module@ionified.net"
-          , "by": "mike.lee"
+          , "by": "mike.👨🏾‍💻.lee"
           , "on": -4.200709
-          , "to": -7.20200503
-          , "at": +0.02
+          , "to": -7.20221103
+          , "at":  0.03
           }
       }
       ```

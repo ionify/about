@@ -1,11 +1,11 @@
 ~
 { re:
     { id: 'frendlee@ionified.net'
-    , by: 'mike.lee@ionify.net'
-    , on: '2017.12.08-08'
-    , to: '2019.04.21-07'
+    , by: 'mike.👨🏾‍💻.lee@ionify.net'
     , in: 'san-jose.california.usa.earth'
-    , it: "explores literate & natural language programming"
+    , on: -8.20171208
+    , to: -7.20221103
+    , is: "exploring literate & natural language programming"
     },
 
   do:

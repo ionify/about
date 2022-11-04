@@ -17,7 +17,7 @@ via well-defined, discoverable, accessible & observable
 [**ions**](#ion):
 
 ```
-     seamlessly share ideas & information
+    seamlessly share actions & information
                       ^
                   :ionified:
                ions indexed for
@@ -51,10 +51,10 @@ things with detailed attribute descriptions:
 { re:
     { id: 'thing@ionified.net'
     , as: 'a.schema.defined.thing'
-    , by: 'mike.lee'
+    , by: 'mike.👨🏾‍💻.lee'
     , on: -4.200709
-    , to: -7.20200501
-    , at: +4.0
+    , to: -7.20221103
+    , at: +4.01
     , is: "the ion: invoked object notation"
         + " definition of an internet-discoverable,"
         + " schema-defined, observable & versioned"

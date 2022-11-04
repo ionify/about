@@ -1,18 +1,18 @@
 ;
 ~
 { id: 'stories@ions.iskitz.net'
-, by: 'mike.lee@ionify.net'
+, by: 'mike.👨🏾‍💻.lee@ionify.net'
 , in: 'san-jose.california.us.earth'
 , on: -7.202003210313
-, to: -7.202206130945
-, at: +0.05
+, to: -7.202211031205
+, at: +0.06
 , as: 'storie'
 , is:
     [ `an exploration of prose as
        stories: statements, text,
        or recognition expressions`
-    ]
-, it:
+    ],
+  it:
     [ `shows that prose can be
        written as code via stories
        joined by trailing /'s
@@ -21,8 +21,8 @@
        with stories being parsed
        as c-style single-line
        comments!`
-    ]
-, we:
+    ],
+  we:
     [ `must ...`
     , `will ...`
     , `want ...`
@@ -32,8 +32,8 @@
     , `wish ...`
     , `cant ...`
     , `wont ...`
-    ]
-, do:
+    ],
+  do:
     / This shows how prose can be    //
     / written as code via stories    //
     / joined by a trailing \/. It    //

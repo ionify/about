@@ -1,11 +1,11 @@
 ;
 ~
 { id:  'xml.stories@ions.iskitz.net'
-, by:  'mike.lee@ionify.net'
+, by:  'mike.👨🏾‍💻.lee@ionify.net'
 , in:  'san-jose.california.us.earth'
 , on:  -7.202003200700
-, to:  -7.202005020704
-, at:  +0.05
+, to:  -7.202211031200
+, at:  +0.06
 , as: ['xml','stories']
 , is:  `an exploration of xml as
         stories`
@@ -40,7 +40,7 @@ $ </or/>
 $   </html data-attribute="🤓"/>
 $   </tags/>
 $ </but/>
-$ </these are="ions😉" by="👨🏾‍💻"/>
+$ </these are="xml😉stories" by="mike👨🏾‍💻lee"/>
 $
 
 ; /these//
@@ -51,5 +51,5 @@ $
      /html data-attribute=🤓//
      /tags//
   /but//
-  /these are=stories😉 by=👨🏾‍💻/
+  /these are=xml😉stories by=mike👨🏾‍💻lee/
 ;

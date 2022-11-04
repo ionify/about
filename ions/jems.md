@@ -7,9 +7,9 @@
 { "re":
       { "id": "jem@ionify.net"
       , "is": "a json-expressed module"
-      , "by": "mike.lee@iskitz"
+      , "by": "mike.👨🏾‍💻.lee@iskitz"
       , "on": -4.200709
-      , "to": -8.20211124
+      , "to": -7.20221103
       , "in":
             [    "queens-county.new-york.usa.earth"
             , "silicon-valley.california.usa.earth"

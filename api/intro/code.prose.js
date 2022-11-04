@@ -2,11 +2,11 @@
 ~
 { re:
     { id: 'opus.demo@ionified.net'
-    , by: 'mike.lee'
-    , at: -0.1
-    , on: -7.20190323
-    , to: -7.20190428
+    , by: 'mike.👨🏾‍💻.lee'
     , in: 'san-jose.california.us.earth'
+    , on: -7.20190323
+    , to: -7.20221103
+    , at: -0.1
     , is: "a demo of opus: orion phrases understand sentences"
     }
 }
