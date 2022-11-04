@@ -2,12 +2,12 @@
 ~
 { re:
     { id: 'xml.stories@ions.iskitz.net'
-    , as: {xml:0.002,tomes:0.001,stories:0.002}
     , by: 'mike.👨🏾‍💻.lee@ionify.net'
     , in: 'san-jose.california.us.earth'
     , on: -7.202003200700
-    , to: -7.202211040752
-    , at: +0.08
+    , to: -7.202211040927
+    , at: +0.09
+    , as: {xml:0.002,tomes:0.001,stories:0.002}
     , is:
         [`an exploration of xml via
           tomes: textual, object-markup,
@@ -50,12 +50,13 @@ $ </these/>
 $    </look like="xml"/>
 $ </or/>
 $    </xhtml/>
+$    -["CDATA"]-
+$    -["arrayed, textual, observable-markup, expressions"]-
 $ </or/>
 $    </html data-attribute="🤓"/>
-$       -["arrayed, textual, observable-markup, expression"]-
 $    </tags/>
 $ </but/>
-$ </these are="xml😉tomes" by="mike👨🏾‍💻lee"/>
+$ </these are="xml😉stories" by="mike👨🏾‍💻lee"/>
 $
 
 ;
@@ -63,17 +64,19 @@ $
      /look somewhat like=xml//
   /or//
      /xhtml//
+     -
+     ["CDATA"]
+     -
+     [`arrayed
+     , textual
+     , observable
+     - markup
+     , expression`
+     ]
+     -
   /or//
      /html data-attribute=🤓//
-        -
-        [`arrayed
-        , textual
-        , observable
-        - markup
-        , expression`
-        ]
-        -
      /tags//
   /but//
-  /these are=xml😉tomes by=mike👨🏾‍💻lee/
+  /these are=xml😉stories by=mike👨🏾‍💻lee/
 ;

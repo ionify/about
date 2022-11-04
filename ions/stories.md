@@ -30,12 +30,13 @@ $ </these/>
 $    </look like="xml"/>
 $ </or/>
 $    </xhtml/>
+$    -["CDATA"]-
+$    -["arrayed, textual, observable-markup, expressions"]-
 $ </or/>
 $    </html data-attribute="🤓"/>
-$       -["arrayed, textual, observable-markup, expression"]-
 $    </tags/>
 $ </but/>
-$ </these are="xml😉tomes" by="mike👨🏾‍💻lee"/>
+$ </these are="xml😉stories" by="mike👨🏾‍💻lee"/>
 $
 ```
 
@@ -44,19 +45,21 @@ $
      /look somewhat like=xml//
   /or//
      /xhtml//
+     -
+     ["CDATA"]
+     -
+     [`arrayed
+     , textual
+     , observable
+     - markup
+     , expression`
+     ]
+     -
   /or//
      /html data-attribute=🤓//
-        -
-        [`arrayed
-        , textual
-        , observable
-        - markup
-        , expression`
-        ]
-        -
      /tags//
   /but//
-  /these are=xml😉tomes by=mike👨🏾‍💻lee/
+  /these are=xml😉stories by=mike👨🏾‍💻lee/
 ```
 
 ###
