@@ -5,8 +5,8 @@
     , as: {team:0.001 }
     , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.🇬🇾👨🏾‍💻🇺🇸.lee','team✨ionify']
     , on: -4.200709
-    , to: -7.20221103
-    , at: -0.07
+    , to: -7.20221104
+    , at: -0.08
     , is:
         [ "the attribution & identity module for team✨ionify"
         , "the team inventing, optimized natural interfaces for you"
@@ -38,12 +38,13 @@
     ]
     ,
   editor:
-    [ 'ionified'    , 'ionify'
-    , 'ask.say'     , 'anemojii'
-    , 'aeon'        ,  'aesop', 'am'  , 'anion'   , 'caption', 'dion'
-    , 'hi'   , 'ion',     'im', 'jedi', 'jem'     , 'jess'   , 'jet'
-    , 'jewel','lion',    'obi', 'oj'  , 'orion'   , 'pion'   , 'savi'
-    , 'sion'        , 'storie', 'webi'
+    [ 'ionified'   , 'ionify'
+    , 'ask.say'    , 'anemojii'
+
+    , 'aeon', 'ali',  'am', 'anion', 'a tome', 'caption',  'dion', 'hi'  , 'ion'
+    , 'im'  , 'io' ,'jedi',   'jem',   'jess', 'jet'    , 'jewel', 'lion', 'obi'
+    , 'oi'  , 'oj' , 'oli',    'om',   'omer', 'orion'  ,  'pion',      'prompt'
+    , 'sim' ,'sion',       'storie',  'tome' , 'tomer'  ,   'webi'
     ]
     ,
   from:

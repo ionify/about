@@ -5,8 +5,8 @@
     , as: {am:0.001, im:0.001}
     , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.👨🏾‍💻.lee@ionify.net']
     , on: -5.1978
-    , to: -7.20221103
-    , at: -0.019
+    , to: -7.20221104
+    , at: -0.020
     , is: "michael 🇬🇾👨🏾‍💻🇺🇸 lee's attribution & identity module"
     }
     ,
@@ -45,10 +45,12 @@
   creator:
     [ 'ionified'      , 'ionify', 'jsonxd'  , 'ajile'   , 'jspackaging'
     , 'ask.say'       ,'wakatta', 'jeni'    , 'anemojii', 'iDesign@iskitz'
-    , 'aeon'  ,'aesop','ai','am', 'anion'   , 'a tome'  , 'caption', 'dion'
-    , 'hi'    ,  'ion','im','io', 'jedi'    , 'jem'     , 'jess'   , 'jet'
-    , 'jewel' , 'lion',    'obi', 'oj' ,'om', 'orion'   , 'pion'   , 'prompt'
-    , 'savi'  , 'sion', 'storie', 'tome'    , 'tomer'   , 'webi'
+
+    , 'aeon'  ,'aesop',     'ai', 'ali','am', 'anion'   , 'a tome', 'caption'
+    , 'dion'  ,   'hi',    'ion', 'im' ,'io', 'jedi'    , 'jem'   ,    'jess'
+    , 'jet'   ,'jewel',   'lion', 'obi','oi', 'oj','oli', 'om'    ,    'omer'
+    , 'orion' , 'pion', 'prompt', 'savi'    , 'sim'     , 'sion'  ,  'storie'
+    , 'tome'  ,'tomer', 'webi'
 
     , 'webOS 3.x Calendar Fixes'          , 'webOS 3.x Calendar'
     , 'DataHub'     , 'hollyhouk.com'     , 'Canon Authorized Send'
