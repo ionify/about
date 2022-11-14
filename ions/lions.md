@@ -13,17 +13,17 @@ literals:
 ~/ /   +/ /   -/ /   // 3 regular-expression lions
 ```
 
-## [aeons](aeons.md)
+## [aeons](aeons.md#aeons)
 
 **array-expressed object notations**:
 
 ```javascript
-~ [ {say:"hi!"} ] ;
+~ [ {say : "hi!"} ] ;
 ```
 
-## [stories](stories.md)
+## [stories](stories.md#stories)
 
-**statements, text, or recognition, expressions**:
+**stated text of recognition expressions**:
 
 ```javascript
 ~ / 👋🏾   d('~ . ~')b    hi! /
@@ -31,13 +31,13 @@ literals:
 ;
 ```
 
-## [aesop](aesop.md)
+## [aesop](aesop.md#aesop)
 
-**array-expressed [storie](stories.md) or phrase**:
+**array-expressed [storie](stories.md#stories) or phrase**:
 
 ```javascript
-~ ['hi!']  <=  /an aesop phrase/
-& [/hi!/]  <=  /an aesop storie/
+~ [/hi!/]  <=  /an aesop storie/
+& ['hi!']  <=  /an aesop phrase/
 ;
 ```
 
@@ -52,11 +52,12 @@ literals:
 ```javascript
 ~
 { "re":
-      { "id": "jem@ionify.net"
+      { "id": "json.module@ionified.net"
+      , "as": "jem@ionify.net"
       , "is": "a json-expressed module"
-      , "by": "mike.👨🏾‍💻.lee@iskitz"
+      , "by": "mike.🇬🇾👨🏾‍💻🇺🇸.lee@iskitz"
       , "on": -4.200709
-      , "to": -7.20221103
+      , "to": -8.20221114
       , "in":
             [    "queens-county.new-york.usa.earth"
             , "silicon-valley.california.usa.earth"
@@ -76,7 +77,7 @@ literals:
 ;
 ```
 
-## [jess](jess.md)
+## [jess](jess.md#jess)
 
 **json-expressed stylesheets**:
 
@@ -84,7 +85,7 @@ literals:
 ~ {"as":"css", "#body": {"color":"#212CD9"}} ;
 ```
 
-## [jewels](jewels.md)
+## [jewels](jewels.md#jewels)
 
 **json-expressed web languages**:
 
@@ -102,11 +103,11 @@ literals:
 ~ {"json":"data"} ;
 ```
 
-## [webi](webi.md)
+## [webi](webi.md#webi)
 
 **web ion** is any
 [**web**](https://en.wikipedia.org/wiki/World_Wide_Web)-compatible
-**ion** or set of [**ions**](#ion); for example, all [jewels](jewels.md) & [jess](#jess)
+**ion** or set of [**ions**](ion.md#ion); for example, all [jewels](jewels.md#jewels) & [jess](#jess)
 are **webi**.
 
 ####

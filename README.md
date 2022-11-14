@@ -1,13 +1,14 @@
 # [ionify](https://ionify.net/)
 
-enables expressing actions & information that humans & software
+is a flexible & unobtrusive natural-language api, that enables expressing
+actions & information, that humans & software
 [naturally understand](VISION.md#vision).
 
 ## how
 
-[**ionify**](https://api.ionify.net/)
+[**ionify**: ion implemented for you](https://api.ionify.net/),
 enables describing & interacting with software-defined actions & information, as
-observable & self-contained [**ions**: invoked object notations](./ions/ion.md#ion):
+observable & encapsulated [**ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
 ~ {   log  : '👋🏾👨🏾‍💻'   } <= /do transcription/
@@ -15,9 +16,12 @@ observable & self-contained [**ions**: invoked object notations](./ions/ion.md#i
 & ["natural language"] <= /text information/
 ```
 
-[**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/)
-is a directory of **ions** that can be automatically discovered & verified via **ionify** &
-the internet. these are a few:
+**ionify**, provides apis with concise & flexible vocabulary for defining,
+acquiring, sensing, composing & interacting with **ions**.
+
+[**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/),
+is a directory of **ions** that can be automatically discovered, examined &
+verified via **ionify** & the internet. these are a few:
 
 + **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**

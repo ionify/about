@@ -1,7 +1,6 @@
 # stories
 
-**stories** are **simple,  tome-recognit[ion](ion.md) evaluations** &
- **tomes**  are **textual, observable-markup,         expressions**:
+**stories** are the **stated text of recognit[ion](ion.md#ion) expressions**:
 
 ```javascript
 ~/ d('~ . ~')b  <  hi! /;
@@ -10,10 +9,10 @@
 ## observable text
 
 ```javascript
-/ this expresses observable prose   //
-/ via javascript as tomes & stories //
-/ joined by a trailing \/. it shows //
-/ how javascript regular-expression //
+/ this expresses observable prose,  //
+/ via javascript, as stories joined //
+/ by a trailing \/. it shows how    //
+/ javascript regular-expression     //
 / literals enable this, and some of //
 / their syntactic limitations like  //
 / needing to know & escape a set of //
@@ -27,39 +26,41 @@
 
 ```xml
 $ </these/>
-$    </look like="xml"/>
-$ </or/>
-$    </xhtml/>
-$    -["CDATA"]-
-$    -["arrayed, textual, observable-markup, expressions"]-
-$ </or/>
-$    </html data-attribute="🤓"/>
-$    </tags/>
-$ </but/>
-$ </these are="xml😉stories" by="mike👨🏾‍💻lee"/>
+$   </look like="xml"/>
+$     </or/>
+$       </xhtml/>
+$         -["CDATA"]-
+$         -["array-expressed stories or phrases"]-
+$       </xhtml/>
+$     </or/>
+$     </html data-attribute="🤓"/>
+$     </tags but/>
+$   </look closely/>
+$ </these are="xml😉stories" by="mike.🇬🇾👨🏾‍💻🇺🇸.lee"/>
 $
 ```
 
 ```javascript
   /these//
-     /look somewhat like=xml//
-  /or//
-     /xhtml//
-     -
-     ["CDATA"]
-     -
-     [`arrayed
-     , textual
-     , observable
-     - markup
-     , expression`
-     ]
-     -
-  /or//
-     /html data-attribute=🤓//
-     /tags//
-  /but//
-  /these are=xml😉stories by=mike👨🏾‍💻lee/
+    /look somewhat like=xml//
+      /or//
+        /xhtml//
+          -
+          ["CDATA"]
+          -
+          [`array
+           -expressed
+            stories
+            or
+            phrases`
+          ]
+          -
+        /xhtml//
+      /or//
+      /html data-attribute=🤓//
+      /tags but//
+    /look closely//
+  /these are=xml😉stories by=mike.🇬🇾👨🏾‍💻🇺🇸.lee/
 ```
 
 ###

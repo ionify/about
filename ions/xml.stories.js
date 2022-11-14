@@ -2,21 +2,20 @@
 ~
 { re:
     { id: 'xml.stories@ions.iskitz.net'
-    , by: 'mike.👨🏾‍💻.lee@ionify.net'
+    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee@ionify.net'
     , in: 'san-jose.california.us.earth'
     , on: -7.202003200700
-    , to: -7.202211040927
-    , at: +0.09
-    , as: {xml:0.002,tomes:0.001,stories:0.002}
+    , to: -8.202211140243
+    , at: +0.10
+    , as: {xml:-0.003,stories:-0.003}
     , is:
         [`an exploration of xml via
-          tomes: textual, object-markup,
-          expressions & stories: simple,
-          tome-recognition, evaluations
-         `,
+          stories: stated text of
+          recognition expressions.
+           `,
          `showing that xml can be
           transformed to, expressed,
-          and evaluated, as tomes by:
+          and evaluated, as stories, by:
          `,
          `inserting $'s between
           xml tags and /'s before
@@ -47,36 +46,38 @@
 }
 
 $ </these/>
-$    </look like="xml"/>
-$ </or/>
-$    </xhtml/>
-$    -["CDATA"]-
-$    -["arrayed, textual, observable-markup, expressions"]-
-$ </or/>
-$    </html data-attribute="🤓"/>
-$    </tags/>
-$ </but/>
-$ </these are="xml😉stories" by="mike👨🏾‍💻lee"/>
+$   </look like="xml"/>
+$     </or/>
+$       </xhtml/>
+$         -["CDATA"]-
+$         -["array-expressed stories or phrases"]-
+$       </xhtml/>
+$     </or/>
+$     </html data-attribute="🤓"/>
+$     </tags but/>
+$   </look closely/>
+$ </these are="xml😉stories" by="mike.🇬🇾👨🏾‍💻🇺🇸.lee"/>
 $
 
 ;
-  /these//
-     /look somewhat like=xml//
+/these//
+/look somewhat like=xml//
   /or//
-     /xhtml//
-     -
-     ["CDATA"]
-     -
-     [`arrayed
-     , textual
-     , observable
-     - markup
-     , expression`
-     ]
-     -
+    /xhtml//
+      -
+      ["CDATA"]
+      -
+      [`array
+       -expressed
+        stories
+        or
+        phrases`
+      ]
+      -
+    /xhtml//
   /or//
-     /html data-attribute=🤓//
-     /tags//
-  /but//
-  /these are=xml😉stories by=mike👨🏾‍💻lee/
+  /html data-attribute=🤓//
+  /tags but//
+/look closely//
+/these are=xml😉stories by=mike.🇬🇾👨🏾‍💻🇺🇸.lee/
 ;

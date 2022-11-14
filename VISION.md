@@ -7,7 +7,7 @@ seamlessly share actions & information as software
 
 + **audibly**: music, speech & other sounds
 
-+ **tactilely**: textures, temperature & physical patterns
++ **tactilely**: textures, temperatures & physical patterns
 
 + **textually**: words, phrases, prose & other writings
 
@@ -24,7 +24,7 @@ via well-defined, discoverable, accessible & observable
           internet-enabled discovery
                   :ionified:
                       ^
-    visual, audible, tactile  &  textual
+    visible, audible, tactile &  textual
                ^                    ^
                ^              code as prose
                ^                    ^
@@ -43,80 +43,97 @@ via well-defined, discoverable, accessible & observable
 
 ### [ion](ions/ion.md#ion)
 
-**invoked object notation** enables defining discoverable, accessible & observable
-things with detailed attribute descriptions:
+**invoked object notation** enables defining discoverable, accessible &
+observable actions & information with detailed attribute descriptions:
 
 ```javascript
 ~
 { re:
-    { id: 'thing@ionified.net'
-    , as: 'a.schema.defined.thing'
-    , by: 'mike.👨🏾‍💻.lee'
-    , on: -4.200709
-    , to: -7.20221103
-    , at: +4.01
-    , is: "the ion: invoked object notation"
-        + " definition of an internet-discoverable,"
-        + " schema-defined, observable & versioned"
-        + " thing."
+    { id:  'thing@ionified.net'
+    , of: ['ionify','education']
+    , as:  'a.specified.thing'
+    , by:  'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
+    , on:  -4.200709
+    , to:  -8.20221114
+    , at:  +5.00
+    , is:
+        [ "the ion: invoked object notation "
+        , "definition of an internet-discoverable "
+        , "specified, observable & versioned thing"
+        ]
     },
 
   with:
-    { some: 1
-    ,   or: ["more", "attributes"]
+    { all:
+        { these:
+            [ "detailed"
+            , "attribute"
+            , "descriptions"
+            ]
+        }
     }
 }
 ```
 
 ### [ionify](https://about.ionify.net/)
 
-**ion implemented for you**, enables defining, fetching, sensing & interacting with
-[ions](#ion):
+**ion implemented for you**, enables defining, acquiring, sensing & interacting with
+[**ions**](#ion):
 
 ```javascript
-~ { on:'my' ,
-    my( ion )
-      { /sense my ion,    :2nd//
-        /log  its data    :3rd//
-        {log: ion.my}
-      }
-  }
+; /3: sense my ion//
+{ on:'my' ,
+  my( ion )
+    { /4: log  my ion//
+         {log: ion.my}
+    }
+}
 
-~ {get:'my.ion@ionified.net'}
-~ {my :"data"} <= /got my :1st/
+; /2: acquire my ion//
+{get:'my.ion@ionified.net'}
+
+; /1: define my ion//
+{ re: {id:'my.ion@ionified.net'}
+, my: "ion data"
+}
 ```
 
 ### code as prose
 
-  code expressed as natural language prose:
+  code expressed as natural-language prose:
 
 + [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-as-prose),
-  express code as words joined and-or separated by mathematical operators via
-  [object reference](LINGO.md#orion) [ions](#ion):
+  express code as words, via
+  [object-reference](LINGO.md#orion) [ions](#ion),
+  punctated by mathematical and-or comparison operators:
 
   ```javascript
-  each - word - means & does - something;
+  each - word - means & does - something
   ```
 
-+ [**stories**: statements, text, or recognition expressions](LINGO.md#storie),
-  enable code as words within invoked regular-expression literals:
++ [**stories**: stated text of recognition expressions](ions/stories.md#stories),
+  express code as words within
+  [**recognitions**: recognizing ions](ions/stories.md#stories) --
+  invoked regular-expressions:
 
   ```javascript
   ~/ each word means & does something /
   ```
 
-+ [**aesop**: array-expressed storie or phrase](LINGO.md#aesop),
-  expresses code as one or more strings of words within invoked arrays:
++ [**aesops**: array-expressed stories or phrases](ions/aesop.md#aesop),
+  express code as one or more [**stories**](ions/stories.md#stories),
+  or phrases, within invoked arrays:
 
   ```javascript
-  ~[" each word means & does something "]
+  ~[/ each word means & does something /]
+  +[" each word means & does something "]
   ```
 
 ### [ionified](https://ionified.net/)
 
 **ions indexed for internet-enabled discovery**, is a directory of
-internet-discoverable ions that [ionify](#ionify) queries to discover & verify
-[ions](#ion).
+internet-discoverable **ions** that [**ionify**](#ionify) queries to discover & verify
+[**ions**](#ion).
 
 ####
 

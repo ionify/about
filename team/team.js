@@ -2,13 +2,13 @@
 ~
 { re:
     { id: 'team@ionify.net'
-    , as: {team:0.001 }
+    , as: {team:-0.001, am:-0.001}
     , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.🇬🇾👨🏾‍💻🇺🇸.lee','team✨ionify']
     , on: -4.200709
-    , to: -7.20221104
-    , at: -0.08
+    , to: -8.20221114
+    , at: -0.09
     , is:
-        [ "the attribution & identity module for team✨ionify"
+        [ "the attribution module for team✨ionify"
         , "the team inventing, optimized natural interfaces for you"
         , "to inspire novel, simple, performant, intuitive & reliable"
         , "experiences."
@@ -41,10 +41,10 @@
     [ 'ionified'   , 'ionify'
     , 'ask.say'    , 'anemojii'
 
-    , 'aeon', 'ali',  'am', 'anion', 'a tome', 'caption',  'dion', 'hi'  , 'ion'
-    , 'im'  , 'io' ,'jedi',   'jem',   'jess', 'jet'    , 'jewel', 'lion', 'obi'
-    , 'oi'  , 'oj' , 'oli',    'om',   'omer', 'orion'  ,  'pion',      'prompt'
-    , 'sim' ,'sion',       'storie',  'tome' , 'tomer'  ,   'webi'
+    , 'aeon', 'aesop', 'ali', 'am'   , 'anion', 'caption',  'dion', 'hi'  , 'ion'
+    ,   'im', 'io'   ,'jedi', 'jem'  ,  'jess', 'jet'    , 'jewel', 'lion', 'obi'
+    ,   'oi', 'oj'   , 'oli', 'orion',  'pion', 'prompt' ,   'sim', 'sion', 'storie'
+    , 'webi'
     ]
     ,
   from:

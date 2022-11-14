@@ -1,10 +1,10 @@
 # aesop
 
-**aesop** is any **array-expressed [storie](stories.md) or phrase**.
+**aesop** is any **array-expressed [storie](stories.md#stories) or phrase**.
 
 ```javascript
-  ~ ['hi!']  <=  /an aesop phrase/
-  & [/hi!/]  <=  /an aesop storie/
+  ~ [/hi!/]  <=  /an aesop storie/
+  & ['hi!']  <=  /an aesop phrase/
   ;
 ```
 

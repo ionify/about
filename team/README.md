@@ -3,7 +3,7 @@
 [**ionify**](http://ionify.org) is a
 [team](https://github.com/orgs/ionify/people)
 inventing optimized natural interfaces for you, to inspire
-[novel](https://ionified.github.io/anemojii-ions.iskitz.net/),
+[natural](https://ionified.github.io/anemojii-ions.iskitz.net/),
 simple, performant,
 [intuitive](https://github.com/ionify/ionify/blob/public/README.md#domain-specific-languages)
 & reliable

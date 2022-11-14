@@ -2,12 +2,12 @@
 ~
 { re:
     { id: 'mike.lee'
-    , as: {am:0.001, im:0.001}
+    , as: {am:-0.001, team:-0.001}
     , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.👨🏾‍💻.lee@ionify.net']
     , on: -5.1978
-    , to: -7.20221104
-    , at: -0.020
-    , is: "michael 🇬🇾👨🏾‍💻🇺🇸 lee's attribution & identity module"
+    , to: -7.20221114
+    , at: -0.021
+    , is: "michael 🇬🇾👨🏾‍💻🇺🇸 lee's attribution module"
     }
     ,
   is:
@@ -46,11 +46,10 @@
     [ 'ionified'      , 'ionify', 'jsonxd'  , 'ajile'   , 'jspackaging'
     , 'ask.say'       ,'wakatta', 'jeni'    , 'anemojii', 'iDesign@iskitz'
 
-    , 'aeon'  ,'aesop',     'ai', 'ali','am', 'anion'   , 'a tome', 'caption'
-    , 'dion'  ,   'hi',    'ion', 'im' ,'io', 'jedi'    , 'jem'   ,    'jess'
-    , 'jet'   ,'jewel',   'lion', 'obi','oi', 'oj','oli', 'om'    ,    'omer'
-    , 'orion' , 'pion', 'prompt', 'savi'    , 'sim'     , 'sion'  ,  'storie'
-    , 'tome'  ,'tomer', 'webi'
+    , 'aeon'  ,'aesop',  'ai', 'ali' ,     'am', 'anion', 'caption', 'dion'
+    , 'hi'    ,  'ion',  'im', 'io'  ,   'jedi', 'jem'  , 'jess'   , 'jet'
+    , 'jewel' , 'lion', 'obi', 'oi'  ,     'oj', 'oli'  , 'orion'  , 'pion'
+    , 'prompt', 'savi', 'sim', 'sion', 'storie', 'webi'
 
     , 'webOS 3.x Calendar Fixes'          , 'webOS 3.x Calendar'
     , 'DataHub'     , 'hollyhouk.com'     , 'Canon Authorized Send'

@@ -1,7 +1,7 @@
 # ion
 
 **invoked object notation** enables defining actions & information as observable &
-self-contained software objects:
+encapsulated software objects:
 
 ```javascript
 ~ {   log  : '👋🏾👨🏾‍💻'  } <= /do transcription/
@@ -35,13 +35,14 @@ or
 literals, or
 [references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type).
 
-**ion** can be expressed as [**lion**](lions.md), literal ion:
+**ion** can be expressed as [**lion**](lions.md#lions), literal ion:
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions
 ~[ ]      +[ ]      -[ ]     // 3 array  lions
 ~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
+
 and **orion**, object reference ion:
 
 ```javascript
@@ -112,15 +113,13 @@ operators,
 equality operators when comparing **ions** with
 [basic values](https://en.m.wikipedia.org/wiki/Primitive_value).
 
-
 ## function
 
 **ion** is enabled by
 [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 in multiple languages.
 
-
-#### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
+### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
 
 enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
 methods [invoked](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
@@ -193,7 +192,7 @@ var   you = {say:'do you see all the things'}
  prose;
 ```
 
-**flow**
+#### flow
 
 during **hip-hop** operator overloading, an attempt is made to
 [convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
@@ -212,8 +211,8 @@ to be invoked to obtain a
 that's then converted to a number.
 
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
-enables interfacing with javascript objects' type conversion flow. that then enables
-interacting with all **ions** without needing access to any of their
+enables interfacing with javascript objects' type conversion flow. that then
+enables interacting with all **ions** without needing access to any of their
 [identifiers](//en.wikipedia.org/wiki/Identifier_(computer_languages))
 🤓
 
@@ -230,20 +229,20 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-javascript's **hip-hop** operator overloading is a simple & reliable pattern for enabling
-**ion** observation & notification. it can be implemented manually, as shown, or via
+javascript's **hip-hop** operator overloading is a simple & reliable pattern for
+enabling **ion** observation & notification. it can be implemented manually, as
+shown, or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
-a flexible, unobtrusive & novel
+a flexible & unobtrusive natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & provides vocabulary for **ion** observation, notification & interaction,
-for you.
+that implements & provides vocabulary for: **ion** observation, notification &
+interaction, for you.
 
-
-#### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
+### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 enables [**orion**](#form) via **hot: handled-on-type** operator overloading by
-implementing an object type's `toString()` method, which enables overloading the `+`
-operation for objects of that type.
+implementing an object type's `toString()` method, which enables overloading the
+`+` operation for objects of that type.
 
 here's an in-depth
 [proof-of-concept](https://github.com/ionify/about/blob/public/api/java/src/net/ionify/java/Hello.java):
@@ -280,7 +279,6 @@ class ActIONs
         }
   }
 ```
-
 
 ### [python](https://github.com/ionify/about/blob/public/api/python/ion.proof.py)
 
@@ -332,7 +330,6 @@ print (ion)
 [**orion**](#form)
 via procedural operator overloading of arithmetic, bitwise, relational & equality
 operators.
-
 
 ## compatibility
 
