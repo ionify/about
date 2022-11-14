@@ -20,7 +20,7 @@ first language-specification is
 **2007**
 
 >[Michael Lee](https://github.com/iskitz) is
-[🙇🏾‍♂️inspired🤲🏾](LICENSE.txt) to
+[🙇🏾‍♂️inspired🤲🏾](LICENSE.txt#L1) to
 [share](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 a capability within JavaScript he discovers & names
 [**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
@@ -61,7 +61,7 @@ By 2007,
 a javascript-compatible data-interchange alternative to
 [XML](https://en.wikipedia.org/wiki/XML),
 was rising in popularity. Michael recognized this, and was
-[🙇🏾‍♂️inspired🤲🏾](LICENSE.txt#L10)
+[🙇🏾‍♂️inspired🤲🏾](LICENSE.txt#L1)
 to enable cross-domain JSON acquisition & interaction via
 [**ajile**](http://ajile.net) 👨🏾‍💻
 
