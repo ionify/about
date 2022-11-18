@@ -3,7 +3,7 @@
 Finding beautiful 🧬 capabilities hidden in plain sight is thrilling 🚀 Realizing
 they've existed for decades is humbling 🙇🏾‍♂️ Sharing them is enlightening 🤲🏾
 
-This is the story of [**ion**: invoked object notation](./ions/ion.md#ion),
+This is the story of [**⚛️ ion**: invoked object notation](./ions/ion.md#ion),
 one such capability's journey through time.
 
 ## decades
@@ -12,7 +12,7 @@ One to discover, another to embrace.
 
 **1997**
 
->[JavaScript's](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)
+>[**{✨:javascript}**](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)'s
 first language-specification is
 [published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
 👏🏾
@@ -38,7 +38,7 @@ and
 ## details
 
 In 2003, Michael created
-[**ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
+[**🛠 ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
 a java-like module system for the web that enabled fetching javascript across different domains 🤓
 
 ```javascript
@@ -158,12 +158,12 @@ web developer conference, as a cross-domain JSON-fetching solution he named
 Over the next decade he continued to develop, explore, explain, present, extend &
 name
 
-+ [**jems**: json-expressed modules](https://jems.ionify.net/),
-+ [**ion**: invoked object notation](ions/ion.md#ion),
-+ [**ionify**: ion implemented for you](https://api.ionify.net),
-+ [**ionified**: ions indexed for internet-enabled discovery](https://ionified.net),
-+ [**stories**: stated text of recognition expressions](ions/stories.md#stories) &
-+ [**captions**: code-as-prose terminology ions](https://captions.ionify.net/),
++ [**💎 jems**: json-expressed modules](https://jems.ionify.net/),
++ [**⚛️ ion**: invoked object notation](ions/ion.md#ion),
++ [**🧬 ionify**: ion implemented for you](https://api.ionify.net),
++ [**🎁 ionified**: ions indexed for internet-enabled discovery](https://ionified.net),
++ [**📖 stories**: stated text of recognition expressions](ions/stories.md#stories) &
++ [**📝 captions**: code-as-prose terminology ions](https://captions.ionify.net/),
 
 in
 [2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
@@ -177,12 +177,12 @@ in
 ## distribution
 
 Today
-[**jems**](https://jems.ionify.net/),
-[**ion**](ions/ion.md#ion),
-[**ionify**](https://api.ionify.net/),
-[**ionified**](https://ionified.net/),
-[**stories**](ions/stories.md#stories) &
-[**captions**](https://captions.ionify.net/)
+[**💎 jems**](https://jems.ionify.net/),
+[**⚛︎ ion**](ions/ion.md#ion),
+[**🧬 ionify**](https://api.ionify.net/),
+[**🎁 ionified**](https://ionified.net/),
+[**📖 stories**](ions/stories.md#stories) &
+[**📝 captions**](https://captions.ionify.net/)
 are **jsonXD's** descendants & the foundation of the [many kinds](ions/lions.md#lions)
 of **ions** now available for implementation, [discovery](http://ionified.net/),
 extension, and [study](LINGO.md#🤓-our-lingo-😅).

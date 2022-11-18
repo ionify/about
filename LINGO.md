@@ -2,14 +2,27 @@
 
 key terms that name & convey **[ionify](#ionify)** concepts
 
-## [ion](ions/ion.md#ion)
+## [🧬 ionify](README.md#ionify)
+
+- **ion i**mplemented **f**or **y**ou
+- is a flexible & unobtrusive, natural-language api, that enables expressing
+  actions & information, that humans & software
+  [naturally ❦ understand](VISION.md#vision)
+- it provides apis with concise & flexible vocabulary for defining, acquiring,
+  sensing, composing & interacting with [**ions**](#ion)
+
+  ```js
+  ~ { get: 'ionify@ionify.net' }
+  ```
+
+## [⚛︎ ion](ions/ion.md#ion)
 
 - **i**nvoked **o**bject **n**otation
 - is a syntax for defining action(s) & information as software modules
 - it presents these modules as objects, combined with mathematical operators, that invoke
-  their composition, observation, and-or interaction
+  their composition, observation & interaction
 
-- ### [lion](ions/lions.md#lions)
+- ### [🦁 lion](ions/lions.md#lions)
 
   - **l**iteral **ion**
 
@@ -17,15 +30,28 @@ key terms that name & convey **[ionify](#ionify)** concepts
     ~ { } + / / & [ ]
     ```
 
-- ### [orion](ions/ion.md#form)
+  - #### [😎 emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
+
+    - **emoj**i [**i**on](#ion)
+    - emoji created via [literal ions](#lion)
+
+      ```js
+         ~   ~
+      +['0 . 0']+   8-['^ . ^']-8
+           -
+
+      -{ 0 : 0 }-    /d ~ . ~ b/
+      ```
+
+- ### [✨ orion](ions/ion.md#form)
 
   - **o**bject **r**eference **ion**
 
     ```js
-    ~ obj
+    ~ obi
     ```
 
-- ### sion
+- ### 👨🏾‍💻 sion
 
   - **s**tructured **ion**
 
@@ -36,25 +62,14 @@ key terms that name & convey **[ionify](#ionify)** concepts
         , as: 'sion@ionify.net'
         , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
         , on: -4.200709
-        , to: -8.20221114
-        , at:  0.04
+        , to: -8.20221118
+        , at: +0.04
         , is: "a structured invoked-object notation"
         }
     }
     ```
 
-- ### [emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
-
-  - **emoj**i [**i**on](#ion)
-  - emoji created via [literal ions](#lion)
-
-    ```js
-    ~  ['• . •']
-    ~  { 0 : 0 }
-    ~ /d ~ . ~ b/
-    ```
-
-- ### oj
+- ### 🤓 oj
 
   - **o**bservable [**j**son](//json.org)
 
@@ -63,7 +78,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
     & ["json","data"]
     ```
 
-  - #### [jem](ions/jems.md#jems)
+  - #### [💎 jem](ions/jems.md#jems)
 
     - **j**son-**e**xpressed **m**odule
 
@@ -81,7 +96,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
       }
       ```
 
-  - #### [jewel](ions/jewels.md#jewels)
+  - #### [💍 jewel](ions/jewels.md#jewels)
 
     - **j**son-**e**xpressed **we**b **l**anguage
 
@@ -90,7 +105,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
       ~ {"as":"css", "#body": {"color":"#000"}}
       ```
 
-  - #### recognition
+  - #### 🤩 recognition
 
     - recognizing ion
     - invoked regular-expression
@@ -103,7 +118,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
   - code expressed as natural-language prose
 
-  - [**captions**](http://captions.ionify.net)
+  - [**📝 captions**](http://captions.ionify.net)
 
     - **c**ode-**a**s-**p**rose **t**erminology **ions**
 
@@ -111,7 +126,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
       each - word - means & does - something
       ```
 
-  - [**stories**](ions/stories.md#stories)
+  - [**📖 stories**](ions/stories.md#stories)
 
     - **s**tated **t**ext **o**f [**r**ecognit**i**on **e**xpression**s**](#recognition)
 
@@ -119,7 +134,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
       ~/ each word means & does something /
       ```
 
-  - [**aesops**](LINGO.md#aesop)
+  - [**📜 aesops**](LINGO.md#aesop)
 
     - **a**rray-**e**xpressed **s**tories **o**r **p**hrases
 
@@ -128,20 +143,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
       +[" each word means & does something "]
       ```
 
-## [ionify](README.md#ionify)
-
-- **ion i**mplemented **f**or **y**ou
-- is a flexible & unobtrusive natural-language api, that enables expressing
-  actions & information, that humans & software
-  [naturally understand](VISION.md#vision)
-- it provides apis with concise & flexible vocabulary for defining, acquiring,
-  sensing, composing & interacting with [**ions**](#ion)
-
-  ```js
-  ~ { get: 'ionify@ionify.net' }
-  ```
-
-## [operator overloading](ions/ion.md#function)
+## [operator ⚙️ overloading](ions/ion.md#function)
 
 - [**ion**](#ion) applies,
 [direct](ions/ion.md#python) &
@@ -149,22 +151,22 @@ key terms that name & convey **[ionify](#ionify)** concepts
 [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 to interact with objects during their type-conversion
 
-- ### [hot](ions/ion.md#java)
+- ### [♨️ hot](ions/ion.md#java)
 
   - **h**andled-**o**n-**t**ype
   - is operator overloading defined on an object’s type
 
-- ### [hip](ions/ion.md#javascript)
+- ### [💃🏾 hip](ions/ion.md#javascript)
 
   - **h**andled-**i**n-**p**lace
   - is operator overloading defined within an object instance
 
-- ### [hop](ions/ion.md#javascript)
+- ### [🦘 hop](ions/ion.md#javascript)
 
   - **h**andled-**o**n-**p**rototype
   - is operator overloading defined on an object’s prototype
 
-- ### [pools](ions/ion.md#other-languages)
+- ### [🏝 pools](ions/ion.md#other-languages)
 
   - [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
     **o**perator-**o**verloading **l**anguages

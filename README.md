@@ -1,57 +1,58 @@
 # [ionify](https://ionify.net/)
 
-is a flexible & unobtrusive natural-language api, that enables expressing
+is a flexible & unobtrusive, natural-language api, that enables expressing
 actions & information, that humans & software
-[naturally understand](VISION.md#vision).
+[naturally ❦ understand](VISION.md#vision).
 
 ## how
 
-[**ionify**: ion implemented for you](https://api.ionify.net/),
+[**🧬 ionify**: ion implemented for you](https://api.ionify.net/),
 enables describing & interacting with software-defined actions & information, as
-observable & encapsulated [**ions**: invoked object notations](./ions/ion.md#ion):
+observable & encapsulated [**⚛︎ ions**: invoked object notations](./ions/ion.md#ion):
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻'   } <= /do transcription/
-+ { "json" : "data"  } <= /json information/
-& ["natural language"] <= /text information/
+~ {   log  : '👋🏾👨🏾‍💻'   } <- /do transcription/
++ { "json" : "data"  } <- /json information/
+& ["natural language"] <- /text information/
 ```
 
-**ionify**, provides apis with concise & flexible vocabulary for defining,
-acquiring, sensing, composing & interacting with **ions**.
+[**ionify**](https://api.ionify.net/) provides concise & flexible apis with
+[vocabulary](LINGO.md#-our-lingo-) for defining,
+acquiring, sensing, composing & interacting with [**ions**](./ions/ion.md#ion).
 
-[**ionified**: ions indexed for internet-enabled discovery](https://ionified.net/),
+[**🎁 ionified**: ions indexed for internet-enabled discovery](https://ionified.net/),
 is a directory of **ions** that can be automatically discovered, examined &
 verified via **ionify** & the internet. these are a few:
 
-+ **[anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
++ **[😎 anemojii](https://ionified.github.io/anemojii-ions.iskitz.net/): animated emoji ions**,
   explores emoji animation & literate programming via **ion** & **ionify**
 
-+ **[wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
++ **[🇯🇵 wakatta: わかった](https://ionified.github.io/wakatta-ions.iskitz.net/)**,
   is a japanese-language-skills game created via **ion** to
   exercise & guide **ionify’s** api
 
-+ discover more @ [ionified.net](https://ionified.net/).
++ discover more @ [**ionified.net**](https://ionified.net/).
 
 ## who
 
-[**we've**](https://team.ionify.net/)
+[**✨ we've**](https://team.ionify.net/)
 developed, published & maintained
-[**ion**](./ions/ion.md#ion), [**ionify**](https://api.ionify.net)
-& [**ionified**](https://ionified.net/)
+[**⚛︎ ion**](./ions/ion.md#ion), [**🧬 ionify**](https://api.ionify.net),
+and [**🎁 ionified**](https://ionified.net/)
 since their initial
 [discovery, definition & development](https://origin.ionify.net/)
 by
-[**michael lee**](https://github.com/iskitz).
+[**michael 👨🏾‍💻 lee**](https://github.com/iskitz).
 
 ## use
 
-**ionify's** [api](https://github.com/ionify/ionify),
-[documentation](https://github.com/ionify/about)
-& all software within the
+**ionify's** [**{api}**](https://github.com/ionify/ionify),
+[📚 **documentation**](https://github.com/ionify/about)
+& all **software** within the
 [**ionify**](https://github.com/ionify/) &
 [**ionified**](https://github.com/ionified/)
 orgs are
-[licensed](LICENSE.txt#L1)
+[**licensed**](LICENSE.txt#L1)
 & copyright &copy; 2007-2022
 [**michael lee**](https://github.com/iskitz/)
 unless otherwise stated.
