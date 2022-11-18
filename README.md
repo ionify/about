@@ -21,6 +21,8 @@ observable & encapsulated [**⚛︎ ions**: invoked object notations][⚛️]:
 for defining, acquiring, sensing, composing & interacting with
 [**ions**][⚛️].
 
+## where
+
 [**🎁 ionified**: ions indexed for internet-enabled discovery][🎁],
 is a directory of **ions** that can be automatically discovered, examined &
 verified via **ionify** & the internet. these are a few:
