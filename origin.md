@@ -185,7 +185,7 @@ Today
 [**📝 captions**](https://captions.ionify.net/)
 are **jsonXD's** descendants & the foundation of the [many kinds](ions/lions.md#lions)
 of **ions** now available for implementation, [discovery](http://ionified.net/),
-extension, and [study](LINGO.md#🤓-our-lingo-😅).
+extension, and [study](LINGO.md#-our-lingo-).
 
 ####
 
