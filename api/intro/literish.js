@@ -2,7 +2,7 @@
 { re:
     { id: 'frendlee@ionified.net'
     , do: 'ask.say@ions.iskitz.net:3'
-    , as: 'aesop action'
+    , as:['aesop', 'action']
     , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
     , on: -8.20171208
     , to: -8.20221117

@@ -1,18 +1,26 @@
 ~
-{ on:'hi'
-, hi (ion)
-    { / This method is called for each ion //
-      / with a "hi" property. It logs the  //
-      / value of that property.             /
+{ re:
+    { do: {transcription:true, stories:true}
+    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee@ionify.net'
+    , on: -4.200709
+    , to: -8.202211180201
+    , as: {sensation:true}
+    },
 
-    ~ { log:  ion.hi } ;
+  on:'hi',
+  hi( ion)
+    { /this method is called for each ion//
+      /with a 'hi' property & value which//
+      /it logs:                          //
 
-      / logs "I'm an ion!" 1st //
-      / logs "I'm a json!" 2nd  /
+      {log: ion.hi}
+
+      /logs "i'm an ion!" 1st//
+      /logs "i'm a json!" 2nd/
     }
 }
 
-~ / Each ion can be in its own local or remote file /
+~ /ion can be in its own local, or remote file/
 
-~ { hi : "I'm an ion!"}  <=  / invoke an object /
-~ {"hi": "I'm a json!"}  <=  / invoke some json /
+~ { hi : "i'm an ion!"}  <-  /invoke an object/
+~ {"hi": "i'm a json!"}  <-  /invoke some json/

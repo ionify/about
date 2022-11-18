@@ -1,11 +1,19 @@
 ~
-{ on: 'event'
-, do:
-    function someAct (ion)
-      { ~{log: ion.event} <= /logs "it happened!"/
-      }
+{ re:
+    { do: {transcription:true, stories:true}
+    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee@ionify.net'
+    , on: -4.200709
+    , to: -8.202211180158
+    , as: {sensation:true}
+    },
+
+  on:'event',
+  do(  ion  )
+    { /log 'it happened!'//
+      {log: ion.event   } /
+      /via  the event ion!/
+    }
 }
-;
-/ This event  ion can exist within another file /
-| {event: "it happened!"} <= /activates an event/
-;
+
+~ /this event ion could be in a separate file!/
+~ {event: 'it happened!'} <- /invokes an event/

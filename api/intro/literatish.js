@@ -1,13 +1,13 @@
 ~
 { re:
     { id: 'frendlee@ionified.net'
-    , do: 'ask.say@ions.iskitz.net:3'
-    , as: 'aesop action'
+    , as: {aesop:true, action:true}
     , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
     , on: -8.20171208
     , to: -8.20221117
     , in: 'silicon-valley.california.usa.earth'
     , is: 'a literate & natural-language exploration'
+    , do:{'ask.say@ions.iskitz.net':3}
     },
 
   do:

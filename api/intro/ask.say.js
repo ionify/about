@@ -1,35 +1,40 @@
 ~
 { re:
-    { id: 'ask.say@ions.iskitz.net'
-    , by: 'mike.👨🏾‍💻.lee'
-    , on: -7.20150728
-    , to: -7.20221031
-    , at: +2.00
-    , in: 'silicon-valley.california.usa.earth'
+    { do: {webi:true, interaction:true}
+    , as: {sensation:true}
+    , id: 'ask.say@ions.iskitz.net'
     , is: 'an ask & say domain-specific-language interaction'
+    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
+    , on: -7.20150728
+    , to: -8.20221117
+    , at: +3.02
+    , in: 'silicon-valley.california.usa.earth'
     },
 
-  on:
-    ['ask', 'say'],
+  on: ['ask','say'],
 
   ask :function
-  ask (action)
-      { ask.with.its.answer = prompt (ask.with.its.prep (action.ask)) || ''
+  ask ( action )
+      { ask.with.its.answer =
+        prompt (ask.with.its.prep (action.ask))
+        ||''
       },
 
   say :function
-  say (action)
-      { alert (say.with.its.prep (action.say))
+  say ( action )
+      { alert  (say.with.its.prep (action.say))
       },
 
   prep:function
-  prep(quote)
-      { return quote.replace (/\[answer\]/g, prep.with.its.answer)
+  prep( quote )
+      { return  quote.replace         (// replace
+               (/\[answer\]/g)        ,// [answer]
+                prep.with.its.answer  )// 👈🏾 with
       }
 }
 
 
-~ /ask.say interactions can be in separate files/
+~ /ask.say interactions can be independent ions/
 
 ~ { say: '👋🏾 hi!'                              }
 ~ { ask: "what's your name?"                    }
