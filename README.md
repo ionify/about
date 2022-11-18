@@ -1,4 +1,4 @@
-# [🧬](https://ionify.net/)
+# [🧬 ionify](https://ionify.net/)
 
 is a flexible & unobtrusive, natural-language api, that enables expressing
 actions & information, that humans & software
@@ -16,7 +16,7 @@ observable & encapsulated [**⚛︎ ions**: invoked object notations][⚛️]:
 & ["natural language"] <- /text information/
 ```
 
-[**ionify**][api] provides apis with concise & flexible
+[**🧬 ionify**][api] provides apis with concise & flexible
 [vocabulary](LINGO.md#-our-lingo-),
 for defining, acquiring, sensing, composing & interacting with
 [**ions**][⚛️].
