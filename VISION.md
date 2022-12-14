@@ -16,7 +16,7 @@ seamlessly share actions & information as software
 via well-defined, discoverable, accessible & observable
 [**ions**](#ion):
 
-```
+```ts
     seamlessly share actions & information
                       ^
                   :ionified:
@@ -54,12 +54,17 @@ observable actions & information with detailed attribute descriptions:
     , as:  'a.specified.thing'
     , by:  'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
     , on:  -4.200709
-    , to:  -8.20221114
-    , at:  +5.00
+    , to:  -8.20221213
+    , at:  +5.01
     , is:
         [ "the ion: invoked object notation "
         , "definition of an internet-discoverable "
         , "specified, observable & versioned thing"
+        ],
+      it:
+        [ "lists", "these", "tags", "to", "aid"
+        , "its", "discovery", "via", "internet"
+        , "and", "local", "queries"
         ]
     },
 
@@ -81,20 +86,20 @@ observable actions & information with detailed attribute descriptions:
 [**ions**](#ion):
 
 ```javascript
-; /3: sense my ion//
-{ on:'my' ,
-  my( ion )
-    { /4: log  my ion//
-         {log: ion.my}
+~
+{ on:'my'
+, my( ion )
+    {
+    + {log: ion.my}
     }
 }
 
-; /2: acquire my ion//
-{get:'my.ion@ionified.net'}
+~
+{ get:'my.ion@ionified.net' }
 
-; /1: define my ion//
+^
 { re: {id:'my.ion@ionified.net'}
-, my: "ion data"
+, my: "ion definition @ domain!"
 }
 ```
 
