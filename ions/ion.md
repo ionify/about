@@ -32,8 +32,9 @@ that can be
 [object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
 or
 [regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
-literals, or
-[references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type).
+literals in [javascript](#javascript), or
+[references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type)
+in **javascript** and other languages.
 
 **ion** can be expressed as [**lion**](lions.md#lions), literal ion:
 
@@ -128,8 +129,9 @@ during an
 [conversion](https://en.wikipedia.org/wiki/Type_conversion)
 to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
-**hip: handled-in-place** operator overloading implements the `valueOf()` method within an
-object, which enables observing that single object's type conversion:
+**hip: handled-in-place** operator overloading implements the `valueOf()`
+method within an object, which enables observing that single object's type
+conversion whenever it's expressed with an [operator](#punctuation):
 
 ```javascript
 ~
@@ -140,9 +142,10 @@ object, which enables observing that single object's type conversion:
 }
 ```
 
-**hop: handled-on-prototype** operator overloading implements the `valueOf()` method on a
-`prototype` object, which enables observing the type conversions of all objects sharing
-that `prototype`:
+**hop: handled-on-prototype** operator overloading implements the `valueOf()`
+method on a `prototype` object, which enables observing the type conversions
+of all objects sharing that `prototype`, whenever they're expressed with an
+[operator](#punctuation):
 
 ```javascript
 Object.prototype.valueOf
@@ -153,6 +156,8 @@ Object.prototype.valueOf
     | Symbols & any others that implement their own |
     | valueOf() method.                            \*/
     }
+
+~ { hello : "👋🏾👨🏾‍💻world"}
 ```
 
 **hip-hop** operator overloading the `valueOf()` method enables expressing &
