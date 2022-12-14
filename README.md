@@ -11,9 +11,9 @@ enables describing & interacting with software-defined actions & information, as
 observable & encapsulated [**⚛︎ ions**: invoked object notations][⚛️]:
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻'   } <- /do transcription/
-+ { "json" : "data"  } <- /json information/
-& ["natural language"] <- /text information/
+~ {   log  : '👋🏾👨🏾‍💻'   } <= /do transcription/
++ { "json" : "data"  } <= /json information/
+& ["natural language"] <= /text information/
 ```
 
 [**🧬 ionify**][api] provides apis with concise & flexible
