@@ -1,18 +1,25 @@
 ~
 { re:
     { id: 'an.ionified.module@doma.in'
-    , as: {sion:true, action:true}
-    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee@ionify.net'
-    , on: -4.200709
-    , to: -8.202211180154
     , is: 'modeling an ionified module'
-    , do: {stories:true}
+    , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
+    , on: {200709.2    : -4     }
+    , to: {202212251.2 : -8.2337}
+    , do: 'on.storie@ionify'
+    , as: 'sion action'
+    , go:
+        { meet: 'https://meet.ionify.net/'
+        , deal: 'https://deal.ionify.net/'
+        , help: 'https://help.ionify.net/'
+        , code: 'https://github.com/ionify/about/blob/public/api/intro/modular.js'
+        }
     },
 
   do: function
   something ()
-    { something.with.its.hi & this
+    {
+    + something.with.my.ai
     },
 
-  hi: /hi! 🤓/
+  ai: /hi! 🤓/
 }

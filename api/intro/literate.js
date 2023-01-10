@@ -1,13 +1,19 @@
 ~
 { re:
     { id: 'frendlee@ionified.net'
-    , do: 'ask.say@ions.iskitz.net:3'
-    , as: 'aesop action'
-    , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
-    , on: -8.20171208
-    , to: -8.20221117
-    , in: 'silicon-valley.california.usa.earth'
     , is: 'a literate & natural-language exploration'
+    , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
+    , on: {201712086.2 : -8}
+    , to: {202212262.2 : -8}
+    , in: 'silicon-valley.california.usa.earth'
+    , do: 'ask.say.3@ions.iskitz.net'
+    , as: 'aesop action'
+    , go:
+        { meet: 'https://meet.ionify.net/'
+        , deal: 'https://deal.ionify.net/'
+        , help: 'https://help.ionify.net/'
+        , code: 'https://github.com/ionify/about/blob/public/api/intro/literate.js'
+        }
     },
 
   do:
