@@ -7,9 +7,10 @@
 }
 
 ~
-{get:'my.ion@ionified.net'}
-
+{ get:'my.ion@ionified.net' }
+/*
 ^
 { re: {id:'my.ion@ionified.net'}
 , my: "ion definition @ domain!"
 }
+*/

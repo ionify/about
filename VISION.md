@@ -16,7 +16,7 @@ seamlessly share actions & information as software
 via well-defined, discoverable, accessible & observable
 [**ions**](#ion):
 
-```ts
+```js
     seamlessly share actions & information
                       ^
                   :ionified:
