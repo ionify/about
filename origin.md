@@ -159,7 +159,7 @@ Over the next decade he continued to develop, explore, explain, present, extend 
 name
 
 + [**💎 jems**: json-expressed modules](https://jems.ionify.net/),
-+ [**⚛️ ion**: invoked object notation](ions/ion.md#ion),
++ [**⚛️ ion**: invoked object notation](https://ion.ionify.net/),
 + [**🧬 ionify**: ion implemented for you](https://api.ionify.net),
 + [**🎁 ionified**: ions indexed for internet-enabled discovery](https://ionified.net),
 + [**📖 stories**: stated text of recognition expressions](ions/stories.md#stories) &
@@ -178,7 +178,7 @@ in
 
 Today
 [**💎 jems**](https://jems.ionify.net/),
-[**⚛︎ ion**](ions/ion.md#ion),
+[**⚛︎ ion**](https://ion.ionify.net/),
 [**🧬 ionify**](https://api.ionify.net/),
 [**🎁 ionified**](https://ionified.net/),
 [**📖 stories**](ions/stories.md#stories) &
