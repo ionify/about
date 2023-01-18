@@ -22,18 +22,18 @@ languages.
 observation.
 
 **ion** combines the
-[~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator)
+[~](https://262.ecma-international.org/6.0/#sec-bitwise-not-operator)
 bitwise-not,
-[+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-plus-operator),
-and [-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-unary-minus-operator)
+[+](https://262.ecma-international.org/6.0/#sec-unary-plus-operator),
+and [-](https://262.ecma-international.org/6.0/#sec-unary-minus-operator)
 unary operators, with [operands](https://en.wikipedia.org/wiki/Operand#Computer_science)
 that can be
-[array](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-array-initializer),
-[object](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer),
+[array](https://262.ecma-international.org/6.0/#sec-array-initializer),
+[object](https://262.ecma-international.org/6.0/#sec-object-initializer),
 or
-[regular expression](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-literals-regular-expression-literals)
+[regular expression](https://262.ecma-international.org/6.0/#sec-literals-regular-expression-literals)
 literals in [javascript](#javascript), or
-[references](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-reference-specification-type)
+[references](https://262.ecma-international.org/6.0/#sec-reference-specification-type)
 in **javascript** and other languages.
 
 **ion** can be expressed as [**lion**](lions.md#lions), literal ion:
@@ -51,13 +51,13 @@ and **orion**, object reference ion:
 ```
 
 **orion** can also be expressed with the
-[++](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-increment-operator)
+[++](https://262.ecma-international.org/6.0/#sec-prefix-increment-operator)
 and
-[-- prefix operators](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-prefix-decrement-operator),
+[-- prefix operators](https://262.ecma-international.org/6.0/#sec-prefix-decrement-operator),
 and the
-[++](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-increment-operator)
+[++](https://262.ecma-international.org/6.0/#sec-postfix-increment-operator)
 and
-[-- postfix operators](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-postfix-decrement-operator):
+[-- postfix operators](https://262.ecma-international.org/6.0/#sec-postfix-decrement-operator):
 
 ```javascript
          ++obj,    --obj     // 2 prefixed  orion
@@ -89,28 +89,28 @@ arithmetic, relational & equality punctuation operators:
 as shown
 
 + arithmetic punctuation can be any of the
-[+](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-addition-operator-plus),
-[-](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-subtraction-operator-minus),
-[*](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-mul-operator),
-[/](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-div-operator), or
-[%](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-applying-the-mod-operator)
+[+](https://262.ecma-international.org/6.0/#sec-addition-operator-plus),
+[-](https://262.ecma-international.org/6.0/#sec-subtraction-operator-minus),
+[*](https://262.ecma-international.org/6.0/#sec-applying-the-mul-operator),
+[/](https://262.ecma-international.org/6.0/#sec-applying-the-div-operator), or
+[%](https://262.ecma-international.org/6.0/#sec-applying-the-mod-operator)
 operators,
 
 + bitwise punctuation can be any of the
 [&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND),
-[~](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-bitwise-not-operator),
+[~](https://262.ecma-international.org/6.0/#sec-bitwise-not-operator),
 [|](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR),
 [^](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR),
-[<<](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-left-shift-operator), or
-[\>>](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-signed-right-shift-operator)
+[<<](https://262.ecma-international.org/6.0/#sec-left-shift-operator), or
+[\>>](https://262.ecma-international.org/6.0/#sec-signed-right-shift-operator)
 operators,
 
 + relational punctuation can be any of the
-[&gt;, &gt;=, <, or <=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-relational-operators-runtime-semantics-evaluation)
+[&gt;, &gt;=, <, or <=](https://262.ecma-international.org/6.0/#sec-relational-operators-runtime-semantics-evaluation)
 operators,
 
 + and equality punctuation can be the
-[== or !=](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-equality-operators-runtime-semantics-evaluation)
+[== or !=](https://262.ecma-international.org/6.0/#sec-equality-operators-runtime-semantics-evaluation)
 equality operators when comparing **ions** with
 [basic values](https://en.m.wikipedia.org/wiki/Primitive_value).
 
@@ -120,12 +120,12 @@ equality operators when comparing **ions** with
 [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
 in multiple languages.
 
-### [javascript](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-overview)
+### [javascript](https://262.ecma-international.org/6.0/#sec-overview)
 
 enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
-methods [invoked](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive)
+methods [invoked](https://262.ecma-international.org/6.0/#sec-toprimitive)
 during an
-[object's](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-object-type)
+[object's](https://262.ecma-international.org/6.0/#sec-object-type)
 [conversion](https://en.wikipedia.org/wiki/Type_conversion)
 to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
 
@@ -200,10 +200,10 @@ var   you = {say:'do you see all the things'}
 #### flow
 
 during **hip-hop** operator overloading, an attempt is made to
-[convert an **ion's** object operand to a number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-toprimitive).
+[convert an **ion's** object operand to a number](https://262.ecma-international.org/6.0/#sec-toprimitive).
 that conversion attempts to invoke the object operand's `valueOf()` method. if the **ion**
 doesn't define that method, javascript searches for it along the **ion's**
-[prototype path](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-objects).
+[prototype path](https://262.ecma-international.org/6.0/#sec-objects).
 for [**lions**](#form) that search begins & ends at their
 `prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. for
 [**orion**](#form) the search may end similarly but begin with the **ion's** inherited
@@ -218,7 +218,7 @@ that's then converted to a number.
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with javascript objects' type conversion flow. that then
 enables interacting with all **ions** without needing access to any of their
-[identifiers](//en.wikipedia.org/wiki/Identifier_(computer_languages))
+[identifiers](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
 🤓
 
 ```javascript
@@ -341,15 +341,15 @@ operators.
 [**orion**](#form) & [**hip-hop**](#function)
 operator overloading are compatible with all javascript environments.
 [**lion**](#form) is compatible with all environments implementing
-[any edition of the ecmascript specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
+[any edition of the ecmascript specification][⭐️]
 since
-[1999](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf).
+[1999](https://web.archive.org/web/20221220010935/https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf).
 
-[javascript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+[javascript][✨]
 environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
 [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
-[ecmascript specification](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm).
+[any ecmascript specification][⭐️].
 
 ####
 
@@ -358,3 +358,6 @@ environments include all
 [**mike lee**](https://github.com/iskitz) &
 [**team**](https://team.ionify.net/)
 🤲🏾
+
+[⭐️]: https://web.archive.org/web/20221204220158/https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+[✨]: https://262.ecma-international.org/

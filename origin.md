@@ -14,7 +14,7 @@ One to discover, another to embrace.
 
 >[**{✨:javascript}**](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html)'s
 first language-specification is
-[published](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
+[published](https://web.archive.org/web/20201214012858/https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)
 👏🏾
 
 **2007**
@@ -119,7 +119,7 @@ This was close, but still invalid JSON syntax 🤔
 ## discovery
 
 Success came in 2007, when through diligent 👨🏾‍🏫 study of the
-[JavaScript Language Specification](https://ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf),
+[JavaScript Language Specification](https://web.archive.org/web/20221220010935/https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf),
 and object-literal syntax 👨🏾‍🔬 experimentation, Michael 👨🏾‍💻 discovered it was possible to
 interact with anonymous objects, like JSON, by
 [invoking & observing numeric object-type-conversion](ions/ion.md#function)!

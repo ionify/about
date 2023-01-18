@@ -107,7 +107,7 @@ observable actions & information with detailed attribute descriptions:
 
   code expressed as natural-language prose:
 
-+ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/public/README.md#code-as-prose),
++ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/production/README.md#code-as-prose),
   express code as words, via
   [object-reference](LINGO.md#orion) [ions](#ion),
   punctated by mathematical and-or comparison operators:

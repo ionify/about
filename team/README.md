@@ -5,7 +5,7 @@
 inventing optimized natural interfaces for you, to inspire
 [natural](https://ionified.github.io/anemojii-ions.iskitz.net/),
 simple, performant,
-[intuitive](https://github.com/ionify/ionify/blob/public/README.md#domain-specific-languages)
+[intuitive](https://github.com/ionify/ionify/blob/production/README.md#domain-specific-languages)
 & reliable
 [experiences](http://ionified.net/).
 
