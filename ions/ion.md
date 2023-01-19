@@ -144,7 +144,7 @@ conversion whenever it's expressed with an [operator](#punctuation):
 
 **hop: handled-on-prototype** operator overloading implements the `valueOf()`
 method on a `prototype` object, which enables observing the type conversions
-of all objects sharing that `prototype`, whenever they're expressed with an
+of all objects sharing that `prototype` whenever they're expressed with an
 [operator](#punctuation):
 
 ```javascript
@@ -348,7 +348,7 @@ since
 [javascript][✨]
 environments include all
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
-[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing any
+[runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing
 [any ecmascript specification][⭐️].
 
 ####
