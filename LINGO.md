@@ -51,20 +51,34 @@ key terms that name & convey **[ionify](#ionify)** concepts
     ~ obi
     ```
 
-- ### 👨🏾‍💻 sion
+- ### 🌱 sion
 
-  - **s**tructured **ion**
+  - **s**emantic [**ion**](#⚛︎-ion)
 
     ```js
     ~
     { re:
-        { id: 'structured.ion@ionified.net'
+        { id: 'semantic.ion@ionified.net'
         , as: 'sion@ionify.net'
-        , by: 'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
-        , on: -4.200709
-        , to: -8.20221118
-        , at: +0.04
-        , is: "a structured invoked-object notation"
+        , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
+        , on: {200709.2   : -4}
+        , to: {578311012.1: -8}
+        , at: +0.100
+        , is: "🌱 a semantic invoked-object notation"
+        , it:
+            [ 'identifies','specifies','attributes' ,'dates'  ,'versions'
+            , 'describes' ,'labels'   ,'connects'   ,'active' ,'information'
+            ],
+          we:
+            [ "know sion enables succint & natural description, and"
+            , "hope you'll enjoy applying it to share & simplify discovery,"
+            , "understanding, selection, and adoption of good things ✨🤲🏾✨"
+            ],
+          go:
+            { meet: 'https://meet.ionify.net/'
+            , seek: 'https://seek.ionify.net/'
+            , deal: 'https://deal.ionify.net/'
+            }
         }
     }
     ```
