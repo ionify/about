@@ -1,6 +1,6 @@
 # 🤓 our lingo 😅
 
-key terms that name & convey **[ionify](#ionify)** concepts
+key terms that name & convey **[ionify](#-ionify)** concepts
 
 ## [🧬 ionify](README.md#ionify)
 
@@ -9,7 +9,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
   actions & information, that humans & software
   [naturally ❦ understand](VISION.md#vision)
 + it provides apis with concise & flexible vocabulary for defining, acquiring,
-  sensing, composing & interacting with [**ions**](#ion)
+  sensing, composing & interacting with [**ions**](#%EF%B8%8E-ion)
 
   ```js
   ~ { get: 'ionify@ionify.net' }
@@ -17,7 +17,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
 ## ✨ ionosphere
 
-+ is the **invoked object notation observation sphere**
++ is the **i**nvoked **o**bject **n**otation **o**bservation **sphere**
 + the connection, observation & interaction of all **ions** & their supporting
   functions, operations & information
 
@@ -38,8 +38,8 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
   + #### [😎 emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
 
-    + **emoj**i [**i**on](#ion)
-    + emoji created via [literal ions](#lion)
+    + **emoj**i [**i**on](#%EF%B8%8E-ion)
+    + emoji created via [literal ions](#-lion)
 
       ```js
          ~   ~
@@ -51,7 +51,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
 + ### [💫 orion](ions/ion.md#form)
 
-  + **o**bject **r**eference **ion**
+  + **o**bject **r**eference [**ion**](#%EF%B8%8E-ion)
 
     ```js
     ~ orion
@@ -59,26 +59,32 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
 + ### 🌱 sion
 
-  + **s**emantic [**ion**](#⚛︎-ion)
+  + **s**emantic [**ion**](#%EF%B8%8E-ion)
 
     ```js
     ~
     { re:
         { id: 'semantic.ion@ionified.net'
+        , do: 'ions'
         , as: 'sion@ionify.net'
         , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
         , on: {200709.2   : -4}
         , to: {578311012.1: -8}
-        , at: +0.100
-        , is: "🌱 semantic invoked-object notation"
-        , it:
-            [ 'identifies','specifies','attributes' ,'dates'  ,'versions'
-            , 'describes' ,'labels'   ,'connects'   ,'active' ,'information'
+        , at: -0.200
+        , is:
+            [    'invocation','acquisition','identification',  'location'
+            , 'specification','attribution',      'occasion',   'version'
+            ,'classification','description',    'annotation','connection'
+            ,        'action','information', 'instantiation','exhibition'
+            ],
+          it:
+            [ "presents 🌱 sion: semantic invoked-object notation"
+            ,  "applies 🌱 sion  re.* interfaces"
             ],
           we:
-            [ "know sion enables succint & natural description, and"
-            , "hope you'll enjoy applying it to share & simplify discovery,"
-            , "understanding, selection, and adoption, of good things ✨🤲🏾✨"
+            [ "know sion enables succint & natural definition & description and"
+            , "hope you'll enjoy applying it to share & simplify identification,"
+            , "comprehension, selection, and adoption, of many good things ✨🤲🏾✨"
             ],
           go:
             { meet: 'https://meet.ionify.net/'
@@ -107,10 +113,10 @@ key terms that name & convey **[ionify](#ionify)** concepts
       { "re":
           { "id": "json.module@ionified.net"
           , "as": "jem@ionify.net"
-          , "by": ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
+          , "by": ["🙇🏾‍♂️ יהוה 🤲🏾","mike🇬🇾👨🏾‍💻🇺🇸lee","team✨ionify"]
           , "on": {"200709.2"   : -4}
           , "to": {"578311012.1": -8}
-          , "at":   0.005
+          , "at":   0.006
           , "is": "a json: javascript object notation, module"
           }
       }
@@ -148,7 +154,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
   + [**📖 stories**](ions/stories.md#stories)
 
-    + **s**tated **t**ext **o**f [**r**ecognit**i**on **e**xpression**s**](#recognition)
+    + **s**tated **t**ext **o**f [**r**ecognit**i**on **e**xpression**s**](#-recognition)
 
       ```javascript
       ~/ each word means & does something /
@@ -165,7 +171,7 @@ key terms that name & convey **[ionify](#ionify)** concepts
 
 ## [operator ⚙️ overloading](ions/ion.md#function)
 
-+ [**ion**](#ion) applies,
++ [**ion**](#%EF%B8%8E-ion) applies,
 [direct](ions/ion.md#python) &
 [indirect](ions/ion.md#javascript),
 [operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
