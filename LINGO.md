@@ -17,9 +17,9 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 
 ## ✨ ionosphere
 
-+ is the **i**nvoked **o**bject **n**otation **o**bservation **sphere**
-+ the connection, observation & interaction of all **ions** & their supporting
-  functions, operations & information
++ is the [**ion**](#%EF%B8%8E-ion) **o**bservation **sphere**
++ the connections, observations & interactions of all **ions** & their
+  supporting functions, operations & information
 
 ## [⚛︎ ion](ions/ion.md#ion)
 
@@ -49,9 +49,19 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       -{ 0 : 0 }-    /d ~ . ~ b/
       ```
 
+  + #### 🤩 recognition
+
+    + **recogn**izing **i**on
+    + regular-expression invocation
+
+      ```js
+      ~ /recognition of (these) two (words)/
+      ```
+
 + ### [💫 orion](ions/ion.md#form)
 
   + **o**bject **r**eference [**ion**](#%EF%B8%8E-ion)
+  + object reference invoked via its identifier
 
     ```js
     ~ orion
@@ -127,17 +137,8 @@ key terms that name & convey **[ionify](#-ionify)** concepts
     + **j**son-**e**xpressed **we**b **l**anguage
 
       ```js
-      ~ {"as":"html", "body":"hi!"}
-      ~ {"as":"css", "#body": {"color":"#000"}}
-      ```
-
-  + #### 🤩 recognition
-
-    + recognizing ion
-    + invoked regular-expression
-
-      ```js
-      ~ /recognition of (these) two (words)/
+      ~ {"as":"html", "body": "hi!"}
+      ~ {"as":"css" ,"#body":{"color":"#000"}}
       ```
 
 + ### [code as prose](http://captions.ionify.net)
@@ -197,7 +198,7 @@ to interact with objects during their type-conversion
   + [**p**rocedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
     **o**perator-**o**verloading **l**anguages
   + is the set of programming languages that support operator overloading via procedures,
-    e.g. subroutines, functions, and-or methods.
+    i.e. routines, subroutines, functions, and-or methods.
 
 ####
 
