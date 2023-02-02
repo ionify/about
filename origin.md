@@ -38,7 +38,7 @@ and
 ## details
 
 In 2003, Michael created
-[**🛠 ajile**: asynchronous javascript importing & loading extension](http://ajile.net);
+[**ajile** ♻️ asynchronous javascript importing & loading extension](http://ajile.net);
 a java-like module system for the web that enabled fetching javascript across different domains 🤓
 
 ```javascript
@@ -183,14 +183,17 @@ Today
 [**🎁 ionified**](https://ionified.net/),
 [**📖 stories**](ions/stories.md#stories) &
 [**📝 captions**](https://captions.ionify.net/)
-are **jsonXD's** descendants & the foundation of the [many kinds](ions/lions.md#lions)
+are **jsonXD's** progeny & the foundation of the [many kinds](ions/lions.md#lions)
 of **ions** now available for implementation, [discovery](http://ionified.net/),
 extension, and [study](LINGO.md#-our-lingo-).
 
 ####
 
-🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt#L1) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**יהוה**][🙇🏾‍♂️ יהוה 🤲🏾] * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
-[**mike lee**](https://github.com/iskitz) &
+[**mike lee**][🇬🇾👨🏾‍💻🇺🇸] &
 [**team**](https://team.ionify.net/)
 🤲🏾
+
+[🙇🏾‍♂️ יהוה 🤲🏾]: https://deal.ionify.net/
+[🇬🇾👨🏾‍💻🇺🇸]: https://mike.ionify.net/
