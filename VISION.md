@@ -53,15 +53,15 @@ observable actions & information with detailed attribute descriptions:
     , of: ['ionify','education']
     , as:  'a.specified.thing'
     , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee']
-    , on:  {200709.2    : -4}
-    , to:  {578311104.1 : -8}
-    , at:  +6.00
+    , on: {200709.2     : -4}
+    , to: {578311115.1  : -8}
+    , at: +6.01
     , is:
-        ['identification',      'location','association'
-        , 'specification',   'attribution',   'occasion'
-        ,       'version','classification','description'
-        ,    'annotation',    'connection','information'
-        ,    'invocation', 'instantiation', 'exhibition'
+        ['identification','instantiation','association'
+        ,      'location',  'attribution', 'annotation'
+        , 'specification',   'connection',   'occasion'
+        ,       'version',  'description','information'
+        ,'classification',   'invocation', 'exhibition'
         ],
       it:
         [ "implements the ion: invoked object notation"
@@ -86,7 +86,7 @@ observable actions & information with detailed attribute descriptions:
   with:
     { all:
         { your:
-            {semantic: "attributes & descriptions"}
+            {semantic:"attributes & descriptions"}
         }
     }
 }
