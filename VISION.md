@@ -17,28 +17,28 @@ via well-defined, discoverable, accessible & observable
 [**ions**](#ion):
 
 ```js
-    seamlessly share actions & information
-                      ^
-                  :ionified:
-               ions indexed for
-          internet-enabled discovery
-                  :ionified:
-                      ^
-    visible, audible, tactile &  textual
-               ^                    ^
-               ^              code as prose
-               ^                    ^
-    ionify: ion implemented for you :ionify
-                      ^
-       ion: invoked object notation :ion
-                      ^
-           javascript, python & java
-                      ^
-                   :pools:
-                 procedural
-            operator-overloading
-                  languages
-                   :pools:
+seamlessly share actions & information
+                  ^
+              :ionified:
+            ions indexed for
+      internet-enabled discovery
+              :ionified:
+                  ^
+visible, audible, tactile &  textual
+            ^                    ^
+            ^              code as prose
+            ^                    ^
+ionify: ion implemented for you :ionify
+                  ^
+    ion: invoked object notation :ion
+                  ^
+        javascript, python & java
+                  ^
+               :pools:
+              procedural
+         operator-overloading
+              languages
+               :pools:
 ```
 
 ### [ion](ions/ion.md#ion)
@@ -52,54 +52,66 @@ observable actions & information with detailed attribute descriptions:
     { id:  'thing@ionified.net'
     , of: ['ionify','education']
     , as:  'a.specified.thing'
-    , by:  'mike.🇬🇾👨🏾‍💻🇺🇸.lee'
-    , on:  -4.200709
-    , to:  -8.20221213
-    , at:  +5.01
+    , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee']
+    , on:  {200709.2    : -4}
+    , to:  {578311104.1 : -8}
+    , at:  +6.00
     , is:
-        [ "the ion: invoked object notation "
-        , "definition of an internet-discoverable "
-        , "specified, observable & versioned thing"
+        ['identification',      'location','association'
+        , 'specification',   'attribution',   'occasion'
+        ,       'version','classification','description'
+        ,    'annotation',    'connection','information'
+        ,    'invocation', 'instantiation', 'exhibition'
         ],
       it:
-        [ "lists", "these", "tags", "to", "aid"
-        , "its", "discovery", "via", "internet"
-        , "and", "local", "queries"
-        ]
+        [ "implements the ion: invoked object notation"
+        , "definition of an internet-discoverable,"
+        , "observable, attributed, specified & versioned"
+        , "thing, with concise terms aiding its internet"
+        , "and local discovery"
+        ],
+      we:
+        [ "hope you'll enjoy applying ion to share &"
+        , "simplify identification, comprehension,"
+        , "selection & adoption, of many good things"
+        , "✨🤲🏾✨"
+        ],
+      go:
+        { meet: 'https://meet.ionify.net/'
+        , seek: 'https://seek.ionify.net/'
+        , deal: 'https://deal.ionify.net/'
+        }
     },
 
   with:
     { all:
-        { these:
-            [ "detailed"
-            , "attribute"
-            , "descriptions"
-            ]
+        { your:
+            {semantic: "attributes & descriptions"}
         }
     }
 }
 ```
 
-### [ionify](https://about.ionify.net/)
+### [ionify](https://meet.ionify.net/)
 
 **ion implemented for you**, enables defining, acquiring, sensing & interacting with
 [**ions**](#ion):
 
 ```javascript
 ~
-{ on:'my'
-, my( ion )
+{ on:'my' ,
+  my( ion )
     {
     + {log: ion.my}
     }
 }
 
-~
-{ get:'my.ion@ionified.net' }
+&
+{ get: 'my.ion@ionified.net'}
 
 ^
 { re: {id:'my.ion@ionified.net'}
-, my: "ion definition @ domain!"
+, my: "ion definition @ domain"
 }
 ```
 
@@ -110,7 +122,7 @@ observable actions & information with detailed attribute descriptions:
 + [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/production/README.md#code-as-prose),
   express code as words, via
   [object-reference](LINGO.md#orion) [ions](#ion),
-  punctated by mathematical and-or comparison operators:
+  punctuated by mathematical and-or comparison operators:
 
   ```javascript
   each - word - means & does - something
@@ -118,8 +130,8 @@ observable actions & information with detailed attribute descriptions:
 
 + [**stories**: stated text of recognition expressions](ions/stories.md#stories),
   express code as words within
-  [**recognitions**: recognizing ions](ions/stories.md#stories) --
-  invoked regular-expressions:
+  [**recognitions**: recognizing ions](ions/stories.md#stories),
+  regular-expression invocations:
 
   ```javascript
   ~/ each word means & does something /
@@ -127,7 +139,7 @@ observable actions & information with detailed attribute descriptions:
 
 + [**aesops**: array-expressed stories or phrases](ions/aesop.md#aesop),
   express code as one or more [**stories**](ions/stories.md#stories),
-  or phrases, within invoked arrays:
+  or phrases, within array invocations:
 
   ```javascript
   ~[/ each word means & does something /]
@@ -137,13 +149,16 @@ observable actions & information with detailed attribute descriptions:
 ### [ionified](https://ionified.net/)
 
 **ions indexed for internet-enabled discovery**, is a directory of
-internet-discoverable **ions** that [**ionify**](#ionify) queries to discover & verify
+internet-discoverable **ions** that can be queried with [**ionify**](#ionify) to discover & verify
 [**ions**](#ion).
 
 ####
 
-🙇🏾‍♂️ through * [**יהוה**](LICENSE.txt#L1) * impossible -is- nothing ||
+🙇🏾‍♂️ through * [**יהוה**][🙇🏾‍♂️ יהוה 🤲🏾] * impossible -is- nothing ||
 [🇬🇾👨🏾‍💻🇺🇸](https://en.wikipedia.org/wiki/Guyana)
-[**mike lee**](https://github.com/iskitz) &
+[**mike lee**][🇬🇾👨🏾‍💻🇺🇸] &
 [**team**](https://team.ionify.net/)
 🤲🏾
+
+[🙇🏾‍♂️ יהוה 🤲🏾]: https://deal.ionify.net/
+[🇬🇾👨🏾‍💻🇺🇸]: https://mike.ionify.net/
