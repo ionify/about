@@ -21,9 +21,9 @@ first language-specification is
 
 >[Michael Lee](https://github.com/iskitz) is
 [🙇🏾‍♂️inspired🤲🏾](LICENSE.txt#L1) to
-[share](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
+[share](//web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 a capability within JavaScript he discovers & names
-[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
+[**jsonXD**: json cross-domain](//www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange)
 👨🏾‍💻
 
 **2017**
@@ -33,12 +33,12 @@ a capability within JavaScript he discovers & names
 **jsonXD's** core concept & capabilities,
 [**ion**: invoked object notation](ions/ion.md#ion),
 and
-[**ionify**: ions implemented for you](http://api.ionify.net/) 🎉
+[**ionify**: ion implemented for you](//api.ionify.net/) 🎉
 
 ## details
 
 In 2003, Michael created
-[**ajile** ♻️ asynchronous javascript importing & loading extension](http://ajile.net);
+[**ajile** ♻️ asynchronous javascript importing & loading extension](//ajile.net);
 a java-like module system for the web that enabled fetching javascript across different domains 🤓
 
 ```javascript
@@ -63,7 +63,7 @@ a javascript-compatible data-interchange alternative to
 was rising in popularity. Michael recognized this, and was
 [🙇🏾‍♂️inspired🤲🏾](LICENSE.txt#L1)
 to enable cross-domain JSON acquisition & interaction via
-[**ajile**](http://ajile.net) 👨🏾‍💻
+[**ajile**](//ajile.net) 👨🏾‍💻
 
 Unfortunately, **ajile**-fetched JSON was programmatically inaccessible, and its
 object-literal form generated syntax errors 😓
@@ -142,8 +142,11 @@ This capability
 
 + obsoletes JSONP,
 + complements existing JSONP implementations with **`~`** and **`-`** as
-  [compatible, dependable & unobtrusive callbacks](http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~),
-+ introduces a [universe](http://api.ionify.net/) of applications beyond cross-domain
+  [compatible](//archive.org/wayback/available?url=ionify.net&callback=-),
+  [dependable](//archive.org/wayback/available?url=ionify.net&callback=~) &
+  [unobtrusive](//web.archive.org/web/20220622021700/http://api.geonames.org/countryCodeJSON?formatted=true&lat=4.5&lng=59.5&username=demo&style=full&callback=~)
+  callbacks,
++ introduces a [universe](//api.ionify.net/) of applications beyond cross-domain
   JSON acquisition & interaction,
 + and exists within all JavaScript environments 🤓
 
@@ -151,9 +154,9 @@ This capability
 
 After an additional two years of experimentation & implementation, Michael 🙋🏾‍♂️ publicly
 introduced this capability, at the 2009
-[Ajax Experience](http://web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
+[Ajax Experience](//web.archive.org/web/20090916010056/http://ajaxexperience.techtarget.com:80/conference/html/speakers.html#MLee)
 web developer conference, as a cross-domain JSON-fetching solution he named
-[**jsonXD**: json cross-domain](http://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
+[**jsonXD**: json cross-domain](//www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange).
 
 Over the next decade he continued to develop, explore, explain, present, extend &
 name
@@ -166,13 +169,13 @@ name
 + [**📝 captions**: code-as-prose terminology ions](https://captions.ionify.net/),
 
 in
-[2015](https://github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems),
-2016,
-[2017](https://web.archive.org/web/20181128132649if_/https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg) @
-[/dev/color/ in motion](https://devcolorinmotion2017.splashthat.com/),
-2019, and
-[2020](https://web.archive.org/web/20201105010053/https://img1.wsimg.com/isteam/ip/d7a6d14c-7646-43c9-9013-bb6600040f45/Mike%20Lee1.png/:/rs=w:1680,h:975) @
-[devopsdays medellín](https://web.archive.org/web/20201027124310/https://devopsdays.io/) 👨🏾‍💻
+[20](/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems)[15](/ionify/about/tree/6ea890a59e6006ff5caaefe9526eea53253c5799),
+[2016](/ionified/about/tree/7984822c7569cf1e45beb6b56f26c5616077e565),
+[2017](//web.archive.org/web/20181128132649if_/https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg) @
+[/dev/color/ in motion](//devcolorinmotion2017.splashthat.com/),
+and
+[2020](//web.archive.org/web/20201105010053/https://img1.wsimg.com/isteam/ip/d7a6d14c-7646-43c9-9013-bb6600040f45/Mike%20Lee1.png/:/rs=w:1680,h:975) @
+[devopsdays medellín](//web.archive.org/web/20201027124310/https://devopsdays.io/) 👨🏾‍💻
 
 ## distribution
 
@@ -184,7 +187,7 @@ Today
 [**📖 stories**](ions/stories.md#stories) &
 [**📝 captions**](https://captions.ionify.net/)
 are **jsonXD's** progeny & the foundation of the [many kinds](ions/lions.md#lions)
-of **ions** now available for implementation, [discovery](http://ionified.net/),
+of **ions** now available for implementation, [discovery](//ionified.net/),
 extension, and [study](LINGO.md#-our-lingo-).
 
 ####
