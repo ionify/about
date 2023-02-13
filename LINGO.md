@@ -75,26 +75,29 @@ key terms that name & convey **[ionify](#-ionify)** concepts
     ~
     { re:
         { id: 'semantic.ion@ionified.net'
-        , do: 'ions'
-        , as: 'sion@ionify.net'
+        , as: 'sion'
         , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
-        , on: {200709.2   : -4}
-        , to: {578311012.1: -8}
-        , at: -0.200
+        , on: {2007_09.2      : -4}
+        , to: {5783_11_22_2.1 : -8}
+        , at: -0.300
         , is:
-            [    'invocation','acquisition','identification',  'location'
-            , 'specification','attribution',      'occasion',   'version'
-            ,'classification','description',    'annotation','connection'
-            ,        'action','information', 'instantiation','exhibition'
+            [ "the 🌱 semantic ion: invoked object notation"
+            , "definition of an observable, attributed,"
+            , "specified & versioned thing, with classifications"
+            , "that aid its internet & local discovery"
             ],
-          it:
-            [ "presents 🌱 sion: semantic invoked-object notation"
-            ,  "applies 🌱 sion  re.* interfaces"
+          im:
+            ['identification',  'invocation', 'association'
+            ,      'location', 'attribution',  'annotation'
+            , 'specification',  'connection',    'occasion'
+            ,       'version', 'description', 'information'
+            ,'classification',      'action',  'exhibition'
             ],
           we:
-            [ "know sion enables succint & natural definition & description and"
-            , "hope you'll enjoy applying it to share & simplify identification,"
-            , "comprehension, selection, and adoption, of many good things ✨🤲🏾✨"
+            [ "hope you'll enjoy applying sion to share &"
+            , "simplify identification, comprehension,"
+            , "selection & adoption, of many good things"
+            , "✨🤲🏾✨"
             ],
           go:
             { meet: 'https://meet.ionify.net/'

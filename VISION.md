@@ -50,25 +50,24 @@ observable actions & information with detailed attribute descriptions:
 ~
 { re:
     { id:  'thing@ionified.net'
-    , of: ['ionify','education']
+    , do:  'transcription'
     , as:  'a.specified.thing'
-    , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee']
-    , on: {200709.2     : -4}
-    , to: {578311115.1  : -8}
-    , at: +6.01
+    , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
+    , on: {2007_09.2      : -4}
+    , to: {5783_11_22_2.1 : -8}
+    , at: -0.700
     , is:
-        ['identification','instantiation','association'
-        ,      'location',  'attribution', 'annotation'
-        , 'specification',   'connection',   'occasion'
-        ,       'version',  'description','information'
-        ,'classification',   'invocation', 'exhibition'
+        [ "implementing the ⚛️ ion: invoked object notation"
+        , "definition of an observable, attributed, specified &"
+        , "versioned thing, with classifications to aid its"
+        , "internet & local discovery"
         ],
-      it:
-        [ "implements the ion: invoked object notation"
-        , "definition of an internet-discoverable,"
-        , "observable, attributed, specified & versioned"
-        , "thing, with concise terms aiding its internet"
-        , "and local discovery"
+      im:
+        ['identification',  'invocation', 'association'
+        ,      'location', 'attribution',  'annotation'
+        , 'specification',  'connection',    'occasion'
+        ,       'version', 'description', 'information'
+        ,'classification',      'action',  'exhibition'
         ],
       we:
         [ "hope you'll enjoy applying ion to share &"
@@ -82,13 +81,7 @@ observable actions & information with detailed attribute descriptions:
         , deal: 'https://deal.ionify.net/'
         }
     },
-
-  with:
-    { all:
-        { your:
-            {semantic:"attributes & descriptions"}
-        }
-    }
+  do: /👋🏾👨🏾‍💻 hi!/
 }
 ```
 
