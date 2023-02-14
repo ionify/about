@@ -71,13 +71,13 @@ object-literal form generated syntax errors 😓
 ```javascript
 Load ('http://remo.te/data.json')
 
-  //         JSON response
-  {       "remote" : "request"
-  ,     "responds" : "with this"
-  , "inaccessible" : "JSON which"
-  ,    "generates" : "a Syntax Error"
-  ,  "when loaded" : "as JavaScript"
-  }
+//         JSON response
+{       "remote" : "request"
+,     "responds" : "with this"
+, "inaccessible" : "JSON which"
+,    "generates" : "a Syntax Error"
+,  "when loaded" : "as JavaScript"
+}
 ```
 
 At the time, cross-domain acquisition wasn’t possible via the popular but
@@ -94,24 +94,24 @@ property assignment:
 ```javascript
 Load ('http://remo.te/data.jsonp?callback=on')
 
-   // JSONP response: function-wrapped
-   on ({        "remote" : "request"
-       ,      "responds" : "with this"
-       ,     "evaluated" : "JSON"
-       ,   "passed as a" : "JavaScript Object"
-       , "to a possibly" : "invalid on() function"
-      })
+// JSONP response: function-wrapped
+on ({        "remote" : "request"
+    ,      "responds" : "with this"
+    ,     "evaluated" : "JSON"
+    ,   "passed as a" : "JavaScript Object"
+    , "to a possibly" : "invalid on() function"
+   })
 
 Load ('http://remo.te/data.jsonp')
 
-   // JSONP response: variable-assignment-padded
-   var jsonp
-     =  {      "remote" : "request"
-        ,    "responds" : "with this"
-        ,   "evaluated" : "JSON"
-        , "passed as a" : "JavaScript Object"
-        , "stored as a" : "server-defined variable"
-        }
+// JSONP response: variable-assignment-padded
+var jsonp
+  = {      "remote" : "request"
+    ,    "responds" : "with this"
+    ,   "evaluated" : "JSON"
+    , "passed as a" : "JavaScript Object"
+    , "stored as a" : "server-defined variable"
+    }
 ```
 
 This was close, but still invalid JSON syntax 🤔
@@ -122,7 +122,7 @@ Success came in 2007, when through diligent 👨🏾‍🏫 study of the
 [JavaScript Language Specification](https://web.archive.org/web/20221220010935/https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf),
 and object-literal syntax 👨🏾‍🔬 experimentation, Michael 👨🏾‍💻 discovered it was possible to
 interact with anonymous objects, like JSON, by
-[invoking & observing numeric object-type-conversion](ions/ion.md#function)!
+[invoking & observing numeric object-type conversion](ions/ion.md#function)!
 👌🏾
 
 ```javascript
@@ -169,8 +169,8 @@ name
 + [**📝 captions**: code-as-prose terminology ions](https://captions.ionify.net/),
 
 in
-[20](/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems)[15](/ionify/about/tree/6ea890a59e6006ff5caaefe9526eea53253c5799),
-[2016](/ionified/about/tree/7984822c7569cf1e45beb6b56f26c5616077e565),
+[20](//github.com/ionify/jems/blob/24ab93d910334e3bbe05b72869cbb4fd81639e10/about/jems.md#what-are-jems)[15](//github.com/ionify/about/tree/6ea890a59e6006ff5caaefe9526eea53253c5799),
+[2016](//github.com/ionified/about/tree/7984822c7569cf1e45beb6b56f26c5616077e565),
 [2017](//web.archive.org/web/20181128132649if_/https://d24wuq6o951i2g.cloudfront.net/img/events/id/301/3017276/assets/70d.wtMi_397_IMG_9393_DoDes.jpg) @
 [/dev/color/ in motion](//devcolorinmotion2017.splashthat.com/),
 and
