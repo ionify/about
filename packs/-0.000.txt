@@ -1,0 +1,49 @@
+🧬 ionify api's
+       |
+-      | fully gestating
+ 0     | pre-publication's
+  .0   | zeroth  edition's
+    00 | zeroth revision
+-------:--------------------------------------------
+-0.000 | ionify 🧬 a fun api for ideas & information
+-------:--------------------------------------------
+
+introduces ionify 🧬 invoked object notation implemented for you,
+a flexible, unobtrusive, natural-language api, for implementing,
+describing & expressing actions & information [1]
+
+
+🌴 implementation
+
++ by 🙇🏾‍♂️ יהוה 🤲🏾 [*], mike🇬🇾👨🏾‍💻🇺🇸lee [2] & team✨ionify [3]
++ at https://github.com/ionify/ionify/releases/tag/-0.000
++ is https://github.com/ionify/ionify/compare/f1110811f6bf62a29a5ae59bc63e093e75f5e3da...-0.000
+
+
+🌱 progression [4]
+
++ defines, implements, names & extends jsonXD's [5] progeny, core concepts &
+  capabilities:
+
+  + ion: invoked object notation,
+  + ionify: ion implemented for you,
+  + jems: json-expressed modules, and
+  + jewels: json-expressed web languages
+
+
+🧠 details
+
++ at https://github.com/ionify/about/blob/public/packs/-0.000.md#ionify-apis
+
+
+🤓 discussion
+
++ at https://github.com/ionify/ionify/discussions/categories/releases#discussions-list
+
+
+[*] https://deal.ionify.net/
+[1] https://meet.ionify.net/
+[2] https://mike.ionify.net/
+[3] https://team.ionify.net/
+[4] https://know.ionify.net/
+[5] https://www.slideshare.net/iskitz/using-jsonxd-for-crossdomain-json-exchange
