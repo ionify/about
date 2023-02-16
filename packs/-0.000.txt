@@ -34,7 +34,7 @@ describing & expressing actions & information [1]
 
 🧠 explanation
 
-+ at https://github.com/ionify/about/blob/public/packs/-0.000.md#ionify-apis
++ at https://github.com/ionify/about/blob/public/packs/-0.000.md#-ionify-apis
 
 
 🤓 discussion
