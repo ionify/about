@@ -21,12 +21,12 @@ concise summary of this publication's introductions & revisions
 
 ## 🌴 implementation
 
-+ by  [**🙇🏾‍♂️ יהוה 🤲🏾**](https://deal.ionify.net/),
-      [**mike🇬🇾👨🏾‍💻🇺🇸lee**](https://mike.ionify.net/) &
-      [**team✨ionify**](https://team.ionify.net/)
-+ at  [**version**](https://github.com/ionify/ionify/tree/version)
-      from
-      [**previous**](https://github.com/ionify/ionify/compare/present.version...past.version)
++ **by**  [**🙇🏾‍♂️ יהוה 🤲🏾**](https://deal.ionify.net/),
+          [**mike🇬🇾👨🏾‍💻🇺🇸lee**](https://mike.ionify.net/) &
+          [**team✨ionify**](https://team.ionify.net/)
++ **at**  [**version**](https://github.com/ionify/ionify/tree/version)
+          from
+          [**previous**](https://github.com/ionify/ionify/compare/present.version...past.version)
 
 ## 🌱 progression
 
@@ -41,8 +41,8 @@ concise summary of this publication's introductions & revisions
 
 ## 🧠 explanation
 
-+ at  [**version: name** 🎁 succinct publication title](https://github.com/ionify/about/blob/public/packs/packed.md#-ionify-apis)
++ **at**  [**version: name** 🎁 succinct publication title](https://github.com/ionify/about/blob/public/packs/packed.md#-ionify-apis)
 
 ## 🤓 discussion
 
-+ at  [**version: name** 🎁 succinct publication title](https://github.com/ionify/ionify/discussions/categories/releases#discussions-list)
++ **at**  [**version: name** 🎁 succinct publication title](https://github.com/ionify/ionify/discussions/categories/publications#discussions-list)
