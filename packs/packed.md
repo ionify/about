@@ -26,7 +26,7 @@ concise summary of this publication's introductions & revisions
           [**team✨ionify**](https://team.ionify.net/)
 + **at**  [**version**](https://github.com/ionify/ionify/tree/version)
           from
-          [**previous**](https://github.com/ionify/ionify/compare/present.version...past.version)
+          [**previous**](https://github.com/ionify/ionify/compare/past.version...present.version)
 
 ## 🌱 progression
 
