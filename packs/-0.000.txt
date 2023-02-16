@@ -37,7 +37,7 @@ describing & expressing actions & information [1]
 
 🤓 discussion
 
-+ at https://github.com/ionify/ionify/discussions/categories/releases#discussions-list
++ at https://github.com/ionify/ionify/discussions/20#discussion_bucket
 
 
 [*] https://deal.ionify.net/
