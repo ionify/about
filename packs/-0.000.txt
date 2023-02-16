@@ -1,6 +1,6 @@
 🧬 ionify api's
        |
--      | fully gestating
+-      | truly gestating
  0     | pre-publication's
   .0   | zeroth  edition's
     00 | zeroth revision
@@ -16,8 +16,9 @@ describing & expressing actions & information [1]
 🌴 implementation
 
 + by 🙇🏾‍♂️ יהוה 🤲🏾 [*], mike🇬🇾👨🏾‍💻🇺🇸lee [2] & team✨ionify [3]
-+ at https://github.com/ionify/ionify/releases/tag/-0.000
-+ is https://github.com/ionify/ionify/compare/f1110811f6bf62a29a5ae59bc63e093e75f5e3da...-0.000
++ at https://github.com/ionify/ionify/tree/-0.000
+     from
+     https://github.com/ionify/ionify/compare/f1110811f6bf62a29a5ae59bc63e093e75f5e3da...-0.000
 
 
 🌱 progression [4]
