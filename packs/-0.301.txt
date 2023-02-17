@@ -16,24 +16,21 @@ runtime implementations of the ecmascript 2023's array.with proposal [4].
 🌴 implementation
 
 + by 🙇🏾‍♂️ יהוה 🤲🏾 [*], mike🇬🇾👨🏾‍💻🇺🇸lee [5] & team✨ionify [6]
-+ at -0.301 [7] from -0.300 [8]
++ at -0.301 https://github.com/ionify/ionify/tree/-0.301 from
+     -0.300 https://github.com/ionify/ionify/compare/-0.300...-0.301
 
 🧠 explanation
 
-+ at  -0.301: with@ ⛰ reliability [9]
++ at https://github.com/ionify/about/blob/public/packs/-0.301.md#-ionify-apis
 
 🤓 discussion
 
-+ at  -0.301: with@ ⛰ reliability [10]
++ at https://github.com/ionify/ionify/discussions/26#discussion_bucket
 
- [*] https://deal.ionify.net/
- [1] https://github.com/ionify/ionify/blob/-0.301/ions/with.js#L1
- [2] https://know.ionify.net/
- [3] https://github.com/ionify/ionify/issues/19#show_issue
- [4] https://github.com/tc39/proposal-change-array-by-copy#readme
- [5] https://mike.ionify.net/
- [6] https://team.ionify.net/
- [7] https://github.com/ionify/ionify/tree/-0.301
- [8] https://github.com/ionify/ionify/compare/-0.300...-0.301
- [9] https://github.com/ionify/about/blob/public/packs/-0.301.md#-ionify-apis
-[10] https://github.com/ionify/ionify/discussions/26#discussion_bucket
+[*] https://deal.ionify.net/
+[1] https://github.com/ionify/ionify/blob/-0.301/ions/with.js#L1
+[2] https://know.ionify.net/
+[3] https://github.com/ionify/ionify/issues/19#show_issue
+[4] https://github.com/tc39/proposal-change-array-by-copy#readme
+[5] https://mike.ionify.net/
+[6] https://team.ionify.net/

@@ -17,9 +17,8 @@ exploration of sim: semantic ion [2] members.
 🌴 implementation
 
 + by 🙇🏾‍♂️ יהוה 🤲🏾 [*], mike🇬🇾👨🏾‍💻🇺🇸lee [3] & team✨ionify [4]
-+ at https://github.com/ionify/ionify/tree/-0.101
-     from
-     https://github.com/ionify/ionify/compare/-0.100...-0.101
++ at -0.101 https://github.com/ionify/ionify/tree/-0.101 from
+     -0.100 https://github.com/ionify/ionify/compare/-0.100...-0.101
 
 
 🌱 progression
@@ -27,9 +26,9 @@ exploration of sim: semantic ion [2] members.
 + our God 🙇🏾‍♂️🎉 יהוה 🎊🤲🏾 created us & everything that enables our productions
   so we acclaim Him in all we produce.
 
-+ the ~on.has.is.id.do.no api explores
++ the ~on.has.is.id.do.no api [5] explores
 
-  + sensing ions [5] by their composition, specification@ & identification@,
+  + sensing ions [6] by their composition, specification@ & identification@,
     then reacting to & forgetting those sensation@s, and
 
   + sim: semantic ion members that encapsulate & encode ion members' information
@@ -38,12 +37,12 @@ exploration of sim: semantic ion [2] members.
 
 🧠 explanation
 
-+ at  https://github.com/ionify/about/blob/public/packs/-0.101.md#ionify-apis
++ at  https://github.com/ionify/about/blob/public/packs/-0.101.md#-ionify-apis
 
 
 🤓 discussion
 
-+ at  https://github.com/ionify/ionify/discussions/categories/releases#discussions-list
++ at  https://github.com/ionify/ionify/discussions/23#discussion_bucket
 
 
 [*] https://deal.ionify.net/
@@ -51,4 +50,5 @@ exploration of sim: semantic ion [2] members.
 [2] https://github.com/ionify/about/blob/public/LINGO.md#-sion
 [3] https://mike.ionify.net/
 [4] https://team.ionify.net/
-[5] https://know.ionify.net/
+[5] https://github.com/ionify/ionify/blob/-0.101/ions/on.do.js#L1
+[6] https://know.ionify.net/
