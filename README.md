@@ -53,7 +53,7 @@ by [**michael 👨🏾‍💻 lee**][🇬🇾👨🏾‍💻🇺🇸].
 [**ionified**](https://github.com/ionified/)
 **orgs** are
 [**licensed**][🙇🏾‍♂️ יהוה 🤲🏾]
-**& copyright &copy; 2007-2023** [**michael lee**][🇬🇾👨🏾‍💻🇺🇸] unless otherwise stated.
+**& copyright &copy; 2007-2024** [**michael lee**][🇬🇾👨🏾‍💻🇺🇸] unless otherwise stated.
 
 ####
 
