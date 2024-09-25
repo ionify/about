@@ -51,7 +51,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 
   + #### 🤩 recognition
 
-    + **recogni**zed-**t**erminology **i**on
+    + **recogni**zed-**t**erminology [**ion**](#%EF%B8%8E-ion)
     + recognized-terminology via regular-expression invocation
 
       ```js
