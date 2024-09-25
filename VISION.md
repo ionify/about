@@ -123,8 +123,8 @@ observable actions & information with detailed attribute descriptions:
 
 + [**stories**: stated text of recognition expressions](ions/stories.md#stories),
   express code as words within
-  [**recognitions**: recognizing ions](ions/stories.md#stories),
-  regular-expression invocations:
+  [**recognitions**: recognized-terminology ions](ions/stories.md#stories),
+  which are regular-expression invocations:
 
   ```javascript
   ~/ each word means & does something /

@@ -9,7 +9,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
   actions & information, that humans & software
   [naturally ❦ understand](VISION.md#vision)
 + it provides apis with concise & flexible vocabulary for defining, acquiring,
-  sensing, composing & interacting with [**ions**](#%EF%B8%8E-ion)
+  sensing, composing & interacting with [**ions**](#%EF%B8%8E-ion) via the **ionosphere**
 
   ```js
   ~ { get: 'ionify@ionify.net' }
@@ -39,7 +39,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
   + #### [😎 emoji](https://ionified.github.io/anemojii-ions.iskitz.net/)
 
     + **emoj**i [**i**on](#%EF%B8%8E-ion)
-    + emoji created via [literal ions](#-lion)
+    + emoji produced via [literal ions](#-lion)
 
       ```js
          ~   ~
@@ -51,17 +51,17 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 
   + #### 🤩 recognition
 
-    + **recogn**izing **i**on
-    + regular-expression invocation
+    + **recogni**zed-**t**erminology **i**on
+    + recognized-terminology via regular-expression invocation
 
       ```js
-      ~ /recognition of (these) two (words)/
+      ~ /recognition of (these) (three) (terms)/
       ```
 
 + ### [💫 orion](ions/ion.md#form)
 
-  + **o**bject **r**eference [**ion**](#%EF%B8%8E-ion)
-  + object reference invoked via its identifier
+  + **o**bject-**r**eference [**ion**](#%EF%B8%8E-ion)
+  + object-reference invocation via its identifier
 
     ```js
     ~ orion
