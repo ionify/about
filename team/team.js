@@ -5,12 +5,12 @@
     , as: {team:-0.001, am:-0.001}
     , by: ['🙇🏾‍♂️יהוה🤲🏾','mike.🇬🇾👨🏾‍💻🇺🇸.lee','team✨ionify']
     , on: -4.200709
-    , to: -8.20221114
-    , at: -0.09
+    , to: -7.202410094
+    , at: -0.10
     , is:
         [ "the attribution module for team✨ionify"
         , "the team inventing, optimized natural interfaces for you"
-        , "to inspire novel, simple, performant, intuitive & reliable"
+        , "to inspire natural, simple, performant, intuitive & reliable"
         , "experiences."
         ]
     }
