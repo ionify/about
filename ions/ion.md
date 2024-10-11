@@ -34,9 +34,11 @@ or
 [regular expression](https://262.ecma-international.org/6.0/#sec-literals-regular-expression-literals)
 literals in [javascript](#javascript), or
 [references](https://262.ecma-international.org/6.0/#sec-reference-specification-type)
-in **javascript** and other languages.
+in **javascript** and other languages:
 
-**ion** can be expressed as [**lion**](lions.md#lions), literal ion:
+### lion
+
+**ion** can be expressed as [**lion**: literal ion](lions.md#lions):
 
 ```javascript
 ~{ }      +{ }      -{ }     // 3 object lions
@@ -44,7 +46,9 @@ in **javascript** and other languages.
 ~/ /      +/ /      -/ /     // 3 regular-expression lions
 ```
 
-and **orion**, object reference ion:
+### orion
+
+**ion** can be expressed as **orion**: object reference ion:
 
 ```javascript
 ~obj      +obj      -obj     // 3 prefixed orion
@@ -139,7 +143,7 @@ conversion whenever it's expressed with an [operator](#punctuation):
 ~
 { valueOf:
     function hip ()
-      { console.log ("💃🏿 hip: handled-in-place")
+      { console.log ("💃🏿hip: handled-in-place")
       }
 }
 ```
@@ -154,7 +158,7 @@ of all objects sharing that `prototype` whenever they're expressed with an
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ('🕺🏿 hop: handled-on-prototype') /*\
+    { console.log ('🕺🏿hop: handled-on-prototype') /*\
     | enables observing all invoked objects except  |
     | BigInts, Booleans, Dates, Numbers, Strings,   |
     | Symbols & any others that implement their own |
@@ -224,7 +228,7 @@ that's then converted to a number.
 
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with javascript objects' type conversion flow. that then
-enables interacting with **all** **ions** without needing access to any of their
+enables interacting with **all** **ions** without needing access to **any** of their
 [identifiers](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
 🤓
 
@@ -247,8 +251,8 @@ shown, or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible & unobtrusive natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & provides vocabulary for: **ion** observation, notification &
-implementation, for you.
+that implements & shares vocabulary for: **ion** observation, notation &
+interaction, for you.
 
 ### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
