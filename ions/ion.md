@@ -122,12 +122,14 @@ in multiple languages.
 
 ### [javascript](https://262.ecma-international.org/6.0/#sec-overview)
 
-enables **ion** via **hip-hop** operator overloading of the `valueOf()` & `toString()`
+enables **ion** via **[hip](#hip)-[hop](#hop)** operator overloading of the `valueOf()` & `toString()`
 methods [invoked](https://262.ecma-international.org/6.0/#sec-toprimitive)
 during an
 [object's](https://262.ecma-international.org/6.0/#sec-object-type)
 [conversion](https://en.wikipedia.org/wiki/Type_conversion)
-to a [basic value](https://en.wikipedia.org/wiki/Primitive_value).
+to a [basic value](https://en.wikipedia.org/wiki/Primitive_value):
+
+#### hip
 
 **hip: handled-in-place** operator overloading implements the `valueOf()`
 method within an object, which enables observing that single object's type
@@ -137,10 +139,12 @@ conversion whenever it's expressed with an [operator](#punctuation):
 ~
 { valueOf:
     function hip ()
-      { console.log ("hip: handled-in-place")
+      { console.log ("💃🏿 hip: handled-in-place")
       }
 }
 ```
+
+#### hop
 
 **hop: handled-on-prototype** operator overloading implements the `valueOf()`
 method on a `prototype` object, which enables observing the type conversions
@@ -150,7 +154,7 @@ of all objects sharing that `prototype` whenever they're expressed with an
 ```javascript
 Object.prototype.valueOf
 = function hop ()
-    { console.log ('hop: handled-on-prototype')    /*\
+    { console.log ('🕺🏿 hop: handled-on-prototype') /*\
     | enables observing all invoked objects except  |
     | BigInts, Booleans, Dates, Numbers, Strings,   |
     | Symbols & any others that implement their own |
@@ -160,7 +164,7 @@ Object.prototype.valueOf
 ~ { hello : "👋🏾👨🏾‍💻world"}
 ```
 
-**hip-hop** operator overloading the `valueOf()` method enables expressing &
+**[hip](#hip)-[hop](#hop)** operator overloading the `valueOf()` method enables expressing &
 [punctuating](#punctuation)
 **ions** with these arithmetic, bitwise, relational & equality operators:
 
@@ -173,7 +177,7 @@ Object.prototype.valueOf
 <     17      == / compatible/  !=  "operators!"
 ```
 
-**hip-hop** operator overloading the `toString()` method enables expressing sentences &
+**[hip](#hip)-[hop](#hop)** operator overloading the `toString()` method enables expressing sentences &
 phrases with **ions** punctuated by the `+` operator, but overloading the `valueOf()`
 method enables even more [punctuation](#punctuation), and since it's less likely than
 `toString()` to be otherwise overloaded and-or invoked, overloading `toString()` is **not**
@@ -199,13 +203,16 @@ var   you = {say:'do you see all the things'}
 
 #### flow
 
-during **hip-hop** operator overloading, an attempt is made to
+during **[hip](#hip)-[hop](#hop)** operator overloading, an attempt is made to
 [convert an **ion's** object operand to a number](https://262.ecma-international.org/6.0/#sec-toprimitive).
 that conversion attempts to invoke the object operand's `valueOf()` method. if the **ion**
 doesn't define that method, javascript searches for it along the **ion's**
-[prototype path](https://262.ecma-international.org/6.0/#sec-objects).
-for [**lions**](#form) that search begins & ends at their
-`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`. for
+[prototype path](https://262.ecma-international.org/6.0/#sec-objects):
+
++ for [**lions**](#form) that search begins & ends at their
+`prototype`; i.e. `Object.prototype`, `Array.prototype` or `RegExp.prototype`,
+
++ for
 [**orion**](#form) the search may end similarly but begin with the **ion's** inherited
 object.
 
@@ -217,7 +224,7 @@ that's then converted to a number.
 
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with javascript objects' type conversion flow. that then
-enables interacting with all **ions** without needing access to any of their
+enables interacting with **all** **ions** without needing access to any of their
 [identifiers](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
 🤓
 
@@ -234,14 +241,14 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-javascript's **hip-hop** operator overloading is a simple & reliable pattern for
+javascript's **[hip](#hip)-[hop](#hop)** operator overloading is a simple & reliable pattern for
 enabling **ion** observation & notification. it can be implemented manually, as
 shown, or via
 [**ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible & unobtrusive natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
 that implements & provides vocabulary for: **ion** observation, notification &
-interaction, for you.
+implementation, for you.
 
 ### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
@@ -268,7 +275,7 @@ class AnION
         { ion == "some data";  // true on invoke   ion!
           ion == "more data";  // true on these    ion!
           any == "data kind";  // true on ions     ion!
-          return ion || any ;  // or do something else!
+          return ion || any ;  // or do something more!
         }
   }
 
@@ -339,17 +346,18 @@ operators.
 ## compatibility
 
 [**orion**](#form) & [**hip-hop**](#function)
-operator overloading are compatible with all javascript environments.
-[**lion**](#form) is compatible with all environments implementing
-[any edition of the ecmascript specification][⭐️]
-since
+operator overloading are **compatible with all** javascript environments.
+
+[**lion**](#form) is **compatible with all** environments implementing
+[**any** edition of the ecmascript specification][⭐️]
+**since**
 [1999](https://web.archive.org/web/20221220010935/https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf).
 
 [javascript][✨]
-environments include all
+environments include **all**
 [web browsers](https://en.wikipedia.org/wiki/Web_browser), web views &
 [runtimes](http://en.wikipedia.org/wiki/JavaScript_engine) implementing
-[any ecmascript specification][⭐️].
+[**any** ecmascript specification][⭐️].
 
 ####
 
