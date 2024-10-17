@@ -3,8 +3,8 @@
 **jewels** are **json-expressed web languages**:
 
 ```javascript
-  ~ {"as":"html",  "body": "hi!"}
-  & {"as":"css" , "#body": {"color":"#212CD9"}}
+  ~ {"re": {"as":"html"},  "body": "hi!"}
+  & {"re": {"as":"css" }, "#body": {"color":"#212CD9"}}
   ;
 ```
 ####

@@ -140,8 +140,8 @@ key terms that name & convey **[ionify](#-ionify)** concepts
     + **j**son-**e**xpressed **we**b **l**anguage
 
       ```js
-      ~ {"as":"html", "body": "hi!"}
-      ~ {"as":"css" ,"#body":{"color":"#000"}}
+      ~ {"re": {"as":"html"},  "body": "hi!"}
+      ~ {"re": {"as":"css" }, "#body":{"color":"#000"}}
       ```
 
 + ### [code as prose](http://captions.ionify.net)

@@ -57,7 +57,7 @@ literals:
       , "is": "a json-expressed module"
       , "by": "mike.🇬🇾👨🏾‍💻🇺🇸.lee@iskitz"
       , "on": -4.200709
-      , "to": -8.20221114
+      , "to": -7.202410094
       , "in":
             [    "queens-county.new-york.usa.earth"
             , "silicon-valley.california.usa.earth"
@@ -66,8 +66,8 @@ literals:
 
   "do":
       [  "an aesop action"
-      , {"+" :"do.it"}
-      , {"if":"do.it", "<":7, "do":"do"}
+      , {"++": "do.it"}
+      , {"if":" do.it", "<":7, "do":"do"}
       ],
 
   "an aesop action":
@@ -82,7 +82,7 @@ literals:
 **json-expressed stylesheets**:
 
 ```javascript
-~ {"as":"css", "#body": {"color":"#212CD9"}} ;
+~ {"re": {"as":"css"}, "#body": {"color":"#212CD9"}} ;
 ```
 
 ## [jewels](jewels.md#jewels)
@@ -90,8 +90,8 @@ literals:
 **json-expressed web languages**:
 
 ```javascript
-~ {"as":"html",  "body": "hi!"}
-& {"as":"css" , "#body": {"color":"#212CD9"}}
+~ {"re": {"as":"html"},  "body": "hi!"}
+& {"re": {"as":"css" }, "#body": {"color":"#212CD9"}}
 ;
 ```
 
