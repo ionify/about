@@ -1,7 +1,8 @@
 # [🧬 ionify](https://ionify.net/)
 
-is a flexible & unobtrusive, natural-language api, for expressing actions &
-information, that humans & software [naturally ❦ understand](VISION.md#vision).
+is a flexible & unobtrusive, natural-language api,
+for expressing [actions & information](//talk.ionify.net),
+that humans & software [naturally ❦ understand](VISION.md#vision).
 
 ## how
 
@@ -15,9 +16,9 @@ with actions & information as, software-defined, observable & encapsulated,
 & ["natural language"] <= /text information/
 ```
 
-[**ionify**][why] provides concise & flexible
-[vocabulary](https://talk.ionify.net/),
-for defining, acquiring, sensing, composing & interacting with [**ions**][⚛️].
+[**ionify**][why] provides concise & flexible vocabulary,
+for defining, acquiring, sensing, composing & interacting with
+[**ions**][⚛️].
 
 ## where
 
