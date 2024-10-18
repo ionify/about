@@ -79,7 +79,7 @@ observable actions & information with detailed attribute descriptions:
       go:
         { meet: 'https://meet.ionify.net/'
         , seek: 'https://seek.ionify.net/'
-        , know: 'https://seek.ionify.net/'
+        , know: 'https://know.ionify.net/'
         , deal: 'https://deal.ionify.net/'
         }
     },
