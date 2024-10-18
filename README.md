@@ -16,7 +16,8 @@ with actions & information as, software-defined, observable & encapsulated,
 & ["natural language"] <= /text information/
 ```
 
-[**ionify**][why] provides concise & flexible vocabulary,
+[**ionify**][why] provides concise & flexible
+[vocabulary](LINGO.md#-sion),
 for defining, acquiring, sensing, composing & interacting with
 [**ions**][⚛️].
 

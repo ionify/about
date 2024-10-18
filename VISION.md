@@ -89,8 +89,9 @@ observable actions & information with detailed attribute descriptions:
 
 ### [ionify](https://meet.ionify.net/)
 
-**🧬 ion implemented for you**, enables defining, acquiring, sensing & interacting with
-[**⚛️ ions**](#ion):
+**🧬 ion implemented for you**, enables defining, acquiring,
+sensing & interacting with [**⚛️ ions**](#ion)
+via concise & flexible [vocabulary](LINGO.md#-sion):
 
 ```javascript
 ~
