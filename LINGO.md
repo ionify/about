@@ -79,7 +79,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
         , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
         , on: {2007_09.2      : -4}
         , to: {5784_07_12_6.1 : -7}
-        , at: -0.301
+        , at: -0.302
         , is:
             [ "the 🌱 semantic ion: invoked object notation"
             , "definition of an observable, attributed,"
@@ -87,11 +87,11 @@ key terms that name & convey **[ionify](#-ionify)** concepts
             , "that aid its internet & local discovery"
             ],
           im:
-            ['identification',  'invocation', 'association'
-            ,      'location', 'attribution',  'annotation'
-            , 'specification',  'connection',    'occasion'
-            ,       'version', 'description', 'information'
-            ,'classification',      'action',  'exhibition'
+            [    'exhibition', 'information',  'invocation'
+            ,'identification', 'association',    'location'
+            , 'specification',  'connection', 'attribution'
+            ,      'occasion',     'version', 'description'
+            ,'classification',  'annotation', 'instruction'
             ],
           we:
             [ "hope you'll enjoy applying sion to share &"

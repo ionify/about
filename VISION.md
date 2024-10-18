@@ -1,7 +1,8 @@
 
 # vision
 
-seamlessly share actions & information as software
+seamlessly share [actions & information](//talk.ionify.net)
+as software
 
 + **visually**: colors, drawings, pictures & video
 
@@ -14,7 +15,7 @@ seamlessly share actions & information as software
 ## how
 
 via well-defined, discoverable, accessible & observable
-[**ions**](#ion):
+[**⚛️ ions**](#ion):
 
 ```js
 seamlessly share actions & information
@@ -43,7 +44,7 @@ ionify: ion implemented for you :ionify
 
 ### [ion](ions/ion.md#ion)
 
-**invoked object notation** enables defining discoverable, accessible &
+**⚛️ invoked object notation** enables defining discoverable, accessible &
 observable actions & information with detailed attribute descriptions:
 
 ```javascript
@@ -54,8 +55,8 @@ observable actions & information with detailed attribute descriptions:
     , as:  'a.specified.thing'
     , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
     , on: {2007_09.2      : -4}
-    , to: {5783_11_22_2.1 : -8}
-    , at: -0.700
+    , to: {5784_07_12_6.1 : -7}
+    , at: -0.701
     , is:
         [ "implementing the ⚛️ ion: invoked object notation"
         , "definition of an observable, attributed, specified &"
@@ -63,11 +64,11 @@ observable actions & information with detailed attribute descriptions:
         , "internet & local discovery"
         ],
       im:
-        ['identification',  'invocation', 'association'
-        ,      'location', 'attribution',  'annotation'
-        , 'specification',  'connection',    'occasion'
-        ,       'version', 'description', 'information'
-        ,'classification',      'action',  'exhibition'
+        [        'action',    'adoption',  'invocation'
+        ,'identification', 'association',    'location'
+        , 'specification',  'connection', 'attribution'
+        ,      'occasion',     'version', 'description'
+        ,'classification',  'annotation', 'instruction'
         ],
       we:
         [ "hope you'll enjoy applying ion to share &"
@@ -78,6 +79,7 @@ observable actions & information with detailed attribute descriptions:
       go:
         { meet: 'https://meet.ionify.net/'
         , seek: 'https://seek.ionify.net/'
+        , know: 'https://seek.ionify.net/'
         , deal: 'https://deal.ionify.net/'
         }
     },
@@ -87,22 +89,23 @@ observable actions & information with detailed attribute descriptions:
 
 ### [ionify](https://meet.ionify.net/)
 
-**ion implemented for you**, enables defining, acquiring, sensing & interacting with
-[**ions**](#ion):
+**🧬 ion implemented for you**, enables defining, acquiring, sensing & interacting with
+[**⚛️ ions**](#ion):
 
 ```javascript
 ~
-{ on:'my' ,
+{ on: 'my',
   my( ion )
     {
     + {log: ion.my}
     }
 }
-
 &
 { get: 'my.ion@ionified.net'}
+```
 
-^
+```javascript
+~
 { re: {id:'my.ion@ionified.net'}
 , my: "ion definition @ domain"
 }
@@ -112,26 +115,26 @@ observable actions & information with detailed attribute descriptions:
 
   code expressed as natural-language prose:
 
-+ [**captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/production/README.md#code-as-prose),
++ [**📝 captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/production/README.md#code-as-prose),
   express code as words, via
-  [object-reference](LINGO.md#orion) [ions](#ion),
+  [💫 object-reference](LINGO.md#orion) [⚛️ ions](#ion),
   punctuated by mathematical and-or comparison operators:
 
   ```javascript
   each - word - means & does - something
   ```
 
-+ [**stories**: stated text of recognition expressions](ions/stories.md#stories),
++ [**📖 stories**: stated text of recognition expressions](ions/stories.md#stories),
   express code as words within
-  [**recognitions**: recognized-terminology ions](ions/stories.md#stories),
+  [**🤩 recognitions**: recognized-terminology ions](ions/stories.md#stories),
   which are regular-expression invocations:
 
   ```javascript
   ~/ each word means & does something /
   ```
 
-+ [**aesops**: array-expressed stories or phrases](ions/aesop.md#aesop),
-  express code as one or more [**stories**](ions/stories.md#stories),
++ [**📜 aesop**: array-expressed stories or phrases](ions/aesop.md#aesop),
+  express code as one or more [**📖 stories**](ions/stories.md#stories),
   or phrases, within array invocations:
 
   ```javascript
@@ -141,9 +144,9 @@ observable actions & information with detailed attribute descriptions:
 
 ### [ionified](https://ionified.net/)
 
-**ions indexed for internet-enabled discovery**, is a directory of
-internet-discoverable **ions** that can be queried with [**ionify**](#ionify) to discover & verify
-[**ions**](#ion).
+**🎁 ions indexed for internet-enabled discovery**, is a directory of
+internet-discoverable **ions** that can be queried with [**🧬 ionify**](#ionify) to discover & verify
+[**⚛️ ions**](#ion).
 
 ####
 
