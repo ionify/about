@@ -10,14 +10,14 @@ with actions & information as, software-defined, observable & encapsulated,
 [**⚛︎ ions**: invoked object notations][⚛️]:
 
 ```javascript
-~ {   log  : '👋🏾👨🏾‍💻' } <= /do transcription/
+~ {   log  : '👋🏾👨🏾‍💻'  } <= /do transcription/
 + { "json" : "data"  } <= /json information/
 & ["natural language"] <= /text information/
 ```
 
-[**🧬 ionify**][why] provides concise & flexible
+[**ionify**][why] provides concise & flexible
 [vocabulary](https://talk.ionify.net/),
-for defining, acquiring, sensing, composing & interacting with [**⚛️ ions**][⚛️].
+for defining, acquiring, sensing, composing & interacting with [**ions**][⚛️].
 
 ## where
 
@@ -33,7 +33,7 @@ verified via **🧬 ionify** & the internet. these are a few:
 
 + **[🇯🇵 wakatta: わかった](https://wakatta.iskitz.net/)**,
   is a japanese-language-skills game created via **ion** to
-  exercise & guide **🧬 ionify’s** api
+  exercise & guide **ionify’s** api
 
 + discover more @ [**ionified.net**][🎁]
 
