@@ -9,10 +9,10 @@ key terms that name & convey **[ionify](#-ionify)** concepts
   actions & information, that humans & software
   [naturally ❦ understand](VISION.md#vision)
 + it provides apis with concise & flexible vocabulary for defining, acquiring,
-  sensing, composing & interacting with [**ions**](#%EF%B8%8E-ion) via the **ionosphere**
+  sensing, composing & interacting with [**⚛️ ions**](#%EF%B8%8E-ion) via the [**✨ ionosphere**](#-ionosphere)
 
   ```js
-  ~ { get: 'ionify@ionify.net' }
+  ~ { get: 'ions@ionify.net' }
   ```
 
 ## ✨ ionosphere
@@ -78,8 +78,8 @@ key terms that name & convey **[ionify](#-ionify)** concepts
         , as: 'sion'
         , by: ['🙇🏾‍♂️ יהוה 🤲🏾','mike🇬🇾👨🏾‍💻🇺🇸lee','team✨ionify']
         , on: {2007_09.2      : -4}
-        , to: {5783_11_22_2.1 : -8}
-        , at: -0.300
+        , to: {5784_07_12_6.1 : -7}
+        , at: -0.301
         , is:
             [ "the 🌱 semantic ion: invoked object notation"
             , "definition of an observable, attributed,"
@@ -102,6 +102,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
           go:
             { meet: 'https://meet.ionify.net/'
             , seek: 'https://seek.ionify.net/'
+            , know: 'https://know.ionify.net/'
             , deal: 'https://deal.ionify.net/'
             }
         }
@@ -164,7 +165,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       ~/ each word means & does something /
       ```
 
-  + [**📜 aesops**](LINGO.md#aesop)
+  + [**📜 aesop**](ions/aesop.md#aesop)
 
     + **a**rray-**e**xpressed **s**tories **o**r **p**hrases
 
