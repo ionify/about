@@ -55,7 +55,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
     + recognized-terminology via regular-expression invocation
 
       ```js
-      ~ /recognition of (these) (three) (terms)/
+      ~ /(recognition) (of) (these) (five) (terms)/
       ```
 
 + ### [💫 orion](ions/ion.md#form)
