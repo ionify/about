@@ -117,7 +117,7 @@ via concise & flexible [vocabulary](LINGO.md#-sion):
   code expressed as natural-language prose:
 
 + [**📝 captions**: code-as-prose terminology ions](https://github.com/ionify/ionify/blob/production/README.md#code-as-prose),
-  express code as words, via
+  express code as actionable words, via
   [💫 object-reference](LINGO.md#orion) [⚛️ ions](#ion),
   punctuated by mathematical and-or comparison operators:
 
@@ -126,7 +126,7 @@ via concise & flexible [vocabulary](LINGO.md#-sion):
   ```
 
 + [**📖 stories**: stated text of recognition expressions](ions/stories.md#stories),
-  express code as words within
+  express code as actionable words within
   [**🤩 recognitions**: recognized-terminology ions](ions/stories.md#stories),
   which are regular-expression invocations:
 
@@ -135,7 +135,8 @@ via concise & flexible [vocabulary](LINGO.md#-sion):
   ```
 
 + [**📜 aesop**: array-expressed stories or phrases](ions/aesop.md#aesop),
-  express code as one or more [**📖 stories**](ions/stories.md#stories),
+  express code as one or more actionable
+  [**📖 stories**](ions/stories.md#stories),
   or phrases, within array invocations:
 
   ```javascript
