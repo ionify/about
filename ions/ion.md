@@ -237,9 +237,8 @@ that's then converted to a number.
 
 defining custom `Object`, `Array` & `RegExp` `prototype.valueOf()` methods
 enables interfacing with javascript objects' type conversion flow. that then
-enables interacting with **all** **⚛️ ions** without needing access to **any** of their
+enables interacting with✨**all** **⚛️ ions** without needing access to **any** of their
 [identifiers](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
-✨
 
 ```javascript
 Object.prototype.valueOf
@@ -262,8 +261,9 @@ it can be ad-hoc-implemented, as shown, or applied via
 [**🧬 ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible & unobtrusive natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & shares vocabulary for:
-**⚛️ ion** observation, notation & interaction, for you.
+that implements & shares intuitive & concise vocabulary for:
+**⚛️ ion** observation, notation & interaction,
+[for you](../LICENSE.txt#L1).
 
 ### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
