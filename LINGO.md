@@ -174,29 +174,50 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       +[" each word means & does something "]
       ```
 
-## 🚫 notion
++ ### 📑 elaboration
 
-+ **not, [ion](#%EF%B8%8E-ion)**: **i**nvoked **o**bject **n**otation
-+ any, **not-i**nvoked-**o**bject **n**otation
+  + **elaborat**e express**ion**
+  + **elaborations** are formed by combining
+    [**ions**](#%EF%B8%8E-ion) with
+    [arithmetic](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
+    [bitwise](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
+    [relational](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators),
+    [equality](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
+    & other
+    [invocation operators](ions/ion.md#punctuation):
 
-      ```javascript
-      /  notion  🚫 /
-      [ {notion:'🚫'}
-      , "notion  🚫"
-      ]
-      ```
+    ```javascript
+    ~  /example/  -  /elaboration/
+    ^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
+    *  ["these"]  +  /expressions/  <<  {are:"too" }
+    /  ["write"]  %  /them as you/  |   {see:"fit" }
+    >  ["using"]  >= /  any of   /  <=  [  "these" ]
+    <     17      == /invocation /  !=  "operators!"
+    ```
 
 ## 🪨 ore
 
 + **o**bject-**r**eference **e**xpression
 + any [expression](//262.ecma-international.org/6.0/#sec-ecmascript-language-expressions)
-  referencing one or more objects
+  referencing one or more objects &
 + may include [**ions**](#%EF%B8%8E-ion) and-or [**notions**](#-notion) 
 
-      ```javascript
-      notion && {'🚫' :'notion'} || ["🚫 notion", ["🚫 notions"]
-      ~orion  & {'🦁' :  'lion’}  | ["📜  aesop",  /📖 stories/]
-      ```
+  ```javascript
+  ~orion  & {'🦁' :  'lion'}  | ["📜  aesop",  /📖 stories/ ]
+  notion && {'🚫' :'notion'} || ["🚫 notion", ["🚫 notions"]]
+  ```
+
+## 🚫 notion
+
++ **not, [ion](#%EF%B8%8E-ion)**:**i**nvoked **o**bject **n**otation
++ any, **not-i**nvoked-**o**bject **n**otation
+
+  ```javascript
+  /  notion  🚫 /
+  [ {notion:'🚫'}
+  , "notion  🚫"
+  ]
+  ```
 
 ## [operator ⚙️ overloading](ions/ion.md#function)
 
