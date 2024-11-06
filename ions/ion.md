@@ -10,7 +10,7 @@ encapsulated software objects:
 ```
 
 **ion** was [discovered, defined & developed](https://origin.ionify.net/)
-by **[👨🏾‍💻 michael lee](https://github.com/iskitz)**
+by **[👨🏾‍💻 michael lee 👨🏾‍💻](https://github.com/iskitz)**
 in 2007, and exists & can be implemented within
 [🏝️ procedural](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Procedural_languages)
 [operator overloading languages](https://en.wikipedia.org/wiki/Operator_overloading).
@@ -47,18 +47,19 @@ in **javascript** and other languages:
 
 ### orion
 
-**ion** can be expressed as **💫 orion**: object reference **ion**:
+**ion** can be expressed as **💫 orion**: object-reference **ion**:
 
 ```javascript
 ~obj      +obj      -obj     // 3 prefixed orion
 ```
 
 **orion** can also be expressed with the
-[++](https://262.ecma-international.org/6.0/#sec-prefix-increment-operator)
+
++ [++](https://262.ecma-international.org/6.0/#sec-prefix-increment-operator)
 and
-[-- prefix operators](https://262.ecma-international.org/6.0/#sec-prefix-decrement-operator),
-and the
-[++](https://262.ecma-international.org/6.0/#sec-postfix-increment-operator)
+[-- prefix operators](https://262.ecma-international.org/6.0/#sec-prefix-decrement-operator)
+&
++ [++](https://262.ecma-international.org/6.0/#sec-postfix-increment-operator)
 and
 [-- postfix operators](https://262.ecma-international.org/6.0/#sec-postfix-decrement-operator):
 
@@ -69,24 +70,28 @@ and
 
 ### punctuation
 
-**ions** can be combined to form larger expressions via
+**ions** can be combined to form
+[**elaborations**: elaborate expressions](../LINGO.md#-elaboration),
+via
 [arithmetic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
 [bitwise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
 [relational](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators)
 &
 [equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
-operator punctuation.
+invocation-operator punctuation.
 
-this example combines fifteen **🦁 lions** with seventeen **⚛️ ion**-compatible bitwise,
-arithmetic, relational & equality punctuation operators:
+this example combines
+fifteen **🦁 lions** with
+seventeen **⚛️ ion**-compatible
+bitwise, arithmetic, relational & equality invocation operators:
 
 ```javascript
-~  /example/  -  /punctuation/
+~  /example/  -  /elaboration/
 ^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
 *  ["these"]  +  /expressions/  <<  {are:"too" }
 /  ["write"]  %  /them as you/  |   {see:"fit" }
 >  ["using"]  >= /  any of   /  <=  [  "these" ]
-<     17      == / compatible/  !=  "operators!"
+<     17      == /invocation /  !=  "operators!"
 ```
 
 as shown
@@ -97,7 +102,7 @@ as shown
 [*](https://262.ecma-international.org/6.0/#sec-applying-the-mul-operator),
 [/](https://262.ecma-international.org/6.0/#sec-applying-the-div-operator), or
 [%](https://262.ecma-international.org/6.0/#sec-applying-the-mod-operator)
-operators,
+invocation operators,
 
 + bitwise punctuation can be any of the
 [&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND),
@@ -106,15 +111,15 @@ operators,
 [^](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR),
 [<<](https://262.ecma-international.org/6.0/#sec-left-shift-operator), or
 [\>>](https://262.ecma-international.org/6.0/#sec-signed-right-shift-operator)
-operators,
+invocation operators,
 
 + relational punctuation can be any of the
 [&gt;, &gt;=, <, or <=](https://262.ecma-international.org/6.0/#sec-relational-operators-runtime-semantics-evaluation)
-operators,
+invocation operators,
 
 + and equality punctuation can be the
 [== or !=](https://262.ecma-international.org/6.0/#sec-equality-operators-runtime-semantics-evaluation)
-equality operators when comparing **⚛️ ions** with
+equality invocation operators when comparing **⚛️ ions** with
 [basic values](https://en.m.wikipedia.org/wiki/Primitive_value).
 
 ## function
@@ -136,7 +141,7 @@ to a [basic value](https://en.wikipedia.org/wiki/Primitive_value):
 
 **hip: handled-in-place** operator overloading implements the `valueOf()`
 method within an object, which enables observing that single object's type
-conversion whenever it's expressed with an [operator](#punctuation):
+conversion whenever it's expressed with an [invocation operator](#punctuation):
 
 ```javascript
 ~
@@ -152,7 +157,7 @@ conversion whenever it's expressed with an [operator](#punctuation):
 **hop: handled-on-prototype** operator overloading implements the `valueOf()`
 method on a `prototype` object, which enables observing the type conversions
 of all objects sharing that `prototype` whenever they're expressed with an
-[operator](#punctuation):
+[invocation operator](#punctuation):
 
 ```javascript
 Object.prototype.valueOf
@@ -167,24 +172,29 @@ Object.prototype.valueOf
 ~ { hello : "👋🏾👨🏾‍💻world"}
 ```
 
-**[hip](#hip)-[hop](#hop)** operator overloading the `valueOf()` method enables expressing &
+**[hip](#hip)-[hop](#hop)**
+operator overloading the `valueOf()` method enables expressing &
 [punctuating](#punctuation)
-**ions** with these arithmetic, bitwise, relational & equality operators:
+**ions** with these arithmetic, bitwise, relational & equality
+[invocation operators](#punctuation):
 
 ```javascript
-~  /example/  -  /punctuation/
+~  /example/  -  /elaboration/
 ^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
 *  ["these"]  +  /expressions/  <<  {are:"too" }
 /  ["write"]  %  /them as you/  |   {see:"fit" }
 >  ["using"]  >= /  any of   /  <=  [  "these" ]
-<     17      == / compatible/  !=  "operators!"
+<     17      == /invocation /  !=  "operators!"
 ```
 
-**[hip](#hip)-[hop](#hop)** operator overloading the `toString()` method enables expressing sentences &
-phrases with **⚛️ ions** punctuated by the `+` operator, but overloading the `valueOf()`
-method enables even more [punctuation](#punctuation), and since it's less likely than
-`toString()` to be otherwise overloaded and-or invoked, overloading `toString()` is **not**
-recommended:
+**[hip](#hip)-[hop](#hop)** operator overloading
+the `toString()` method enables expressing sentences & phrases
+with **⚛️ ions** punctuated by the `+` invocation operator,
+but overloading the `valueOf()` method enables even more
+[punctuation](#punctuation), and since it's
+less likely than `toString()` to be otherwise
+overloaded and-or invoked,
+overloading `toString()` is **not** recommended:
 
 ```javascript
 Object.prototype.valueOf // vs .toString
@@ -244,14 +254,16 @@ Object.prototype.valueOf
 - {any:"data kind"}  // 3rd ion
 ```
 
-javascript's **[💃🏿 hip](#hip)-[hop 🕺🏿](#hop)** operator overloading is a simple & reliable pattern for
-enabling **ion** observation & notification. it can be implemented manually, as
-shown, or via
+javascript's
+**[💃🏿 hip](#hip)-[hop 🕺🏿](#hop)** operator overloading
+is a simple & reliable pattern for enabling
+**ion** observation & notification.
+it can be ad-hoc-implemented, as shown, or applied via
 [**🧬 ionify**: invoked object notation implemented for you](http://api.ionify.net/),
 a flexible & unobtrusive natural-language
 [api](https://en.wikipedia.org/wiki/Application_programming_interface)
-that implements & shares vocabulary for: **⚛️ ion** observation, notation &
-interaction, for you.
+that implements & shares vocabulary for:
+**⚛️ ion** observation, notation & interaction, for you.
 
 ### [java](https://en.wikipedia.org/wiki/Java_(programming_language))
 
@@ -343,8 +355,9 @@ print (ion)
 
 [enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 [**💫 orion**](#form)
-via procedural operator overloading of arithmetic, bitwise, relational & equality
-operators.
+via procedural operator overloading of
+arithmetic, bitwise, relational & equality
+[invocation operators](#punctuation).
 
 ## compatibility
 
