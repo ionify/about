@@ -28,7 +28,7 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 + it presents these modules as objects, combined with mathematical operators, that invoke
   their composition, observation & interaction
 
-+ ### [🦁 lion](ions/lions.md#lions)
++ ### [🦁 lion](ions/ion.md#ion)
 
   + **l**iteral **ion**
 
@@ -172,6 +172,30 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       ```javascript
       ~[/ each word means & does something /]
       +[" each word means & does something "]
+      ```
+
+## 🚫 notion
+
++ **not, [ion](#%EF%B8%8E-ion)**: **i**nvoked **o**bject **n**otation
++ any, **not-i**nvoked-**o**bject **n**otation
+
+      ```javascript
+      /  notion  🚫 /
+      [ {notion:'🚫'}
+      , "notion  🚫"
+      ]
+      ```
+
+## 🪨 ore
+
++ **o**bject-**r**eference **e**xpression
++ any [expression](//262.ecma-international.org/6.0/#sec-ecmascript-language-expressions)
+  referencing one or more objects
++ may include [**ions**](#%EF%B8%8E-ion) and-or [**notions**](#-notion) 
+
+      ```javascript
+      notion && {'🚫' :'notion'} || ["🚫 notion", ["🚫 notions"]
+      ~orion  & {'🦁' :  'lion’}  | ["📜  aesop",  /📖 stories/]
       ```
 
 ## [operator ⚙️ overloading](ions/ion.md#function)
