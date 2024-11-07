@@ -1,7 +1,8 @@
 # ion
 
-**invoked object notation** enables defining actions & information as observable &
-encapsulated software objects:
+**invoked object notation** enables defining
+[actions & information](//talk.ionify.net)
+as observable & encapsulated software objects:
 
 ```javascript
 ~ {   log  : '👋🏾👨🏾‍💻'  } <= /do transcription/
@@ -17,8 +18,9 @@ in 2007, and exists & can be implemented within
 
 ## form
 
-**ion** combines one or more objects with operators that invoke their action(s) and-or
-observation.
+**ion** combines one or more objects with
+[operators](#punctuation)
+that invoke their action(s) and-or observation.
 
 **ion** combines the
 [~](https://262.ecma-international.org/6.0/#sec-bitwise-not-operator)
@@ -81,7 +83,7 @@ via
 invocation-operator punctuation.
 
 this example combines
-fifteen **🦁 lions** with
+fifteen [**🦁 lions**](#lion) with
 seventeen **⚛️ ion**-compatible
 bitwise, arithmetic, relational & equality invocation operators:
 
@@ -356,7 +358,7 @@ print (ion)
 [enable](https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading#4421719)
 [**💫 orion**](#form)
 via procedural operator overloading of
-arithmetic, bitwise, relational & equality
+arithmetic, bitwise, relational, equality & other
 [invocation operators](#punctuation).
 
 ## compatibility
