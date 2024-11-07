@@ -4,15 +4,16 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 
 ## [🧬 ionify](README.md#ionify)
 
-+ **ion i**mplemented **f**or **y**ou
-+ is a flexible & unobtrusive, natural-language api, that enables expressing
-  actions & information, that humans & software
++ [**ion**](#-ion) **i**mplemented **f**or **y**ou
++ is a flexible & unobtrusive, natural-language api,
+  that enables expressing actions & information,
+  that humans & software
   [naturally ❦ understand](VISION.md#vision)
-+ it provides apis with concise & flexible vocabulary for defining, acquiring,
++ it provides [apis](#-sion) with concise & flexible vocabulary for defining, acquiring,
   sensing, composing & interacting with [**⚛️ ions**](#%EF%B8%8E-ion) via the [**✨ ionosphere**](#-ionosphere)
 
   ```js
-  ~ { get: 'ions@ionify.net' }
+  ~ {get:'ions@ionify.net'}
   ```
 
 ## ✨ ionosphere
@@ -24,9 +25,12 @@ key terms that name & convey **[ionify](#-ionify)** concepts
 ## [⚛︎ ion](ions/ion.md#ion)
 
 + **i**nvoked **o**bject **n**otation
-+ is a syntax for defining action(s) & information as software modules
-+ it presents these modules as objects, combined with mathematical operators, that invoke
-  their composition, observation & interaction
++ is syntax for defining
+  [action(s) & information](VISION.md#vision)
+  as software modules
++ presented as
+  [objects, combined with mathematical operators](ions/ion.md#form),
+  that invoke their composition, observation & interaction
 
 + ### [🦁 lion](ions/ion.md#ion)
 
@@ -145,6 +149,49 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       ~ {"re": {"as":"css" }, "#body":{"color":"#000"}}
       ```
 
++ ### 🪨 ore
+
+  + **o**bject-**r**eference **e**xpression
+  + any [expression](//262.ecma-international.org/6.0/#sec-ecmascript-language-expressions)
+    referencing one or more objects as
+  + [**notions**](#-notion) and-or [**elaborations**](#-elaboration)
+
+    ```javascript
+    ~orion  & {'🦁':  'lion'}  | [ "📜  aesop", /📖 stories/ ]
+    notion && {'🚫':'notion'} || [ "🚫 notion", /🚫 notions/ ]
+    ```
+
++ #### 🚫 notion
+
+  + **not-[ion](#%EF%B8%8E-ion)**: **i**nvoked-**o**bject **n**otation
+  + object notation **not** **i**nvoking **o**bject **n**otification
+
+    ```javascript
+    /  notion  🚫 /,  notion
+    [ {notion:'🚫'}, "notion 🚫" ]
+    ```
+
++ #### 📑 elaboration
+
+  + **elaborat**e express**ion**
+  + **elaborations** are formed by combining multiple
+    [**ions**](#%EF%B8%8E-ion) with
+    [arithmetic](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
+    [bitwise](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
+    [relational](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators),
+    [equality](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
+    & other
+    [invocation operators](ions/ion.md#punctuation):
+
+    ```javascript
+    ~  /example/  -  /elaboration/
+    ^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
+    *  ["these"]  +  /expressions/  <<  {are:"too" }
+    /  ["write"]  %  /them as you/  |   {see:"fit" }
+    >  ["using"]  >= /  any of   /  <=  [  "these" ]
+    <     17      == /invocation /  !=  "operators!"
+    ```
+
 + ### [code as prose](http://captions.ionify.net)
 
   + code expressed as natural-language prose
@@ -173,51 +220,6 @@ key terms that name & convey **[ionify](#-ionify)** concepts
       ~[/ each word means & does something /]
       +[" each word means & does something "]
       ```
-
-+ ### 📑 elaboration
-
-  + **elaborat**e express**ion**
-  + **elaborations** are formed by combining
-    [**ions**](#%EF%B8%8E-ion) with
-    [arithmetic](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators),
-    [bitwise](//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Bitwise_operators),
-    [relational](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators),
-    [equality](//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)
-    & other
-    [invocation operators](ions/ion.md#punctuation):
-
-    ```javascript
-    ~  /example/  -  /elaboration/
-    ^  ["aesop"]  &  /  stories  /  >>  {are:"ions"}
-    *  ["these"]  +  /expressions/  <<  {are:"too" }
-    /  ["write"]  %  /them as you/  |   {see:"fit" }
-    >  ["using"]  >= /  any of   /  <=  [  "these" ]
-    <     17      == /invocation /  !=  "operators!"
-    ```
-
-## 🪨 ore
-
-+ **o**bject-**r**eference **e**xpression
-+ any [expression](//262.ecma-international.org/6.0/#sec-ecmascript-language-expressions)
-  referencing one or more objects &
-+ may include [**ions**](#%EF%B8%8E-ion) and-or [**notions**](#-notion) 
-
-  ```javascript
-  ~orion  & {'🦁' :  'lion'}  | ["📜  aesop",  /📖 stories/ ]
-  notion && {'🚫' :'notion'} || ["🚫 notion", ["🚫 notions"]]
-  ```
-
-## 🚫 notion
-
-+ **not, [ion](#%EF%B8%8E-ion)**:**i**nvoked **o**bject **n**otation
-+ any, **not-i**nvoked-**o**bject **n**otation
-
-  ```javascript
-  /  notion  🚫 /
-  [ {notion:'🚫'}
-  , "notion  🚫"
-  ]
-  ```
 
 ## [operator ⚙️ overloading](ions/ion.md#function)
 
