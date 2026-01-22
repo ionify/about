@@ -29,8 +29,8 @@ verified via **🧬 ionify** & the internet. these are a few:
 
 + **[😎 anemojii](https://anemojii.iskitz.net/): animated emoji ions**,
   explores
-  [emoji animation](https://glitch.com/edit/#!/anemojii?path=emoji.js%3A1%3A0) &
-  [literate programming](https://glitch.com/edit/#!/anemojii?path=index.re.js%3A1%3A0)
+  [emoji animation](https://github.com/ionified/anemojii-ions.iskitz.net/blob/public/emoji.js#L1) &
+  [literate programming](https://github.com/ionified/anemojii-ions.iskitz.net/blob/public/index.re.js#L1)
   via **ion** & **ionify**
 
 + **[🇯🇵 wakatta: わかった](https://wakatta.iskitz.net/)**,
@@ -55,7 +55,7 @@ by [**michael 👨🏾‍💻 lee**][🇬🇾👨🏾‍💻🇺🇸].
 [**🎁 ionified**](https://github.com/ionified/)
 **orgs** are
 [**licensed**][🙇🏾‍♂️ יהוה 🤲🏾]
-**& copyright &copy; 2007-2025** [**michael lee**][🇬🇾👨🏾‍💻🇺🇸] unless otherwise stated.
+**& copyright &copy; 2007-2026** [**michael lee**][🇬🇾👨🏾‍💻🇺🇸] unless otherwise stated.
 
 ####
 
